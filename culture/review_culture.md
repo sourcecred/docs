@@ -52,15 +52,14 @@ process.
 
 ### Maintainer
 
-The maintainers are responsible for the health and maintenance of the project,
-and have final say in the review process. Maintainers can block changes they
-think are harmful, or approve a change over others' objections. Someone can be
-a maintainer within a specific domain: for example, acting as maintainer for a
-particular repository, or even maintaining a particular guide. Since
-maintainers have special powers, they also have a special responsibility to act
-thoughtfully and fairly. New maintainers are chosen by the existing
-maintainers. In general, people who have a long track record of acting as
-contributors and reviewers may be good candidates for becoming maintainers.
+Maintainers are responsible for the health and maintenance of a portion of the
+project. They are the stewards of the review process, and have the privileges
+needed to move forward or block a change. Not everyone can be a maintainer; it
+requires deep knowledge of the project, high trust from the community,
+experience as both a contributor and reviewer, and substantial commitment.
+Since we invest maintainers with special privileges and trust, we have high
+expectations of them. Those acting as maintainers must be respectful,
+considerate, and judicious in the way they exercise their powers.
 
 ## Lifecycle of a Review
 
@@ -71,7 +70,8 @@ The contributor needs to do two things at this stage:
 - Explain the change (e.g. writing a pull request description), so that reviewers can easily understand it
 
 Both steps are vital, and contributors should put real effort into explaining the change well.
-Its not fair to ask a reviewer to puzzle through an undocumented change.
+Doing so is respectful of reviewers' time, and makes it easier for others in the community to follow
+along with the project and get involved themselves.
 
 Finally, before requesting a review, the contributor should _self-review_ their change.
 It's amazing how many issues can be spotted and fixed during self-review.
@@ -89,11 +89,11 @@ individiuals have context or knowledge thet will make their reivew particularly
 valuable.
 
 On finishing their review, the reviewer can:
-- ask questions to better understand the change
-- suggest changes to it
-- approve the change
+- Ask questions to better understand the change
+- Suggest changes to it
+- Approve the change
 
-Most changes go through a few rounds of reviews before being approved.
+Many changes go through a few rounds of reviews before being approved.
 
 ### Approval and Merging
 
