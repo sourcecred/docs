@@ -29,7 +29,7 @@ reviewed.
 
 A change can take many forms, for example:
 - Adding or changing official SourceCred documentation (in [sourcecred/docs](https://github.com/sourcecred/docs))
-- Adding or changing the SourceCred codebase
+- Adding to or changing the SourceCred codebase
 - Proposing a re-organization of the [SourceCred Discourse](https://discourse.sourcecred.io/)
 
 ## Participants in the Review Process
