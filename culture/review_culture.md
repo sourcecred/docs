@@ -140,7 +140,7 @@ doing this, you should ask: in what ways is doing it my way materially better?
 What benefits come from the changed approach? If you don't have clear answers
 to these questions, don't ask for the change.
 
-## Bias toward "nit-and-approve"
+## Consider "nit-and-approve"
 
 If your review comments primarily suggest local, targeted changes to the
 proposed change, rather than large structural or directional changes, consider
