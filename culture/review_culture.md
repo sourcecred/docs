@@ -28,27 +28,25 @@ The review process orients around _changes_, which are the units of work being
 reviewed.
 
 A change can take many forms, for example:
-- Adding a new guide or piece of documentation
-- Adding a new module to the codebase
-- Modifying an existing guide or module
-
+- Adding or changing official SourceCred documentation (in [sourcecred/docs](https://github.com/sourcecred/docs))
+- Adding or changing the SourceCred codebase
+- Proposing a re-organization of the [SourceCred Discourse](https://discourse.sourcecred.io/)
 
 ## Participants in the Review Process
 
 ### Contributor
 
 The contributor is the person proposing a change. Anyone can decide to be a
-contributor: the only requirements are that you have a change you need to
-propose, and that you agree to be a respectful participant in the review
-process. (When we have a code of conduct--link to it here.)
+contributor: the only requirements are that they have a change to propose, and
+that they agree to be a respectful participant in the community.
 
 ### Reviewer
 
 The reviewers are the people who review the change, suggest changes to it, and
 eventually approve it. Anyone in the community can act as a reviewer: the only
-requirements are that you have some insight to share (or questions to ask)
-about the change, and that you agree to be a respectful participant in the
-process.
+requirements are that they have some insight to share (or questions to ask)
+about the change, and that they agree to be a respectful participant in the
+community.
 
 ### Maintainer
 
@@ -64,18 +62,26 @@ considerate, and judicious in the way they exercise their powers.
 ## Lifecycle of a Review
 
 ### Proposal
-The first step is for a contributor to propose a _change_.
-The contributor needs to do two things at this stage:
+The first step is for a contributor to come up with and propose a _change_.
+Before starting work on the change, they may want to run it by the community.
+Often times community members will have great feedback on how to approach the
+change, and whether it's valuable.
+
+Once the contributor wants to move forward with the change, they will formally
+propose it. They need to do two things at this stage:
 - Flesh out the change (e.g. writing the code), so that there is something to review
 - Explain the change (e.g. writing a pull request description), so that reviewers can easily understand it
 
-Both steps are vital, and contributors should put real effort into explaining the change well.
-Doing so is respectful of reviewers' time, and makes it easier for others in the community to follow
-along with the project and get involved themselves.
+Both steps are vital, and contributors should put real effort into explaining
+the change well. Doing so is respectful of reviewers' time, and makes it easier
+for others in the community to follow along with the project and get involved
+themselves. Finally, the change's explanation acts as documentation for future
+contributors hoping to understand the project.
 
-Finally, before requesting a review, the contributor should _self-review_ their change.
-It's amazing how many issues can be spotted and fixed during self-review.
-This is respectful of reviewers' time, and makes the process a lot smoother.
+Finally, before requesting a review, the contributor should _self-review_ their
+change. It's amazing how many issues can be spotted and fixed during
+self-review. This is respectful of reviewers' time, and makes the process a lot
+smoother.
 
 ### Review
 
@@ -92,6 +98,7 @@ On finishing their review, the reviewer can:
 - Ask questions to better understand the change
 - Suggest changes to it
 - Approve the change
+- Suggest closing the change as 'wontfix'
 
 Many changes go through a few rounds of reviews before being approved.
 
@@ -102,8 +109,8 @@ satisfied reviewers. At some point, the change will have "enough approvals" and
 will be ready to merge. There's no hard-and-fast rule to determine when a
 change has enough approvals. Generally, simple and small changes are easy to
 approve, whereas changes that are breaking new ground, or have wide-ranging
-consequences, will require more reviews. If you're unsure as to whether a
-change is ready to merge, ask one of the maintainers.
+consequences, will require more reviews. If contributors are unsure as to
+whether a change is ready to merge, they should ask a maintainer.
 
 ### Changes that never merge
 
