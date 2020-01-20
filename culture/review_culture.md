@@ -120,16 +120,41 @@ Some changes don't ever merge. A few good reasons why this may happen include:
 - Over the course of review, the contributor or reviewers may find a different
   and better way to achieve the same goals
 
-# Best Practices for Reviewers
+# Communication
 
-## Be respectful and appreciative
+## Be aware of culture
+
+It's easy to forget how common it is in open source communities to have diversity
+of geographic location, and different culture for communication. 
+As a new contributor to a community,  whether you take on a reviewer or a maintainer 
+role, your default expectation might be that others in the community will behave as you would. However, it's often the case that different cultures have different standards for
+communication. For example, in Western culture it's common to wrap criticism
+with a complement: 
+
+> "You did a really good job on X, _but_ I wonder if we could talk about your decision for using this data structure?" 
+
+Other cultures might be more straight forward to directly give more blunt feedback:
+
+> "The algorithm could be improved by this amount by using this data structure."
+ 
+If you are expecting differently, it can feel mean when it is not intended to. 
+Thus, while the community encourages open, and respectful communication, 
+it's good to keep in mind that this definition might vary depending on an individual's
+background and previous experience. Regardless, disrespect or communication that is
+hurtful is not ok, and if you feel offended by an interaction, 
+it might be good to have an honest discussion with the other party involved and 
+talk about how the two of you can best communicate.
+
+## Best Practices for Reviewers
+
+### Be respectful and appreciative
 
 As a reviewer, you should be respectful and appreciative towards the person
 proposing the change. This is true especially when you quite disagree with the
 change itself. It's fine to express strong beliefs that a change is misguided,
 but you shouldn't make the contributor feel belittled.
 
-## Limit nit-picking
+### Limit nit-picking
 
 Nit-picking is when a review focuses more on small, superficial details (e.g.
 precise formatting or word choice) rather than on the substance of the change.
@@ -138,7 +163,7 @@ tempting. It's ok to nit pick in moderation; when nit-picking, it's polite to
 preface your suggestion with "nit", as in: "nit: this comma should actually be
 a semicolon". Avoid holding up a review over nits.
 
-## Avoid "not how I would have done it"
+### Avoid "not how I would have done it"
 
 As a reviewer, you'll often notice that someone has made a change differently
 from how you would have made it. It can be tempting to think that your way is
