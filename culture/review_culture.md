@@ -142,18 +142,20 @@ to these questions, don't ask for the change.
 
 ## Consider "nit-and-approve"
 
-If your review comments primarily suggest local, targeted changes to the
-proposed change, rather than large structural or directional changes, consider
-approving the change on your first review at the same time as leaving your
-comments. This implies that the author of the change should feel free to merge
+Some proposed changes look mostly good at a high level right off the bat,
+requiring only local, targeted suggestions. Consider approving such changes on
+your first review. You can still leave comments requesting changes from the
+author. This implies that the author of the change should feel free to merge
 the change once they've addressed your concerns. This is especially useful when
-the comments are uncontroversial (typo fixes, small improvements), because the
-reviewer doesn't have to wait for you to take another look at the change and
-"officially" approve it before they can merge it and move on.
+the comments are uncontroversial, like typo fixes. The reviewer doesn't have to
+wait for you to take another look at the change and "officially" approve it
+before they can merge it and move on.
 
 Note that this requires a degree of trust. A reviewer should merge a change
 only once they believe in good faith that all comments really have been
 resolved, and that the author of each comment thread would not be surprised by
-how the feedback was received and incorporated. As a change author, if you
-prefer not to incorporate some suggestion that wasn't intended to be optional,
-you should probably continue the discussion rather than merging immediately.
+how the feedback was received and incorporated. As a change author, it can be
+helpful for you to respond to all comments indicating how you addressed them.
+If you prefer not to incorporate some suggestion that wasn't intended to be
+optional, you should probably continue the discussion rather than merging
+immediately.
