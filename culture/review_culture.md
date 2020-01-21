@@ -145,7 +145,17 @@ hurtful is not ok. If you feel offended by an interaction,
 it might be good to have an honest discussion with the other party involved and 
 talk about how the two of you can best communicate.
 
-## Best Practices for Reviewers
+# Best Practices
+
+## For Contributors
+
+### Prefer small changes
+
+### Document changes clearly
+
+### Self-review first
+
+## For Reviewers
 
 ### Be respectful and appreciative
 
@@ -153,6 +163,26 @@ As a reviewer, you should be respectful and appreciative towards the person
 proposing the change. This is true especially when you quite disagree with the
 change itself. It's fine to express strong beliefs that a change is misguided,
 but you shouldn't make the contributor feel belittled.
+
+### Consider "nit-and-approve"
+
+Some proposed changes look mostly good at a high level right off the bat,
+requiring only local, targeted suggestions. Consider approving such changes on
+your first review. You can still leave comments requesting changes from the
+author. This implies that the author of the change should feel free to merge
+the change once they've addressed your concerns. This is especially useful when
+the comments are uncontroversial, like typo fixes. The reviewer doesn't have to
+wait for you to take another look at the change and "officially" approve it
+before they can merge it and move on.
+
+Note that this requires a degree of trust. A reviewer should merge a change
+only once they believe in good faith that all comments really have been
+resolved, and that the author of each comment thread would not be surprised by
+how the feedback was received and incorporated. As a change author, it can be
+helpful for you to respond to all comments indicating how you addressed them.
+(In many cases, this is evident, and the comment can just say, "Done.") If you
+prefer not to incorporate some suggestion that wasn't intended to be optional,
+you should probably continue the discussion rather than merging immediately.
 
 ### Limit nit-picking
 
@@ -172,7 +202,9 @@ doing this, you should ask: in what ways is doing it my way materially better?
 What benefits come from the changed approach? If you don't have clear answers
 to these questions, don't ask for the change.
 
-### Take every measure to include contributors
+## For Maintainers
+
+### Include contributors even when closing their changes
 
 It could be the case that your thinking has changed since a review has started,
 and the change is no longer logical or necessary for the codebase. It might
@@ -195,23 +227,3 @@ longer being relevant. Instead of being turned off by the interaction, the contr
 is encouraged to be more deeply involved with the project. The same is true for a new contributor
 that might not have direction about how to help. A reviewer can ask questions or
 suggest ways to help to more directly engage the contributor.
-
-### Consider "nit-and-approve"
-
-Some proposed changes look mostly good at a high level right off the bat,
-requiring only local, targeted suggestions. Consider approving such changes on
-your first review. You can still leave comments requesting changes from the
-author. This implies that the author of the change should feel free to merge
-the change once they've addressed your concerns. This is especially useful when
-the comments are uncontroversial, like typo fixes. The reviewer doesn't have to
-wait for you to take another look at the change and "officially" approve it
-before they can merge it and move on.
-
-Note that this requires a degree of trust. A reviewer should merge a change
-only once they believe in good faith that all comments really have been
-resolved, and that the author of each comment thread would not be surprised by
-how the feedback was received and incorporated. As a change author, it can be
-helpful for you to respond to all comments indicating how you addressed them.
-(In many cases, this is evident, and the comment can just say, "Done.") If you
-prefer not to incorporate some suggestion that wasn't intended to be optional,
-you should probably continue the discussion rather than merging immediately.
