@@ -156,6 +156,6 @@ only once they believe in good faith that all comments really have been
 resolved, and that the author of each comment thread would not be surprised by
 how the feedback was received and incorporated. As a change author, it can be
 helpful for you to respond to all comments indicating how you addressed them.
-If you prefer not to incorporate some suggestion that wasn't intended to be
-optional, you should probably continue the discussion rather than merging
-immediately.
+(In many cases, this is evident, and the comment can just say, "Done.") If you
+prefer not to incorporate some suggestion that wasn't intended to be optional,
+you should probably continue the discussion rather than merging immediately.
