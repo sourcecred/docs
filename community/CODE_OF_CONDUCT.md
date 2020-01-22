@@ -27,11 +27,11 @@ or background.
 ## Introduction & Scope
 
 This code of conduct should be honored by everyone who participates in the SourceCred community.
-It should be honored in any SourceCred activities including by not limited to
+It should be honored in any SourceCred activities including but not limited to
 online interactions (e.g. public and private mailing lists, issue trackers, discussion forums, wikis, and code repositories), meetups or conferences, and adhered to by anyone claiming affiliation 
 with the SourceCred community. This code of conduct is especially relevant for any
 group or individual that is representing the SourceCred community in an event
-(i.e., as speaker, volunteer, or other staff), and should govern governs standards of behaviors
+(i.e., as speaker, volunteer, or other staff), and should govern standards of behaviors
 for the individual's participation in said event.
 
 This code of conduct is not exhaustive or complete, but rather serves to distill our understanding of a collaborative, inclusive community, and to provide avenues for seeking support if this
@@ -39,9 +39,8 @@ code is breached. We should try to follow this code in spirit as much as in lett
 
 Unless explicitly specified for a particular project or initiative, this code
 of conduct serves as a global standard for all SourceCred affiliated projects, activities,
-and events. If an individual is found to violate this Code of Conduct, the Benevolent
-Dictator may recruit an advisory committee from the community and tkae any action they
-deem appropriate to resolve the situation including warning the person in question,
+and events. If an individual is found to violate this Code of Conduct via a [confidential report](#confidentiality), at their discretion the Benevolent Dictator may consult with other members from the community, for example through a committee, and take any action they
+deem appropriate. Example actions might include warning the person in question,
 removing them from a specific activity, or banning them from further participation in 
 activities (in person or online). The last option is unlikely, but possible in extreme
 circumstances.
@@ -52,11 +51,11 @@ circumstances.
 
 All communication should be appropriate for a professional audience including people of many different backgrounds. Please be yourself, but be respectful of others, and always be kind and courteous. There is never a need to be mean, rude, or disrespectful. Specifically, the SourceCred community strives to:
 
- - **Be empathetic**. Realize that every post, event, project, or program is created by human beings that are likely trying their best, and aren't perfect. Try your best to understand perspectives that differ from your own, and to ask for clarification when you don't understand how someone feels.
+ - **Be empathetic**: Realize that every post, event, project, or program is created by human beings that are likely trying their best, and aren't perfect. Try your best to understand perspectives that differ from your own, and to ask for clarification when you don't understand how someone feels.
  - **Be respectful**: Every person deserves to be treated with kindness and respect. If we assume good intentions, we can work together to resolve conflict. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where
 people feel uncomfortable or threatened is not a productive one.
- - **Be welcoming**: When an interaction or community is new, it can be intimidating. We aspire to be welcoming, friendly, and patient to both new and current members, and remember that everyone is a constantly growing and learning at all points in our lives.
- - **Be vulnerable**. If you feel the compulsion to act in a disrespectful or otherwise inappropriate manner, you should practice self-compassion, and both step away from the current interaction, and seek others for support. It can be helpful to talk to someone about what is troubling you, and discuss how you can approach a situation with respect, and without conflict. 
+ - **Be welcoming**: When an interaction or community is new, it can be intimidating. We aspire to be welcoming, friendly, and patient to both new and current members, and remember that everyone is constantly growing and learning at all points in their lives.
+ - **Be vulnerable**: If you feel the compulsion to act in a disrespectful or otherwise inappropriate manner, you should practice self-compassion, and both step away from the current interaction, and seek others for support. It can be helpful to talk to someone about what is troubling you, and discuss how you can approach a situation with respect, and without conflict. 
  - **Be collaborative**: The success and spirit of SourceCred depends on the participation of many people. Effective and friendly collaboration enables everyone to better achieve their goals.  
  - **Be aware**: We are careful and respectful in our communication, and we take responsibility for our own speech. Be aware of how what you say or do might impact others. Be kind to others. Do not insult or put down other members of the community.
 
@@ -67,6 +66,7 @@ people feel uncomfortable or threatened is not a productive one.
 We, the members of the SourceCred community, are committed to making participation in this community a harassment-free experience.
 
 We will not accept harassment or other exclusionary behaviors, such as:
+
  * The use of sexualized language or imagery  
  * Excessive profanity (please avoid curse words; people differ greatly in their sensitivity to swearing)  
  * Posting sexually explicit or violent material
@@ -74,14 +74,9 @@ We will not accept harassment or other exclusionary behaviors, such as:
  * Inappropriate physical contact and/or unwelcome sexual attention or sexual comments
  * Sexist, racist, or otherwise discriminatory jokes and language
  * Trolling or insulting and derogatory comments
- * Written or verbal comments which have the effect of excluding people on the basis of membership in a specific group, including level
-of experience, gender, gender identity and expression, sexual orientation, disability, neurotype, personal appearance, body size, race,
-ethnicity, age, religion, or nationality
- * Public or private harassment
- * Continuing to initiate interaction (such as photography, recording, messaging, or conversation) with someone after being asked to stop
- * Sustained disruption of talks, events, or communications, such as heckling of a speaker
- * Publishing (or threatening to post) other people’s personally identifying information (“doxing”), such as physical or electronic
-addresses, without explicit permission
+ * Discriminatory Written or verbal comments
+ * Harassment of another individual or group
+ * Disclosure of personal information of another person without explicit permission
  * Other unethical or unprofessional conduct
  * Advocating for, or encouraging, any of the above behaviors
 
@@ -89,16 +84,16 @@ addresses, without explicit permission
 
 ## Reporting Guidelines
 
-If you believe someone is violating the code of conduct, please report this in a timely manner (see How to Submit a Report). Code of conduct violations reduce the value of the community for everyone.
-
-The SourceCred community takes reports of misconduct very seriously
+For possibly unintentional breaches of the code of conduct, you may want to respond to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). 
+If you believe someone is violating the code of conduct and have decided to submit a report, please report this in a timely manner. Code of conduct violations reduce the value of the community for everyone. The SourceCred community takes reports of misconduct very seriously
 and are committed to preserving and maintaining the welcoming nature of our community.
-All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. All reports will be kept confidential, with the exception of cases where the Benevolent Dictator determines the report should be shared with law enforcement. In those cases, the report will be shared with the proper legal authorities.
+All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. 
+
+### Confidentiality
+
+All reports will be kept confidential, with the exception of cases where the Benevolent Dictator determines the report should be shared with law enforcement. In those cases, the report will be shared with the proper legal authorities.
 
 In some cases the Benevolent Dictator may determine that a public statement will need to be made. If that’s the case, the identities of all involved parties and reporters will remain confidential unless those individuals instruct us otherwise.
-
-For possibly unintentional breaches of the code of conduct, you may want to respond to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please report the issue (see How to 
-Submit a Report).
 
 ### How to Submit a Report
 
