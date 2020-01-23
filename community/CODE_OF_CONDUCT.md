@@ -78,8 +78,8 @@ We will not accept harassment or other exclusionary behaviors, such as:
  * Continuing behavior that makes someone uncomfortable after being asked to stop.
  * Disclosure of personal information of another person without explicit permission
  * Other unethical or unprofessional conduct
- * Advocating for, or encouraging, any of the above behaviors
  * Sustained disruption of talks, events, or communications, such as heckling of a speaker
+ * Advocating for, or encouraging, any of the above behaviors
 
 <br>
 
