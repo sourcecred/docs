@@ -74,11 +74,12 @@ We will not accept harassment or other exclusionary behaviors, such as:
  * Inappropriate physical contact and/or unwelcome sexual attention or sexual comments
  * Sexist, racist, or otherwise discriminatory jokes and language
  * Trolling or insulting and derogatory comments
- * Discriminatory Written or verbal comments
- * Harassment of another individual or group
+ * Unwarranted exclusionary comments, such as based on experience level, disability or appearance
+ * Continuing behavior that makes someone uncomfortable after being asked to stop.
  * Disclosure of personal information of another person without explicit permission
  * Other unethical or unprofessional conduct
  * Advocating for, or encouraging, any of the above behaviors
+ * Sustained disruption of talks, events, or communications, such as heckling of a speaker
 
 <br>
 
