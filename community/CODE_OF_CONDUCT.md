@@ -94,7 +94,7 @@ All complaints will be reviewed and investigated and will result in a response t
 
 All reports will be kept confidential, with the exception of cases where the Benevolent Dictator determines the report should be shared with law enforcement. In those cases, the report will be shared with the proper legal authorities.
 
-In some cases the Benevolent Dictator may determine that a public statement will need to be made. If that’s the case, the identities of all involved parties and reporters will remain confidential unless those individuals instruct us otherwise.
+In some cases the Benevolent Dictator may feel like it's better to publicly respond to the issue as well. If that’s the case, the identities of all involved parties and reporters will remain confidential unless the reporter gave permission to use their identity for this purpose.
 
 ### How to Submit a Report
 
