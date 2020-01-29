@@ -8,32 +8,59 @@ This guide will give you an introduction to GitHub and SourceCred.
 For now, think of GitHub as a place to collaborate. 
 If you had a bunch of documents that you wanted to collaborate on, what would you do?
 You might consider putting them in a shared file service (Google Drive, Dropbox) 
-or perhaps keeping them as Word documents on your local machine. But what if someone
-else wanted to make changes, or ask a question? What if you wanted the most recent version
-of those documents to render in a web interface? What if you realized
-that you make a mistake, and wanted to go back to a previous version?
+or perhaps keeping them as Word documents on your local machine. 
+Although these platforms offer general collaborative editing capabilities, GitHub
+offers a bit more:
 
-GitHub aims to solve this particular set of problems. You can work on something 
-(usually some kind of text file) on your computer, and then put it online
-(on GitHub) for others to see, comment in, or suggest changes to. By way of
-some helpful features, these same text files can be served as web pages
-directly from where they live (don't worry about this too much for now, we will
-discuss later).
+### Permissionless collaboration
+
+Anyone can propose changes. You don't need to be given permission to view or edit
+a document, as is required by some of the platforms mentioned previously.
+
+### More advanced reviewing tools
+
+When you open up a Google Doc, you might be able to comment or write in revision mode, but
+when you do so, you are working with the entire document. GitHub allows
+review on the level of change. Along with this more detailed ability to edit,
+there is an integrated approval workflow, straightforward visualizations of what changed 
+(these are called "diffs"), and powerful automatic testing (called continuous integration or CI).
+
+### More detailed history
+
+You are going to have basic questions like:
+
+ - Who added this piece?
+ - When and why was this added?
+
+And GitHub has built in tools to do this (one such action is called [git blame](https://help.github.com/en/github/managing-files-in-a-repository/tracking-changes-in-a-file).)
+
+### Different conflict resolution 
+
+You can work in your own "alternate reality" without interfering with other work, even simultaneously. When ready these alternatives can be merged back together.
+You can also work on changes out of order, although this is more of an advanced topic.
+
+### Web Interfaces
+
+By way of some helpful features, the text files that you are working on can be served as web pages
+directly from where they live. You can read about this feature, called [GitHub Pages](https://pages.github.com/).
 
 To summarize and answer this question, we use GitHub because we want to:
 
  1. easily collaborate on common files
- 2. keep a record of discussions, and every change made
- 3. be able to revert back to previous versions, if needed
- 4. render some of the static files in a web interface
+ 2. have advanced reviewing tools and version history
+ 3. keep a record of discussions, and every change made
+ 4. be able to revert back to previous versions, if needed
+ 5. render some of the static files in a web interface
+
 
 ## What content do we have on GitHub?
 
 Generally, anything that you'd want to put in a digital safe deposit box is what you'll
 find on GitHub. This obviously includes code, but also includes documentation and
 other web content. Specifically, the [sourcecred organization](https://github.com/sourcecred)
-has the follow sets of files. Each set is called a "repository" because it has it's own link
-and space on the GitHub website.
+has the follow sets of files. Each set is called a "repository" and you can think of
+it like a (sub)-project under a GitHub organization, or a GitHub username. Each repository
+has it's own link and space on the GitHub website.
 
  - [sourcecred](https://github.com/sourcecred/sourcecred): is the core sourcecred codebase.
  - [docs](https://github.com/sourcecred/docs): is a growing set of documentation and community health files. In fact, the file that you are reading right now is part of it!
@@ -41,18 +68,26 @@ and space on the GitHub website.
  - [sourcecred-python](https://github.com/sourcecred/sourcecred-python): is an (under development) Python client for sourcecred.
 
 If you are familiar with filesystems and permissions, you can think of each
-repository as a folder that carries it's own permissions and metadata. And each
+repository as a folder or space that carries it's own permissions, labels,
+and sets of issues, pull requests (requests for changes), milestones, and sometimes
+even guides for contribution. Each is an independent entity under the organization, and thus each
 carries it's own kind of expertise. For example, if you are a data scientist
 and comfortable with Python, you'd be interested to contribute to `sourcecred-python`.
 If you like working with configuration files and workflows, `sourcecred-action`
 might be for you. If you aren't a programmer, you might be most comfortable starting
 with `docs`.
 
-### How do I contribute if I'm not a programmer?
+
+### Is my help needed in a software project when I'm not a programmer?
+
+Yes! Any substantial software project is multi-disciplinary. This one included. In fact, calling SourceCred a software project doesn't do justice to how much work besides programming goes into it.
+
+
+### Why and how should I get involved here specifically?
 
 It's easy to think:
 
-> I'm not a programmer, why would anyone want my help?
+> GitHub seems like a platform for programmers. I'm not a programmer, why would anyone want my help?
 
 But here's the thing (cue Monk)! When you look deeper at a lot of discussions
 that are had around GitHub repositories, while some of them might require code 
@@ -91,13 +126,13 @@ are capable of, of your innate abilities.
 
 ### It's okay to ask for help
 
-The SourceCred community has several ways to communicate, namely Discord
-and Discourse, and if you need help... ask for it! We commonly don't
-ask for help because we are afraid of rejection, or looking
-like you we know things. But this is ironic, because someone might actually
-like you more if you ask (reference study) and being able to give help
-is hugely fulfilling for the other party. You might think the person
-doesn't get much out of the interaction, but they do. Don't forget that.
+What does it mean to ask for help? You might have questions, feedback, or
+a general comment, or just want to talk to someone. Asking for help can be daunting, 
+but guess what? The SourceCred community is open to it. Once you've
+sprinted over the mental hurdle that it's okay to ask, you'll very likely
+realize that engaging in the first place is a great way to learn, and quite a bit
+of fun. 
+
 
 ### I will grow
 
