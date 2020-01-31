@@ -1,6 +1,6 @@
 # Contributing to SourceCred
 
-Contributing to SourceCred means any of the following:
+Contributing to SourceCred on GitHub means any of the following:
 
  - opening an issue to ask a question, or request a feature
  - open a pull request (PR) to request for review
@@ -18,10 +18,9 @@ in contributing to for a more detailed guide to contributing.
 
 ## Opening Issues
 
-You can open an issue on any SourceCred project to ask a question, suggest a feature,
+In addition to using the `#git-help` channel on [discord](https://sourcecred.io/discord-invite), you can open an issue on any SourceCred project to ask a question, suggest a feature,
 or report a bug. If you want to have discussion before opening the issue, you are welcome 
-and encouraged to chat with others on [discourse](discourse.sourcecred.io/h), [discord](https://discordapp.com/channels/453243919774253079/670490733077332000), or any other method that is available and comfortable for you
-and the community. If you decide that an issue is warranted, the following steps
+and encouraged to chat with others on [discourse](https://discourse.sourcecred.io/), [discord](https://sourcecred.io/discord-invite), or any other method that is available and comfortable for you and the community. If you decide that an issue is warranted, the following steps
 are recommended.
 
 ### 1. Clarify your question or need
