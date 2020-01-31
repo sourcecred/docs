@@ -7,8 +7,7 @@ This guide will give you an introduction to GitHub and SourceCred.
 
 For now, think of GitHub as a place to collaborate. 
 If you had a bunch of documents that you wanted to collaborate on, what would you do?
-You might consider putting them in a shared file service (Google Drive, Dropbox) 
-or perhaps keeping them as Word documents on your local machine. 
+You might consider putting them in a shared file service like [Google Docs](https://docs.google.com/), or perhaps keeping them as Word documents on your local machine. 
 Although these platforms offer general collaborative editing capabilities, GitHub
 offers a bit more:
 
@@ -34,7 +33,7 @@ You are going to have basic questions like:
 
 And GitHub has built in tools to do this (one such action is called [git blame](https://help.github.com/en/github/managing-files-in-a-repository/tracking-changes-in-a-file).)
 
-### Different conflict resolution 
+### Easy for many people to collaborate at once
 
 You can work in your own "alternate reality" without interfering with other work, even simultaneously. When ready these alternatives can be merged back together.
 You can also work on changes out of order, although this is more of an advanced topic.
@@ -89,7 +88,7 @@ It's easy to think:
 
 > GitHub seems like a platform for programmers. I'm not a programmer, why would anyone want my help?
 
-But here's the thing (cue Monk)! When you look deeper at a lot of discussions
+But here's the thing! When you look deeper at a lot of discussions
 that are had around GitHub repositories, while some of them might require code 
 expertise, a large portion do not. Even when the changes are specifically to
 suggest changes to code, it's usually the responsibility of the individual
@@ -131,7 +130,8 @@ a general comment, or just want to talk to someone. Asking for help can be daunt
 but guess what? The SourceCred community is open to it. Once you've
 sprinted over the mental hurdle that it's okay to ask, you'll very likely
 realize that engaging in the first place is a great way to learn, and quite a bit
-of fun. 
+of fun. You can [join discord](https://sourcecred.io/discord-invite) and
+then post your question in the `#git-help` channel.
 
 
 ### I will grow
@@ -168,27 +168,20 @@ any other metadata of interest under [settings](https://github.com/settings/prof
 
 To be fair, GitHub would be nothing without [git](https://git-scm.com/). 
 It's the command line software that you'll see a million flavors of commands
-using around the internet:
+using around the internet. For most of you, you'll find that installing
+[GitHub for Desktop](https://desktop.github.com/) is the easiest way to
+interact with git. If you are comfortable with a command line, you can
+also [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+from there.
 
-```bash
-$ git <command>
-```
+At this point, continue with either the tutorial for getting started with GitHub for Desktop or git on the command line:
 
-And so the first thing we need to do is [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). You'll notice that there are different instructions there
-depending on your host operating system (Linux, Windows, or Mac).
-The most challenging is probably Windows because it doesn't have a command line,
-but does offer several options like GitHub desktop. Follow the instructions here to install
-git, and if you have any questions, ask someone for help on Discord.
+ - [Getting started with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)
+ - [Getting started with git](https://help.github.com/en/github/getting-started-with-github/set-up-git)
 
-Since we've already installed git, we can tell git who we are (globally) so
-we don't have to do it again.
+If you have any questions with the steps above, ask someone for help on Discord in the
+`#git-help` channel.
 
-```bash
-git config --global user.email "your_email@example.com"
-git config --global user.name "[username]"
-```
-
-And of course you would replace the fields with your email and username, respectively.
 
 ## 3. Fork the Repository
 
