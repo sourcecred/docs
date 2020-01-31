@@ -71,7 +71,7 @@ because you were lost in details that didn't matter. Read more about bikesheddin
 
 SourceCred is a young project, and as we grow it, we can either go "wide" (encourage
 adoption by a lot of projects) or go "deep" (focus on intense adoption by fewer projects).
-While both are meaningful goals, in the case of SourceCred, it is logical to go "wide"
+While both are meaningful goals, in the case of SourceCred, it is logical to go "deep"
 first. Read more about this reasoning [here](concepts/deep-then-wide.md).
 
 #### References
