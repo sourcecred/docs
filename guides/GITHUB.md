@@ -31,7 +31,7 @@ You are going to have basic questions like:
  - Who added this piece?
  - When and why was this added?
 
-And GitHub has built in tools to do this (one such action is called [git blame](https://help.github.com/en/github/managing-files-in-a-repository/tracking-changes-in-a-file).)
+And GitHub has built-in tools to do this (one such action is called [git blame](https://help.github.com/en/github/managing-files-in-a-repository/tracking-changes-in-a-file).)
 
 ### Easy for many people to collaborate at once
 
