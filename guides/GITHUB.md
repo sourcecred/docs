@@ -57,22 +57,20 @@ To summarize and answer this question, we use GitHub because we want to:
 Generally, anything that you'd want to put in a digital safe deposit box is what you'll
 find on GitHub. This obviously includes code, but also includes documentation and
 other web content. Specifically, the [sourcecred organization](https://github.com/sourcecred)
-has the follow sets of files. Each set is called a "repository" and you can think of
+has the following sets of files. Each set is called a "repository" and you can think of
 it like a (sub)-project under a GitHub organization, or a GitHub username. Each repository
 has it's own link and space on the GitHub website.
 
- - [sourcecred](https://github.com/sourcecred/sourcecred): is the core sourcecred codebase.
+ - [sourcecred](https://github.com/sourcecred/sourcecred): the core sourcecred codebase.
  - [docs](https://github.com/sourcecred/docs): is a growing set of documentation and community health files. In fact, the file that you are reading right now is part of it!
- - [sourcecred-action](https://github.com/sourcecred/sourcecred-action): is a set of workflow that can be used by other GitHub communities.
- - [sourcecred-python](https://github.com/sourcecred/sourcecred-python): is an (under development) Python client for sourcecred.
+ - [sourcecred-action](https://github.com/sourcecred/sourcecred-action): a set of workflow that can be used by other GitHub communities.
 
 If you are familiar with filesystems and permissions, you can think of each
 repository as a folder or space that carries it's own permissions, labels,
 and sets of issues, pull requests (requests for changes), milestones, and sometimes
 even guides for contribution. Each is an independent entity under the organization, and thus each
-carries it's own kind of expertise. For example, if you are a data scientist
-and comfortable with Python, you'd be interested to contribute to `sourcecred-python`.
-If you like working with configuration files and workflows, `sourcecred-action`
+carries it's own kind of expertise. For example, 
+if you like working with configuration files and workflows, `sourcecred-action`
 might be for you. If you aren't a programmer, you might be most comfortable starting
 with `docs`.
 
