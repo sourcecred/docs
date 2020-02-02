@@ -50,7 +50,7 @@ Grain refers to project-specific cryptoassets that represent contribution to or 
 
 ## Contributor Glossary
 
-The "Community Glossary" is ideal if you want to participate actively
+The Contributor Glossary is ideal if you want to participate actively
 in the SourceCred community. Terms that are used commonly used in commonity forums,
 issue trackers, or other discussion platforms are included here.
 
