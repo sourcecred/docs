@@ -1,4 +1,4 @@
-As a community, we want to encourage diversity in all aspects, and set a standard
+As a community, we want to encourage diversity, and set a standard
 for respectful and appropriate conduct across all communication channels. For
 this purpose, we have created this code of conduct, which serves as a guide for
 interaction with the SourceCred community. It is adopted from [several well known](#license)
