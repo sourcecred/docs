@@ -9,13 +9,13 @@ because you were lost in details that didn't matter.
 #### In the wild
 
 If you take a look at [sourcecred](https://github.com/sourcecred/sourcecred/search?q=bikeshedding&type=Issues), there are several instances of a mention of bikeshedding.
-Here is an example from @decentralion:
+Here is [an example](https://github.com/sourcecred/sourcecred/pull/1537#pullrequestreview-340900146) from @decentralion:
 
-> It would probably be best to split this into two PRs, one which adds the badges and one which adds the colors, as color choices are always an ample source of bikeshedding :)
+> I'm approving this change because it is timely and needed, and because as a rule, we should avoid bikeshedding as a reason to withhold approval.
 
-In the above statement, they recognize that contributors are likely to get distracted
-with color choices, and suggests splitting a piece of work into two parts to not
-hold up adding the badges. 
+In the above statement, they recognize that approving changes can be delayed because of
+getting distracted by details, and given the urgency and need of the change, are pointing
+out that this should be avoided.
 
 #### References
 
