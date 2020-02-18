@@ -10,7 +10,7 @@ In the following sections:
 
  - **we/our**: refers to the members of the SourceCred community, who exist on equal footing.
  - **SourceCred**: refers to the general project or community.
- - **Benevolent Dictator**: refers to @decentralion
+ - **Values Maintainer**: refers to @decentralion
 
 ## Diversity Statement
 
@@ -39,7 +39,7 @@ code is breached. We should try to follow this code in spirit as much as in lett
 
 Unless explicitly specified for a particular project or initiative, this code
 of conduct serves as a global standard for all SourceCred affiliated projects, activities,
-and events. If an individual is found to violate this Code of Conduct via a [confidential report](#confidentiality), at their discretion the Benevolent Dictator may consult with other members from the community, for example through a committee, and take any action they
+and events. If an individual is found to violate this Code of Conduct via a [confidential report](#confidentiality), at their discretion the Values Maintainer may consult with other members from the community, for example through a committee, and take any action they
 deem appropriate. Example actions might include warning the person in question,
 removing them from a specific activity, or banning them from further participation in 
 activities (in person or online). The last option is unlikely, but possible in extreme
@@ -92,15 +92,15 @@ All complaints will be reviewed and investigated and will result in a response t
 
 ### Confidentiality
 
-All reports will be kept confidential, with the exception of cases where the Benevolent Dictator determines the report should be shared with law enforcement. In those cases, the report will be shared with the proper legal authorities.
+All reports will be kept confidential, with the exception of cases where the Values Maintainer determines the report should be shared with law enforcement. In those cases, the report will be shared with the proper legal authorities.
 
-In some cases the Benevolent Dictator may feel like it's better to publicly respond to the issue as well. If that’s the case, the identities of all involved parties and reporters will remain confidential unless the reporter gave permission to use their identity for this purpose.
+In some cases the Values Maintainer may feel like it's better to publicly respond to the issue as well. If that’s the case, the identities of all involved parties and reporters will remain confidential unless the reporter gave permission to use their identity for this purpose.
 
 ### How to Submit a Report
 
 If you feel your safety is in jeopardy or the situation is an emergency, contact local law enforcement before making a report to SourceCred. (In the U.S., dial 911.)
 
-The Benevolent Dictator on behalf of the SourceCred community is committed to promptly addressing any reported issues. If you have experienced or witnessed behavior that violates the SourceCred Code of Conduct, please send an email to concerns@sourcecred.io.
+The Values Maintainer on behalf of the SourceCred community is committed to promptly addressing any reported issues. If you have experienced or witnessed behavior that violates the SourceCred Code of Conduct, please send an email to concerns@sourcecred.io.
 
 <br>
 
