@@ -2,11 +2,11 @@
 
 I’m starting from the assumption that you have some familiarity with the SourceCred project. If you don’t I’d suggest you check out Dandelion's [20 minute talk (+Qs) from SustainWeb3](https://www.youtube.com/watch?v=yVTqRLekRl4), and some of the other documents in this repo.
 
-Overall, I’m going to throw around some math, but you should be able to get solid intuition on this if you’re comfortable talking about a [graph](https://en.wikipedia.org/wiki/Graph_theory) as a set of nodes and edges connecting them, where the edges can be directed and have weights. I’ll also talk some about [the PageRank algorithm](https://en.wikipedia.org/wiki/PageRank), for computing “importance” of nodes in a graph based on the “importance” of nodes connected to it, but I’ll try to motivate the intuition behind it as well.
+Overall, I’m going to throw around a little math, but you should be able to get solid intuition on this if you’re comfortable talking about a [graph](https://en.wikipedia.org/wiki/Graph_theory) as a set of nodes and edges connecting them, where the edges can be directed and have weights. I’ll also talk some about [the PageRank algorithm](https://en.wikipedia.org/wiki/PageRank), for computing “importance” of nodes in a graph based on the “importance” of nodes connected to it, but I’ll motivate the intuition behind it as well when I cover it.
 
 ## The high level overview
 
-SourceCred takes information about contributions and generates a weights graph, and this post will first explain what that graph is and where it comes from. From this weights graph, it runs PageRank to generate a graph of Cred. This graph of Cred is then used to distribute grain. The grain can then be kept or traded, and soon will be able to be used to influence future graph weights. This process is diagrammed in the figure below.
+SourceCred takes information about contributions and generates what we call a weights graph, and this post will first explain what that graph is and where it comes from. From this weights graph, it runs PageRank to generate a graph of Cred. This graph of Cred is then used to distribute grain. The grain can then be kept or traded, and soon will be able to be used to influence the weights graph in the future. This overall process is diagrammed in the figure below.
  
 ![](https://docs.google.com/drawings/u/1/d/s50mxZJ1DFD_yr4OFUxUd9g/image?w=551&h=250&rev=57&ac=1&parent=1kRxnuKAogf_cE0y6u2QYcjQimE0-jrBZ-LxcXKOUITw)
 
@@ -18,9 +18,11 @@ The rest of this doc outlines how collaboration data is gathered and structured,
 
 SourceCred first generates a weights graph from the input data. In this graph, a node is a contributor or contribution, and edges represent some sort of connection between the nodes. These connections are intended to include all possible ways that a contribution or contributor on a platform can express dependencies, thanks, or flows of value. Examples would include anything from a mention on a forum post to liking or merging a PR on GitHub.
 
+It's worth pausing for a moment to make a distinction.  In graph theory, a **weighted graph** has weights on the edges, whereas, the SourceCred **weights graph** has weights on both edges and nodes.  I'll probably manage not to talk about weighted graphs unless I'm talking about an example from graph theory.
+
 #### Nodes:
 
-Contributions are represented as nodes in the graph, and are given addresses to identify them uniquely. These addresses include a prefix, which takes the form: organization making the plugin that generates the node + name of the plugin + type of contribution (e.g. topic/post/user/like).
+Contributions are represented as nodes in the graph, and are given addresses to identify them uniquely. These addresses include a prefix, which takes the form: `[organization making the plugin that generates the node] + [name of the plugin] + [type of contribution]` (e.g. topic/post/user/like).
 
 Contributors are also represented as nodes in the graph. These nodes are similarly prefixed, and connected to contributions with directed edges, as illustrated in the figure below. For example, if an author node creates an issue, the author node gets an incoming edge from the issue node. Or if an author of a Discourse post mentions another contributor in the post, the post creates an outbound edge coming from the author.
 
@@ -28,7 +30,7 @@ Lastly, initiatives are another type of node that serve as a high level place to
 
 #### Weights:
 
-Both nodes and edges have weights, and an edge object in the SourceCred implementation can have forward and backwards weight. We’ll get into what these weights mean shortly, but for now, it’s worth noting that these weights can easily be set by address prefix. Setting by prefix is implemented as a multiplicative update; for example, setting issue comments to be worth twice an issue emoji reaction creates a 2:1 ratio that is preserved by decreasing GitHub’s edge weights by 2 relative to those of Discourse. Additionally, nodes can have self edges, which is relevant when a piece of content is edited, or an contribution references itself.
+Both nodes and edges have weights, and an edge object in the SourceCred implementation can have forward and backwards weight. We’ll get into what these weights mean shortly, but for now, it’s worth noting that these weights can easily be set by address prefix. Setting by prefix is implemented as a multiplicative update; for example, setting issue comments to be worth twice an issue emoji reaction creates a 2:1 ratio that is preserved by decreasing GitHub’s edge weights by 2 relative to those of Discourse. Additionally, an edge can start and end on the same node, which could be relevant when a piece of content is edited, or an contribution references itself.
   
 ![](https://docs.google.com/drawings/u/1/d/sIDpfiaPlACrxNScrfsISkQ/image?w=186&h=230&rev=47&ac=1&parent=1kRxnuKAogf_cE0y6u2QYcjQimE0-jrBZ-LxcXKOUITw)
 
@@ -42,15 +44,17 @@ Additionally, both edges and some nodes have timestamps. Edges are associated wi
 
 Now that we know about components of the weights graph, their properties, and how they fit together, let’s cover how they’re generated.
 
+
+
 ## Generating the weights graph
 
 #### Plugins:
 
-SourceCred uses APIs of collaboration platforms to gather information about contributions. Currently there are plugins for GitHub and Discourse ([code](https://github.com/sourcecred/sourcecred/tree/master/src/plugins)), and we’re enthusiastic to have more plugins, so we can account for contributions in different venues. This includes Discord (in progress), and could extend to Twitter or citations on the [arXiv](https://arxiv.org/) or [eprint](https://eprint.iacr.org/).
+SourceCred uses APIs of collaboration platforms to gather information about contributions. Currently there are plugins for GitHub and Discourse ([code](https://github.com/sourcecred/sourcecred/tree/master/src/plugins)), and we’re enthusiastic to have more plugins, so we can account for contributions in different venues. This includes Discord (in progress), and could extend to Twitter, Reddit, or citations on the [arXiv](https://arxiv.org/) or [eprint](https://eprint.iacr.org/).
 
-#### Weights:
+#### Weight parameters:
 
-Because these plugins incorporate data from all sorts of contributions and output a single weighted, directed graph, there needs to be a way to quantitatively compare actions (e.g. authoring a GitHub issue vs responding or referencing it). To accomplish this, there’s a set of constants that determine weights for nodes and edges. For an example set of constants, see the below figure, captured from [sourcecred.io/cred/timeline/@sourcecred/](https://sourcecred.io/cred/timeline/@sourcecred/) (follow the link and click the “Show weight configuration” button).
+Because these plugins incorporate data from all sorts of contributions and output a single directed graph with weights (for nodes and edges), there needs to be a way to quantitatively compare actions (e.g. authoring a GitHub issue vs responding or referencing it). To accomplish this, there’s a set of constants that determine weights for nodes and edges. For an example set of constants, see the below figure, captured from [sourcecred.io/cred/timeline/@sourcecred/](https://sourcecred.io/cred/timeline/@sourcecred/) (follow the link and click the “Show weight configuration” button).
 
 ![](https://lh6.googleusercontent.com/BDSrcvjcCXXfKQ0NSiHIYuAh8fvTaE0Akl0g2-PLdB88fv5TXZS7btltL0YTe77TLOT7nyImct7sPrKATbAQKUwukM3bdxgVfIJCf-xDZo0nvGnFINMoqXq41glKAI9hA2EnThed)
 
@@ -60,19 +64,19 @@ Additionally, parameters, cred, and grain are all scoped to a community. This me
 
 #### Manual input:
 
-It’s also worth noting that not all contributions occur on platforms with automated data fetching, and thus the capability exists to individually add them to the weighted graph directly at this stage. It’s clear that there will always be data that has to be incorporated manually, and how to incorporate those contributions, especially those not easily quantified, remains an active area of discussion.
+It’s also worth noting that not all contributions occur on platforms with automated data fetching, and thus the capability exists to individually add them to the weights graph directly at this stage. It’s clear that there will always be data that has to be incorporated manually, and how to incorporate those contributions, especially those not easily quantified, remains an active area of discussion.
 
 #### Merging graphs:
 
-A plugin will use the API for the collaborative workspace app or platform to generate a graph of nodes and edges. One interesting caveat is that there isn't necessarily one most-intuitively correct way to merge two weighted graphs if they share either edges or nodes (i.e. how would we calculate the combined weight). Currently, the graph nodes are nearly entirely disjoint, the weights are added together, and identities are collapsed into one.
+A plugin will use the API for the collaborative workspace app or platform to generate a graph of nodes and edges. One interesting caveat is that there isn't necessarily one most-intuitively correct way to merge two weights graphs if they share either edges or nodes (i.e. how would we calculate the combined weight). Currently, the graph nodes are nearly entirely disjoint, the weights are added together, and identities are collapsed into one.
 
 #### Summary up to this point:
 
-So at this point, we’ve got data from all our sources combined in one weighted, directed graph, where contributions and contributors are nodes, interactions and connections between nodes are edges, each have a relative weight based on parameters the community has set, and we’re ready to run PageRank on it.
+So at this point, we’ve got data from all our sources combined in one directed graph, where contributions and contributors are nodes, interactions and connections between nodes are edges; both nodes and edges have a relative weight based on parameters the community has set, and we’re ready to run PageRank on it.
 
 ## SourceCred’s PageRank
 
-The next goal will be to generate an evaluation of the relative importance of nodes based on our weighted graph, specifically the weights of the nodes and edges.
+The next goal will be to generate an evaluation of the relative importance of nodes based on our weights graph, specifically the weights of the nodes and edges.
 
 #### PageRank explained elsewhere
 
@@ -125,7 +129,7 @@ To simplify the computational overhead and storage required to compute Cred over
 
 ## Grain dynamics
 
-#### How Grain is generated
+#### How much Grain is generated
 
 Once SourceCred calculates the Cred for individual contributors, that Cred is linked to an identity that is an amalgamation of their identities across the platforms (e.g. GitHub handle or Discord username). A constant amount of SourceCred Grain (¤) is produced per unit time, currently 15000¤ per week. This amount is distributed according to two different distribution mechanisms.
 
@@ -136,7 +140,7 @@ As a result, if you didn't do anything this week, you have only slow Grain. Alte
 
 #### How Grain is traded:
 
-Grain payouts are currently tracked by Dandelion in an observable notebook linked to in [this Discourse thread](https://discourse.sourcecred.io/t/sourcecred-contributor-payouts/298). Additionally, Grain distributions will vest over time in order to smooth out the peakiness of grain distribution, as described in [this Discourse thread](https://discourse.sourcecred.io/t/grain-vesting/636). Even now, Grain can be sold or given. In fact, [Protocol Labs](https://protocol.ai/) supports SourceCred by purchasing Grain directly from contributors. At present, the transfer of Grain is executed by recording changes to the observable notebook on GitHub [here](https://github.com/sourcecred/cred).
+Grain payouts are currently tracked by Dandelion in an observable notebook linked to in [this Discourse thread](https://discourse.sourcecred.io/t/sourcecred-contributor-payouts/298).  As a result, actually receiving Grain is an opt-in process.  If you opt in, there may be financial or tax liabilities; if you don't, it currently seems like grain is just a number in a list.  Additionally, Grain distributions will vest over time in order to smooth out the peakiness of grain distribution, as described in [this Discourse thread](https://discourse.sourcecred.io/t/grain-vesting/636). Even now, Grain can be sold or given. In fact, [Protocol Labs](https://protocol.ai/) supports SourceCred by purchasing Grain directly from contributors. At present, the transfer of Grain is executed by recording changes to the observable notebook on GitHub [here](https://github.com/sourcecred/cred).
 
 ## Future roadmap features
 
