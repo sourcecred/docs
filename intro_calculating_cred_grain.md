@@ -126,7 +126,7 @@ A given user's epoch nodes are connected to each other with transition rates <im
 
 <img src="./images/SourceCred_fibrations.svg">
 
-> Figure 5. An illustration of the original implementation of time-weighted cred (left), in which PageRank is re-calculated at each time-step, incorporating only nodes from previous time intervals.  This is contrasted with the fibration model, in which an epoch node is added per epoch **per contributor**, and cred flows to the contributor through the epoch nodes (orange) at rate β.  The cred flows from each node to the seed node at rate α (violet), and from the seed node according to the node weights (pink) are also shown.
+> Figure 5. An illustration of the original implementation of time-weighted cred (left), in which PageRank is re-calculated at each time-step, incorporating only nodes from previous time intervals.  This is contrasted with the fibration model (right), in which an epoch node is added per epoch **per contributor** (orange), and cred flows to the contributor through the epoch nodes at rate β.  Additionally, each epoch nodes connects to that user's epoch node one step forward and backward in time at rate 𝛾. The cred flows from each non-epoch node to the seed node at rate α (violet), and from the seed node according to the node weights (pink) are also shown.
 
 The motivation for these contributions is two-fold.  Firstly, your cred in the project should have some inertia over time, stabilized across epochs.  Additionally, if you make a contribution at the beginning of one epoch, it's likely that some if not most of the work took place in a previous epoch, and thus some cred should flow between epochs.  
 
@@ -143,9 +143,9 @@ If you’ve spend time in linear algebra land, you’ll be pleased to hear that 
 
 #### Cred from a stationary distribution:
 
-We've seen how CredRank takes in a contribution graph and outputs scores that value contributions based on their relationship to each other. The stationary distribution consists of the cred scores for the various nodes, including the contributors.  We first sum the cred scores from all nodes, including both contributors and contributions, to determine how much cred is created.  We then separately calculate the total cred on "scoring nodes," which are the cred scores of the contributors.  Lastly, the cred of an individual is calculated to be their fraction of the user cred times the total cred minted.
+Once we've computed the stationary distribution, we have a "raw score" assigned to every node in the graph. These scores form a probability distribution, so they sum to 1. However, we want cred scores; which means that the "total amount of cred" should sum to the total amount of cred minting, i.e., the total node weights.
 
-It's worth reiterating here that the amount of cred should grow over time, as the number of contributions that mint cred increases.  
+Therefore, we compute: _m_, the sum of all node weights in the graph, and _s_, the sum of all raw scores received by "scoring nodes" (typically users). Then, for any node _n_, its cred score <img src="https://render.githubusercontent.com/render/math?math=c_n"> is derived from its raw score <img src="https://render.githubusercontent.com/render/math?math=r_n"> by: <img src="https://render.githubusercontent.com/render/math?math=c_n = r_n * m / s">. This ensures that the sum of all users' cred is equal to the total amount of cred that was minted.  This means that the total amount of cred grows over time, as the number of contributions that mint cred increases.  
 
 We now discuss how grain, SourceCred's "proof-of-support" token, is calculated from this and distributed.
 
@@ -167,7 +167,7 @@ There are some interesting second-order dynamics here relating the rate of "cred
 
 #### How grain is traded:
 
-Grain payouts are currently tracked by Dandelion in an observable notebook linked to in [this Discourse thread](https://discourse.sourcecred.io/t/sourcecred-contributor-payouts/298).  As a result, actually receiving grain is an opt-in process.  If you opt in, there may be financial or tax liabilities; if you don't, it currently seems like grain is just a number in a list.  Additionally, grain distributions will vest over time in order to smooth out the peakiness of grain distribution, as described in [this Discourse thread](https://discourse.sourcecred.io/t/grain-vesting/636). Even now, grain can be sold or given. In fact, [Protocol Labs](https://protocol.ai/) supports SourceCred by purchasing grain directly from contributors. At present, the transfer of grain is executed by recording changes to the observable notebook on GitHub [here](https://github.com/sourcecred/cred).
+Grain payouts are currently tracked by Dandelion in an observable notebook linked to in [this Discourse thread](https://discourse.sourcecred.io/t/sourcecred-contributor-payouts/298).  We currently consider grain a "preview" or experimental balance, though we plan to honor it going forward.  As a result, actually receiving grain is an opt-in process.  If you opt in, there may be financial or tax liabilities; if you don't, it currently seems like grain is just a number in a list.  Additionally, grain distributions will vest over time in order to smooth out the peakiness of grain distribution, as described in [this Discourse thread](https://discourse.sourcecred.io/t/grain-vesting/636). Even now, grain can be sold or given. In fact, [Protocol Labs](https://protocol.ai/) supports SourceCred by purchasing grain directly from contributors. At present, the transfer of grain is executed by recording changes to the observable notebook on GitHub [here](https://github.com/sourcecred/cred).
 
 ## Future roadmap features
 
