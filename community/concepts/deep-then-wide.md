@@ -27,9 +27,9 @@ those issues.
 
 #### Going Deep First
 
-We've decided to go deep before going wide. That means our priority is to prove
+We've decided to go deep before going wide. That means proving that 
 SourceCred can do a really great job at attributing cred with early-adopter
-communities, before we try to scale for broader adoption.
+communities before we try to scale for broader adoption.
 
 We think that getting SourceCred to "really work" will require a lot of
 experimentation and iteration. That's easier to do when there are only a few
