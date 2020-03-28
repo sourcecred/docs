@@ -4,7 +4,6 @@ A champion is an individual that starts an initiative with a determined promise
 to finish it. The individual generally takes charge of a well-scoped task, and
 provides clear direction and confidence about completing it. By calling someone
 a champion, you are placing faith in their ability as a leader and visionary.
-You can read more about champions [here](concepts/champion.md)
 
 #### What does this mean for development?
 
