@@ -1,4 +1,4 @@
-# deep then wide
+# Deep then wide
 
 SourceCred is still a young project. As we grow it, we have a choice of priorities:
 
@@ -24,10 +24,6 @@ use SourceCred, we'll instead focus on making SourceCred work incredibly well
 for a few communities. In part, this means paying a lot of attention to the edge
 cases, and spots where SourceCred isn't working as intended, and trying to fix
 those issues.
-
-In many ways, going deep is more challenging than going wide. We could go wide
-by marketing SourceCred and building buzz, but improving the core quality requires
-a lot of experimentation with algorithms and community practices.
 
 #### Going Deep First
 
