@@ -1,4 +1,4 @@
-### bikeshedding
+### Bikeshedding
 
 Bikeshedding means talking (or even arguing) about a small detail instead of a larger issue at hand. 
 If you imagine building a house and having a bike shed outside, it would be akin
