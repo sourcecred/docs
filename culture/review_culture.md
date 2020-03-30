@@ -120,34 +120,51 @@ Some changes don't ever merge. A few good reasons why this may happen include:
 - Over the course of review, the contributor or reviewers may find a different
   and better way to achieve the same goals
 
-# Best Practices for Reviewers
+# Communication
 
-## Be respectful and appreciative
+## Be aware of culture
+
+It's easy to forget how common it is in open source communities to have diversity
+of geographic location, and different culture for communication. 
+As a new contributor to a community,  whether you take on a reviewer or a maintainer 
+role, your default expectation might be that others in the community will behave as you would. However, it's often the case that different cultures have different standards for
+communication. For example, in Western culture it's common to wrap criticism
+with a complement: 
+
+> "You did a really good job on X, _but_ I wonder if we could talk about your decision for using this data structure?" 
+
+Other cultures might be more straight forward to directly give more blunt feedback:
+
+> "The algorithm could be improved by this amount by using this data structure."
+ 
+If you are expecting differently, the critique can feel mean when it is not intended to. 
+Thus, while the community encourages open and respectful communication, 
+it's good to keep in mind that this definition might vary depending on an individual's
+background and previous experience. Regardless, disrespect or communication that is
+hurtful is not ok. If you feel offended by an interaction, 
+it might be good to have an honest discussion with the other party involved and 
+talk about how the two of you can best communicate.
+
+# Best Practices
+
+## For Contributors
+
+### Prefer small changes
+
+### Document changes clearly
+
+### Self-review first
+
+## For Reviewers
+
+### Be respectful and appreciative
 
 As a reviewer, you should be respectful and appreciative towards the person
 proposing the change. This is true especially when you quite disagree with the
 change itself. It's fine to express strong beliefs that a change is misguided,
 but you shouldn't make the contributor feel belittled.
 
-## Limit nit-picking
-
-Nit-picking is when a review focuses more on small, superficial details (e.g.
-precise formatting or word choice) rather than on the substance of the change.
-Nit-picking is a lot easier than substantive review, which can make it
-tempting. It's ok to nit pick in moderation; when nit-picking, it's polite to
-preface your suggestion with "nit", as in: "nit: this comma should actually be
-a semicolon". Avoid holding up a review over nits.
-
-## Avoid "not how I would have done it"
-
-As a reviewer, you'll often notice that someone has made a change differently
-from how you would have made it. It can be tempting to think that your way is
-_the_ right way, and to ask the contributor to change their approach. Before
-doing this, you should ask: in what ways is doing it my way materially better?
-What benefits come from the changed approach? If you don't have clear answers
-to these questions, don't ask for the change.
-
-## Consider "nit-and-approve"
+### Consider "nit-and-approve"
 
 Some proposed changes look mostly good at a high level right off the bat,
 requiring only local, targeted suggestions. Consider approving such changes on
@@ -166,3 +183,47 @@ helpful for you to respond to all comments indicating how you addressed them.
 (In many cases, this is evident, and the comment can just say, "Done.") If you
 prefer not to incorporate some suggestion that wasn't intended to be optional,
 you should probably continue the discussion rather than merging immediately.
+
+### Limit nit-picking
+
+Nit-picking is when a review focuses more on small, superficial details (e.g.
+precise formatting or word choice) rather than on the substance of the change.
+Nit-picking is a lot easier than substantive review, which can make it
+tempting. It's ok to nit pick in moderation; when nit-picking, it's polite to
+preface your suggestion with "nit", as in: "nit: this comma should actually be
+a semicolon". Avoid holding up a review over nits.
+
+### Avoid "not how I would have done it"
+
+As a reviewer, you'll often notice that someone has made a change differently
+from how you would have made it. It can be tempting to think that your way is
+_the_ right way, and to ask the contributor to change their approach. Before
+doing this, you should ask: in what ways is doing it my way materially better?
+What benefits come from the changed approach? If you don't have clear answers
+to these questions, don't ask for the change.
+
+## For Maintainers
+
+### Include contributors even when closing their changes
+
+It could be the case that your thinking has changed since a review has started,
+and the change is no longer logical or necessary for the codebase. It might
+also be the case that an individual is new to contributing on a platform,
+and isn't quite sure how to best help. In both cases, as a maintainer you should
+take every measure to engage the contributors. For example, although this would
+be a respectful response:
+
+> Thank you for your contribution! We've decided to go in another direction, so unfortunately we will not be integrating the change.
+
+It ends the participation right away. Instead, you might consider
+a statement that delivers the same message, but further engages the contributor:
+
+> Thank you for your contribution! We've decided to go in another direction, and although we cannot use the changes here, would you be interested in working on [well-scoped task]?
+
+The more specific feedback or well scoped task that you are able to engage 
+the contributor with, the better. This kind of engagement sends the message
+that the contributor is valued and needed despite the particular review no
+longer being relevant. Instead of being turned off by the interaction, the contributor
+is encouraged to be more deeply involved with the project. The same is true for a new contributor
+that might not have direction about how to help. A reviewer can ask questions or
+suggest ways to help to more directly engage the contributor.
