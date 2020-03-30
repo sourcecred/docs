@@ -1,6 +1,6 @@
-### Grain
+# Grain
 
-SourceCred is both a social algorithm for assigning [cred](concepts/cred.md)
+SourceCred is both a social algorithm for assigning [cred](./cred.md)
 scores, and a cryptoeconomic system for rewarding a project's contributors
 and sponsors. That cryptoeconomic system revolves around _grain_, a cred-based
 cryptoasset.
@@ -39,12 +39,13 @@ or [0x], just like any other ERC20.
 
 Grain is initially distributed to contributors, based on their cred scores.
 Anyone who buys grain is either sponsoring contributors directly (by paying
-them for their grain), or is buying out a previous sponsor.
+them for their grain), or is supporting a previous sponsor (by buying their
+grain).
 
 Thus, anyone holding grain has supported the project, either directly through
 contributions, or indirectly through financial sponsorship.
 
-- **Grain can be used for boosting**
+- **Grain can be used for boosting.**
 
 The main use for grain is _boosting_. Boosting is an act by which a supporter
 of the project can spend or "plant" grain to boost a particular contribution.
@@ -63,7 +64,15 @@ ensure that everyone's contributions are being fairly valued.
 
 A concept guide on boosting will be forthcoming.
 
-#### SourceGrain
+- **Grain is opt-in**
+
+Since grain can have financial value, receiving grain might create legal/tax
+complications for contributors. As such, grain is opt-in; only contributors
+that have explicitly opted in will be eligible to receive any grain. (This
+is in contrast to cred, which is not an asset, and which all contributors
+recieve automatically.)
+
+## SourceGrain
 
 SourceCred is itself issuing and using grain. We call our grain 'SourceGrain'.
 SourceGrain isn't yet "officially live", but you can see our [preview
