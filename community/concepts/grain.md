@@ -15,7 +15,7 @@ than grain (e.g. "Seeds") if they want.
 
 - **Grain is harvested by contributors, based on cred scores.**
 
-Grain is created during "harvests". In a harvest, a project mints new grain and
+Grain is created during "harvests." In a harvest, a project mints new grain and
 distributes it to contributors based on their cred scores. How the grain is
 harvested and distributed is up to the project. For example, a project could
 mint a fixed amount of grain every week and distribute it to contributors based
