@@ -1,0 +1,19 @@
+- title: Documentation
+  url: docs
+  links:
+    - title: "Community"
+      url: "docs/community/"
+      children:
+        - title: Code of Conduct
+          url: "docs/community/CODE_OF_CONDUCT"
+        - title: Glossary
+          url: "docs/community/glossary"
+    - title: "Culture"
+      url: "docs/culture/"
+      children:
+        - title: Review Culture
+          url: "docs/culture/review_culture"
+    - title: "About"
+      url: "about"
+    - title: "News"
+      url: "news"
