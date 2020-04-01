@@ -1,6 +1,14 @@
+---
+title: Grain
+tags: 
+ - community
+ - glossary
+description: Definition of Grain
+---
+
 # Grain
 
-SourceCred is both a social algorithm for assigning [cred](./cred.md)
+SourceCred is both a social algorithm for assigning [cred](cred)
 scores, and a cryptoeconomic system for rewarding a project's contributors
 and sponsors. That cryptoeconomic system revolves around _grain_, a cred-based
 cryptoasset.

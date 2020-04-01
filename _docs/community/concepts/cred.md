@@ -1,3 +1,11 @@
+---
+title: Cred
+tags: 
+ - community
+ - glossary
+description: A metric for contribution.
+---
+
 # Cred
 
 SourceCred, as the name might suggest, is all about attributing cred. Cred is a metric that describes every contribution and contributor in a project to give a sense of how important they were.
