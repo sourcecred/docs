@@ -1,3 +1,11 @@
+---
+title: Bikeshedding
+tags: 
+ - community
+ - glossary
+description: The concept of bikeshedding refers to focusing on details instead of the bigger picture.
+---
+
 ### Bikeshedding
 
 Bikeshedding means talking (or even arguing) about a small detail instead of a larger issue at hand. 

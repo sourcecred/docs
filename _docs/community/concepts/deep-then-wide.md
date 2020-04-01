@@ -1,3 +1,11 @@
+---
+title: Deep then Wide
+tags: 
+ - community
+ - glossary
+description: Depth over breadth
+---
+
 # Deep then wide
 
 SourceCred is still a young project. As we grow it, we have a choice of priorities:
