@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'SourceCred is an open source community and a reputation protocol for open collaboration.',
   url: 'https://sourcecred.github.io/docs',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'sourcecred', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
@@ -12,7 +12,7 @@ module.exports = {
       title: 'SourceCred Docs',
       logo: {
         alt: 'SourceCred Logo',
-        src: 'img/logo.svg',
+        src: 'img/icon.png',
       },
       links: [
         {

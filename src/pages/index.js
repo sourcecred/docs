@@ -8,32 +8,56 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>data driven</>,
+    imageUrl: 'img/data-driven.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Scores are calculated using data from a project: forum posts, commits, comments, and more.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>community controlled</>,
+    imageUrl: 'img/community-controlled.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Each project community sets the values, priorities, weights, and norms.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>transparent</>,
+    imageUrl: 'img/transparent.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        You can see what every score is, and more importantly, why.
+      </>
+    ),
+  },
+  {
+    title: <>extensible</>,
+    imageUrl: 'img/extensible.svg',
+    description: (
+      <>
+        SourceCred is built around a plugin architecture. You can extend it to track any kind of contribution.
+      </>
+    ),
+  },
+  {
+    title: <>decentralized</>,
+    imageUrl: 'img/decentralized.svg',
+    description: (
+      <>
+        There's no "CredHub"; just an open-source system that anyone can set up and use.
+      </>
+    ),
+  },
+  {
+    title: <>intersubjective</>,
+    imageUrl: 'img/intersubjective.svg',
+    description: (
+      <>
+        Scores are a blend of objective data and subjective judgement.
       </>
     ),
   },
@@ -59,20 +83,26 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
+      title={siteConfig.title}
+      description={siteConfig.tagline}>
+      <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
+          <img
+            alt="SourceCred Icon"
+            className={styles.wikiLogo}
+            width="250"
+            src={useBaseUrl("img/icon.png")}
+          />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
-                'button button--outline button--secondary button--lg',
+                'button button--primary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/doc1')}>
-              Get Started
+              to={useBaseUrl('docs/community/glossary')}>
+              Read The Docs
             </Link>
           </div>
         </div>
