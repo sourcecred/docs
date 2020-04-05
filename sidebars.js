@@ -1,6 +1,15 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    "🌎 Community": [
+      'community/glossary',
+      {
+        type: 'category',
+        label: '🧠 Concepts',
+        items: ['community/concepts/cred', 'community/concepts/grain', 'community/concepts/champion', 'community/concepts/deep-then-wide', 'community/concepts/bikeshedding'],
+      },
+      'community/CODE_OF_CONDUCT',
+    ],
+    "🌟 Culture": ["culture/review_culture"],
+    Docusaurus: ['style-guide', 'mdx'],
   },
 };

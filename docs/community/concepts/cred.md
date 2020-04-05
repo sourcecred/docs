@@ -1,3 +1,8 @@
+---
+title: 📊 Cred
+description: A metric for contribution.
+---
+
 # Cred
 
 SourceCred, as the name might suggest, is all about attributing cred. Cred is a metric that describes every contribution and contributor in a project to give a sense of how important they were.
@@ -10,7 +15,7 @@ SourceCred converts this graph into a numerical score via a modified [PageRank](
 
 We can explore all of this in the [SourceCred explorer](https://sourcecred.io/cred/timeline/@sourcecred/). To walk through this in detail, see this [post](https://discourse.sourcecred.io/t/a-gentle-introduction-to-cred/20).
 
-#### References
+### References
 
  - [cred on discourse](https://discourse.sourcecred.io/t/a-gentle-introduction-to-cred/20)
 

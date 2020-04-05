@@ -1,10 +1,15 @@
+---
+title: ✅ Review Culture
+description: The SourceCred review culture
+---
+
 > If you want to go fast, go alone. If you want to go far, go together.
 
 As a community, we value going far over going fast. To go far, we need to stay
 aligned in our values, goals, and practices. One of the ways that we do this is
 through cultivating review culture.
 
-# On Review Culture
+## On Review Culture
 
 Review culture came to us from the practices of software engineers. Large
 codebases are incredibly complex: they contain the ideas and work of hundreds
@@ -21,9 +26,9 @@ contributor and the reviewer can teach each other about how work gets done on
 the project. Finally, review ensures that every part of the project is
 understood by at least two people.
 
-# The Review Process
+## The Review Process
 
-## Changes
+### Changes
 The review process orients around _changes_, which are the units of work being
 reviewed.
 
@@ -32,15 +37,15 @@ A change can take many forms, for example:
 - Adding to or changing the SourceCred codebase
 - Proposing a re-organization of the [SourceCred Discourse](https://discourse.sourcecred.io/)
 
-## Participants in the Review Process
+### Participants in the Review Process
 
-### Contributor
+#### Contributor
 
 The contributor is the person proposing a change. Anyone can decide to be a
 contributor: the only requirements are that they have a change to propose, and
 that they agree to be a respectful participant in the community.
 
-### Reviewer
+#### Reviewer
 
 The reviewers are the people who review the change, suggest changes to it, and
 eventually approve it. Anyone in the community can act as a reviewer: the only
@@ -48,7 +53,7 @@ requirements are that they have some insight to share (or questions to ask)
 about the change, and that they agree to be a respectful participant in the
 community.
 
-### Maintainer
+#### Maintainer
 
 Maintainers are responsible for the health and maintenance of a portion of the
 project. They are the stewards of the review process, and have the privileges
@@ -59,9 +64,9 @@ Since we invest maintainers with special privileges and trust, we have high
 expectations of them. Those acting as maintainers must be respectful,
 considerate, and judicious in the way they exercise their powers.
 
-## Lifecycle of a Review
+### Lifecycle of a Review
 
-### Proposal
+#### Proposal
 The first step is for a contributor to come up with and propose a _change_.
 Before starting work on the change, they may want to run it by the community.
 Often times community members will have great feedback on how to approach the
@@ -83,7 +88,7 @@ change. It's amazing how many issues can be spotted and fixed during
 self-review. This is respectful of reviewers' time, and makes the process a lot
 smoother.
 
-### Review
+#### Review
 
 Once a change is ready and has been self-reviewed, it's ready for review. Since
 most SourceCred artifacts are tracked via repositories on GitHub, this will
@@ -102,7 +107,7 @@ On finishing their review, the reviewer can:
 
 Many changes go through a few rounds of reviews before being approved.
 
-### Approval and Merging
+#### Approval and Merging
 
 During the review process, a successful change will accumulate "approvals" from
 satisfied reviewers. At some point, the change will have "enough approvals" and
@@ -112,7 +117,7 @@ approve, whereas changes that are breaking new ground, or have wide-ranging
 consequences, will require more reviews. If contributors are unsure as to
 whether a change is ready to merge, they should ask a maintainer.
 
-### Changes that never merge
+#### Changes that never merge
 
 Some changes don't ever merge. A few good reasons why this may happen include:
 - Reviewers may find that the change isn't actually needed, is basically
@@ -120,9 +125,9 @@ Some changes don't ever merge. A few good reasons why this may happen include:
 - Over the course of review, the contributor or reviewers may find a different
   and better way to achieve the same goals
 
-# Communication
+## Communication
 
-## Be aware of culture
+### Be aware of culture
 
 It's easy to forget how common it is in open source communities to have diversity
 of geographic location, and different culture for communication. 
@@ -145,26 +150,26 @@ hurtful is not ok. If you feel offended by an interaction,
 it might be good to have an honest discussion with the other party involved and 
 talk about how the two of you can best communicate.
 
-# Best Practices
+## Best Practices
 
-## For Contributors
+### For Contributors
 
-### Prefer small changes
+#### Prefer small changes
 
-### Document changes clearly
+#### Document changes clearly
 
-### Self-review first
+#### Self-review first
 
-## For Reviewers
+### For Reviewers
 
-### Be respectful and appreciative
+#### Be respectful and appreciative
 
 As a reviewer, you should be respectful and appreciative towards the person
 proposing the change. This is true especially when you quite disagree with the
 change itself. It's fine to express strong beliefs that a change is misguided,
 but you shouldn't make the contributor feel belittled.
 
-### Consider "nit-and-approve"
+#### Consider "nit-and-approve"
 
 Some proposed changes look mostly good at a high level right off the bat,
 requiring only local, targeted suggestions. Consider approving such changes on
@@ -184,7 +189,7 @@ helpful for you to respond to all comments indicating how you addressed them.
 prefer not to incorporate some suggestion that wasn't intended to be optional,
 you should probably continue the discussion rather than merging immediately.
 
-### Limit nit-picking
+#### Limit nit-picking
 
 Nit-picking is when a review focuses more on small, superficial details (e.g.
 precise formatting or word choice) rather than on the substance of the change.
@@ -193,7 +198,7 @@ tempting. It's ok to nit pick in moderation; when nit-picking, it's polite to
 preface your suggestion with "nit", as in: "nit: this comma should actually be
 a semicolon". Avoid holding up a review over nits.
 
-### Avoid "not how I would have done it"
+#### Avoid "not how I would have done it"
 
 As a reviewer, you'll often notice that someone has made a change differently
 from how you would have made it. It can be tempting to think that your way is
@@ -202,9 +207,9 @@ doing this, you should ask: in what ways is doing it my way materially better?
 What benefits come from the changed approach? If you don't have clear answers
 to these questions, don't ask for the change.
 
-## For Maintainers
+### For Maintainers
 
-### Include contributors even when closing their changes
+#### Include contributors even when closing their changes
 
 It could be the case that your thinking has changed since a review has started,
 and the change is no longer logical or necessary for the codebase. It might
