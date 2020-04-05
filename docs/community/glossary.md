@@ -1,4 +1,7 @@
-# Glossary
+---
+title: 📕 Glossary
+description: Common Terms used in SourceCred
+---
 
 This is the SourceCred glossary of terms. While some of these terms can be
 easily defined with a search, the definitions here are specific to SourceCred.
@@ -13,7 +16,7 @@ from the perspective of using it in your project. For example, you
 might need to understand what terms SourceCred uses to define people
 or currency.
 
-### Champion
+### [Champion](concepts/champion.md)
 
 A champion is an individual that starts an initiative with a determined promise
 to finish it. The individual generally takes charge of a well-scoped task, and
@@ -26,7 +29,7 @@ You can read more about champions [here](concepts/champion.md)
  - [@Beanow definition on discourse](https://discourse.sourcecred.io/t/about-champions-and-heroes/291)
  - [SourceCred champion concept](concepts/champion.md)
 
-### Cred
+### [Cred](concepts/cred.md)
 
 Cred is a metric that describes how important a contribution (or contributor) was to a particular project. Using SourceCred's own documentation as an example: the pull request that added this term to the glossary might have 10 cred, while a different pull request that fixes a typo might have only one cred. That would indicate that the first pull request was ten times as important. Cred "flows" between contributions and contributors; so for example, if you write a pull request that earns cred, some of that cred will flow to you.
 
@@ -37,7 +40,7 @@ Cred is project-specific, and is computed based on the project's own [contributi
  - [cred on discourse](https://discourse.sourcecred.io/t/a-gentle-introduction-to-cred/20)
  - [SourceCred cred concept](concepts/cred.md)
 
-### Grain
+### [Grain](concepts/grain.md)
 
 Grain refers to project-specific cryptoassets that represent contribution to or support of a project. These cryptoassets hold promise to make open-source projects financially sustainable which is currently an unsolved problem. You can read more about grain [here](concepts/grain.md).
 
@@ -54,7 +57,7 @@ The Contributor Glossary is ideal if you want to participate actively
 in the SourceCred community. Terms that are used commonly used in commonity forums,
 issue trackers, or other discussion platforms are included here.
 
-### bikeshedding
+### [bikeshedding](concepts/bikeshedding.md)
 
 Bikeshedding means talking (or even arguing) about a small detail instead of a larger issue at hand. 
 If you imagine building a house and having a bike shed outside, it would be akin
@@ -67,7 +70,7 @@ because you were lost in details that didn't matter. Read more about bikesheddin
  - [What is bikeshedding](https://css-tricks.com/what-is-bikeshedding/)
  - [SourceCred bikeshedding concept](concepts/bikeshedding.md)
 
-### deep then wide
+### [deep then wide](concepts/deep-then-wide.md)
 
 SourceCred is a young project, and as we grow it, we can either go "wide" (encourage
 adoption by a lot of projects) or go "deep" (focus on intense adoption by fewer projects).

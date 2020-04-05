@@ -1,3 +1,8 @@
+---
+title: ⚖️ Code of Conduct
+description: The Code of Conduct for SourceCred
+---
+
 As a community, we want to encourage diversity, and set a standard
 for respectful and appropriate conduct across all communication channels. For
 this purpose, we have created this code of conduct, which serves as a guide for
@@ -16,7 +21,7 @@ In the following sections:
 
 SourceCred welcomes and encourages participation in our community by people of 
 all backgrounds and identities. We are committed to promoting and sustaining a culture that values mutual respect, tolerance, and learning, and you can read more about culture
-in the [culture](../culture) documentation pages. We strive to work together 
+in the [culture](culture/review_culture) documentation pages. We strive to work together 
 as a community to realize these values.
 
 We have created this diversity statement because we believe that a diverse community is stronger, more vibrant, and more productive and motivated. A diverse community where people treat one another with respect has more potential contributors, more sources for ideas, and fewer shared assumptions that might hinder the achievement of our goals.
@@ -45,7 +50,6 @@ removing them from a specific activity, or banning them from further participati
 activities (in person or online). The last option is unlikely, but possible in extreme
 circumstances.
 
-<br>
 
 ## Standards for Behavior
 
@@ -59,7 +63,6 @@ people feel uncomfortable or threatened is not a productive one.
  - **Be collaborative**: The success and spirit of SourceCred depends on the participation of many people. Effective and friendly collaboration enables everyone to better achieve their goals.  
  - **Be aware**: We are careful and respectful in our communication, and we take responsibility for our own speech. Be aware of how what you say or do might impact others. Be kind to others. Do not insult or put down other members of the community.
 
-<br>
 
 ## Unacceptable Behavior
 
@@ -81,7 +84,6 @@ We will not accept harassment or other exclusionary behaviors, such as:
  * Sustained disruption of talks, events, or communications, such as heckling of a speaker
  * Advocating for, or encouraging, any of the above behaviors
 
-<br>
 
 ## Reporting Guidelines
 
@@ -101,8 +103,6 @@ In some cases the Values Maintainer may feel like it's better to publicly respon
 If you feel your safety is in jeopardy or the situation is an emergency, contact local law enforcement before making a report to SourceCred. (In the U.S., dial 911.)
 
 The Values Maintainer on behalf of the SourceCred community is committed to promptly addressing any reported issues. If you have experienced or witnessed behavior that violates the SourceCred Code of Conduct, please send an email to concerns@sourcecred.io.
-
-<br>
 
 ## License
 
