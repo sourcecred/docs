@@ -16,6 +16,12 @@
   --ifm-color-primary-lightest: #e7dffc;
   --ifm-code-font-size: 95%;
   --ifm-font-size-base: 17px;
+
+  --sc-text-color: #dea096;
+}
+
+[data-theme="dark"] {
+  --sc-text-color: #dea096;
 }
 
 .button {
