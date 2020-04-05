@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'SourceCred Documentation',
+  tagline: 'SourceCred is an open source community and a reputation protocol for open collaboration.',
+  url: 'https://sourcecred.github.io/docs',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'sourcecred', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'SourceCred',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'SourceCred Logo',
         src: 'img/logo.svg',
       },
       links: [
@@ -22,8 +22,13 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/sourcecred',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://sourcecred.io/cred/timeline/@sourcecred/',
+          label: 'Prototype',
           position: 'right',
         },
       ],
@@ -32,50 +37,40 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: "Community",
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: "Chat",
+              href: "https://discord.gg/SXreMyQ"
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Forums",
+              href: "https://discourse.sourcecred.io"
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Prototype',
+              to: 'https://sourcecred.io/cred/timeline/@sourcecred/',
             },
-          ],
+          ]
         },
         {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Homepage',
+              href: "https://sourcecred.io"
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/sourcecred',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/sourcecred',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -85,7 +80,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/sourcecred/docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
