@@ -5,10 +5,11 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 6rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  color: #fad9d4;
 }
 
 @media screen and (max-width: 966px) {
@@ -28,6 +29,12 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  text-align: center;
+}
+
+h3 {
+  font-family: var(--ifm-font-family-monospace);
+  color: #fad9d4;
 }
 
 .featureImage {
