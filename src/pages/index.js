@@ -4,7 +4,9 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
 import styles from './styles.module.css';
+import { HeroLogo } from '../components/HeroLogo';
 
 const features = [
   {
@@ -87,20 +89,12 @@ function Home() {
       description={siteConfig.tagline}>
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
-          <img
-            alt="SourceCred Icon"
-            className={styles.wikiLogo}
-            width="250"
-            src={useBaseUrl("img/icon.png")}
-          />
+          <HeroLogo />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={classnames(
-                'button button--primary button--lg',
-                styles.getStarted,
-              )}
+              className="button button--primary button--lg"
               to={useBaseUrl('docs/community/glossary')}>
               Read The Docs
             </Link>

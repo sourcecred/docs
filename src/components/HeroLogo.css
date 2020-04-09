@@ -1,0 +1,21 @@
+@keyframes breathe {
+    from {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.9);
+    }
+}
+
+.hero-logo .logo-ray:not([data-layer="base"]) {
+    animation: breathe 8s infinite both cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.hero-logo .logo-ray:nth-of-type(2n) {
+    animation-delay: 0s;
+}
+.hero-logo .logo-ray:nth-of-type(2n + 1) {
+    animation-delay: -4s;
+}
