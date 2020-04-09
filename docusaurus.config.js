@@ -12,7 +12,7 @@ module.exports = {
       title: 'SourceCred Docs',
       logo: {
         alt: 'SourceCred Logo',
-        src: 'img/icon.png',
+        src: 'img/favicon.png',
       },
       links: [
         {
@@ -26,6 +26,11 @@ module.exports = {
           activeBasePath: 'docs/culture',
           label: '🌟 Culture',
           position: 'left',
+        },
+        {
+          href: 'https://discourse.sourcecred.io/',
+          label: 'Forums',
+          position: 'right',
         },
         {to: 'blog', label: 'Blog', position: 'right'},
         {
@@ -41,7 +46,6 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: "Community",
