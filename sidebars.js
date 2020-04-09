@@ -1,11 +1,10 @@
 module.exports = {
   someSidebar: {
     "🌎 Community": [
+      'community/intro',
       'community/glossary',
       {
-        type: 'category',
-        label: '🧠 Concepts',
-        items: ['community/concepts/cred', 'community/concepts/grain', 'community/concepts/champion', 'community/concepts/deep-then-wide', 'community/concepts/bikeshedding'],
+        '🧠 Concepts': ['community/concepts/cred', 'community/concepts/grain', 'community/concepts/champion', 'community/concepts/deep-then-wide', 'community/concepts/bikeshedding'],
       },
       'community/CODE_OF_CONDUCT',
     ],
