@@ -1,15 +1,14 @@
 module.exports = {
-  title: 'SourceCred Documentation',
-  tagline: 'SourceCred is an open source community and a reputation protocol for open collaboration.',
+  title: 'SourceCred',
+  tagline: 'An open source community and reputation protocol for open collaboration.',
   url: 'https://sourcecred.github.io/docs',
   baseUrl: '/',
   favicon: 'img/favicon.png',
   organizationName: 'sourcecred', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
-    sidebarCollapsible: false,
     navbar: {
-      title: 'SourceCred Docs',
+      title: 'SourceCred',
       logo: {
         alt: 'SourceCred Logo',
         src: 'img/favicon.png',
@@ -17,32 +16,32 @@ module.exports = {
       links: [
         {
           to: 'docs/community/intro',
-          activeBasePath: 'docs/community',
-          label: '🌎 Community',
+          activeBasePath: 'docs',
+          label: '📖 Docs',
           position: 'left',
         },
         {
-          to: 'docs/culture/review_culture',
-          activeBasePath: 'docs/culture',
-          label: '🌟 Culture',
+          href: 'https://sourcecred.io/cred/timeline/@sourcecred/',
+          label: '🧬 Prototype',
           position: 'left',
+        },
+        {
+          to: 'blog',
+          activeBasePath: 'blog',
+          label: 'Blog',
+          position: 'right',
         },
         {
           href: 'https://discourse.sourcecred.io/',
           label: 'Forums',
           position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/sourcecred',
           label: 'GitHub',
           position: 'right',
         },
-        {
-          href: 'https://sourcecred.io/cred/timeline/@sourcecred/',
-          label: 'Prototype',
-          position: 'right',
-        },
+
       ],
     },
     footer: {
