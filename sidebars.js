@@ -1,5 +1,5 @@
 module.exports = {
-  someSidebar: {
+  sidebar: {
     "🌎 Community": [
       'community/intro',
       'community/glossary',
@@ -9,6 +9,5 @@ module.exports = {
       'community/CODE_OF_CONDUCT',
     ],
     "🌟 Culture": ["culture/review_culture"],
-    Docusaurus: ['style-guide', 'mdx'],
   },
 };
