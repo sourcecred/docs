@@ -38,3 +38,15 @@
 .navbar .navbar__items.navbar__items--right {
   flex-grow: 0;
 }
+
+.navbar__title {
+  font-family: var(--ifm-font-family-monospace);
+  color: var(--sc-text-color);
+}
+
+.hero__subtitle {
+  font-family: var(--ifm-font-family-monospace);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
