@@ -16,7 +16,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/community/glossary',
+          to: 'docs/community/intro',
           activeBasePath: 'docs/community',
           label: '🌎 Community',
           position: 'left',
