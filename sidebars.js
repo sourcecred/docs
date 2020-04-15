@@ -5,6 +5,7 @@ module.exports = {
       'community/glossary',
       {
         '🧠 Concepts': ['community/concepts/cred', 'community/concepts/grain', 'community/concepts/champion', 'community/concepts/deep-then-wide', 'community/concepts/bikeshedding'],
+        'Plugins': ['community/concepts/github'],
       },
       'community/CODE_OF_CONDUCT',
     ],
