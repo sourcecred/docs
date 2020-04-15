@@ -4,7 +4,7 @@ sidebar_label: 🧐 How It Works
 description: Overview of what SourceCred is and how it works
 ---
 
-Everything people do to support a project—like writing code, filing bug reports, organizing meetups, or even mediating hard discussions—is considered a contribution.
+Everything people do to support a project—like writing code, filing bug reports, organizing meetups, or even mediating hard discussions—is considered a contribution. Contributions are very important!
 
 These contributions are connected to each other based on their relationships. For example, a pull request may fix a particular bug, and a code review may review that pull request.
 
