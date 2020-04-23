@@ -1,6 +1,5 @@
 ---
-title: 🧐 How SourceCred Works
-sidebar_label: 🧐 How It Works
+title: 🔮 What is SourceCred?
 description: Overview of what SourceCred is and how it works
 ---
 
