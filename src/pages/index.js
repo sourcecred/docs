@@ -95,7 +95,7 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className="button button--primary button--lg"
-              to={useBaseUrl('docs/intro/intro')}>
+              to={useBaseUrl('docs/intro/what')}>
               Read The Docs
             </Link>
           </div>

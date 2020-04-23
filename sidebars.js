@@ -1,31 +1,27 @@
 module.exports = {
   sidebar: {
-    "🐣 Intro": [
-      'intro/intro',
-      'intro/glossary',
+    "🐣 Introduction": [
+      'intro/what',
+      'intro/why',
+      'intro/resources',
     ],
-    '🧠 Concepts': ['concepts/cred', 'concepts/grain', 'concepts/champion', 'concepts/deep-then-wide', 'concepts/bikeshedding'],
+    '🧠 Concepts': ['concepts/cred', 'concepts/grain', 'concepts/initiatives', 'concepts/champion', 'concepts/boosting', 'concepts/glossary'],
     "🗺 Guides": [
+      'guides/earning-cred',
+      'guides/distributing-grain',
+      'guides/initiatives',
       'guides/FAQ',
-      'guides/flowing-cred',
-      'guides/tracking-grain',
-      'guides/adopting',
       {
-        'Platforms': ['guides/platforms/github', 'guides/platforms/discourse', 'guides/platforms/discord', 'guides/platforms/initiatives']
+        '🏛 Platforms': ['guides/platforms/github', 'guides/platforms/discourse', 'guides/platforms/discord']
       },
     ],
     "🛠 Setup and Usage": [
-      'setup/getting-started',
+      'setup/installation',
+      'setup/configuration',
       {
         'Plugins': ['setup/plugins/github', 'setup/plugins/discourse', 'setup/plugins/discord', 'setup/plugins/initiatives']
       },
     ],
-    "🏗 Architecture": [
-      'architecture/algorithm',
-      'architecture/plugin-system',
-      'architecture/weights',
-    ],
-    "🌱 Contributing": ["contributing/review_culture", 'contributing/CODE_OF_CONDUCT'],
-    "🌟 Resources": ["resources/podcast", 'resources/projects', 'resources/further-reading'],
+    "🌱 Contributing": ['contributing/about-us', 'contributing/get-involved', 'contributing/deep-then-wide', 'contributing/bikeshedding', "contributing/review_culture", 'contributing/CODE_OF_CONDUCT'],
   },
 };
