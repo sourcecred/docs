@@ -22,8 +22,8 @@ hesitate to [open an issue](https://github.com/sourcecred/docs/issues) - we are 
 You can browse the markdown files under [docs](docs) from the repository
 as is - these are organized by subfolder and the organization should be intuitive:
 
- - [community](docs/community): includes a glossary of concepts, and code of conduct
- - [culture](docs/culture): aspects of SourceCred culture like trust levels, and reviewing practices.
+ - [community](docs/intro): includes a glossary of concepts, and code of conduct
+ - [culture](docs/contributing): aspects of SourceCred culture like trust levels, and reviewing practices.
 
 ## Usage
 
