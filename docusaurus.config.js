@@ -15,25 +15,33 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/community/intro',
-          activeBasePath: 'docs',
-          label: '📖 Docs',
+          to: 'docs/intro/intro',
+          activeBasePath: 'docs/intro',
+          label: '🐣 Intro',
           position: 'left',
         },
         {
-          href: 'https://sourcecred.io/cred/timeline/@sourcecred/',
-          label: '🧬 Prototype',
+          to: 'docs/concepts/cred',
+          activeBasePath: 'docs/concepts',
+          label: '🧠 Concepts',
+          position: 'left',
+        },
+        {
+          to: 'docs/guides/FAQ',
+          activeBasePath: 'docs/guides',
+          label: '🗺 Guides',
+          position: 'left',
+        },
+        {
+          to: 'docs/setup/getting-started',
+          activeBasePath: 'docs/setup',
+          label: '🛠 Setup',
           position: 'left',
         },
         {
           to: 'blog',
           activeBasePath: 'blog',
           label: 'Blog',
-          position: 'right',
-        },
-        {
-          href: 'https://discourse.sourcecred.io/',
-          label: 'Forums',
           position: 'right',
         },
         {
