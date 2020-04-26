@@ -14,7 +14,7 @@ While the term champion may inspire mental imagery of soliders and stallions,
 in the development battle field, champions wear much less flashy armor. A champion
 might be:
 
- - A team member that proposes a new feature, clearly describes the problem that it solves, and then proceeds to get feedback and create a plan for implementation. The team member them executes, all the while being clear about timeline, goals, and having clear communication.
+ - A team member that proposes a new feature, clearly describes the problem that it solves, and then proceeds to get feedback and create a plan for implementation. The team member then executes, all the while being clear about timeline, goals, and having clear communication.
  - An open source contributor who commits to working on a particular component, and proceeds to follow through and becomes a primary maintainer of that component.
  - An individual that provides leadership for an under-represented or under-served demographic in the community, and helps to empower that group to have a stronger voice.
 
