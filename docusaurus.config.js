@@ -39,6 +39,11 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'http://cred.sourcecred.io/timeline/@sourcecred/',
+          label: 'Prototype',
+          position: 'right',
+        },
+        {
           to: 'blog',
           activeBasePath: 'blog',
           label: 'Blog',
