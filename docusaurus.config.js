@@ -27,13 +27,13 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/guides/FAQ',
+          to: 'docs/guides/earning-cred',
           activeBasePath: 'docs/guides',
           label: '🗺 Guides',
           position: 'left',
         },
         {
-          to: 'docs/setup/getting-started',
+          to: 'docs/setup/installation',
           activeBasePath: 'docs/setup',
           label: '🛠 Setup',
           position: 'left',
