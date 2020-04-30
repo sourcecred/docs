@@ -4,11 +4,12 @@ description: Setting up the Initiatives plugin.
 ---
 
 The SourceCred Initiatives plugin adds contributions to the graph using data
-from JSON files following the [Initiatives concept].
+from JSON files following the [Initiatives concept]. It's source can be found
+[here][plugin source].
 
 ## Status and Caveats
 
-[This plugin][plugin source] is currently in Beta.
+This plugin is currently in Beta.
 
 Because it's recently been added (April 2020), we're still gaining experience
 with this plugin in practice. Any current guides and recommendations may change
@@ -20,7 +21,7 @@ can retroactively update those subjective weights. The objective data helps have
 constructive discussions about, "do we have our facts straight?" and helps to
 remember what made an Initiative valuable in a future discussion.
 
-Try to avoid shaping the objective data to fit your subjective needs. Such as
+Try to avoid shaping the objective data to fit your subjective needs, such as
 leaving out a contribution because you feel the weight should be lower than some
 other contributions.
 
@@ -63,7 +64,7 @@ directories is currently not supported. So initiative files should be added here
 as `./initiatives/*.json`.
 
 It's important that this directory _exists_ when we're trying to load from it.
-So it may be worth adding a `.gitkeep` file to this directory as well. So that
+So it may be worth adding a `.gitkeep` file to this directory as well, so that
 this directory exists even when you don't have any Initiative files added yet.
 
 ```bash
@@ -88,7 +89,7 @@ sure it's at version `0.5.0` or greater at the top of the file.
 ]
 ```
 
-Next, we specify we want to use Initiatives, by adding the following.
+Next, we specify we want to use Initiatives, by adding an `initiatives` object.
 
 ```js
 [
@@ -108,24 +109,24 @@ Next, we specify we want to use Initiatives, by adding the following.
 Having this `initiatives` object in our project file implies that we _want to_
 enable Initiatives.
 
-Note, should there be any errors trying to load them, it will consider that a
-fatal error and crash. If you want to disable Initiatives these lines should be
-removed from the project file.
+Note, should there be any errors trying to load the initiatives, it will
+consider that a fatal error and crash. If you want to disable Initiatives these
+lines should be removed from the project file.
 
 There's one argument here:
 
-- **`initiatives.remoteUrl`**: The URL where we can find the _canonical_ Initiatives in a
-  browser. Note we're pointing to the `master` branch in the example as the
-  _canonical_ is important.
+- **`initiatives.remoteUrl`**: The URL where we can find the _canonical_
+  Initiatives in a browser. Note we're pointing to the `master` branch in the
+  example as the _canonical_ is important.
 
 ### 3. Loading a project with Initiatives
 
 To load the updated `project.json` which now enables Initiatives, we need to
-provide and extra ENV variable.
+provide an extra ENV variable.
 
 - **`SOURCECRED_INITIATIVES_DIRECTORY`**: The local path to our Initiatives
-  directory. It supports both absolute and relative paths (from your current
-  working directory).
+  directory. This path can be absolute or relative to your current working
+  directory.
 
 Assuming you're running SourceCred in a node environment, your load command
 might look like this.
