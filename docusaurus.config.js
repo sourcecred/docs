@@ -1,6 +1,6 @@
 module.exports = {
   title: 'SourceCred',
-  tagline: 'An open source community and reputation protocol for open collaboration.',
+  tagline: 'A tool for communities to measure and reward value creation.',
   url: 'https://sourcecred.github.io/docs',
   baseUrl: '/',
   favicon: 'img/favicon.png',
