@@ -17,8 +17,7 @@ Here is [an example](https://github.com/sourcecred/sourcecred/pull/1537#pullrequ
 
 > I'm approving this change because it is timely and needed, and because as a rule, we should avoid bikeshedding as a reason to withhold approval.
 
-In the above statement, they recognize that approving changes can be delayed because of
-getting distracted by details, and given the urgency and need of the change, are pointing
+In the above statement, they recognize that over-scrutinizing details can delay approving changes, and given the urgency and need of the change, are pointing
 out that this should be avoided.
 
 ### References
