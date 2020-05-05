@@ -42,6 +42,7 @@ You can work in your own "alternate reality" without interfering with other work
 
 By way of some helpful features, the text files that you are working on can be served as web pages
 directly from where they live. You can read about this feature, called [GitHub Pages](https://pages.github.com/).
+For example, [sourcecred/docs](https://github.com/sourcecred/docs) has a lot of static text files. They end in ".md" to indicate they are [markdown](https://en.wikipedia.org/wiki/Markdown). However, given that we are using GitHub Pages and a static site renderer called [docusaurus](https://docusaurus.io/), you can see pretty pages rendered at [https://sourcecred.io/](https://sourcecred.io/).
 
 To summarize and answer this question, we use GitHub because we want to:
 
@@ -49,7 +50,7 @@ To summarize and answer this question, we use GitHub because we want to:
  2. have advanced reviewing tools and version history
  3. keep a record of discussions, and every change made
  4. be able to revert back to previous versions, if needed
- 5. render some of the static files in a web interface
+ 5. create pretty web interfaces
 
 
 ## What content do we have on GitHub?
