@@ -5,7 +5,7 @@ module.exports = {
       'intro/why',
       'intro/resources',
     ],
-    '🧠 Concepts': ['concepts/cred', 'concepts/grain', 'concepts/initiatives', 'concepts/champion', 'concepts/boosting', 'concepts/glossary'],
+    '🧠 Concepts': ['concepts/cred', 'concepts/grain', 'concepts/initiatives', 'concepts/champion', 'concepts/boosting', 'concepts/glossary', 'concepts/trust_levels'],
     "🗺 Guides": [
       'guides/earning-cred',
       'guides/distributing-grain',
