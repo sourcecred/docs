@@ -24,8 +24,10 @@ and/or heavily promoted posts might receive more likes than makes sense for the
 relative value they've added. Something which would be easy to game, making it
 less suitable for lower trust levels for the time being.
 
-Another thing to keep in mind, is that private forums are not included for Cred
-calculation.
+Another thing to keep in mind, is that only public posts are included for Cred
+calculation. Private categories and private messages for example receive no
+Cred. This both creates an incentive to have discussions in public as much as
+possible and is necessary for security as private data could otherwise leak.
 
 ## Installing
 
@@ -117,5 +119,5 @@ If all goes well, you should see Discourse mentioned in the progress output.
 _Note: depending on the size of the forum and how much data is already cached
 this may take several minutes._
 
-[trust level]: https://github.com/sourcecred/docs/issues/69
+[trust level]: ../../concepts/trust_levels.md
 [v0.5.0 release]: https://github.com/sourcecred/sourcecred/issues/1679
