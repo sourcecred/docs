@@ -10,7 +10,7 @@ An Ambassador relationship usually spans the first couple of weeks to make sure 
 
 ## Should I request an Ambassador?
 
-Before requesting an Ambassador, you should have moved through the first few steps of engaging with our community outlined in the How to Get Involved guide. Including:
+Before requesting an Ambassador, you should have moved through the first few steps of engaging with our community outlined in the [How to Get Involved guide](get-involved.md). Including:
 
 - Joining the SourceCred Discord
 - Reading up on the available documentation
