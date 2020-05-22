@@ -15,9 +15,9 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/intro/what',
+          to: 'docs/intro/manifesto',
           activeBasePath: 'docs/intro',
-          label: '🐣 Intro',
+          label: '🗺 Manifesto',
           position: 'left',
         },
         {
