@@ -10,71 +10,79 @@ import { HeroLogo } from '../components/HeroLogo';
 
 const features = [
   {
-    title: <>data driven</>,
-    imageUrl: 'img/data-driven.svg',
+    title: <>Learn About SourceCred</>,
+    imageUrl: 'img/logo_variants/1.svg',
+    linkUrl: 'docs/intro/what',
     description: (
       <>
-        Scores are calculated using data from a project: forum posts, commits, comments, and more.
+      Read our docs to learn about how SourceCred works and how to use it.
       </>
     ),
   },
   {
-    title: <>community controlled</>,
-    imageUrl: 'img/community-controlled.svg',
+    title: <>Get Involved</>,
+    imageUrl: 'img/logo_variants/2.svg',
+    linkUrl: 'docs/contributing/get-involved',
     description: (
       <>
-        Each project community sets the values, priorities, weights, and norms.
+      Find out how to join our community and start contributing.
       </>
     ),
   },
   {
-    title: <>transparent</>,
-    imageUrl: 'img/transparent.svg',
+    title: <>Read the Blog</>,
+    imageUrl: 'img/logo_variants/3.svg',
+    linkUrl: 'blog',
     description: (
       <>
-        You can see what every score is, and more importantly, why.
+      Read the latest upates on the SourceCred project.
       </>
     ),
   },
   {
-    title: <>extensible</>,
-    imageUrl: 'img/extensible.svg',
+    title: <>Explore Our Cred</>,
+    imageUrl: 'img/logo_variants/4.svg',
+    linkUrl: 'https://cred.sourcecred.io/timeline/@sourcecred/',
     description: (
       <>
-        SourceCred is built around a plugin architecture. You can extend it to track any kind of contribution.
+      See SourceCred's own cred scores, updated weekly.
       </>
     ),
   },
   {
-    title: <>decentralized</>,
-    imageUrl: 'img/decentralized.svg',
+    title: <>Meet the Team</>,
+    imageUrl: 'img/logo_variants/5.svg',
+    linkUrl: 'docs/resources/team',
     description: (
       <>
-        There's no "CredHub"; just an open-source system that anyone can set up and use.
+      Learn about the wonderful humans making SourceCred a reality.
       </>
     ),
   },
   {
-    title: <>intersubjective</>,
-    imageUrl: 'img/intersubjective.svg',
+    title: <>Watch SourceCred's Talks</>,
+    imageUrl: 'img/logo_variants/6.svg',
+    linkUrl: 'docs/resources/media',
     description: (
       <>
-        Scores are a blend of objective data and subjective judgement.
+      Dive into our team's media collection, including recorded talks and podcasts.
       </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, linkUrl}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.feature)}>
+    <a href={linkUrl}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
       <h3>{title}</h3>
+    </a>
       <p>{description}</p>
     </div>
   );
@@ -92,13 +100,6 @@ function Home() {
           <HeroLogo />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className="button button--primary button--lg"
-              to={useBaseUrl('docs/intro/what')}>
-              Read The Docs
-            </Link>
-          </div>
         </div>
       </header>
       <main>
