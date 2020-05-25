@@ -1,8 +1,6 @@
 ---
 title: 🌳 Resources
-description: 
+description:
 ---
 
-TODO
-(guidance on where to go from here) 
-(links to forums, podcast, videos, etc)
+Check out our [media page](../resources/media)
