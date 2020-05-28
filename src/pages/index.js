@@ -12,7 +12,7 @@ const features = [
   {
     title: <>Learn About SourceCred</>,
     imageUrl: 'img/logo_variants/1.svg',
-    linkUrl: 'docs/intro/what',
+    linkUrl: 'docs/intro/manifesto',
     description: (
       <>
       Read our docs to learn about how SourceCred works and how to use it.

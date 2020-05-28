@@ -15,7 +15,7 @@ moderating meetings and organizing events.
 
 ## When is it useful?
 
-SourceCred is [a social algorithm][SourceCred intro]. So communities will need
+SourceCred is a social algorithm. So communities will need
 a way to decide what's important and valuable to them. Doing this for thousands
 of separate contributions is really difficult and time consuming. For larger
 projects it quickly becomes impossible to keep track of. It's also fairly
@@ -61,7 +61,6 @@ There's several important pieces that go into an Initiative.
 - Any **references** used.
 
 
-[SourceCred intro]: ../intro/what.md
 [cred]: cred.md
 [champion]: champion.md
 [boosting]: boosting.md

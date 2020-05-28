@@ -1,8 +1,7 @@
 module.exports = {
   sidebar: {
     "🐣 Introduction": [
-      'intro/what',
-      'intro/why',
+      'intro/manifesto',
       'intro/resources',
     ],
     '🧠 Concepts': ['concepts/cred', 'concepts/grain', 'concepts/initiatives', 'concepts/champion', 'concepts/boosting', 'concepts/glossary', 'concepts/trust_levels'],
