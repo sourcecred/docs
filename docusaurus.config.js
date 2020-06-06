@@ -64,7 +64,7 @@ module.exports = {
           items: [
             {
               label: "Chat",
-              href: "https://discord.gg/SXreMyQ"
+              href: "https://sourcecred.io/discord"
             },
             {
               label: "Forums",
