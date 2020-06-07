@@ -81,5 +81,5 @@ SourceCred is itself issuing and using grain. We call our grain 'SourceGrain'.
 SourceGrain isn't yet "officially live", but you can see our [preview
 balances].
 
-[preview balances]: https://discourse.sourcecred.io/t/sourcecred-contributor-payouts/298.
+[preview balances]: https://discourse.sourcecred.io/t/sourcecred-contributor-payouts/298
 
