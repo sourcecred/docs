@@ -13,7 +13,7 @@ The contributions are arranged in a [graph](https://en.wikipedia.org/wiki/Graph_
 
 SourceCred converts this graph into a numerical score via a modified [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm. Basically, we assign cred to the nodes such that every node receives cred from every node that connects to it. The amount of cred a node receives is the same as the amount that it sends to other nodes. This means that being connected to a high-cred node is much more valuable than being connected to a low-cred node, especially if that high-cred node isn't connected to many other nodes. In other words, cred accumulates at important nodes. For example, a core maintainer is connected to all of the posts, comments, and issues that they’ve written, so they have a lot of cred. On the other hand, a spam post on the forum may be sparsely connected, or connected to almost no other nodes, so it will have very little cred. (PageRank is a very interesting algorithm, and was actually the basis of Google search! If you want to learn more, I recommend the original [PageRank paper](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf)).
 
-We can explore all of this in the [SourceCred explorer](https://sourcecred.io/cred/timeline/@sourcecred/). To walk through this in detail, see this [post](https://discourse.sourcecred.io/t/a-gentle-introduction-to-cred/20).
+We can explore all of this in the [SourceCred explorer](https://cred.sourcecred.io/timeline/@sourcecred/). To walk through this in detail, see this [post](https://discourse.sourcecred.io/t/a-gentle-introduction-to-cred/20).
 
 ### References
 
