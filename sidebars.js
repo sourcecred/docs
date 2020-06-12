@@ -21,6 +21,6 @@ module.exports = {
         'Plugins': ['setup/plugins/github', 'setup/plugins/discourse', 'setup/plugins/discord', 'setup/plugins/initiatives']
       },
     ],
-    "🌱 Contributing": ['contributing/about-us', 'contributing/get-involved', 'contributing/deep-then-wide', 'contributing/bikeshedding', "contributing/review_culture", 'contributing/CODE_OF_CONDUCT', "contributing/get-an-ambassador"],
+    "🌱 Contributing": ['contributing/about-us', 'contributing/get-involved', 'contributing/deep-then-wide', 'contributing/bikeshedding', "contributing/review_culture", 'contributing/CODE_OF_CONDUCT',],
   },
 };
