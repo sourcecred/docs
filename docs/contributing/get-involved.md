@@ -2,7 +2,7 @@
 title: 🧬 How To Get Involved
 ---
 
-Follow the steps below to get connected with the SourceCred community. 
+Follow the steps below to get connected with the SourceCred community.
 
 ## 1. Join the SourceCred Discord
 
@@ -39,9 +39,9 @@ The SourceCred Community Call is a weekly voice call which we encourage anyone i
 We encourage you to attend one and see how you like our community. We also would love it if you brought a question or two with you about things you’d like to understand better within SourceCred. That way, not only do you get a chance to learn but others on the call will have the chance as well!
 
 The Community Call is every Tuesday at 11am PT (double check your time zone) in the “Main” voice channel on our Discord.
-Check out our [SourceCred Calendar](https://calendar.google.com/calendar/b/1?cid=b3BzQHNvdXJjZWNyZWQuaW8) and find a Tuesday that works for you. We'd love to have you!
+Check out our [SourceCred Calendar](https://sourcecred.io/calendar) and find a Tuesday that works for you. We'd love to have you!
 
 ## 5. Attend a "Jam"
 
-A "Jam" is a scheduled time to discuss a particular topic in SourceCred on the Discord voice channel. This is a time to dive deeper into specific topics like crypto-economics, our mission and values, or community cultivation with the community and is a great opportunity for anyone to join the conversation. Check out the [SourceCred Calendar](https://calendar.google.com/calendar/b/1?cid=b3BzQHNvdXJjZWNyZWQuaW8) to see if there's an upcoming jam with a topic that interests you! It's the best way to get familiar with the lay of the land and start exploring where you may be able to contribute.
+A "Jam" is a scheduled time to discuss a particular topic in SourceCred on the Discord voice channel. This is a time to dive deeper into specific topics like crypto-economics, our mission and values, or community cultivation with the community and is a great opportunity for anyone to join the conversation. Check out the [SourceCred Calendar](https://sourcecred.io/calendar) to see if there's an upcoming jam with a topic that interests you! It's the best way to get familiar with the lay of the land and start exploring where you may be able to contribute.
 
