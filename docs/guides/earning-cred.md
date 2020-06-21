@@ -6,7 +6,7 @@ description: How to get Cred from your contributions.
 As soon as you interact with Sourcecred, you will be part of the Contribution Graph (i.e. a network of connected contributions) in which some [Cred] will flow or be minted in your direction. 
 
 
-Your contributions is tracked across the three active plugins we have for now. The types of contributions & plugins are likely to increase. But for now, small is beautiful.
+Your contributions are tracked across the three active plugins we have for now. The types of contributions & plugins are likely to increase. But for now, small is beautiful.
 
 
 | 💬 [Discord] | 🧵 [Discourse] | 🦠 [Github]|
