@@ -11,7 +11,7 @@ Your contributions are tracked across the three active plugins we have for now. 
 
 | 💬 [Discord] | 🧵 [Discourse] | 🦠 [Github]|
 | -- | -- | -- |
-|someone gives your post : :sourcecred:  or :100: or :+1: emoji | someone gives your post/reply a :heart: | You open a pull request  |
+|someone gives your post :   or :100: or :+1: emoji | someone gives your post/reply a :heart: | You open a pull request  |
 
 
 
@@ -30,5 +30,6 @@ To put it differently, you are part of an environment that sustains itself acros
 [Discord]: https://discord.gg/XVFwCm
 [Discourse]: https://discourse.sourcecred.io/
 [Github]: https://github.com/sourcecred/sourcecred
+
 
 
