@@ -17,14 +17,14 @@ Your contributions are tracked across the three active plugins we have for now. 
 
 
 ### 💧 Cred Minting
-the community decides to Mint some Cred for you, e.g. because they found something valuable. This Cred just magically appears out of nowhere in your direction. Say differently, you are now able to collect some drops of water from the sky
+The community decides to Mint some Cred for you, e.g. because they found something valuable. This Cred just magically appears out of nowhere in your direction. If we compare Cred to water, minting Cred would be like rain - it would fall from the sky, new water collected in your pond !
 
 
 
 ### 🏄🏾Cred flowing
-Being part of the community, you share the same Contribution Graph. Your contribution is interconnected with others in all its different ways and across the time. Someone has responsed to your post. This same person has liked some other posts. Or later, another person will acknowledge your contribution. Cred will be flowing in/out on you but at a different speed. 
+All the contributions you and your community make are on the same Contribution Graph. Each of your contributions is interconnected with other community contributions, even across different platforms. Contributions are even also connected through time - today's contributions connect to contributions from yesterday, last week, etc
 
-Say differently, you are part of an environment that sustains itself across the time. This means you collect drops of water that will flow to someone's else direction downstream. Or some newcomers upperstream will provide you some fresh drops. But any point the sky&sun will make sure that some of your drops evaporate to keep everything in balance
+To put it differently, you are part of an environment that sustains itself across time for which water is key. In your pond, water will flow not only from the sky. Indeed, new contributions will either provide you with their water because of your past inputs or ask some of yours because they made it easier for you to flow. But at any point the sky&sun will make sure that some of your drops evaporate to keep everything in balance
 
 [cred]: cred.md
 [Discord]: https://discord.gg/XVFwCm
