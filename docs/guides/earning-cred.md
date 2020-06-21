@@ -11,7 +11,7 @@ Your contributions are tracked across the three active plugins we have for now. 
 
 | 💬 [Discord] | 🧵 [Discourse] | 🦠 [Github]|
 | -- | -- | -- |
-|someone gives your post :   or :100: or :+1: emoji | someone gives your post/reply a :heart: | You open a pull request  |
+|someone gives your post : [![](https://sourcecred.io/img/favicon.png)](https://sourcecred.io/img/favicon.png)  or :100: or :+1: emoji | someone gives your post/reply a :heart: | You open a pull request  |
 
 
 
