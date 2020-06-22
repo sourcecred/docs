@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'sourcecred', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
+    defaultDarkMode: true,
     navbar: {
       title: 'SourceCred',
       logo: {
