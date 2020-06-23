@@ -3,15 +3,15 @@ title: 💧 Earning Cred
 description: How to get Cred from your contributions.
 ---
 
-As soon as you interact with Sourcecred, you will be part of the Contribution Graph (i.e. a network of connected contributions) in which some [Cred] will flow or be minted in your direction. 
+As soon as you interact with SourceCred, you will be part of the Contribution Graph (i.e. a network of connected contributions) in which some [Cred] will flow or be minted in your direction. 
 
 
-Your contributions are tracked across the three active plugins we have for now. The types of contributions & plugins are likely to increase. But for now, small is beautiful.
+The types of contributions & plugins are likely to increase. But for now, small is beautiful. Your contributions are tracked across the three active plugins in the following ways:
 
 
-| 💬 [Discord] | 🧵 [Discourse] | 🦠 [Github]|
-| -- | -- | -- |
-|someone gives your post : [![](https://sourcecred.io/img/favicon.png)](https://sourcecred.io/img/favicon.png)  or :100: or :+1: emoji | someone gives your post/reply a :heart: | You open a pull request  |
+| 💬 [Discord] | 🧵 [Discourse] | 🦠 [Github]| 🥇 [Initiatives]
+| -- | -- | -- | -- |
+|someone gives your post :<img width="20" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> or :100: or :+1: emoji | someone gives your post/reply a :heart: | You open a pull request  | you make a specific task approved by the community
 
 
 
@@ -30,6 +30,7 @@ To put it differently, you are part of an environment that sustains itself acros
 [Discord]: https://discord.gg/XVFwCm
 [Discourse]: https://discourse.sourcecred.io/
 [Github]: https://github.com/sourcecred/sourcecred
+[Initiatives]: https://sourcecred.io/docs/guides/initiatives
 
 
 
