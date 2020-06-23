@@ -6,18 +6,16 @@ description: How to get Cred from your contributions.
 As soon as you interact with SourceCred, you will be part of the Contribution Graph (i.e. a network of connected contributions) in which some [Cred] will flow or be minted in your direction. 
 
 
+### 💧 Cred Minting
+The community decides to Mint some Cred for you, e.g. because they found something valuable. This Cred just magically appears out of nowhere in your direction. If we compare Cred to water, minting Cred would be like rain - it would fall from the sky, new water collected in your pond !
+
 The types of contributions & plugins are likely to increase. But for now, small is beautiful. Your contributions are tracked across the three active plugins in the following ways:
 
 
 | 💬 [Discord] | 🧵 [Discourse] | 🦠 [Github]| 🥇 [Initiatives]
 | -- | -- | -- | -- |
-|someone gives your post :<img width="20" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> or :100: or :+1: emoji | someone gives your post/reply a :heart: | You open a pull request  | you make a specific task approved by the community
+|someone gives your post : <img width="20" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> or :100: or :+1:| someone gives your post/reply a :heart: | You open a pull request  | you make a specific task approved by the community
 
-
-
-
-### 💧 Cred Minting
-The community decides to Mint some Cred for you, e.g. because they found something valuable. This Cred just magically appears out of nowhere in your direction. If we compare Cred to water, minting Cred would be like rain - it would fall from the sky, new water collected in your pond !
 
 
 
@@ -26,11 +24,26 @@ All the contributions you and your community make are on the same Contribution G
 
 To put it differently, you are part of an environment that sustains itself across time for which water is key. In your pond, water will flow not only from the sky. Indeed, new contributions will either provide you with their water because of your past inputs or ask some of yours because they made it easier for you to flow. But at any point the sky&sun will make sure that some of your drops evaporate to keep everything in balance
 
+
+### 💡 At a conceptual level 
+
+When you react to a message with <img width="20" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> in one of the plugins :
+
+  - it creates a new reaction node in the graph, which mints Cred 
+  - it creates an edge from the person reacting (you), to the reaction node
+  - it creates an edge pointing from the reaction node to the message receiving the reaction
+  
+Minting new cred is also a change for the entire Contribution Graph. It will therefore induce a change on how the Creds flow for the others so as to keep everything in balance. Again, we need to make sure that water is circulating well with no congestions. 
+
+You want more on this? [Here] is a broader explanations of the concepts behing SourceCred by Evan Miyazono from [Protocol Labs Research] 
+
 [cred]: cred.md
 [Discord]: https://discord.gg/XVFwCm
 [Discourse]: https://discourse.sourcecred.io/
 [Github]: https://github.com/sourcecred/sourcecred
 [Initiatives]: https://sourcecred.io/docs/guides/initiatives
+[Here]: https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/
+[Protocol Labs Research]: https://research.protocol.ai/
 
 
 
