@@ -27,6 +27,6 @@ To request an Ambassador, go to the SourceCred Discord and find the "#cultivatio
 
 ### Other reading you may enjoy:
 
-While it's just a draft, and some of the systems outlined are not in practice yet, you may enjoy reading through the [Onboarding Machine](https://discourse.sourcecred.io/t/the-onboarding-machine-a-process-for-joining-sourcecred/726) Discourse topic which outlines the process we are designing for newcomers as they walk the path to becoming full fledged contributors.
+While it's just a draft, and some of the systems outlined are not in practice yet, you may enjoy reading through the [A Better Onboarding](https://discourse.sourcecred.io/t/a-better-onboarding/767) Discourse topic which outlines the process we are designing for newcomers as they walk the path to becoming full fledged contributors.
 
 You can always reach out to the Cultivation Team with questions regarding any newcomer topics. Pop by our Discord and share your questions or thoughts in the #cultivation channel. We'll be happy to have your input. :)
