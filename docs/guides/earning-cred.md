@@ -15,7 +15,7 @@ The types of contributions & plugins are likely to increase. But for now, small 
 
 | 💬 [Discord] | 🧵 [Discourse] | 🦠 [Github]| 🥇 [Initiatives]
 | -- | -- | -- | -- |
-|someone gives your post : <img width="20" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> or :100: or :+1:| someone gives your post/reply a :heart: | You open a pull request  | you make a specific task approved by the community
+|someone gives your post any emoji | You open a pull request  | you make a specific task approved by the community
 
 
 
