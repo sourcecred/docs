@@ -47,3 +47,14 @@ This page is under construction!
 ### *Traveller, skackliner, boulderer and musician. A bit frisky. I'd love to see a world where SourceCred is widely used, because people would have the freedom to work on what brings them joy.*
 
 ### Contact: Bex on Discord
+
+-photo-
+
+# William
+## (he/him)
+
+### SourceCred Branch/Job Description: Programming (especially core infrastructure)
+
+### *tbd*
+
+### Contact: wchargin on Discord
