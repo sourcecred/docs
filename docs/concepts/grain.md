@@ -73,7 +73,7 @@ Since grain can have financial value, receiving grain might create legal/tax
 complications for contributors. As such, grain is opt-in; only contributors
 that have explicitly opted in will be eligible to receive any grain. (This
 is in contrast to cred, which is not an asset, and which all contributors
-recieve automatically.)
+receive automatically.)
 
 ## SourceGrain
 
