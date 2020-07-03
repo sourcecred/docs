@@ -15,7 +15,7 @@ The types of contributions and plugins are likely to increase. But for now, smal
 
 | 💬 [Discord] | 🧵 [Discourse] | 🦠 [Github]| 🥇 [Initiatives]
 | -- | -- | -- | -- |
-|someone gives your post any emoji : <img width="20" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> :100: or :+1:| someone gives your post/reply a :heart: | You open a pull request  | you accomplish a specific task approved by the community
+|someone gives your post any emoji : <img width="20" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> :100: :+1:| someone gives your post/reply a :heart: | You open a pull request  | you accomplish a specific task approved by the community
 
 ### 🔥 Radiation
 Since Cred can be created from nothing by community members, there must be a balance so that Cred maintains its worth. Our system is called **Cred Radiation**, and is similar to how water evaporates from all water sources. For every node on the Contribution Graph, a fixed proportion of its Cred radiates away, and that fixed proportion is called alpha.
