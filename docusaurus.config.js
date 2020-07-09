@@ -104,7 +104,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/sourcecred/docs/edit/master/',
+            'https://sourcecred.io/admin/#/?',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
