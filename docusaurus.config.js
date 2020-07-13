@@ -16,9 +16,9 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/intro/manifesto',
-          activeBasePath: 'docs/intro',
-          label: '🗺 Manifesto',
+          to: 'docs/introduction',
+          activeBasePath: 'docs/introduction',
+          label: '🌟 Get Started',
           position: 'left',
         },
         {

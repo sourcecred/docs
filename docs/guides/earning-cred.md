@@ -3,7 +3,7 @@ title: 💧 Earning Cred
 description: How Cred flows and is created from contributions
 ---
 ### 💧Cred, the Water of SourceCred
-As the name suggests, [Cred](https://sourcecred.io/docs/concepts/cred) is an important piece of the SourceCred puzzle. Here, we will examine minting Cred, flowing Cred and Cred evaporation.
+As the name suggests, [Cred](/docs/concepts/cred) is an important piece of the SourceCred puzzle. Here, we will examine minting Cred, flowing Cred and Cred evaporation.
 
 
 As soon as you interact with SourceCred, you will become part of the Contribution Graph (i.e. a network of connected contributions). You and each contribution you make will be represented as a separate node in the graph, each with a Cred score. How Cred flows between nodes is dependent on the data source, configuration weights and other factors. 

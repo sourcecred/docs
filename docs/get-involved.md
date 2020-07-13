@@ -1,5 +1,5 @@
 ---
-title: 🧬 How To Get Involved
+title: 🙋‍♀️ How To Get Involved
 ---
 
 Follow the steps below to get connected with the SourceCred community.
