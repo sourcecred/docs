@@ -1,5 +1,5 @@
 ---
-title: 🗺 Manifesto
+title: 🌱 Introduction
 description: An introduction to SourceCred's values and goals
 ---
 
@@ -23,17 +23,17 @@ reconfigure based on their own needs.
 Second, we think value isn't about *transactions*, but about *relationships*.
 SourceCred doesn't try to assign a dollar score or price to any contribution or
 person. Instead, every contribution or contributor earns
-[Cred](../concepts/cred.md) based on how it was connected to other
+[Cred](concepts/cred.md) based on how it was connected to other
 contributions, and how much Cred those other contributions earned.
 Mathematically, we do this by constructing a network of contributions called a
 Contribution Graph, and then running the CredRank algorithm on it.
 
 Finally, we acknowledge that in order to be sustainable, communities need to
 interact with the "real world" economy of dollars and cents. For that reason,
-every community can issue [Grain](../concepts/grain.md), a community-specific
+every community can issue [Grain](concepts/grain.md), a community-specific
 cryptocurrency. Grain is distributed based on Cred, so it is all earned by
 community members and contributors. Sponsors purchase Grain, and then use it
-for [Boosting](../concepts/boosting.md), which allows them to influence the
+for [Boosting](concepts/boosting.md), which allows them to influence the
 Cred scores, and thus the community's priorities. Basically, Sponsors help make
 the community economically viable, and in gratitude the community gives
 sponsors some infuence over the community's goals, values, and priorities.
@@ -70,7 +70,7 @@ bankers when we should be appreciating teachers. We "redevelop" rainforests
 when we should be stewarding them. We hope SourceCred will unlock the paradigm
 shift we need so that we can collectively re-orient.
 
-If you'd like to [get involved](../contributing/get-involved.md) we'd love to
+If you'd like to [get involved](get-involved.md) we'd love to
 have you. We don't care about college degrees or credentials. There's no
 whiteboard interview. If you have skills, creativity, or empathy to offer, then
 come earn some Cred. 😉
