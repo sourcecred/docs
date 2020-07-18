@@ -22,4 +22,4 @@ If you don't have it, install [yarn](https://classic.yarnpkg.com/lang/en/). Then
 That's it! The installed instance with come with the latest stable release and default configurations, including all plugins.
 
 
-Next, you'll want to configure your instance by selecting which plugins to use and configuring them. See the [Configuration page] for further instructions. 
+Next, you'll want to configure your instance by selecting which plugins to use and configuring them. See the [example-instance README](https://github.com/sourcecred/example-instance/blob/master/README.md) for more details.
