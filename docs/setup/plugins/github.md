@@ -15,31 +15,7 @@ locally, but the source of truth for the GitHub plugin is always GitHub's live
 servers. That means that if content is deleted on GitHub, it will also
 disappear from the GitHub plugin (after a cache refresh).
 
-## Status and Caveats
 
-The GitHub plugin is still in beta. It tends to assign reasonable Cred scores
-to contributors. However, it has difficulty assigning Cred scores to Pull
-Requests (PRs). This is because, in general, the plugin mints Cred based on raw
-activity. Depending on weight choices, every pull will mint a fixed amount of
-Cred, likewise for every comment, issue, review, and so forth.
-
-This is problematic because, to put it simply, not all activity is equally
-valuable. Minting Cred directly on raw activity encourages contributors to
-focus on quantity over quality. As an example, a poorly thought out PR
- (which requires lots of review and feedback to fix) will generate more
-Cred than a clean, elegant pull request (which merges with a minimum of fuss).
-
-We intend to improve the robustness of the GitHub plugin by
-adding better heuristics for assigning Cred, e.g.:
-- Minting Cred when PRs are merged, rather than when they are created.
-- Allowing custom labels that influence the Cred minted to PRs.
-- Modifying Cred minting based on metrics like the size of the PR.
-
-We also intend to move Cred minting away from raw activity and towards
-actions that require review, e.g.:
-- Minting Cred when a PR merges.
-- Minting Cred when a release is created.
-- Minting Cred when a feature is added (via the Initiatives Plugin).
 
 [GitHub]: https://github.com/
 
@@ -52,9 +28,7 @@ contributions (nodes).
 
 Here we can see Bob reporting a bug by filing an Issue. Alice then 
 submits a PR fixing the Issue. Pam reviews the fix and submits a 
-PR review....SB: how complicated do we want the example to be? A simple
-flow like above seems fine, but wondering if a more complex flow could
-be illustrative too?  
+PR review....[INSERT SIMPLE CRED FLOW EXAMPLE AND DIAGRAM]
 
 
 The full set of node and edge types used by the GitHub plugin are 
@@ -68,32 +42,32 @@ The GitHub plugin creates the following kinds of nodes in the contribution graph
 
 - **Repo**:
 
-A GitHub repository, e.g. [sourceCred/sourceCred]. The repo node will be
+A GitHub repository, e.g. [sourcecred/sourcecred]. The repo node will be
 directly connected to all of the PRs and issues in the repository. The repo
 node has no timestamp, so setting a weight on the repository will have no
 effect (i.e. repos do not mint Cred). This may change when we switch to
 [CredRank].
 
-[CredRank]: https://github.com/sourceCred/sourceCred/issues/1686
+[CredRank]: https://github.com/sourcecred/sourcecred/issues/1686
 
-[sourceCred/sourceCred]: https://github.com/sourceCred/sourceCred
+[sourcecred/sourcecred]: https://github.com/sourcecred/sourcecred
 
 - **Issue**:
 
-A GitHub issue, e.g. [sourceCred/sourceCred#40]. Issues are connected to their
+A GitHub issue, e.g. [sourcecred/sourcecred#40]. Issues are connected to their
 author(s), to entities that they reference, to their comments, and to the
 containing GitHub repository.
 
-[sourceCred/sourceCred#40]: https://github.com/sourceCred/sourceCred/issues/40
+[sourcecred/sourcecred#40]: https://github.com/sourcecred/sourcecred/issues/40
 
 - **Pull Request (PR)**:
 
-A GitHub PR, e.g. [sourceCred/sourceCred#35][pull]. PRs are
+A GitHub PR, e.g. [sourcecred/sourcecred#35][pull]. PRs are
 connected to their author(s), to entities they reference, to their comments,
 their reviews, to their containing repository, and, (if merged) to the commit
 that they created when merged.
 
-[pull]: https://github.com/sourceCred/sourceCred/pull/35
+[pull]: https://github.com/sourcecred/sourcecred/pull/35
 
 - **Pull Request Review**:
 
@@ -102,7 +76,7 @@ their author(s), to entities they reference, to their comments, and to the PR
 they review. Note that review assignments are not currently tracked.
 
 
-[this review]: https://github.com/sourceCred/sourceCred/pull/91#pullrequestreview-105254836
+[this review]: https://github.com/sourcecred/sourcecred/pull/91#pullrequestreview-105254836
 
 - **Comment**:
 
@@ -126,7 +100,7 @@ However, as of March 2020, we do not track Cred at the module, file, or
 directory level. Because of this, commits do not add much value beyond their
 connections to PRs (which are already in the graph).
 
-[this commit]: https://github.com/sourceCred/sourceCred/commit/94b04541514b991c304616aadfcb417a19871e82
+[this commit]: https://github.com/sourcecred/sourcecred/commit/94b04541514b991c304616aadfcb417a19871e82
 
 - **User**:
 
@@ -150,7 +124,7 @@ receiving grain or showing up in the Cred rankings.
 
 Bots have the same connections as users.
 
-[bots.js]: https://github.com/sourceCred/sourceCred/blob/master/src/plugins/github/bots.js
+[bots.js]: https://github.com/sourcecred/sourcecred/blob/master/src/plugins/github/bots.js
 
 
 ### Edges
@@ -200,7 +174,7 @@ support thumbs-up, heart, and hooray emojis. In the future, we might reify the
 reactions as nodes, so as to support reaction-minted Cred, in the style of
 [like-minted Cred].
 
-[like-minted Cred]: https://discourse.sourceCred.io/t/minting-discourse-Cred-on-likes-not-posts/603
+[like-minted Cred]: https://discourse.sourcecred.io/t/minting-discourse-Cred-on-likes-not-posts/603
 
 - **Has Parent**:
 
@@ -220,5 +194,27 @@ summarizing these relationships:
 
 A merged-as edge connects a PR to the commit that it merged, assuming
 the PR was merged.
+
+
+## Status and Caveats
+
+The GitHub plugin is still in beta. It tends to assign reasonable Cred scores
+to contributors. It is worth noting however that all merged PRs currently 
+mint the same amount of Cred. Minting Cred only on merged PRs provides
+some level of review, and reduces the probability of spam attacks (low value 
+PRs submitted just to get Cred). However, not all PRs are equally valuable. 
+While we have not found this a problem in SourceCred, a tight knit and high trust
+community, in larger, lower trust communities, this could incentivize quantity 
+over quantity.
+
+We intend to address this by moving Cred minting further away from raw activity 
+and towards actions that require review, e.g.:
+- Minting Cred when a release is created.
+- Minting Cred when a feature is added (via the Initiatives Plugin).
+
+We also intend to improve the robustness of the GitHub plugin by adding better
+heuristics for assigning Cred, e.g.:
+- Allowing custom labels that influence the Cred minted to PRs.
+- Modifying Cred minting based on metrics like the size of the PR.
 
 
