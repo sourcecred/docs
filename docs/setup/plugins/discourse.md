@@ -3,7 +3,31 @@ title: Discourse
 description: Setting up the Discourse plugin.
 ---
 
+## Status and Caveats
 
+This plugin is currently in Beta. It assigns Cred scores that are reasonable and
+robust for a [trust level] 3 community.
+
+Currently there are two general approaches to minting Cred you can take with the
+Discourse plugin. Activity-minted and like-minted Cred (or a hybrid of the two).
+Activity-minted Cred means Cred would be minted for each new topic or post
+created. While like-minted Cred mints new Cred for each like given.
+
+The plugin defaults to using like-minted Cred and for most communities this will
+be the better approach. Unlike activity-minted Cred this allows people to
+validate contributions. People soon learn their likes work as "this is valuable
+and I'd like to see more of this" signals, which incentivizes creating
+high-quality posts.
+
+The caveat is that it creates some "popularity contest" dynamics. Where memes
+and/or heavily promoted posts might receive more likes than makes sense for the
+relative value they've added. Something which would be easy to game, making it
+less suitable for lower trust levels for the time being.
+
+Another thing to keep in mind, is that only public posts are included for Cred
+calculation. Private categories and private messages for example receive no
+Cred. This both creates an incentive to have discussions in public as much as
+possible and is necessary for security as private data could otherwise leak.
 
 ## Installing
 
@@ -97,29 +121,3 @@ this may take several minutes._
 
 [trust level]: ../../concepts/trust_levels.md
 [v0.5.0 release]: https://github.com/sourcecred/sourcecred/issues/1679
-
-## Status and Caveats
-
-This plugin is currently in Beta. It assigns Cred scores that are reasonable and
-robust for a [trust level] 3 community.
-
-Currently there are two general approaches to minting Cred you can take with the
-Discourse plugin. Activity-minted and like-minted Cred (or a hybrid of the two).
-Activity-minted Cred means Cred would be minted for each new topic or post
-created. While like-minted Cred mints new Cred for each like given.
-
-The plugin defaults to using like-minted Cred and for most communities this will
-be the better approach. Unlike activity-minted Cred this allows people to
-validate contributions. People soon learn their likes work as "this is valuable
-and I'd like to see more of this" signals, which incentivizes creating
-high-quality posts.
-
-The caveat is that it creates some "popularity contest" dynamics. Where memes
-and/or heavily promoted posts might receive more likes than makes sense for the
-relative value they've added. Something which would be easy to game, making it
-less suitable for lower trust levels for the time being.
-
-Another thing to keep in mind, is that only public posts are included for Cred
-calculation. Private categories and private messages for example receive no
-Cred. This both creates an incentive to have discussions in public as much as
-possible and is necessary for security as private data could otherwise leak.
