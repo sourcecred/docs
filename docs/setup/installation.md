@@ -2,6 +2,7 @@
 title: Installation
 ---
 
+Hi Lol
 SourceCred currently support running from a Node environment or using Docker.
 _In a future release we're looking to add easier options._
 
