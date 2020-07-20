@@ -4,11 +4,11 @@ description: I want to use SourceCred. How do I turn it on for my community?
 ---
 You've learned about SourceCred, and now you'd like to try it out for your community. First, here are some things you'll need to know:
 
-\- SourceCred is organized around "instances". An individual instance of SourceCred contains data about a community, as well as the rules or parameters that influence Cred scores. Whoever is administering the instance sets the rules for how its Cred and Grain work.
+- SourceCred is organized around "instances". An individual instance of SourceCred contains data about a community, as well as the rules or parameters that influence Cred scores. Whoever is administering the instance sets the rules for how its Cred and Grain work.
 
-\- Every SourceCred instance needs data about contributions. The data comes from SourceCred plugins. Currently, the major plugins are for Discord, GitHub, and Discourse. Your community will need to be using at least one of these platforms in order to get meaningful Cred scores.
+- Every SourceCred instance needs data about contributions. The data comes from SourceCred plugins. Currently, the major plugins are for Discord, GitHub, and Discourse. Your community will need to be using at least one of these platforms in order to get meaningful Cred scores.
 
-\- Setting up a SourceCred instance is fairly technical. You'll need to be comfortable using the terminal, installing packages from NPM, and with the basics of Git and GitHub.
+- Setting up a SourceCred instance is fairly technical. You'll need to be comfortable using the terminal, installing packages from NPM, and with the basics of Git and GitHub.
 
 
 
