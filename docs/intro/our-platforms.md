@@ -5,6 +5,8 @@ description: Platforms our internal community uses (like Discord, Discourse, or
 ---
 SourceCred operates on a few different platforms that serve the needs of our internal community. Joining the platforms where we do our daily coordination and socializing will both plug you into the conversation, and be the most effective way to get up to speed on what's happening in the project. 
 
+Below you'll find a description of the major platforms our community uses to work and hang out together, as well as notes about how cred flows, and an invitation link to each.
+
 # Discord
 
 \[Invite Button]
