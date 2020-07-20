@@ -3,7 +3,7 @@ title: Our Calls
 description: A list of they types of calls, meetings, work sessions, and jams we
   have in our internal community.
 ---
-In SourceCred we frequently work asynchronously, but we also make use of voice and/or video meetings when we need to get coordinated. There are a few different types of calls we have in our community, below you'll find a list of our regular calls and their expectations. 
+In SourceCred we frequently work asynchronously, but we also make use of voice and/or video meetings when we need to get coordinated. We have a number of different kinds of synchronous voice and/or video calls with different expectations and intended audiences. Below you'll find a description of each major type of call we have in our community.
 
 All calls/meetings take place in the voice channels of the SourceCred Discord server.
 
