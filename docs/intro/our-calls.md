@@ -9,8 +9,6 @@ All calls/meetings take place in the voice channels of the SourceCred Discord se
 
 You can see what types of calls are currently scheduled by looking at our \[calendar](http://sourcecred.io/calendar).
 
-
-
 # Weekly Community Call
 
 Audience: Anyone who is interested in SourceCred, especially newcomers
@@ -22,8 +20,6 @@ Why: To provide newcomers with the opportunity to get to know the project and it
 Where: Discord Main voice channel
 
 When: Weekly, Wednesdays 11am Pacific Time
-
-
 
 # Jams
 
@@ -37,8 +33,6 @@ Where: Discord Main voice channel
 
 When: No set time or reoccurrence. Jams are scheduled as one-off events, timing is usually based off the availability of key participants.
 
-
-
 # Weekly Contributor Call
 
 What: A weekly call which focuses on keeping contributors on the same page about larger goals, getting feedback on projects/initiatives, and unblocking contributors where needed.
@@ -51,27 +45,23 @@ Where: Discord Main voice channel
 
 When: Weekly, Thursday 11am PST
 
+# Branch Specific Meetings
 
+What: Meetings for contributors working in a specific branch to coordinate, check in on progress, and align goals and action with each other and the branch lead. 
 
-# Team Specific Meetings
+Audience: The contributors who are working on initiatives within that specific branch, and the branch lead. 
 
-What: Meetings for specific teams (ie: Community Cultivation Team, or Dev Team) to coordinate, check in on progress, and align goals and action. 
-
-Audience: The contributors who are working on initiatives within that specific team. 
-
-Why: Keeps teams effective, aligned, and communicating. Helps grow a sense of connection and shared goals within the team. Gives contributors a chance to receive help, propose new ideas, and communicate changes.
+Why: Keeps teams effective, aligned, and communicating. Helps grow a sense of connection and shared goals within the branch. Gives contributors a chance to receive help, propose new ideas, and communicate changes.
 
 Where: Discord Main voice channel
 
 When: At a regular day/time of the team's choosing.
 
-
-
 # Work Sessions
 
-What: A generally shorter and faster paced session scheduled for specific contributors to come together and make progress on a specific goal or initiative. Having shorter sessions with an emphasis on getting a few singular goals completed can make these sessions more productive than regular meetings. 
+What: A generally shorter and faster paced session scheduled for a specific team to come together and make progress on a specific goal or initiative. Having shorter sessions with an emphasis on getting a few singular goals completed can make these sessions more productive than regular meetings. 
 
-Audience: The contributors who are actively working on the initiative and any high-context contributors they need/want feedback from. Anyone who plans to start contributing to the specific initiative in question can attend to gain context. 
+Audience: The contributors on a team that is actively working on a specific initiative and any other high-context contributors they need feedback from. Anyone who plans to start contributing to the specific initiative in question can attend to gain context. 
 
 Why: Sometimes you just need some synchronous space with all the key players to really make progress on an initiative or project. By nature of being shorter, these are also less taxing and can help keep contributors on track.
 
@@ -79,15 +69,13 @@ Where: Discord Main voice channel
 
 When: Scheduled as one-off events when asynchronous coordination won't cut it. 
 
-
-
 # One on Ones
 
 What: Time scheduled with another contributor, often someone who has more context in the project than yourself, for the purpose of gaining context, asking questions, expressing concerns, getting assistance, or sharing interesting ideas. 
 
 Audience: Generally a newer contributor and a higher-context contributor, but certainly not limited to that dynamic.
 
-Why: The reasons for a 1:1 are varied. You may have a friend in the community who is helping you dip your toes into SourceCred for the first time, or perhaps you work on a different project and would like to ask  questions of a specific contributor about integrations with SourceCred, or maybe you've been in the community for a while and have a guide/mentor you like to touch bases with about your SourceCred experience from time to time. 
+Why: The reasons for a 1:1 are varied. You may have a friend in the community who is helping you dip your toes into SourceCred for the first time, or perhaps you work on a different project and would like to ask  questions of a specific contributor about integrations with SourceCred, or maybe you've been in the community for a while and would like a guide/mentor you can touch bases with about your SourceCred experience from time to time. 
 
 Where: Personal DM voice or video call.
 
