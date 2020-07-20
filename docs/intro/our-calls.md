@@ -7,19 +7,19 @@ In SourceCred we frequently work asynchronously, but we also make use of voice a
 
 All calls/meetings take place in the voice channels of the SourceCred Discord server.
 
-You can see what types of calls are currently scheduled by looking at our \[calendar](http://sourcecred.io/calendar).
+You can see what types of calls are currently scheduled by looking at our [calendar](http://sourcecred.io/calendar).
 
 # Weekly Community Call
 
-Audience: Anyone who is interested in SourceCred, especially newcomers
+Audience: Anyone who is interested in SourceCred, especially newcomers.
 
 What: The founder, and some members of the core team host a call for any newcomers or community members to attend, introduce themselves, ask questions, etc.
 
 Why: To provide newcomers with the opportunity to get to know the project and its main team, or ask any questions they have about SourceCred. 
 
-Where: Discord Main voice channel
+Where: Discord Main voice channel.
 
-When: Weekly, Wednesdays 11am Pacific Time
+When: Weekly, Tuesday at 11am Pacific Time. Check out the [SourceCred Calendar](https://sourcecred.io/calendar).
 
 # Jams
 
