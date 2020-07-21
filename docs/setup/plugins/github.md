@@ -21,14 +21,10 @@ disappear from the GitHub plugin (after a cache refresh).
 
 ## Cred flow
 
-The below diagram illustrates Cred flowing in a common pattern of 
+TO DO 
+
+[INSERT EXAMPLE WITH DIAGRAM]  The below diagram illustrates Cred flowing in a common pattern of 
 contributions (nodes). 
-
-[example image]
-
-Here we can see Bob reporting a bug by filing an Issue. Alice then 
-submits a PR fixing the Issue. Pam reviews the fix and submits a 
-PR review....[INSERT SIMPLE CRED FLOW EXAMPLE AND DIAGRAM]
 
 
 The full set of node and edge types used by the GitHub plugin are 
