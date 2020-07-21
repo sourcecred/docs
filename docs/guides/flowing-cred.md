@@ -1,6 +1,6 @@
-# How Cred Works
+# <img width="30" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' />How Cred Works
 ---
-# What is Cred? <img width="20" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' />
+# What is Cred?
 As the name suggests, Cred is an important part of SourceCred. Cred is a metric we use to describe every contribution and contributor in a project. Each contributor has a Cred score, which is made up of all the contributions they have made to a project. These scores are determined by how important or useful their contributions have been to their community. Your Cred score determines the percentage of __Grain__ you earn. Check out [this page]() to learn more about Grain payouts.
 
 ### 🧮 What is a Contribution?
@@ -61,7 +61,7 @@ Minting new Cred is also a change for the entire Contribution Graph. It will the
 
 
 ### 🔥 Cred Evaporation
-Since Cred can be created from nothing by community members, there must be a balance so that Cred maintains its worth. Our system is called **Cred evaporation**, and is similar to how water evaporates from all water sources. For every node on the Contribution Graph, a fixed proportion of its Cred evaporates away, and that fixed proportion is called alpha. The Cred that evaporates replenishes the source from which Cred is Minted, replenishing steams and creating a closed water cycle.
+Since Cred can be created from nothing by community members, there must be a balance so that Cred maintains its worth. Our system is called **Cred Evaporation**, and is similar to how water evaporates from all water sources. For every node on the Contribution Graph, a fixed proportion of its Cred Evaporates away, and that fixed proportion is called alpha. The Cred that Evaporates replenishes the source from which Cred is Minted, replenishing steams and creating a closed water cycle.
 
 
 ### 🍝 Want more?
