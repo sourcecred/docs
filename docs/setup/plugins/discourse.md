@@ -3,30 +3,23 @@ title: Discourse
 description: Setting up the Discourse plugin.
 ---
 
-
-
 The Discourse plugin assigns Cred to contributors participating on 
-Discourse forums, for example by posting, replying to posts, or liking.
-
+Discourse forums, for example by posting, replying to posts, or liking posts.
 
 The plugin does this by fetching data using the Discourse API in anonymous mode.
-This means it does not require any credentials and we can start loading data
+This means that, unlike other plugins, it does not require any credentials and we can start loading data
 right away. It also means that non-public contributions (e.g. private messages and closed
 topics) are not included in the graph. The data is temporarily cached, but the
 source of truth for the Discourse plugin is always the live server hosting the
 Discourse instance. That means that if content is deleted on Discourse, it will
-also disappear from the Discourse plugin (after a cache refresh)
-
+also disappear from the Discourse plugin (after a cache refresh).
 
 
 ## Cred flow
 
-The below diagram illustrates a typical pattern of Cred flow in Discourse.
 
-![Cred flow diagram](https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/sourcecred_contribution_graph.svg)
+TO DO: add example with diagram....The below diagram illustrates a typical pattern of Cred flow in Discourse....
 
-Here we can see {SB: if we go with this example, can flesh out with whimsical
-diagram and text}
 
 The full set of node and edge types used by the Discourse plugin are defined below.
 
@@ -34,53 +27,40 @@ The full set of node and edge types used by the Discourse plugin are defined bel
 
 The Discourse plugin creates the following types of nodes in the contribution graph:
 
+- **User**:
+
+A Discourse user account, e.g. [@decentralion](https://discourse.sourcecred.io/u/decentralion/). User accounts do not mint Cred, so setting a node weight would have no effect. Using the identity plugin, it's possible to "collapse" user nodes with other identity nodes into a single, canonical identity. For example, if a contributor had a Discourse user account and a GitHub account, then the identity plugin can collapse those identities together.
+
+Users are connected to posts they author, to posts they like, and to posts that mention them.
+
+- **Bot**:
+
+{SB: below is copied from GitHub page. Still true for Discourse? Do we support Discourse bots?}
+A Discourse user account that has been explicitly marked as a bot, via inclusion in bots.js. This is useful so that we can filter out bot accounts from receiving grain or showing up in the Cred rankings.
+
+Bots have the same connections as users.
+
 - **Topic**:
 
-A GitHub repository, e.g. [sourcecred/sourcecred]. The repo node will be
-directly connected to all of the PRs and issues in the repository. The repo
-node has no timestamp, so setting a weight on the repository will have no
-effect (i.e. repos do not mint Cred). This may change when we switch to
-[CredRank].
+A Discourse topic, e.g. [https://discourse.sourcecred.io/t/about-champions-and-heroes/291](https://discourse.sourcecred.io/t/about-champions-and-heroes/291). Typically referred to as "threads" in other forum software, a topic is a collection of posts. When users create a new topic and are prompted to create a post, the post they create is actually the first post in the topic, not the topic itself. A topic is just a collection of posts. A topic
+node will be connected to its author (user node creating the topic), all posts in the topic and any references to the topic.
 
-[CredRank]: https://github.com/sourcecred/sourcecred/issues/1686
-
-[sourcecred/sourcecred]: https://github.com/sourcecred/sourcecred
+[https://discourse.sourcecred.io/t/about-champions-and-heroes/291](https://discourse.sourcecred.io/t/about-champions-and-heroes/291)
 
 - **Post**:
 
-A GitHub repository, e.g. [sourcecred/sourcecred]. The repo node will be
-directly connected to all of the PRs and issues in the repository. The repo
-node has no timestamp, so setting a weight on the repository will have no
-effect (i.e. repos do not mint Cred). This may change when we switch to
-[CredRank].
+A Discourse post, e.g. [https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben). Everything under a topic is a post, including the first post and all subsequent replies. A post node will be connected to its author (user node that created the post), any replies to that post and references to that post. {SB: elaborate more on references here? Is it 
 
-[CredRank]: https://github.com/sourcecred/sourcecred/issues/1686
 
-[sourcecred/sourcecred]: https://github.com/sourcecred/sourcecred
+[https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben)
 
 - **Like**:
 
-A GitHub repository, e.g. [sourcecred/sourcecred]. The repo node will be
-directly connected to all of the PRs and issues in the repository. The repo
-node has no timestamp, so setting a weight on the repository will have no
-effect (i.e. repos do not mint Cred). This may change when we switch to
-[CredRank].
+A Discourse like, e.g. {SB: how to link to like? Here's a URL I pulled from the describption field for a like node from the maker forum: https://forum.makerdao.com/t/discussion-liquidity-mining-impacts/2898/12 Looks the same as a post URL?}. 
 
-[CredRank]: https://github.com/sourcecred/sourcecred/issues/1686
+When a user likes a post, a like node is created that is connected to the author of the like (user that liked) and the liked post. 
 
-[sourcecred/sourcecred]: https://github.com/sourcecred/sourcecred
-
-- **User**:
-
-A GitHub repository, e.g. [sourcecred/sourcecred]. The repo node will be
-directly connected to all of the PRs and issues in the repository. The repo
-node has no timestamp, so setting a weight on the repository will have no
-effect (i.e. repos do not mint Cred). This may change when we switch to
-[CredRank].
-
-[CredRank]: https://github.com/sourcecred/sourcecred/issues/1686
-
-[sourcecred/sourcecred]: https://github.com/sourcecred/sourcecred
+[INSERT EXAMPLE]
 
 
 ### Edges
@@ -90,69 +70,83 @@ in the contribution graph:
 
 - **Authors**:
 
-An "authors" edge connects an author (i.e. a user or bot) to a post (i.e. a
-PR, issue, comment, or review). If the post contains the text "paired with
-@other-author", then from SourceCred's perspective, that post will have
-multiple authors, all of whom receive an equal share of the Cred.
+An "authors" edge connects an author (user or bot) to a topic or post they created. 
 
-The "paired with" flag is case-insensitive, and may optionally include a
-hyphen or colon, so that the below are all valid "paired with" designators:
+- **References**: 
 
-> paired with @wchargin
->
-> paired-with @wchargin
->
-> paired with: @wchargin
->
-> Paired with @wchargin
->
-> Paired With @wchargin
->
-> Paired With: @wchargin
->
-> Paired-With: @wchargin
->
+A references edge connects a topic or post to another referencable node (i.e. a node that corresponds to a specific url on Discourse ). {SB: taken from GitHub plugin, still correct? Just say referenceable nodes are topics/posts/users?}
 
-- **References**:
+If the reference is pointing to a user, we call it a "mention", but from SourceCred's perspective it's the same kind of edge. {SB: taken from GitHub plugin, still correct?}
 
-A references edge connects a post (i.e. a PR, issue, comment, or review) to
-another referencable node (i.e. a node that corresponds to a specific url on
-GitHub).
+References in Discourse can be either hyperlinks to referencable nodes, or quoted parts of other posts {SB: I'm kind of guessing here, would be good to get more detailed explanation, and perhaps include a illustrative example (e.g. a quote that links to both text and image if supported?). This brings up another questions I've had for a while: when you select and click the "Quote" button in the UI, it automatically creates a reply, presumably creating both a reply edge and reference edge. But what if you've already started a reply, and are selecting quotes from the UI from a post different than the one you started replying to? What if you're quoting multiple posts in the same reply?}
 
-If the reference is pointing to a user, we call it a "mention", but
-from SourceCred's perspective it's the same kind of edge.
+- **Reply to**:
 
-- **Contains Post**:
-
-A references edge connects a post (i.e. a PR, issue, comment, or review) to
-another referencable node (i.e. a node that corresponds to a specific url on
-GitHub).
-
-If the reference is pointing to a user, we call it a "mention", but
-from SourceCred's perspective it's the same kind of edge.
-
-- **Replies to**:
-
-A references edge connects a post (i.e. a PR, issue, comment, or review) to
-another referencable node (i.e. a node that corresponds to a specific url on
-GitHub).
-
-If the reference is pointing to a user, we call it a "mention", but
-from SourceCred's perspective it's the same kind of edge.
-
-- **Likes**:
-
-A react edge connects a user (or bot) to a PR, issue, or comment. There are
-subtypes of reaction edges corresponding to the type of reaction; currently we
-support thumbs-up, heart, and hooray emojis. In the future, we might reify the
-reactions as nodes, so as to support reaction-minted Cred, in the style of
-[like-minted Cred].
-
-[like-minted Cred]: https://discourse.sourcecred.io/t/minting-discourse-Cred-on-likes-not-posts/603
+A reply to edge connects a post to the post it is replying to.  
 
 
+The Discourse plugin creates the following kinds of edges (connections between nodes) 
+in the contribution graph:
+
+- **Creates Like**:
+
+A "creates like" edge connects a like node to its author and liked post or topic. {SB: just guessing here, only adding because it's an edge type in an `weights.json` file I'm looking at for reference}
+
+------------------------------------------------------------
+{SB: below is copied from GitHub plugin page. Attempted to translate imagined parental relations to Discourse, but could be wrong. Does Discourse have parent/child relationships?}
+
+- **Has Parent**:
+
+A has-parent edge connects a "child" node to its "parent" node. Here's a table
+summarizing these relationships:
+
+| Child | Parent |
+| --- | --- |
+| Post | Topic |
+| Reply | Post |
+| Like?? | Post?? |
+
+## Status and Caveats
+
+The Discourse plugin is currently in Beta. It assigns Cred scores that are reasonable and
+robust for a [trust level]{SB: needs link} 3 community.
+
+Currently there are two general approaches to minting Cred you can take with the
+Discourse plugin. Activity-minted and like-minted Cred (or a hybrid of the two).
+Activity-minted Cred means Cred would be minted for each new topic or post
+created. While like-minted Cred mints new Cred for each like given.
+
+The plugin defaults to using like-minted Cred. For most communities this will
+be the better approach. Unlike activity-minted Cred, like-minted Cred allows people to
+validate contributions. People soon learn their likes signal "this is valuable
+and I'd like to see more of this", which incentivizes the creation of
+high-quality posts.
+
+The caveat is that it creates some "popularity contest" dynamics, where memes
+and/or heavily promoted posts might receive more likes than makes sense for the
+relative value they've added. Something which would be easy to game, making it
+less suitable for lower trust levels for the time being.
+
+{SB: the below para wasn't in the original docs, but is just me speculating based
+on past convos. We may want to remove if we can't provide enough
+guideance for it to be useful}
+Another caveat is that when a Discourse forum is very new, and does not have 
+much content, activity-minted Cred may be more suitable, at least in the beginning.
+This is because new forums are often "lower stakes" (unless you're paying significant
+sums of money according to scores right away, or have other strong incentives for gaming). In new forums, the community is likelier to be smaller,
+higher trust, and less susceptible to gaming. In addition, you may want to incentivize
+raw activity in order to build up enough content to attract more users. 
+
+Another thing to keep in mind is that only public posts are included for Cred
+calculation. Private categories and private messages for example receive no
+Cred. This both creates an incentive to have discussions in public as much as
+possible and is necessary for security as private data could otherwise leak.
 
 
+{SB: below are the commands from the original docs on this (which I can't seem to find to link to..:/). Mainly 
+including just to raise the issue of where we want these instructions to live. Here? In setup guide? CLI docs? Do we want to point to configuration docs for turnign the dial between activity-minted and like-minted Cred?}
+
+---------------------------------------------------------------------------
 
 ### With the discourse command
 
@@ -236,28 +230,6 @@ this may take several minutes._
 [trust level]: ../../concepts/trust_levels.md
 [v0.5.0 release]: https://github.com/sourcecred/sourcecred/issues/1679
 
-## Status and Caveats
 
-This plugin is currently in Beta. It assigns Cred scores that are reasonable and
-robust for a [trust level] 3 community.
 
-Currently there are two general approaches to minting Cred you can take with the
-Discourse plugin. Activity-minted and like-minted Cred (or a hybrid of the two).
-Activity-minted Cred means Cred would be minted for each new topic or post
-created. While like-minted Cred mints new Cred for each like given.
 
-The plugin defaults to using like-minted Cred and for most communities this will
-be the better approach. Unlike activity-minted Cred this allows people to
-validate contributions. People soon learn their likes work as "this is valuable
-and I'd like to see more of this" signals, which incentivizes creating
-high-quality posts.
-
-The caveat is that it creates some "popularity contest" dynamics. Where memes
-and/or heavily promoted posts might receive more likes than makes sense for the
-relative value they've added. Something which would be easy to game, making it
-less suitable for lower trust levels for the time being.
-
-Another thing to keep in mind, is that only public posts are included for Cred
-calculation. Private categories and private messages for example receive no
-Cred. This both creates an incentive to have discussions in public as much as
-possible and is necessary for security as private data could otherwise leak.
