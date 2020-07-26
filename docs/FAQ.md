@@ -7,7 +7,7 @@ description: Your hottest questions about SourceCred, answered.
 
 In short, yes. SourceCred's philosophy is that all systems are gamable. The goal is not to eliminate gaming, but to be resistant to it. SourceCred's Sybil resistance comes from a mix of transparency and community moderation. Cred updates retroactively and payouts are long term, so if you get attacked by Sybils (i.e. duplicate accounts farming Cred) or an exploit/bug that gives someone too much Cred, it's easy to see, and you have time to respond via moderation.
 
-There's many community-level measures that can be implement to mitigate the risk of such an attack. To learn about how the SourceCred community itself handled it, [check out this tweet thread](https://twitter.com/decentralion/status/1276326606684876801).
+There's many community-level measures that can be implemented to mitigate the risk of such an attack. To learn about how the SourceCred community itself handles it, [check out this tweet thread](https://twitter.com/decentralion/status/1276326606684876801).
 
 ### What platforms does SourceCred currently support?
 
