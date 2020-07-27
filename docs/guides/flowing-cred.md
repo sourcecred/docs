@@ -6,7 +6,7 @@ As the name suggests, Cred is an important part of SourceCred. Cred is a metric 
 ### 🧮 What is a Contribution?
  A contribtuion is an action that has value to the community. Each community determines which actions have value to them, and thus earn Cred. Communities also determine their _weights_, how much Cred each kind of contribution earns.
  
- For example, if a Crypto community has determined that Github pull requests are valuable, they might decide each is worth 20 Cred. If Discourse posts are less valuable to the community, those would earn less Cred. Actions that are not seen as contributions, such as checking your Facebook, would earn no Cred.
+ For example, if a Crypto community has determined that Github pull requests are valuable, they might decide each is worth 20 Cred. If Discourse posts are less valuable to the community, those would earn less Cred. Actions that are not seen as contributions, such as playing video games, would earn no Cred.
 
 
 ### 📈 Edges and Nodes 
