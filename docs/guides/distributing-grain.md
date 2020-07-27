@@ -1,6 +1,5 @@
----
-title: 🌾 How Grain Works
----
+
+# 🌾 How Grain Works
 
 # 🌾What is Grain? <br/>
 Grain is a token of value created by SourceCred. It can be used:<br/>
@@ -9,19 +8,22 @@ Grain is a token of value created by SourceCred. It can be used:<br/>
 <br/><br/>Let's go over each of these in depth.
 
 
-# 💰Paying Contributors
+# 💰Paying Contributors 
 ### How do I get Grain?
+
+**CHANGE MONEY BAG EMOJI TO GRAIN TOKEN EMOJI IN LAST SLIDE: https://docs.google.com/presentation/d/1CIHI4xcDCiTgD2ACMG8Jnbv843Gq45V3SHKex915WY0/edit#slide=id.g8703f78739_0_409**
+**SECTION COULD BE MORE DIRECT**
 
 Grain is created during "harvests." In a harvest, a project Mints new Grain and distributes it to contributors based on their Cred scores. Your Cred score determines the percentage of Grain you recieve out of the total amount allocated to the community. Grain can be allocated to a community as often or as seldom as that community wishes. Furthermore, each Grain distribution can vary in amount. How the Grain is harvested and distributed is up to the project. For example, a project could Mint a fixed amount of Grain every week and distribute it to contributors based on their recent contributions, or it could have a target "Grain-per-Cred" payout ratio, and harvest to ensure that all contributors receive at least that amount.
 <br/><br/>
 _"What if I contributed a lot before a small Grain payout, and then less before a bigger Grain payout?"_  
 <br/>Since Cred is retroactive, the SourceCred algorithm will make sure your percentage is based on _all_ of your contributions compared to all existing contributions, and make sure your percentage is based on the total amount of Grain that has been issued to the community. _Ever._ 
 <br/><br/>
-You can also get Grain by becoming a sponsor. Anyone who buys Grain is either sponsoring contributors directly (by paying them for their Grain), or is supporting a previous sponsor (by buying their Grain). Thus, anyone holding Grain has supported the project, either directly through contributions, or indirectly through financial sponsorship.
+You can also get Grain by becoming a sponsor. Buying Grain sponsors contributors directly (by paying them for their Grain). Thus, anyone holding Grain has supported the project, either directly through contributions, or indirectly through financial sponsorship. When someone wants to sell their Grain for dollars (or some other currency), the money either comes from sponsors buying their Grain, or a community pool their community has previously set up.
 
 ### How much is Grain worth?
 
-In the SourceCred community, Grain stays at a fixed price of $1 per Grain. However, each community can choose the price of their Grain, as well as a name for their specific kind of Grain. In other words, Grain is project-specific, and is not a universal token. Every project that uses SourceCred creates its own independent token and calls it whatever they choose. Grain in the SourceCred community is called "SourceGrain." If Facebook used SourceCred, they could call their Grain "FaceFrancs." Grain is just a generic name for these tokens.
+In the SourceCred community, Grain stays at a fixed price of $1 per Grain. However, each community can choose the price of their Grain, as well as a name for their specific kind of Grain. In other words, Grain is project-specific, and is not a universal token. Every project that uses SourceCred creates its own independent token and calls it whatever they choose. Grain in the SourceCred community is called "SourceGrain."
 
 As for pricing, each community can choose the price of their own Grain. They can choose a fixed price, or choose to make their Grain a floating financial asset and let the market decide the price. Their Grain would then fluctuate in price based on supply and demand. 
 
@@ -35,20 +37,11 @@ Boosters can also hunt for under-valued contributions and Boost them. They are i
 
 A concept guide on Boosting will be coming soon.
 
-# 🔑Other key properties of Grain include:
+# 🔑Other key properties of Grain
 
 ### Grain is transferrable and tradeable.
-Holders of Grain can freely send it to others, or exchange it. Within a project, Grain is fungible. If Grain has been put on a blockchain (e.g. as an ERC20 token), then it can be swapped or traded via protocols like Uniswap or 0x, just like any other ERC20.
+Holders of Grain can freely send it to others, or exchange it. Within a project, Grain is fungible. If Grain has been put on a blockchain (e.g. as an ERC20 token), then it can be swapped or traded via protocols like Uniswap or 0x, just like any other ERC20. **MAKE MORE CLEAR**
 
 
 ### Grain is opt-in
 Since Grain can have financial value, receiving Grain might create legal/tax complications for contributors. As such, Grain is opt-in; only contributors that have explicitly opted in will be eligible to receive any Grain. (This is in contrast to Cred, which is not an asset, and which all contributors receive automatically.)
-
-
-### Bex's Questions & Comments:
-- Where does the moeny come from? A community pool?
-- The How do I get Grain section could be more direct, I'll need a clearer idea of some ideas to do so
-- What are the benefits of sponsoring? Why would you sponsor if your community has chosen to make their Grain a fixed price?
-- What does the transferrable and tradeable part mean? I'd love to explain it more clearly.
-- I'd like to change the money bag emoji to a token - where is the Grain token emoji located DL?
-- Can we agree that throughout all our documents, the following terms and their gerunds will be capitalized?: Boost, Mint, Cred, Grain, Evaporation
