@@ -27,11 +27,11 @@ What: a designated time to talk about a specific subject and how it relates to S
 
 Audience: Anyone who finds that particular topic interesting or relevant to their work in SourceCred.
 
-Why: Creates a low-barrier way to gather minds who want to think about a specific topic and how it can be applied to our SourceCred goals near or long term. It's fun. To produce interesting thoughts and perspectives on the given topic. 
+Why: We come together to explore a specific topic, and how we can apply it to SourceCred. They are a fun and low-barrier way to get involved in the project.
 
-Where: Discord Main voice channel
+Where: Discord Main voice channel.
 
-When: No set time or reoccurrence. Jams are scheduled as one-off events, timing is usually based off the availability of key participants.
+When: No set time or reoccurrence. Jams are scheduled as one-off events, timing is usually based off the availability of key participants. Check out the [SourceCred Calendar](https://sourcecred.io/calendar).
 
 # Weekly Contributor Call
 
@@ -41,9 +41,9 @@ Audience: This call is meant for people who are actively contributing to SourceC
 
 Why: This call gives all of the contributors the opportunity to see the bigger picture and align their actions/priorities with the overall goals of the project. It also gives the branch leads a chance to get feedback and assistance on larger goals/changes. Helps grow a sense of connection and shared goals across different portions of SourceCred.
 
-Where: Discord Main voice channel
+Where: Discord Main voice channel.
 
-When: Weekly, Thursday 11am PST
+When: Weekly, Thursday at 11am PST.
 
 # Branch Specific Meetings
 
@@ -53,9 +53,9 @@ Audience: The contributors who are working on initiatives within that specific b
 
 Why: Keeps teams effective, aligned, and communicating. Helps grow a sense of connection and shared goals within the branch. Gives contributors a chance to receive help, propose new ideas, and communicate changes.
 
-Where: Discord Main voice channel
+Where: Discord Main voice channel.
 
-When: At a regular day/time of the team's choosing.
+When: At a regular day/time of the team's choosing. Find them on the [SourceCred Calendar](https://sourcecred.io/calendar).
 
 # Work Sessions
 
@@ -65,7 +65,7 @@ Audience: The contributors on a team that is actively working on a specific init
 
 Why: Sometimes you just need some synchronous space with all the key players to really make progress on an initiative or project. By nature of being shorter, these are also less taxing and can help keep contributors on track.
 
-Where: Discord Main voice channel
+Where: Discord Main voice channel.
 
 When: Scheduled as one-off events when asynchronous coordination won't cut it. 
 
