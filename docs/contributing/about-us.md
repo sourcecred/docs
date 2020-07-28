@@ -1,5 +1,0 @@
----
-title: 🌎 About Us
----
-
-TODO
