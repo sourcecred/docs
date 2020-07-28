@@ -1,5 +1,0 @@
----
-title: Adopting SourceCred
----
-
-TODO
