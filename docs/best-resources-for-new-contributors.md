@@ -1,11 +1,11 @@
 ---
 title: Best Resources for New Contributors
-description: The tools, guides, and resources that are most relevant to people
-  looking to start actively contributing to SourceCred.
+description: The tools, guides and resources that are most relevant to people looking to start actively contributing to SourceCred.
 ---
 
+# Want to be part of the SoureCred team? 
 
-These are the docs it's good to be familiar with before you start getting your hands dirty with contributions to SourceCred.
+First, try getting familiar with these helpful docs:
 
 * What is SourceCred?
 * How Cred Works
@@ -22,30 +22,27 @@ These are the docs it's good to be familiar with before you start getting your h
 
 # Organizational Tools
 
-We have a few MVP (minimum viable product) organizational tools for our internal operations. Looking through these can help you get an idea for what kinds of things are being worked on in SourceCred.
+We have a few MVP (minimum viable product) organizational tools for our internal operations. Looking through these can help you get an idea of what kinds of projects are being worked on in SourceCred.
 
-### Initiatives Index Spreadsheet
 
-\[Link]
+### <ins>[Initiatives Index Spreadsheet](https://docs.google.com/spreadsheets/d/1IYNXNghAnMAGPof3f9bZZQeIGxlOHJQrUmu9qONY3KQ/edit#gid=0)</ins>
 
-The Initiatives Index is an MVP tool for exploring the current projects/goals within SourceCred right now. Each "Branch" of the project has "Initiatives" (aka projects or goals) within it. Looking through the list you can see whether an initiative is in action or on the wishlist, who's working on it, and how high of a priority it is for us. Poke through and see if anything catches your eye or sparks an idea. If you find yourself really gravitating towards a particular branch, consider going to their Branch Meeting.
 
-### Docs Index Spreadsheet
+The Initiatives Index is an MVP tool for exploring the current projects/goals within SourceCred right now. Each "Branch" of the project has "Initiatives" (aka projects or goals). Looking through the list you can see whether an initiative is in action or on the wishlist, who's working on it, and how high of a priority it is for us. Poke through and see if anything catches your eye or sparks an idea. If you find yourself really gravitating towards a particular branch, consider going to their Branch Meeting.
 
-\[Link]
+### <ins>[Docs Index Spreadsheet](https://docs.google.com/spreadsheets/d/1IYNXNghAnMAGPof3f9bZZQeIGxlOHJQrUmu9qONY3KQ/edit#gid=0)</ins>
 
-The Docs Index is a spreadsheet where we organize the documentation we're writing and would like to write. If you are interested in writing, reviewing, editing, and written communication; get connected to the Docs Team and see if you can help out.
+The Docs Index is a spreadsheet where we organize the documentation we're writing and would like to write. If you are interested in writing, reviewing, editing or written communication, get connected to the Docs Team and see if you can help out.
 
-### Contributor Directory
+### <ins>[Contributor Directory](https://docs.google.com/spreadsheets/d/14cGVeH_s4eRSx0DKPZBlhel6QucAq5QzXoALr_EhBzM/edit#gid=1047682516)</ins>
 
-\[Link]
 
 Here you'll find a spreadsheet with a link at the top. By clicking the link, you'll be taken to a form where you can share about yourself and what kind of contributor you are. This just helps folks get to know you and your role in the community better. Looking through the spreadsheet can give you a better idea of who someone is as well! Note that you can always change your answers later by editing the doc itself, but you should never edit someone else's answers.
 
 # Extra Content
 
-Through the growth of this project from just an idea, some interesting content has been created! You may enjoy looking through some of these noteworthy creations:
-
+Throughout SourceCred's journey,  some interesting content has been created! You may enjoy looking through some of these noteworthy creations:
+[comment]: <> (UNSURE WHAT THESE ARE, WHERE TO FIND THEM, OR WHAT THEIR RELEVANCE IS)
 * Evan's Explainer
 * Onboarding Philosophy
 * Champions vs Heros
