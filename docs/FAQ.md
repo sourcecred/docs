@@ -31,7 +31,7 @@ You can also use existing plug-ins to capture contributions that are outside tho
 #### Don't use it if:
 - ⛔️ You are looking for a silver bullet for community engagement/participation
 - ⛔️ You don't want to put time/effort into educating yourself and your community on how SourceCred works
-- ⛔️ You're looking for a production-ready, ultra-robust system that won't make breaking changes 
+- ⛔️ You're looking for a production-ready, ultra-robust system that won't make breaking changes
 
 [comment]: <> (WHAT DOES MAKE BREAKING CHANGES MEAN? CAN WE REPHRASE?)
 
@@ -42,7 +42,7 @@ SourceCred is not a corporation and has no investors. It is currently sponsored 
 
 SourceCred's model for sustainability comes from the communities/projects that use it flowing a portion of their Cred/Grain back to SourceCred as a "tribute". This allows SourceCred to be funded by its users, resulting in strong incentive alignments for everyone involved.
 
-[comment]: <> (THIS FAW SEEMS TO BE FOR DEVS INTERESTED IN USING SC, DO WE WANT TO INCLUDE MORE IN-DEPTH QUESTIONS ABOUT CRED/GRAIN?)
+[comment]: <> (THIS FAQ SEEMS TO BE FOR DEVS INTERESTED IN USING SC, DO WE WANT TO INCLUDE MORE IN-DEPTH QUESTIONS ABOUT CRED/GRAIN?)
 
 [Cred]: /docs/concepts/cred
 [Grain]: /docs/concepts/grain
