@@ -42,6 +42,7 @@ Here you'll find a spreadsheet with a link at the top. By clicking the link, you
 # Extra Content
 
 Throughout SourceCred's journey,  some interesting content has been created! You may enjoy looking through some of these noteworthy creations:
+
 [comment]: <> (UNSURE WHAT THESE ARE, WHERE TO FIND THEM, OR WHAT THEIR RELEVANCE IS)
 * Evan's Explainer
 * Onboarding Philosophy
