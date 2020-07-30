@@ -2,9 +2,9 @@
 title: Getting Involved with SourceCred
 description: A guide for becoming a contributor in SourceCred's internal community.
 ---
-If you are interested in joining the internal community of contributors who are working together to make SourceCred a reality, then this is the doc that will help you find your way. If you're looking for information about using SourceCred as a tool in a different community/project, go \[here] instead.
+If you are interested in joining the internal community of contributors who are working together to make SourceCred a reality, then this is the doc that will help you find your way. If you're looking for information about using SourceCred as a tool in a different community/project, go to \[Using SourceCred] instead.
 
-This document is less a step by step guide, and more an explanation of what it looks like to go from being a newcomer to a full-fledged contributor within the SourceCred community accompanied by the resources that will help you get there. Experience these phases on your own timeline; no phase of getting to know SourceCred is any better or worse than another. This is your experience, and we encourage you to engage with it to the level that fits you.
+This document is less a step-by-step guide, and more an explanation of what it looks like to go from being a newcomer to a full-fledged contributor within the SourceCred community accompanied by the resources that will help you get there. Experience these phases on your own timeline; no phase of getting to know SourceCred is any better or worse than another. This is your experience, and we encourage you to engage with it to the level that fits you.
 
 So, how does one "get involved" with SourceCred? ;)
 
