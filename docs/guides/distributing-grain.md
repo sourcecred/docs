@@ -22,13 +22,13 @@ _"What if I contributed a lot before a small Grain payout, and then less before 
 <br/>Since Cred is retroactive, the SourceCred algorithm will make sure your percentage is based on _all_ of your contributions compared to all existing contributions, and make sure your percentage is based on the total amount of Grain that has been issued to the community. _Ever._ 
 
 
-You can also get Grain by becoming a sponsor. Buying Grain sponsors contributors directly (by paying them for their Grain). Thus, anyone holding Grain has supported the project, either directly through contributions, or indirectly through financial sponsorship. When someone wants to sell their Grain for dollars (or some other currency), the money either comes from sponsors buying their Grain, or a community pool their community has previously set up.
+You can also get Grain by becoming a sponsor. Buying Grain sponsors contributors directly (by paying them for their Grain). Thus, anyone holding Grain has supported the project, either directly through contributions, or indirectly through financial sponsorship. When someone wants to sell their Grain for dollars (or some other currency), the money either comes from sponsors buying their Grain, or a pool their community has previously set up.
 
 ### How much is Grain worth?
 
 In the SourceCred community, Grain stays at a fixed price of $1 per Grain. However, each community can choose the price of their Grain, as well as a name for their specific kind of Grain. In other words, Grain is project-specific, and is not a universal token. Every project that uses SourceCred creates its own independent token and calls it whatever they choose. Grain in the SourceCred community is called "SourceGrain."
 
-As for pricing, each community can choose the price of their own Grain. They can choose a fixed price, or choose to make their Grain a floating financial asset and let the market decide the price. Their Grain would then fluctuate in price based on supply and demand. 
+As for pricing, each community can choose the price of their own Grain. They can choose a fixed price, or choose to make their Grain a floating financial asset and let the market decide the price; their Grain would then fluctuate in price based on supply and demand. 
 
 
 # ⬆️ Boosting Contributions
