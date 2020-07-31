@@ -1,30 +1,23 @@
 module.exports = {
   sidebar: {
-    "🌟 Get Started": [
-      'introduction',
-      'how-cred-works',
-      'how-grain-works',
+    "🌟 Beta Docs (WIP)": [
+      'beta/introduction',
+      'beta/cred',
+      'beta/grain',
       {
-        '🔌 Plugins': ['plugins/github', 'plugins/discourse', 'plugins/discord']
+        '🔌 Plugins': [
+          'beta/plugins/github',
+          'beta/plugins/discourse',
+          'beta/plugins/discord',
+          'beta/plugins/initiatives'
+        ]
       },
-      'FAQ',
-      'setup-guide',
-      'get-involved'
+      'beta/setup-guide',
+      'beta/get-involved',
+      'beta/our-platforms',
+      'beta/our-calls',
+      'beta/best-resources-for-new-contributors',
+      'beta/FAQ',
     ],
-    '🧠 Concepts': ['concepts/cred', 'concepts/grain', 'concepts/initiatives', 'concepts/champion', 'concepts/boosting', 'concepts/glossary', 'concepts/trust_levels'],
-    "🗺 Guides": [
-      'guides/earning-cred',
-      'guides/distributing-grain',
-      'guides/initiatives',
-      'guides/resources',
-    ],
-    "🛠 Setup and Usage": [
-      'setup/installation',
-      'setup/configuration',
-      {
-        'Plugins': ['setup/plugins/github', 'setup/plugins/discourse', 'setup/plugins/discord', 'setup/plugins/initiatives']
-      },
-    ],
-    "🌱 Contributing": ['contributing/about-us', 'contributing/deep-then-wide', 'contributing/bikeshedding', "contributing/review_culture", 'contributing/CODE_OF_CONDUCT', "contributing/get-an-ambassador"],
   },
 };

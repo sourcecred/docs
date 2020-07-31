@@ -16,41 +16,6 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/introduction',
-          activeBasePath: 'docs/introduction',
-          label: '🌟 Get Started',
-          position: 'left',
-        },
-        {
-          to: 'docs/concepts/cred',
-          activeBasePath: 'docs/concepts',
-          label: '🧠 Concepts',
-          position: 'left',
-        },
-        {
-          to: 'docs/guides/earning-cred',
-          activeBasePath: 'docs/guides',
-          label: '🗺 Guides',
-          position: 'left',
-        },
-        {
-          to: 'docs/setup/installation',
-          activeBasePath: 'docs/setup',
-          label: '🛠 Setup',
-          position: 'left',
-        },
-        {
-          href: 'http://cred.sourcecred.io/timeline/@sourcecred/',
-          label: 'Prototype',
-          position: 'right',
-        },
-        {
-          to: 'blog',
-          activeBasePath: 'blog',
-          label: 'Blog',
-          position: 'right',
-        },
-        {
           href: 'https://github.com/sourcecred',
           label: 'GitHub',
           position: 'right',
