@@ -3,7 +3,7 @@ title: Best Resources for New Contributors
 description: The tools, guides and resources that are most relevant to people looking to start actively contributing to SourceCred.
 ---
 
-# Want to be part of the SoureCred team? 
+# Want to be part of the SoureCred team?
 
 First, try getting familiar with these helpful docs:
 
@@ -43,7 +43,7 @@ Here you'll find a spreadsheet with a link at the top. By clicking the link, you
 
 Throughout SourceCred's journey,  some interesting content has been created! You may enjoy looking through some of these noteworthy creations:
 
-[comment]: <> (UNSURE WHAT THESE ARE, WHERE TO FIND THEM, OR WHAT THEIR RELEVANCE IS)
+[//]: # (UNSURE WHAT THESE ARE, WHERE TO FIND THEM, OR WHAT THEIR RELEVANCE IS)
 * Evan's Explainer
 * Onboarding Philosophy
 * Champions vs Heros
