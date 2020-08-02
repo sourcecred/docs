@@ -12,8 +12,9 @@ Let's go over each of these in depth.
 # 💰 Paying Contributors 
 ### How do I get Grain?
 
-**CHANGE MONEY BAG EMOJI TO GRAIN TOKEN EMOJI IN LAST SLIDE: https://docs.google.com/presentation/d/1CIHI4xcDCiTgD2ACMG8Jnbv843Gq45V3SHKex915WY0/edit#slide=id.g8703f78739_0_409**
-**SECTION COULD BE MORE DIRECT**
+[//]: # (CHANGE MONEY BAG EMOJI TO GRAIN TOKEN EMOJI IN LAST SLIDE: https://docs.google.com/presentation/d/1CIHI4xcDCiTgD2ACMG8Jnbv843Gq45V3SHKex915WY0/edit#slide=id.g8703f78739_0_409)
+
+[//]: # (SECTION COULD BE MORE DIRECT)
 
 Grain is created during "harvests." In a harvest, a project Mints new Grain and distributes it to contributors based on their Cred scores. Your Cred score determines the percentage of Grain you recieve out of the total amount allocated to the community. Grain can be allocated to a community as often or as seldom as that community wishes. Furthermore, each Grain distribution can vary in amount. How the Grain is harvested and distributed is up to the project. For example, a project could Mint a fixed amount of Grain every week and distribute it to contributors based on their recent contributions, or it could have a target "Grain-per-Cred" payout ratio, and harvest to ensure that all contributors receive at least that amount.
 
@@ -43,7 +44,9 @@ A concept guide on Boosting will be coming soon.
 # 🔑 Other key properties of Grain
 
 ### Grain is transferrable and tradeable.
-Holders of Grain can freely send it to others, or exchange it. Within a project, Grain is fungible. If Grain has been put on a blockchain (e.g. as an ERC20 token), then it can be swapped or traded via protocols like Uniswap or 0x, just like any other ERC20. **MAKE MORE CLEAR**
+Holders of Grain can freely send it to others, or exchange it. Within a project, Grain is fungible. If Grain has been put on a blockchain (e.g. as an ERC20 token), then it can be swapped or traded via protocols like Uniswap or 0x, just like any other ERC20. 
+[//]: # (MAKE MORE CLEAR)
+
 
 
 ### Grain is opt-in
