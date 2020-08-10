@@ -2,9 +2,9 @@
 title: Getting Involved with SourceCred
 description: A guide for becoming a contributor in SourceCred's internal community.
 ---
-If you are interested in joining the internal community of contributors who are working together to make SourceCred a reality, then this is the doc that will help you find your way. If you're looking for information about using SourceCred as a tool in a different community/project, go to \[Using SourceCred] instead.
+If you are interested in joining the community of contributors who are working together to make SourceCred a reality, then this is the doc that will help you find your way. If you're looking for information about using SourceCred in a different community/project, check out \[Using SourceCred] instead.
 
-This document is less a step-by-step guide, and more an explanation of what it looks like to go from being a newcomer to a full-fledged contributor within the SourceCred community accompanied by the resources that will help you get there. Experience these phases on your own timeline; no phase of getting to know SourceCred is any better or worse than another. This is your experience, and we encourage you to engage with it to the level that fits you.
+This document will showcase what it looks like to go from being a newcomer to a full-fledged contributor within the SourceCred community, as well as the resources that will help you get there. No phase of getting involved in SourceCred is any better or worse than another. This is your experience, and we encourage you to engage with it at a level and pace that fits you.
 
 So, how does one "get involved" with SourceCred? ;)
 
@@ -12,7 +12,7 @@ So, how does one "get involved" with SourceCred? ;)
 
 # Some General Tips:
 
-SourceCred is still young, and we don't have many automated onboarding tools yet. That means you'll do best if are willing to dive in, ask questions, explore resources, and otherwise utilize self-directed learning. However, this doesn't mean we're throwing you to the sharks in a 'sink or swim' kind of situation. What we lack in polished or automated onboarding flows, we make up for in high community engagement. This means that your best chance at getting up to speed with what's going on and how to help is to get connected to the community. Come to calls, talk to contributors with more context, ask questions, and offer your help. We'll be glad to welcome you.
+SourceCred is still young, and we don't have a fully fleshed out onboarding process yet. That means you'll do best if are willing to dive in, ask questions, explore resources, and otherwise utilize self-directed learning. However, this doesn't mean we're throwing you to the sharks in a 'sink or swim' kind of situation. We are a highly engaged community, so your best chance at getting up to speed with what's going on and how to help is to be active and get connected in our communication channels. Come to calls, talk to contributors with more context, ask questions, and offer your help. We'll be glad to welcome you.
 
 Note that just as everyone is different, everyone's journey through SourceCred will be different. Make it the experience you want to have. Go at the pace that helps you realize your goals and build trust in both directions. Below there are helpful suggestions or "quests" for each phase, but none of these are required or need to be done in a specific order. Happy exploring!
 
