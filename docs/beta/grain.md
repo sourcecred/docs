@@ -1,3 +1,6 @@
+---
+title: How Grain Works
+---
 
 # 🌾 How Grain Works
 
