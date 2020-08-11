@@ -4,7 +4,7 @@ description: Setting up the Discourse plugin.
 ---
 
 The Discourse plugin assigns Cred to contributors participating on 
-Discourse forums, for example by posting, replying to posts, or liking posts.
+Discourse forums; for example, by posting, replying to posts, or liking posts.
 
 The plugin does this by fetching data using the Discourse API in anonymous mode.
 This means that, unlike other plugins, it does not require any credentials and we can start loading data
@@ -36,20 +36,20 @@ Users are connected to posts they author, to posts they like, and to posts that 
 - **Bot**:
 
 {SB: below is copied from GitHub page. Still true for Discourse? Do we support Discourse bots?}
-A Discourse user account that has been explicitly marked as a bot, via inclusion in bots.js. This is useful so that we can filter out bot accounts from receiving grain or showing up in the Cred rankings.
+A Discourse user account that has been explicitly marked as a bot, via inclusion in bots.js. This is useful so we can filter out bot accounts from receiving grain or showing up in the Cred rankings.
 
 Bots have the same connections as users.
 
 - **Topic**:
 
 A Discourse topic, e.g. [https://discourse.sourcecred.io/t/about-champions-and-heroes/291](https://discourse.sourcecred.io/t/about-champions-and-heroes/291). Typically referred to as "threads" in other forum software, a topic is a collection of posts. When users create a new topic and are prompted to create a post, the post they create is actually the first post in the topic, not the topic itself. A topic is just a collection of posts. A topic
-node will be connected to its author (user node creating the topic), all posts in the topic and any references to the topic.
+node will be connected to its author (user node creating the topic), all posts in the topic, and any references to the topic.
 
 [https://discourse.sourcecred.io/t/about-champions-and-heroes/291](https://discourse.sourcecred.io/t/about-champions-and-heroes/291)
 
 - **Post**:
 
-A Discourse post, e.g. [https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben). Everything under a topic is a post, including the first post and all subsequent replies. A post node will be connected to its author (user node that created the post), any replies to that post and references to that post. {SB: elaborate more on references here? Is it 
+A Discourse post, e.g. [https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben). Everything under a topic is a post, including the first post and all subsequent replies. A post node will be connected to its author (user node that created the post), any replies to that post, and references to that post. {SB: elaborate more on references here? Is it 
 
 
 [https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben)
@@ -82,7 +82,7 @@ References in Discourse can be either hyperlinks to referencable nodes, or quote
 
 - **Reply to**:
 
-A reply to edge connects a post to the post it is replying to.  
+A reply-to edge connects a post to the post it is replying to.  
 
 
 The Discourse plugin creates the following kinds of edges (connections between nodes) 
@@ -111,8 +111,8 @@ summarizing these relationships:
 The Discourse plugin is currently in Beta. It assigns Cred scores that are reasonable and
 robust for a [trust level]{SB: needs link} 3 community.
 
-Currently there are two general approaches to minting Cred you can take with the
-Discourse plugin. Activity-minted and like-minted Cred (or a hybrid of the two).
+Currently, there are two general approaches to minting Cred you can take with the
+Discourse pluginL activity-minted and like-minted Cred (or a hybrid of the two).
 Activity-minted Cred means Cred would be minted for each new topic or post
 created. While like-minted Cred mints new Cred for each like given.
 
@@ -124,7 +124,7 @@ high-quality posts.
 
 The caveat is that it creates some "popularity contest" dynamics, where memes
 and/or heavily promoted posts might receive more likes than makes sense for the
-relative value they've added. Something which would be easy to game, making it
+relative value they've added. It's something which would be easy to game, making it
 less suitable for lower trust levels for the time being.
 
 {SB: the below para wasn't in the original docs, but is just me speculating based
@@ -138,9 +138,9 @@ higher trust, and less susceptible to gaming. In addition, you may want to incen
 raw activity in order to build up enough content to attract more users. 
 
 Another thing to keep in mind is that only public posts are included for Cred
-calculation. Private categories and private messages for example receive no
+calculation. Private categories and private messages, for example, receive no
 Cred. This both creates an incentive to have discussions in public as much as
-possible and is necessary for security as private data could otherwise leak.
+possible, and is necessary for security as private data could otherwise leak.
 
 
 {SB: below are the commands from the original docs on this (which I can't seem to find to link to..:/). Mainly 
@@ -169,7 +169,7 @@ to use Discourse in combination with other plugins we need the next approach.
 ### Loading from a `project.json`
 
 Unlike the CLI command, this approach allows combining a Discourse forum with
-other plugins. Either create one or upgrade from a previous `project.json`
+other plugins. Either create one, or upgrade from a previous `project.json`
 version to make sure it's at version `0.3.1` or greater at the top of the file.
 In our example we'll be using the latest version `0.5.0`.
 
@@ -185,7 +185,7 @@ In our example we'll be using the latest version `0.5.0`.
 ]
 ```
 
-Next, we specify we want to use Discourse, by adding an `discourseServer`
+Next, we specify we want to use Discourse by adding an `discourseServer`
 object.
 
 ```js
