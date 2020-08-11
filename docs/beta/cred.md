@@ -1,3 +1,6 @@
+---
+title: What is Cred?
+---
 # <img width="30" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' />How Cred Works
 ---
 # What is Cred?
