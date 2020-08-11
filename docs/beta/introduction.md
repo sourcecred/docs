@@ -6,42 +6,42 @@ description: An introduction to SourceCred's values and goals
 SourceCred is an open-source tool for communities to measure and reward value
 creation.
 
-We're building SourceCred because we believe the way we value things is broken.
-We value people based on their credentials or job titles, not based on the true
+We're building SourceCred because we believe our society's value system is broken.
+It values people based on their credentials or job titles, not based on the true
 values they bring--especially if that value is "soft value" like emotional
-labor or leadership. We value organizations based on the profits they can
-capture, not the broader effects they have on society. We value the environment
-in terms of the resources we can harvest from it, not on the role it plays in
+labor or leadership. It values organizations based on the profits they can
+capture, not the broader effects they have on society. It values the environment
+in terms of the resources we can harvest from it, not the role it plays in
 sustaining our collective existence.
 
 SourceCred offers a new perspective on value. First, we don't think value is
 universal. It's contextual (intersubjective), and different communities will
 have different perspectives on what is or isn't valuable. For that reason,
-SourceCred is an open-source project which any community can set up, tweak, or
+SourceCred is an open-source project that any community can set up, tweak, or
 reconfigure based on their own needs.
 
-Second, we think value isn't about *transactions*, but about *relationships*.
+Second, we don't think value is about *transactions*, but rather, about *relationships*.
 SourceCred doesn't try to assign a dollar score or price to any contribution or
 person. Instead, every contribution or contributor earns
-[Cred](concepts/cred.md) based on how it was connected to other
-contributions, and how much Cred those other contributions earned.
+[Cred](concepts/cred.md) based on their connections to other
+contributions, and how much Cred those other contributions earn.
 Mathematically, we do this by constructing a network of contributions called a
 Contribution Graph, and then running the CredRank algorithm on it.
 
 Finally, we acknowledge that in order to be sustainable, communities need to
 interact with the "real world" economy of dollars and cents. For that reason,
 every community can issue [Grain](concepts/grain.md), a community-specific
-cryptocurrency. Grain is distributed based on Cred, so it is all earned by
-community members and contributors. Sponsors purchase Grain, and then use it
-for [Boosting](concepts/boosting.md), which allows them to influence the
-Cred scores, and thus the community's priorities. Basically, Sponsors help make
-the community economically viable, and in gratitude the community gives
-sponsors some infuence over the community's goals, values, and priorities.
+cryptocurrency. Grain is then distributed based on contributor Cred scores.
+Sponsors purchase Grain, and then use it for [Boosting](concepts/boosting.md), 
+which allows them to influence Cred scores, and thus the community's priorities.
+Basically, Sponsors help make the community economically viable, and in return
+the community gives sponsors some infuence over the community's goals, values,
+and priorities.
 
 In the short term, SourceCred is focused on supporting open-source crypto
 projects. Crypto projects are an ideal fit because they need a way to
 distribute the tokens that they natively generate, and need a decentralized,
-"new-world" appraoch for doing so--the old world approaches of corporations and
+"new-world" appraoch to do so-- "old world" approaches of corporations and
 shareholder value just don't fit. The key early adopter is the SourceCred
 project itself: we have no corporate structure and no investors, but we reward
 everyone in the community via Cred and Grain. (Big thanks to [Protocol
