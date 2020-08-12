@@ -2,6 +2,8 @@
 title: ❓FAQ
 description: Your hottest questions about SourceCred, answered.
 ---
+### Testarooni
+
 ### Is SourceCred gameable? How do you prevent Sybil attacks?
 
 All systems are gameable and in the end, our goal is not to eliminate gaming but instead become resistant to it. SourceCred's transparency around contribution and reward combined with an emotionally mature community capable of social moderation, creates a system that can quickly identify attacks (intentional or unintentional) and communicate to or shut down the attacker. The retroactive nature of SourceCred's algorithm and long-term + short-term payout system means that from Sybils (one person using multiple accounts to farm Cred), to exploitation, to unintentional gaming or bugs; it's easy to see, correct weights, and respond socially with community moderation.  
