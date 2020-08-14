@@ -5,7 +5,11 @@ description: A guide for turning on a SourceCred instance to track cred in your
 ---
 In this guide you'll find information about setting up your own instance of SourceCred to generate cred scores for your community and/or project. 
 
-If your looking for [general information](https://sourcecred.io/docs/beta/introduction) or want to [get involved](https://sourcecred.io/docs/beta/get-involved) with the community of folks building SourceCred, check out some of our other guides.
+[//]: # (What is the level of technical competence we're expecting from those who read this doc? If it's high, then we shouldn't waste too much time explaining basic tech concepts. The "before getting started" section below should explain the level of tech-knowledge you'll need and turn away those who won't be able to set up an instance on their own.)
+
+If you're looking for [general information](https://sourcecred.io/docs/beta/introduction) or want to [get involved](https://sourcecred.io/docs/beta/get-involved) with the community of folks building SourceCred, check out some of our other guides.
+
+[//]: # (Does this list truly contain the top most important things you'll need to know before getting started with creating your own sourcecred instance?)
 
 Before getting started, here are some things you’ll need to know:
 
@@ -16,7 +20,11 @@ Before getting started, here are some things you’ll need to know:
 
 If you’re interested in SourceCred but lack the technical chops, you can still get involved on our [Discord](sourcecred.io/discord) or [Discourse forums](https://discourse.sourcecred.io/) to learn more, ask questions, and contribute to the project. 
 
-### Getting started
+### Getting started 
+
+[//]: # (^^^ this is the only "sidebar" title that pops up within this doc when it shows on the website. I think a Step 1, Step 2, etc. would be more useful for inner-doc navigation.)
+
+[//]: # (Also, I'd love to see a true step by step guide with concrete tasks and simple instructions that lets anyone with the basic know-how quickly set up their instance. The content below feels very vague and indirect -granted I'm not a techie, so maybe I'm missing something-. If I were coming to this guide, I'd want it to be so clear and direct that it's more or less fool-proof.)
 
 Every SourceCred instance is a directory, tracked by Git, with some conventions around where files are stored. For example, `sourcecred.json` specifies which plugins are active, and `config/plugins` has a folder for every individual plugin, with that plugin’s own configuration. Fortunately, you don’t need to set that up from scratch. Instead, you can fork our [example instance](https://github.com/sourcecred/example-instance), which is a template repository on GitHub that’s been set up to be a good starting point for configuring SourceCred.
 
