@@ -1,24 +1,24 @@
 ---
 title: ⚙️ How to Set Up SourceCred
-description: I want to use SourceCred. How do I turn it on for my community?
+description: A guide for turning on a SourceCred instance to track cred in your
+  project or community.
 ---
-You’ve learned about SourceCred, and now you’d like to try it out for your community. First, here are some things you’ll need to know:
+In this guide you'll find information about setting up your own instance of SourceCred to generate cred scores for your community and/or project. 
 
-- SourceCred is organized around “instances.” An individual instance of SourceCred contains data about a community, as well as the rules or parameters that influence Cred scores. Whoever is administering the instance sets the rules for how its Cred and Grain work.
+If your looking for [general information](https://sourcecred.io/docs/beta/introduction) or want to [get involved](https://sourcecred.io/docs/beta/get-involved) with the community of folks building SourceCred, check out some of our other guides.
 
-- Every SourceCred instance needs data about contributions. The data comes from SourceCred plugins. Currently, the major plugins are for Discord, GitHub, and Discourse. Your community will need to be using at least one of these platforms in order to get meaningful Cred scores.
+Before getting started, here are some things you’ll need to know:
 
-- **Setting up a SourceCred instance is fairly technical.** You’ll need to be comfortable using the terminal, installing packages from NPM, and be familiar with the basics of Git and GitHub. 
+* SourceCred is organized around “instances.” When you create an instance of SourceCred for your community/project, it will collect data and generate "cred scores" for each individual contributor based on the available data about the work you've all been doing. 
+* Changing "weights" (how much cred different types of contributions receive) can change the scores, and how weights are set/administered is up to each community and how they'd like to govern themselves.
+* Every SourceCred instance needs data about contributions. This information comes from the SourceCred plugins which "scrape" data from a platform to use in calculating cred scores. Currently, the available plugins include Discord, GitHub, and Discourse. For now, your community will need to be using at least one of these platforms in order to get meaningful Cred scores.
+* **Setting up a SourceCred instance is fairly technical.** You’ll need to be comfortable using the terminal, installing packages from NPM, and be familiar with the basics of Git and GitHub. 
 
-If you’re interested in SourceCred but lack the technical chops, you can still get involved on our [Discourse forums] to learn more, ask questions, and contribute to the project. 
-
-[Discourse forums]: https://discourse.sourcecred.io/
+If you’re interested in SourceCred but lack the technical chops, you can still get involved on our [Discord](sourcecred.io/discord) or [Discourse forums](https://discourse.sourcecred.io/) to learn more, ask questions, and contribute to the project. 
 
 ### Getting started
 
-Every SourceCred instance is a directory, tracked by Git, with some conventions around where files are stored. For example, `sourcecred.json` specifies which plugins are active, and `config/plugins` has a folder for every individual plugin, with that plugin’s own configuration. Fortunately, you don’t need to set that up from scratch. Instead, you can fork our [example instance], which is a template repository on GitHub that’s been set up to be a good starting point for configuring SourceCred.
-
-[example instance]: https://github.com/sourcecred/example-instance
+Every SourceCred instance is a directory, tracked by Git, with some conventions around where files are stored. For example, `sourcecred.json` specifies which plugins are active, and `config/plugins` has a folder for every individual plugin, with that plugin’s own configuration. Fortunately, you don’t need to set that up from scratch. Instead, you can fork our [example instance](https://github.com/sourcecred/example-instance), which is a template repository on GitHub that’s been set up to be a good starting point for configuring SourceCred.
 
 As a first step, clone that repo. Then, run [yarn](https://classic.yarnpkg.com/lang/en/) to install SourceCred along with its dependencies.
 
@@ -26,9 +26,9 @@ Once SourceCred is installed, you’ll want to configure the instance to suit yo
 
 Then, you can run `yarn go` to fully re-compute your SourceCred instance. This will actually run three commands in sequence:
 
-- `yarn load`, which loads fresh cache data for the plugins;
-- `yarn graph`, which updates the plugins’ contribution graphs using the cache;
-- `yarn score`, which re-computes Cred scores using your plugin contribution graphs, and the parameters.
+* `yarn load`, which loads fresh cache data for the plugins;
+* `yarn graph`, which updates the plugins’ contribution graphs using the cache;
+* `yarn score`, which re-computes Cred scores using your plugin contribution graphs, and the parameters.
 
 This is useful to know because it means you can, for example, update your weights or parameters and re-compute Cred without needing to wait to re-download data for the cache.
 
