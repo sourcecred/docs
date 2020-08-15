@@ -19,7 +19,7 @@ Grain is created during what we call “Harvests.” A Harvest is a periodic cyc
 Grain Harvests can be allocated to a community as often or as seldom as that community wishes. Furthermore, each Grain distribution (Harvest) can vary in amount. How the Grain is produced and distributed is up to the project. For example, a project could produce a fixed amount of Grain every week and distribute it to contributors based on their recent contributions, or it could have a target “Grain-per-Cred” payout ratio, and Harvest enough to ensure that all contributors receive at least that amount.
 
 
-> “What if I contributed a lot before a small Grain distribution, and then less before a bigger Grain distribution?”
+### _“What if I contributed a lot before a small Grain distribution, and then less before a bigger Grain distribution?”_
 
 Since Cred is retroactive, the SourceCred algorithm will make sure your percentage is based on _all_ of your contributions compared to all existing contributions, and make sure your percentage is based on the total amount of Grain that has been issued to the community. _Ever._ 
 
