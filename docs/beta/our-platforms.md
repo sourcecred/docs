@@ -3,7 +3,7 @@ title: Our Platforms
 description: Platforms our internal community uses (like Discord, Discourse, or
   GitHub), how they impact cred, and the basic social norms of using them.
 ---
-SourceCred operates on a few different platforms that serve the needs of our internal community: **Discord** for daily coordination and socializing, **Discourse** for proposals and larger community conversations, **Roam** for research and notes, and **GitHub** for code and project management. Joining these will plug you into the ongoing SourceCred conversation, and it’s the most effective way to get up to speed on what’s happening in the project.
+SourceCred operates on a few different platforms that serve the needs of our internal community: **Discord** for daily coordination and socializing, **Discourse** for proposals and larger community conversations, **Roam** for research and notes, and **GitHub** for code and project management. Join these to plug into the ongoing SourceCred conversation; it’s the most effective way to get up to speed on what’s happening in the project.
 
 Learn more about how we use these major platforms below, and how Cred flows within and between each.
 
