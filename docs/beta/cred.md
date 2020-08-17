@@ -1,7 +1,7 @@
 ---
 title: What is Cred?
 ---
-# <img width="30" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' />How Cred Works
+# <img width="30" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> How Cred Works
 ---
 # What is Cred?
 As the name suggests, Cred is an important part of SourceCred. Cred is a metric used to describe every contribution and contributor in a project. Each contributor has a Cred score, which is made up of all the contributions they have made to a project. These scores are determined by how important or useful their contributions have been to their community. Your Cred score determines the percentage of __Grain__ you earn. Check out [this page](https://sourcecred.io/docs/concepts/grain) to learn more about Grain payouts.
