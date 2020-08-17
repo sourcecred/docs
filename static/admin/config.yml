@@ -22,3 +22,16 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false, hint: "The description of the post which will be used by search engines and link previews. If not present, will default to the first line of the post contents."}
       - {label: "Cover Image",name: "image", widget: "image", required: false,  hint: "Cover or thumbnail image that will be used when displaying the link to the post."}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "beta plugins"
+    label: "Beta Plugin Docs"
+    folder: "docs/beta/plugins"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "docs/{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false, hint: "The description of the post which will be used by search engines and link previews. If not present, will default to the first line of the post contents."}
+      - {label: "Cover Image",name: "image", widget: "image", required: false,  hint: "Cover or thumbnail image that will be used when displaying the link to the post."}
+      - {label: "Body", name: "body", widget: "markdown"}
