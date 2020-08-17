@@ -12,17 +12,17 @@ const features = [
   {
     title: <>Learn About SourceCred</>,
     imageUrl: 'img/logo_variants/1.svg',
-    linkUrl: 'docs/introduction',
+    linkUrl: 'docs/beta/introduction',
     description: (
       <>
-      Read our docs to learn about how SourceCred works and how to use it.
+      An intro manifesto on SourceCred.
       </>
     ),
   },
   {
     title: <>Get Involved</>,
     imageUrl: 'img/logo_variants/2.svg',
-    linkUrl: 'docs/get-involved',
+    linkUrl: 'docs/beta/get-involved',
     description: (
       <>
       Find out how to join our community and start contributing.
@@ -30,42 +30,42 @@ const features = [
     ),
   },
   {
-    title: <>Read the Blog</>,
+    title: <>Setting Up SourceCred</>,
     imageUrl: 'img/logo_variants/3.svg',
-    linkUrl: 'blog',
+    linkUrl: 'docs/beta/setup-guide',
     description: (
       <>
-      Read the latest upates on the SourceCred project.
+      How to setup your own SourceCred instance.
       </>
     ),
   },
   {
     title: <>Explore Our Cred</>,
     imageUrl: 'img/logo_variants/4.svg',
-    linkUrl: 'https://cred.sourcecred.io/timeline/@sourcecred/',
+    linkUrl: 'http://cred.sourcecred.io',
     description: (
       <>
-      See SourceCred's own cred scores, updated weekly.
+      See SourceCred's own Cred and Grain.
       </>
     ),
   },
   {
-    title: <>Meet the Team</>,
+    title: <>New Contributor Resources</>,
     imageUrl: 'img/logo_variants/5.svg',
-    linkUrl: 'docs/resources/team',
+    linkUrl: 'docs/beta/best-resources-for-new-contributors',
     description: (
       <>
-      Learn about the wonderful humans making SourceCred a reality.
+      Some starting resources for new contributors.
       </>
     ),
   },
   {
-    title: <>Watch SourceCred's Talks</>,
+    title: <>SourceCred Intro Video</>,
     imageUrl: 'img/logo_variants/6.svg',
-    linkUrl: 'docs/resources/media',
+    linkUrl: 'https://www.youtube.com/watch?v=3ZBDiNvddG4',
     description: (
       <>
-      Dive into our team's media collection, including recorded talks and podcasts.
+      An intro video for SourceCred.
       </>
     ),
   },

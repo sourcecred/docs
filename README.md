@@ -64,8 +64,8 @@ This command generates static content into the `build` directory and can be serv
 
 At this point you can edit pages in [pages](pages) or [docs](docs) and add new pages
 as you see fit. See the [development](#development) section for how to update the table of
-contents or navigation, and [open an issue](https://github.com/sourcecred/docs/issues) 
-if you need some help! 
+contents or navigation, and [open an issue](https://github.com/sourcecred/docs/issues)
+if you need some help!
 
 #### Making a New Documentation Page
 
@@ -157,4 +157,11 @@ Once you've made changes on your new branch, open a new pull request to have the
 reviewed! When they are merged to master they will go live on the site.
 
 
+#### A Note On Comments
+
+You can add a comment to a page using the following syntax:
+
+```
+[//]: # (THIS IS A COMMENT)
+```
 

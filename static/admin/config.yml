@@ -9,26 +9,9 @@ public_folder: "img/uploads"
 site_url: https://sourcecred.io
 logo_url: https://sourcecred.io/img/favicon.png
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    preview_path: "blog/{{slug}}" # Ensures Deploy previews in PRs link to the newly added doc
-    editor:
-      preview: false
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "string", required: false, hint: "The description of the post which will be used by search engines and link previews. If not present, will default to the first line of the post contents."}
-      - {label: "Cover Image",name: "image", widget: "image", required: false,  hint: "Cover or thumbnail image that will be used when displaying the link to the post."}
-      - {label: "Author", name: "author", widget: "string", default: "SourceCred", hint: "The author name to be displayed"}
-      - {label: "Author URL", name: "author_url", widget: "string", required: false, default: "https://twitter.com/sourcecred", hint: "The URL that the author's name will be linked to."}
-      - {label: "Author Image", name: "author_image_url", widget: "image", required: false, default: "https://avatars3.githubusercontent.com/u/35711667?s=200&v=4", hint: "The author's thumbnail image."}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "main"
-    label: "Main"
-    folder: "docs"
+  - name: "beta"
+    label: "Beta Docs"
+    folder: "docs/beta"
     create: true
     slug: "{{slug}}"
     preview_path: "docs/{{slug}}"
@@ -39,64 +22,12 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false, hint: "The description of the post which will be used by search engines and link previews. If not present, will default to the first line of the post contents."}
       - {label: "Cover Image",name: "image", widget: "image", required: false,  hint: "Cover or thumbnail image that will be used when displaying the link to the post."}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "concepts"
-    label: "Concepts"
-    folder: "docs/concepts"
+  - name: "beta plugins"
+    label: "Beta Plugin Docs"
+    folder: "docs/beta/plugins"
     create: true
     slug: "{{slug}}"
-    preview_path: "docs/concepts/{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", required: false, hint: "The description of the post which will be used by search engines and link previews. If not present, will default to the first line of the post contents."}
-      - {label: "Cover Image",name: "image", widget: "image", required: false,  hint: "Cover or thumbnail image that will be used when displaying the link to the post."}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "guides"
-    label: "Guides"
-    folder: "docs/guides"
-    create: true
-    slug: "{{slug}}"
-    preview_path: "docs/guides/{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", required: false, hint: "The description of the post which will be used by search engines and link previews. If not present, will default to the first line of the post contents."}
-      - {label: "Cover Image",name: "image", widget: "image", required: false,  hint: "Cover or thumbnail image that will be used when displaying the link to the post."}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "plugins"
-    label: "Plugins"
-    folder: "docs/plugins"
-    create: true
-    slug: "{{slug}}"
-    preview_path: "docs/plugins/{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", required: false, hint: "The description of the post which will be used by search engines and link previews. If not present, will default to the first line of the post contents."}
-      - {label: "Cover Image",name: "image", widget: "image", required: false,  hint: "Cover or thumbnail image that will be used when displaying the link to the post."}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "setup"
-    label: "Setup and Usage"
-    folder: "docs/setup"
-    create: true
-    slug: "{{slug}}"
-    preview_path: "docs/setup/{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", required: false, hint: "The description of the post which will be used by search engines and link previews. If not present, will default to the first line of the post contents."}
-      - {label: "Cover Image",name: "image", widget: "image", required: false,  hint: "Cover or thumbnail image that will be used when displaying the link to the post."}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "setup-plugins"
-    label: "Setup and Usage > Plugins"
-    folder: "docs/setup/plugins"
-    create: true
-    slug: "{{slug}}"
-    preview_path: "docs/setup/plugins/{{slug}}"
+    preview_path: "docs/{{slug}}"
     editor:
       preview: false
     fields:

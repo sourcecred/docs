@@ -8,6 +8,7 @@ If you want to build SourceCred from source (for instance to get bleeding edge f
 
 You can also run SourceCred from a [Docker image](#using-docker)  (useful for automated setups and canonical instances). 
 
+
 ## Installing from example instance
 
 1. Clone the `example-instance` repo from SourceCred’s GitHub:
@@ -19,6 +20,7 @@ You can also run SourceCred from a [Docker image](#using-docker)  (useful for au
 If you don't have it, install [yarn](https://classic.yarnpkg.com/lang/en/). Then run yarn to install SourceCred and its dependencies.
 
 `yarn` 
+<<<<<<< HEAD
 
 That's it! The installed instance with come with the latest stable release and default configurations, including all plugins.
 
@@ -135,3 +137,10 @@ SOURCECRED_GITHUB_TOKEN="XXXXXXXXX" \
 
 [DockerHub image]: https://hub.docker.com/r/sourcecred/sourcecred
 [docker entrypoint]: https://github.com/sourcecred/sourcecred/blob/master/scripts/docker-entrypoint.sh
+=======
+
+That's it! The installed instance with come with the latest stable release and default configurations, including all plugins.
+
+
+Next, you'll want to configure your instance by selecting which plugins to use and configuring them. See the [example-instance README](https://github.com/sourcecred/example-instance/blob/master/README.md) for more details.
+>>>>>>> cc238c84fc638156499ad4b74fd6b94fcb8767df
