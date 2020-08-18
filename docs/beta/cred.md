@@ -6,16 +6,16 @@ description: What is Cred, and what is it for?
 
 As the name suggests, Cred is an important part of SourceCred. Cred is a metric used to describe every contribution and contributor in a project. Each contributor has a Cred score, which is made up of all the contributions they have made to a project. These scores are determined by how important or useful their contributions have been to their community. Your Cred score determines the amount of [Grain](https://sourcecred.io/docs/beta/grain) you earn, which is SourceCred’s digital token, which can be crypto or fictional currency.
 
-### 🧮 What counts as a contribution?
+### 🧮 What are contributions?
 A contribution is any action that has value to the community. Each community determines which actions have value to them, and thus earn Cred. Communities also determine their _weights_, i.e. how much Cred each kind of contribution earns.
  
 For example, if a Crypto community has determined that GitHub pull requests are valuable, they might decide each PR is worth 20 Cred. If Discourse posts are less valuable to the community, those would earn less Cred. Actions that are not seen as contributions, such as playing video games or arguing on the forums, would earn no Cred.
 
 
+<img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="Graph visualization showing nodes connected by lines" style="max-width:50%;" />
+
 ### 📈 Edges and Nodes 
 As soon as you interact with SourceCred, you will become part of the Contribution Graph, a network of connected contributions. You and every contribution you make will each be represented as a separate node in the graph, each with a Cred score. Nodes are connected by edges, which indicate how they relate to other contributions and contributors. For example, if you create a Discourse post, an edge will go between your node and the Discourse post’s node. This is how Cred flows to you from your contribution.
-
-<img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="Graph visualization showing nodes connected by lines" />
 
 Edges are directional, indicating the flow of Cred. For instance, when you created your Discourse post node, you get an “inbound” edge from that post, flowing Cred to you. If you referenced another contributor in your post, it would create an “outbound” edge from that post to the referenced contributor, that would flow Cred to them. This makes up the Contribution Graph.
 
@@ -39,9 +39,11 @@ When someone Mints Cred by reacting to your Discord post with an emoji...
 - It creates a new reaction node in the graph
 - It creates an edge from the person reacting (you), to the reaction node
 - It creates an edge pointing from the reaction node to the post receiving the reaction
-  
 
-### 💡 Plug-ins
+### ☂️ Cred Evaporation
+
+
+## Plug-ins
 
 The types of contributions and plugins tracked by the SourceCred algorithm are likely to increase. Currently, your contributions are tracked across the these active plugins in the following ways:
 
