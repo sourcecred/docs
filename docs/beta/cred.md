@@ -11,6 +11,8 @@ A contribution is any action that has value to the community. Each community det
  
 For example, if a Crypto community has determined that GitHub pull requests are valuable, they might decide each PR is worth 20 Cred. If Discourse posts are less valuable to the community, those would earn less Cred. Actions that are not seen as contributions, such as playing video games or arguing on the forums, would earn no Cred.
 
+Actions that produce Cred are tracked and measured by plugins (see below). Plugins must be written for each [Platform](/docs/beta/our-platforms) to work with SourceCred.
+
 
 <img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="Graph visualization showing nodes connected by lines" style="max-width:50%;" />
 
@@ -25,22 +27,24 @@ For example, a major contributor is connected to each of their many contribution
 
 
 ## How Cred Flows
-You can visualize Cred flowing through the graph as water flowing through an ecosystem of ponds and creeks. Cred does not accumulate in one place, but rather flows through each pond, constantly moving. It flows between contributor ponds (Cred Flowing), falls as rain (Cred minting) and evaporates from everyone's ponds over time (Cred Evaporation).
+You can visualize Cred flowing through the graph as water flowing through an ecosystem of ponds and creeks. Cred does not accumulate in one place, but rather flows through each pond, constantly moving. It flows between contributor ponds (Cred Flowing), falls as rain (Cred minting) and evaporates from everyone’s ponds over time (Cred Evaporation).
 
 ### 💧 Cred Flowing
-Every contributor has their own pond, which represents their Cred score. Your Cred Score is the amount of Cred that is flowing *through* your pond - the amount entering is the same amount that is simultaneously leaving, flowing to other community members. Each of your contributions is interconnected with other community contributions across different platforms. Contributions are even connected through time - today's contributions connect to contributions from yesterday, last week, etc.
+Every contributor has their own pond, which represents their Cred score. Your Cred Score is the amount of Cred that is flowing *through* your pond—meaning, the amount entering is the same amount that is simultaneously leaving and flowing to other community members. Each of your contributions is interconnected with other community contributions across different platforms. Contributions are even connected through time: today’s contributions connect to contributions from yesterday, last week, and so forth.
 
 ### ☔ Cred Minting
-If community members find one of your contributions valuable, they will **Mint**, or in other words, create, Cred, and flow it to you. This Cred  magically appears out of nowhere and flows in your direction. Cred minting is just like rain, new water falling from the sky into your pond. Keep reading to gain a deeper understanding of where Minted Cred comes from.
+If community members find one of your contributions valuable, they will **Mint**, or _create_, new Cred, and flow it to you. This Cred magically appears out of nowhere and flows in your direction. Cred minting is just like rain, new water falling from the sky into your pond. Let’s look at an example!
 
-Example:<br/>
-When someone Mints Cred by reacting to your Discord post with an emoji...
+When someone Mints Cred by reacting to your Discord post with an emoji:
 
-- It creates a new reaction node in the graph
-- It creates an edge from the person reacting (you), to the reaction node
-- It creates an edge pointing from the reaction node to the post receiving the reaction
+- It creates a new reaction node in the graph;
+- It creates an edge from the person reacting (you), to that reaction node;
+- It creates an edge pointing from the reaction node to the post receiving the reaction.
 
 ### ☂️ Cred Evaporation
+As Cred flows through your pond to other ponds, the amount that flows onwards must gradually decline (or else everyone’s ponds would “overflow” infinitely). Cred Evaporation is a weighting configuration for your project that determines the amount of Cred that disappears (“returns to the source”) with each new node traversal. An evaporation setting of `0.2` means that every node gives 20% of its incoming Cred back to the source.
+
+📝 **Note:** Cred does _not_ evaporate over time. You will not lose Cred for being absent or inactive.
 
 
 ## Plug-ins
@@ -48,11 +52,11 @@ When someone Mints Cred by reacting to your Discord post with an emoji...
 The types of contributions and plugins tracked by the SourceCred algorithm are likely to increase. Currently, your contributions are tracked across the these active plugins in the following ways:
 
 
-| 💬 [Discord] | 🧵 [Discourse] | ⌨️ [Github]| 🥇 [Initiatives]
-| -- | -- | -- | -- |
-|Someone gives your post an emoji 👍 💯 <img width="20" alt="SourceCred" src="https://sourcecred.io/img/favicon.png" />| Someone gives your post/reply a ❤️ | You open a pull request  | You accomplish a specific task approved by the community
+| 💬 [Discord] | 🧵 [Discourse] | ⌨️ [Github]|
+| -- | -- | -- |
+|Someone gives your post an emoji 👍 💯 <img width="20" alt="SourceCred" src="https://sourcecred.io/img/favicon.png" />| Someone gives your post/reply a ❤️ | You open a pull request 
 
- Each community can also change the weights of how much Cred is Minted from each action or reaction. For example, the SourceCred community uses the SourceCred emoji <img width="20" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> to denote extra value, so it Mints more Cred than other emojis. Or, if a community values GitHub pull requests but uses Discourse for down time chats, they could make it so Discourse posts/replies Mint little Cred and GitHub activity Mints more. If you'd like to learn more about the plug-ins SourceCred currently supports, check out our [plug-ins link](). ADD PLUG-INS LINK WHEN IT EXISTS
+ Each community can also change the weights of how much Cred is Minted from each action or reaction. For example, the SourceCred community uses the SourceCred emoji <img style="height:1em;" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> to denote extra value, so it Mints more Cred than other emojis. Or, if a community values GitHub pull requests but uses Discourse for down time chats, they could make it so Discourse posts/replies Mint little Cred and GitHub activity Mints more. If you'd like to learn more about the plug-ins SourceCred currently supports, check out our [plug-ins link](). ADD PLUG-INS LINK WHEN IT EXISTS
 
 
 
@@ -61,14 +65,12 @@ Since Cred can be created from nothing by community members, there must be a bal
 
 
 ### 🍝 Want more?
-[Here] is a broader explanation of the concepts behind SourceCred by Evan Miyazono from [Protocol Labs Research].
+You can read [an in-depth explanation of the SourceCred concepts](https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/) by Evan Miyazono from [Protocol Labs Research].
 
-[cred]: cred.md
-[Discord]: https://discord.gg/XVFwCm
+
+[Discord]: https://sourcecred.io/discord
 [Discourse]: https://discourse.sourcecred.io/
-[Github]: https://github.com/sourcecred/sourcecred
-[Initiatives]: https://sourcecred.io/docs/guides/initiatives
-[Here]: https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/
+[GitHub]: https://github.com/sourcecred/sourcecred
 [Protocol Labs Research]: https://research.protocol.ai/
 
 
