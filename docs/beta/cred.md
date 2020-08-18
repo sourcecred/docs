@@ -14,7 +14,8 @@ For example, if a Crypto community has determined that GitHub pull requests are 
 Actions that produce Cred are tracked and measured by plugins (see below). Plugins must be written for each [Platform](/docs/beta/our-platforms) to work with SourceCred.
 
 
-<img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="Graph visualization showing nodes connected by lines" style="max-width:50%;" />
+<img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="A graph visualization showing nodes connected by lines" style="max-width:50%;" />
+<small>(Simplified) Cred Contribution Graph example</small>
 
 ### 📈 Edges and Nodes 
 As soon as you interact with SourceCred, you will become part of the Contribution Graph, a network of connected contributions. You and every contribution you make will each be represented as a separate node in the graph, each with a Cred score. Nodes are connected by edges, which indicate how they relate to other contributions and contributors. For example, if you create a Discourse post, an edge will go between your node and the Discourse post’s node. This is how Cred flows to you from your contribution.
@@ -41,8 +42,11 @@ When someone Mints Cred by reacting to your Discord post with an emoji:
 - It creates an edge from the person reacting (you), to that reaction node;
 - It creates an edge pointing from the reaction node to the post receiving the reaction.
 
-### ☂️ Cred Evaporation
-As Cred flows through your pond to other ponds, the amount that flows onwards must gradually decline (or else everyone’s ponds would “overflow” infinitely). Cred Evaporation is a weighting configuration for your project that determines the amount of Cred that disappears (“returns to the source”) with each new node traversal. An evaporation setting of `0.2` means that every node gives 20% of its incoming Cred back to the source.
+
+### 🔥 Cred Evaporation
+Since Cred can be created from nothing by community members, there must be a balance so that Cred maintains its worth. Our system is called **Cred Evaporation**, and is similar to how water evaporates from water sources to create rain. For every node on the Contribution Graph, a fixed proportion of its Cred Evaporates away, a proportion called alpha. The Cred that Evaporates replenishes the source from which Cred is Minted.
+
+An alpha of `0.2` means that every node gives 20% of its incoming Cred back to the source.
 
 📝 **Note:** Cred does _not_ evaporate over time. You will not lose Cred for being absent or inactive.
 
@@ -59,9 +63,6 @@ The types of contributions and plugins tracked by the SourceCred algorithm are l
  Each community can also change the weights of how much Cred is Minted from each action or reaction. For example, the SourceCred community uses the SourceCred emoji <img style="height:1em;" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> to denote extra value, so it Mints more Cred than other emojis. Or, if a community values GitHub pull requests but uses Discourse for down time chats, they could make it so Discourse posts/replies Mint little Cred and GitHub activity Mints more. If you'd like to learn more about the plug-ins SourceCred currently supports, check out our [plug-ins link](). ADD PLUG-INS LINK WHEN IT EXISTS
 
 
-
-### 🔥 Cred Evaporation
-Since Cred can be created from nothing by community members, there must be a balance so that Cred maintains its worth. Our system is called **Cred Evaporation**, and is similar to how water evaporates from water sources to create rain. For every node on the Contribution Graph, a fixed proportion of its Cred Evaporates away, a proportion called alpha. The Cred that Evaporates replenishes the source from which Cred is Minted.
 
 
 ### 🍝 Want more?
