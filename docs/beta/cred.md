@@ -58,7 +58,7 @@ The types of contributions and plugins tracked by the SourceCred algorithm are l
 | -- | -- | -- |
 |Someone gives your post an emoji 👍 💯 <img width="20" alt="SourceCred" src="https://sourcecred.io/img/favicon.png" />| Someone gives your post/reply a ❤️ | You open a pull request |
 
-Each community can also change the weights of how much Cred is Minted from each action or reaction. For example, the SourceCred community uses the SourceCred emoji <img style="max-height:1em;" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> to denote extra value, so it Mints more Cred than other emojis. Or, if a community values GitHub pull requests but uses Discourse for down time chats, they could make it so Discourse posts/replies Mint little Cred and GitHub activity Mints more. If you'd like to learn more about the plug-ins SourceCred currently supports, check out our [plug-ins link](). ADD PLUG-INS LINK WHEN IT EXISTS
+Each community can also change the weights of how much Cred is Minted from each action or reaction. For example, the SourceCred community uses the SourceCred emoji <img width="20" style="max-height:1em;" alt="SourceCred" src="https://sourcecred.io/img/favicon.png" /> to denote extra value, so it Mints more Cred than other emojis. Or, if a community values GitHub pull requests but uses Discourse for down time chats, they could make it so Discourse posts/replies Mint little Cred and GitHub activity Mints more. If you'd like to learn more about the plug-ins SourceCred currently supports, check out our [plug-ins link](). ADD PLUG-INS LINK WHEN IT EXISTS
 
 
 
