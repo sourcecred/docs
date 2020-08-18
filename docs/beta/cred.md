@@ -15,7 +15,7 @@ Actions that produce Cred are tracked and measured by plugins (see below). Plugi
 
 <figure>
 <img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="A graph visualization showing nodes connected by lines" />
-<figcaption>(Simplified) Cred Contribution Graph example</figcaption>
+<figcaption><small><em>(Simplified) Cred Contribution Graph example</em></small></figcaption>
 </figure>
 
 ### 📈 Edges and Nodes 
