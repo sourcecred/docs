@@ -55,9 +55,6 @@ See an example of SourceCred's Cred and Grain by checking out [our Cred Instance
 
 ### SourceCred's Vision
 
-[//]: # (This is the last section that needs true content written in, below is a rough outline of content that could be expanded on. -LB)
-
-
 * outcompeting capitalism
 
   * Creating a system to replace capitalism is important to dismantling the harmful systems we live within
@@ -93,4 +90,4 @@ Setting up an instance of SourceCred, reviewing the Cred calculations it creates
 
 SourceCred dogfooding itself, meaning that we use the technology we're creating to calculate our own Cred scores and distribute Grain to those who help build and support it. If you are interested in getting involved with the SourceCred community, read through our [Getting Involved with SourceCred](https://sourcecred.io/docs/beta/get-involved) doc and join the main conversation in our [Discord](https://sourcecred.io/discord). 
 
-From there, you'll be able to learn more about our community and feel out where you can best contribute. We encourage all types of skillful people to get involved; from software engineers, to artists, to economics enthusiasts, to those with emotional intelligence and "soft skills". So come join the conversation and see if there's a place for you to earn some Cred in SourceCred!
+From there, you'll be able to learn more about our community and feel out where you can best contribute. We encourage all types of skillful people to get involved; from software engineers, to artists, to economics enthusiasts, to those with emotional intelligence and "soft skills". No degrees required. So come join the conversation and see if there's a place for you to earn some Cred in SourceCred!
