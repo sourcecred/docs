@@ -1,22 +1,21 @@
 ---
-title: What is Cred?
+title: How Cred Works
+description: What is Cred, and what is it for?
 ---
-# <img width="30" alt="SourceCred" src='https://sourcecred.io/img/favicon.png' /> How Cred Works
----
-# What is Cred?
-As the name suggests, Cred is an important part of SourceCred. Cred is a metric used to describe every contribution and contributor in a project. Each contributor has a Cred score, which is made up of all the contributions they have made to a project. These scores are determined by how important or useful their contributions have been to their community. Your Cred score determines the percentage of __Grain__ you earn. Check out [this page](https://sourcecred.io/docs/concepts/grain) to learn more about Grain payouts.
+## What is Cred?
 
-### 🧮 What is a Contribution?
- A contribtuion is an action that has value to the community. Each community determines which actions have value to them, and thus earn Cred. Communities also determine their _weights_, how much Cred each kind of contribution earns.
+As the name suggests, Cred is an important part of SourceCred. Cred is a metric used to describe every contribution and contributor in a project. Each contributor has a Cred score, which is made up of all the contributions they have made to a project. These scores are determined by how important or useful their contributions have been to their community. Your Cred score determines the amount of [Grain](https://sourcecred.io/docs/beta/grain) you earn, which is SourceCred’s digital token, which can be crypto or fictional currency.
+
+### 🧮 What counts as a contribution?
+A contribution is any action that has value to the community. Each community determines which actions have value to them, and thus earn Cred. Communities also determine their _weights_, i.e. how much Cred each kind of contribution earns.
  
- For example, if a Crypto community has determined that Github pull requests are valuable, they might decide each is worth 20 Cred. If Discourse posts are less valuable to the community, those would earn less Cred. Actions that are not seen as contributions, such as playing video games, would earn no Cred.
+For example, if a Crypto community has determined that GitHub pull requests are valuable, they might decide each PR is worth 20 Cred. If Discourse posts are less valuable to the community, those would earn less Cred. Actions that are not seen as contributions, such as playing video games or arguing on the forums, would earn no Cred.
 
 
 ### 📈 Edges and Nodes 
-As soon as you interact with SourceCred, you will become part of the Contribution Graph (i.e. a network of connected contributions). You and every contribution you make will each be represented as a separate node in the graph, each with a Cred score. Nodes are connected by edges, which indicate how they relate to other contributions and contributors. For example, if you create a Discourse post, an edge will go between your node and the Discourse post's node. This is how Cred flows to you from your contribution.
+As soon as you interact with SourceCred, you will become part of the Contribution Graph, a network of connected contributions. You and every contribution you make will each be represented as a separate node in the graph, each with a Cred score. Nodes are connected by edges, which indicate how they relate to other contributions and contributors. For example, if you create a Discourse post, an edge will go between your node and the Discourse post’s node. This is how Cred flows to you from your contribution.
 
-
-Edges are directional, indicating the flow of Cred. For instance, when you created your Discourse post node, you get an "inbound" edge from that post, flowing Cred to you. If you referenced another contributor in your post, it would create an “outbound” edge from that post to the referenced contributor, that would flow Cred to them. This makes up the Contribution Graph.
+Edges are directional, indicating the flow of Cred. For instance, when you created your Discourse post node, you get an “inbound” edge from that post, flowing Cred to you. If you referenced another contributor in your post, it would create an “outbound” edge from that post to the referenced contributor, that would flow Cred to them. This makes up the Contribution Graph.
 
 SourceCred converts this graph into a numerical score via a modified [PageRank algorithm](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf). Every node receives Cred from every node that connects to it. The amount of Cred a node receives is the same as the amount that it sends to other nodes. This means that being connected to a high-Cred node is much more valuable than being connected to a low-Cred node, especially if that high-Cred node isn't connected to many other nodes. In other words, Cred accumulates at important nodes. 
 
