@@ -2,23 +2,25 @@
 title: 🌱 Introduction
 description: An introduction to the basic concepts of SourceCred.
 ---
-Welcome to your new favorite rabbit-hole. This doc will offer you a basic overview of the different parts that make up SourceCred and, provide you with links to additional documentation so you can keep exploring your curiosity. 
+Welcome to your new favorite rabbit-hole. This doc will offer you a basic overview of the different parts that make up SourceCred and provide you with links to additional documentation so you can keep exploring your curiosity. We hope you enjoy the journey. 
 
 ### So what IS SourceCred?
 
-SourceCred (in the most basic sense) is a technology that makes the labor of individuals more visible and rewardable as they work together in a project or community. The goal of SourceCred is to use this technology to make rewarding labor as nuanced as human contribution can be. We hope to be one piece in the puzzle of a healthier world where systems serve people as we create together, where financial maximization isn't the end-all be-all goal, and wealth actually flows to those who are creating the value in our world. 
+SourceCred (in the most basic sense) is a technology that makes the labor of individuals more visible and rewardable as they work together in a project or community. The goal of SourceCred is to use this technology to make rewarding labor as nuanced as human contribution can be. We hope to be one piece in the puzzle of a healthier future where systems serve people as we create together, where financial maximization isn't the end-all be-all goal, and wealth actually flows to those who are creating the value in our world. 
 
 ### SourceCred's Core Concepts:
 
 #### Cred
 
-SourceCred uses an algorithm to determine how much value a contribution or contributor added to a project overall. When a contribution is made to a project, SourceCred's purpose is to "see" that contribution and assign it an amount of "Cred" based on how much value it brought to the project as a whole. That Cred flows from the contribution to all the people and other contributions that supported it. In this way, you can imagine how a project could be represented as a "node graph" made up of contribution and people dots (aka "nodes") connected by lines (aka "edges") that flow Cred around to each other based on what supported what. The more edges one contribution has to other important contributions in the project, the more Cred is going to have an opportunity to flow to it. In this way, it's easy to tell by the Cred score which contributions (and contributors) are truly foundational to and support future work in the project.
+SourceCred uses an algorithm to determine how much value a contribution or contributor added to a project overall. When a contribution is made to a project, SourceCred's purpose is to "see" that contribution and assign it an amount of "Cred" based on how much value it brought to the project as a whole. 
 
-So how does an algorithm determine how much someone's work is worth in the bigger picture of a project? Sounds a little dystopian right? The algorithm uses what we call "Weights" which are a set of rules stating which kinds of contributions are worth what amounts of Cred. The Weights fo Cred distribution are decided by each community individually, thereby giving a community the opportunity to decide what it values and which actions uphold those values as they work together to create something. Every community using SourceCred can decide for themselves what is valuable and deserving of Cred, and what is not. 
+That Cred flows from the contribution to all the people and other contributions that supported it. In this way, you can imagine how a project could be represented as a "node graph" made up of contribution and people dots (aka "nodes") connected by lines (aka "edges") that flow Cred around to the nodes based on what supported what. The more edges one contribution has to other important contributions in the project, the more Cred is going to have an opportunity to flow to it along the edges. In this way, it's easy to tell by the Cred score which contributions (and contributors) are truly foundational and support future work in the project.
+
+So how does an algorithm determine how much someone's work is worth in the bigger picture of a project? Sounds a little dystopian, right? The algorithm uses what we call "Weights" which are a set of rules stating which types of contributions are worth what amounts of Cred. The Weights for Cred distribution are decided by each community individually, thereby giving a community the opportunity to decide what it values and which actions uphold those values as they work together to create something. Every community using SourceCred can decide for themselves what is valuable and deserving of Cred, and what is not. 
 
 Cred is "non-transferable" in that you cannot sell your Cred, or buy someone else's Cred. It is solely a representation of where value in the project has been created.
 
-If you want to dig deeper into the nuances of Cred, check out our [How Cred Works](./cred) documentation. 
+If you want to dig deeper into the nuances of Cred, check out our [How Cred Works](https://sourcecred.io/docs/beta/cred) documentation. 
 
 #### Grain
 
@@ -38,13 +40,13 @@ Part of what makes Grain (and SourceCred) so powerful is that it can be applied 
 ##### Examples of how a project might use Grain:
 
 * Paying contributors with grants or funds it already has based on Cred/Grain.
-* Creating a project-specific currency that can be traded for other forms of currency e.g.: ETH or US Dollars). 
+* Creating a project-specific currency that can be traded for other forms of currency (ie: ETH or US Dollars). 
 * Creating an internal currency that could be used solely for governance or to show support for features/ideas. 
 
 ##### Examples of how an individual might use Grain:
 
 * Selling their grain back to the project in exchange for money from the project's budget (essentially wages you can claim by selling your Grain). 
-* "Boosting" specific initiatives, ideas, goals, etc in the project by "burning" some of their Grain to make more Cred for that initiative. This creates a small flow of Cred from the initiative back to themselves, as a reward for sponsoring it.
+* "Boosting" specific initiatives, ideas, goals, etc in the project by "burning" some of their Grain to make more Cred for that initiative. And creating a small flow of Cred from the initiative back to themselves as a bonus.
 * Selling their Grain to people or groups outside the project who would like to use it for Boosting and incentivizing certain features/decisions.
 
 Follow the rabbit hole deeper by reading our [How Grain Works](https://sourcecred.io/docs/beta/grain) documentation.
@@ -61,10 +63,6 @@ See an example of SourceCred's Cred and Grain by checking out [our Cred Instance
 
 * Internal community
 * Using it in your community
-
-
-
-
 
 \[//](Bring the reader around to the sensation of SourceCred as a functioning community with goals, not just a lofty idea and a lot of theories but no action. Highlight the sensation that we are an actual group of people working together successfully to bring this vision to reality"): # (# Editor's Preface:
 
