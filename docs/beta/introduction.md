@@ -6,9 +6,9 @@ Welcome to your new favorite rabbit-hole. This doc will offer you a basic overvi
 
 ### So what IS SourceCred?
 
-SourceCred (in the most basic sense) is a technology that makes the labor of individuals more visible and rewardable as they work together in a project or community. The goal of SourceCred is to use this technology to make rewarding labor as nuanced as human contribution can be. We hope to be one piece in the puzzle of a healthier future where systems serve people as we create together, where financial maximization isn't the end-all be-all goal, and wealth actually flows to those who are creating the value in our world. 
+SourceCred (in the most basic sense) is a technology that makes the labor of individuals more visible and rewardable as they work together in a project or community. The goal of SourceCred is to use this technology to make rewarding labor as nuanced as human contribution often is. We hope to be one piece in the puzzle of a healthier future where systems serve people as we create together, where financial maximization isn't the end-all be-all goal, and wealth actually flows to those who are creating the value in our world. 
 
-### SourceCred's Core Concepts:
+### SourceCred's Core Concepts
 
 #### Cred
 
@@ -88,6 +88,6 @@ Setting up an instance of SourceCred, reviewing the Cred calculations it creates
 
 ##### Contribute to building SourceCred:
 
-SourceCred dogfooding itself, meaning that we use the technology we're creating to calculate our own Cred scores and distribute Grain to those who help build and support it. If you are interested in getting involved with the SourceCred community, read through our [Getting Involved with SourceCred](https://sourcecred.io/docs/beta/get-involved) doc and join the main conversation in our [Discord](https://sourcecred.io/discord). 
+SourceCred is dogfooding itself, meaning that we use the technology we're creating to calculate our own Cred scores and distribute Grain to those who help build and support it. If you are interested in getting involved with the SourceCred community, read through our [Getting Involved with SourceCred](https://sourcecred.io/docs/beta/get-involved) doc and join the main conversation in our [Discord](https://sourcecred.io/discord). 
 
 From there, you'll be able to learn more about our community and feel out where you can best contribute. We encourage all types of skillful people to get involved; from software engineers, to artists, to economics enthusiasts, to those with emotional intelligence and "soft skills". No degrees required. So come join the conversation and see if there's a place for you to earn some Cred in SourceCred!
