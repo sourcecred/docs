@@ -8,10 +8,14 @@ As the name suggests, Cred is an important part of SourceCred. Cred is a metric 
 
 ### 🧮 What are contributions?
 A contribution is any action that has value to the community. Each community determines which actions have value to them, and thus earn Cred. Communities also determine their _weights_, i.e. how much Cred each kind of contribution earns.
- 
+
 For example, if a Crypto community has determined that GitHub pull requests are valuable, they might decide each PR is worth 20 Cred. If Discourse posts are less valuable to the community, those would earn less Cred. Actions that are not seen as contributions, such as playing video games or arguing on the forums, would earn no Cred.
 
 Actions that produce Cred are tracked and measured by plugins (see below). Plugins must be written for each [Platform](/docs/beta/our-platforms) to work with SourceCred.
+
+
+<img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="A graph visualization showing nodes connected by lines" style="max-height:255px;" />
+_(Simplified) Cred Contribution Graph example._
 
 ### 📈 Edges and Nodes 
 As soon as you interact with SourceCred, you will become part of the Contribution Graph, a network of connected contributions. You and every contribution you make will each be represented as a separate node in the graph, each with a Cred score. Nodes are connected by edges, which indicate how they relate to other contributions and contributors. For example, if you create a Discourse post, an edge will go between your node and the Discourse post’s node. This is how Cred flows to you from your contribution.
@@ -62,7 +66,7 @@ To learn more about each plug-ins SourceCred currently supports, check out their
 - [GitHub Plugin](/docs/beta/plugins/github)
 
 
-### 🍝 Want more?
+## Want more?
 You can read [an in-depth explanation of the SourceCred concepts](https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/) by Evan Miyazono from [Protocol Labs].
 
 
