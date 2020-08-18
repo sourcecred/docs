@@ -18,7 +18,7 @@ So how does an algorithm determine how much someone's work is worth in the bigge
 
 Cred is "non-transferable" in that you cannot sell your Cred, or buy someone else's Cred. It is solely a representation of where value in the project has been created.
 
-If you want to dig deeper into the nuances of Cred, check out our [How Cred Works](https://sourcecred.io/docs/beta/cred) documentation. 
+If you want to dig deeper into the nuances of Cred, check out our [How Cred Works](./cred) documentation. 
 
 #### Grain
 
@@ -38,13 +38,13 @@ Part of what makes Grain (and SourceCred) so powerful is that it can be applied 
 ##### Examples of how a project might use Grain:
 
 * Paying contributors with grants or funds it already has based on Cred/Grain.
-* Creating a project-specific currency that can be traded for other forms of currency (ie: ETH or US Dollars). 
+* Creating a project-specific currency that can be traded for other forms of currency e.g.: ETH or US Dollars). 
 * Creating an internal currency that could be used solely for governance or to show support for features/ideas. 
 
 ##### Examples of how an individual might use Grain:
 
 * Selling their grain back to the project in exchange for money from the project's budget (essentially wages you can claim by selling your Grain). 
-* "Boosting" specific initiatives, ideas, goals, etc in the project by "burning" some of their Grain to make more Cred for that initiative. And creating a small flow of Cred from the initiative back to themselves as a speculation bonus.
+* "Boosting" specific initiatives, ideas, goals, etc in the project by "burning" some of their Grain to make more Cred for that initiative. This creates a small flow of Cred from the initiative back to themselves, as a reward for sponsoring it.
 * Selling their Grain to people or groups outside the project who would like to use it for Boosting and incentivizing certain features/decisions.
 
 Follow the rabbit hole deeper by reading our [How Grain Works](https://sourcecred.io/docs/beta/grain) documentation.
