@@ -19,15 +19,15 @@ As soon as you interact with SourceCred, you will become part of the Contributio
 
 Edges are directional, indicating the flow of Cred. For instance, when you created your Discourse post node, you get an “inbound” edge from that post, flowing Cred to you. If you referenced another contributor in your post, it would create an “outbound” edge from that post to the referenced contributor, that would flow Cred to them. This makes up the Contribution Graph.
 
-SourceCred converts this graph into a numerical score via a modified [PageRank algorithm](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf). Every node receives Cred from every node that connects to it. The amount of Cred a node receives is the same as the amount that it sends to other nodes. This means that being connected to a high-Cred node is much more valuable than being connected to a low-Cred node, especially if that high-Cred node isn't connected to many other nodes. In other words, Cred accumulates at important nodes. 
+SourceCred converts this graph into a numerical score via a modified [PageRank algorithm](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf). Every node receives Cred from every node that connects to it. The amount of Cred a node receives is the same as the amount that it sends to other nodes. This means that being connected to a high-Cred node is much more valuable than being connected to a low-Cred node, especially if that high-Cred node isn’t connected to many other nodes. In other words, Cred accumulates at important nodes. 
 
 For example, a major contributor is connected to each of their many contributions, and so has a lot of Cred. A spam post, however, may be connected to almost no other nodes, so it will have very little Cred.
 
 
-## 💧How Cred Flows
-You can visualize Cred flowing through the graph as water flowing through an ecosystem of ponds and creeks. Cred does not accumulate in one place, but rather flows through each pond, constantly moving. It flows between contributor ponds (Cred Flowing), falls as rain (Cred minting) and evaporates from everyone's ponds over time (Cred evaporation).
+## How Cred Flows
+You can visualize Cred flowing through the graph as water flowing through an ecosystem of ponds and creeks. Cred does not accumulate in one place, but rather flows through each pond, constantly moving. It flows between contributor ponds (Cred Flowing), falls as rain (Cred minting) and evaporates from everyone's ponds over time (Cred Evaporation).
 
-### 🏄🏾 Cred Flowing
+### 💧 Cred Flowing
 Every contributor has their own pond, which represents their Cred score. Your Cred Score is the amount of Cred that is flowing *through* your pond - the amount entering is the same amount that is simultaneously leaving, flowing to other community members. Each of your contributions is interconnected with other community contributions across different platforms. Contributions are even connected through time - today's contributions connect to contributions from yesterday, last week, etc.
 
 ### ☔ Cred Minting
