@@ -13,11 +13,6 @@ For example, if a Crypto community has determined that GitHub pull requests are 
 
 Actions that produce Cred are tracked and measured by plugins (see below). Plugins must be written for each [Platform](/docs/beta/our-platforms) to work with SourceCred.
 
-<figure>
-<img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="A graph visualization showing nodes connected by lines" style="max-height:255px;" />
-<figcaption>(Simplified) Cred Contribution Graph example</figcaption>
-</figure>
-
 ### 📈 Edges and Nodes 
 As soon as you interact with SourceCred, you will become part of the Contribution Graph, a network of connected contributions. You and every contribution you make will each be represented as a separate node in the graph, each with a Cred score. Nodes are connected by edges, which indicate how they relate to other contributions and contributors. For example, if you create a Discourse post, an edge will go between your node and the Discourse post’s node. This is how Cred flows to you from your contribution.
 
