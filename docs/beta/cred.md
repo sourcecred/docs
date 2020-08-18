@@ -14,7 +14,7 @@ For example, if a Crypto community has determined that GitHub pull requests are 
 Actions that produce Cred are tracked and measured by plugins (see below). Plugins must be written for each [Platform](/docs/beta/our-platforms) to work with SourceCred.
 
 
-<img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="A graph visualization showing nodes connected by lines" style="max-height:255px;" />
+<img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="A graph visualization showing nodes connected by lines" />
 
 _(Simplified) Cred Contribution Graph example._
 
