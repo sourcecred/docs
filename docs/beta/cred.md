@@ -35,9 +35,9 @@ You can visualize Cred flowing through the graph as water flowing through an eco
 Every contributor has their own pond, which represents their Cred score. Your Cred Score is the amount of Cred that is flowing *through* your pond—meaning, the amount entering is the same amount that is simultaneously leaving and flowing to other community members. Each of your contributions is interconnected with other community contributions across different platforms. Contributions are even connected through time: today’s contributions connect to contributions from yesterday, last week, and so forth.
 
 ### ☔ Cred Minting
-If community members find one of your contributions valuable, they will **Mint**, or _create_, new Cred, and flow it to you. This Cred magically appears out of nowhere and flows in your direction. Cred minting is just like rain, new water falling from the sky into your pond. Let’s look at an example:
+If community members find one of your contributions valuable, they will **Mint**, or _create_, new Cred, and flow it to you. This Cred magically appears out of nowhere and flows in your direction. Cred minting is just like rain, new water falling from the sky into your pond. 
 
-When someone Mints Cred by reacting to your Discord post with an emoji…
+For example, when someone Mints Cred by reacting to your Discord post with an emoji:
 
 - It creates a new reaction node in the graph;
 - It creates an edge from the person reacting (you), to that reaction node;
