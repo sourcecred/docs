@@ -17,6 +17,7 @@ module.exports = {
         src: 'img/favicon.png',
       },
       items: [
+        {to: 'docs', label: 'Beta Docs', position: 'left'},
         {
           href: 'https://github.com/sourcecred',
           label: 'GitHub',
@@ -38,8 +39,8 @@ module.exports = {
               href: "https://discourse.sourcecred.io"
             },
             {
-              label: 'Prototype',
-              to: 'https://sourcecred.io/cred/timeline/@sourcecred/',
+              label: 'Our Cred',
+              to: 'http://cred.sourcecred.io/#/',
             },
           ]
         },
