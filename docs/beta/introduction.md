@@ -1,5 +1,5 @@
 ---
-title: 🌱 Introduction
+title: 💁‍️ Introduction
 description: An introduction to SourceCred's values and goals
 ---
 

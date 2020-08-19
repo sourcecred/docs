@@ -1,5 +1,5 @@
 ---
-title: Our Calls
+title: ☎️ Our Calls
 description: See the various calls, meetings, work sessions, and jams for the
   SourceCred community.
 ---

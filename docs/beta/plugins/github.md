@@ -2,8 +2,6 @@
 title: Github
 ---
 
-# GitHub Plugin
-
 The GitHub plugin assigns Cred to contributors participating
 on GitHub, for example by writing or reviewing code, filing and triaging bug
 reports, maintaining the build, and cutting new releases.

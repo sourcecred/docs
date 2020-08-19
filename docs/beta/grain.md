@@ -1,9 +1,8 @@
 ---
-title: How Grain Works
-description: ""
+title: 🌾 How Grain Works
 image: img/uploads/grain-token-icon.png
 ---
-## 🌾 What is Grain?
+##  What is Grain?
 
 Grain is a community-specific digital currency which is issued on the basis of [Cred](/docs/beta/cred) scores. Grain represents how much a participant has supported that community, either through contributions or financial support. Grain can be used to pay participants, or for “Boosting” contributions or initiatives. 
 

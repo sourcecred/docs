@@ -1,5 +1,5 @@
 ---
-title: Our Platforms
+title: 🏠 Our Platforms
 description: Platforms our internal community uses (like Discord, Discourse, or
   GitHub), how they impact cred, and the basic social norms of using them.
 ---

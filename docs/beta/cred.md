@@ -1,5 +1,5 @@
 ---
-title: How Cred Works
+title: 💧 How Cred Works
 description: What is Cred, and what is it for?
 ---
 ## What is Cred?

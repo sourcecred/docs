@@ -1,9 +1,9 @@
 ---
-title: Best Resources for New Contributors
+title: 🌱 Best Resources for New Contributors
 description: The tools, guides and resources that are most relevant to people looking to start actively contributing to SourceCred.
 ---
 
-# Want to be part of the SoureCred team?
+## Want to be part of the SoureCred team?
 
 First, try getting familiar with these helpful docs:
 
@@ -20,7 +20,7 @@ First, try getting familiar with these helpful docs:
 
   (\*\*doesn't exist and isn't currently in-scope for beta)
 
-# Organizational Tools
+## Organizational Tools
 
 We have a few MVP (minimum viable product) organizational tools for our internal operations. Looking through these can help you get an idea of what kinds of projects are being worked on in SourceCred.
 
@@ -40,7 +40,7 @@ The Docs Index is a spreadsheet where we organize the documentation we're writin
 Here you'll find a spreadsheet with a link at the top. By clicking the link, you'll be taken to a form where you can share about yourself and what kind of contributor you are. This just helps folks get to know you and your role in the community better. Looking through the spreadsheet can give you a better idea of who someone is as well! Note that you can always change your answers later by editing the doc itself, but you should never edit someone else's answers.
 
 
-# Extra Content
+## Extra Content
 
 Throughout SourceCred's journey,  some interesting content has been created! You may enjoy looking through some of these noteworthy creations:
 

@@ -1,5 +1,5 @@
 ---
-title: Getting Involved with SourceCred
+title: 🤗 Getting Involved with SourceCred
 description: A guide for becoming a contributor in SourceCred's internal community.
 ---
 If you are interested in joining the community of contributors who are working together to make SourceCred a reality, then this is the doc that will help you find your way. If you're looking for information about using SourceCred in a different community/project, check out \[Using SourceCred] instead.
