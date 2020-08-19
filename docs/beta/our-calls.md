@@ -1,82 +1,80 @@
 ---
 title: Our Calls
-description: A list of the types of calls, meetings, work sessions and jams we
-  have in our internal community.
+description: See the various calls, meetings, work sessions, and jams for the
+  SourceCred community.
 ---
-In SourceCred we frequently work asynchronously, but we also make use of voice and/or video meetings when we need to get coordinated. We have a number of different kinds of synchronous voice and/or video calls with different expectations and intended audiences. Below you'll find a description of each major type of call we have in our community.
+SourceCred is a community in which most contributors are remote and work asynchronously, allowing anyone to contribute no matter their location and availability. We hold regularly scheduled calls, open to everyone, to cultivate a culture of joyful collaboration and meaningful connection between members. These calls have different specific purposes (and expectations), and are held on the [SourceCred Discord server](https://sourcecred.io/discord) using the voice and video channels.
 
-All calls/meetings take place in the voice channels of the SourceCred Discord server.
+You can see what types of calls are currently scheduled on our [public calendar](http://sourcecred.io/calendar).
 
-You can see what types of calls are currently scheduled by looking at our [calendar](http://sourcecred.io/calendar).
 
-# Weekly Community Call
+## Weekly Community Call
 
-Audience: Anyone who is interested in SourceCred, especially newcomers.
+What: The founder and members of the core team host a call for any newcomers or community members to attend, introduce themselves, ask questions, etc.
 
-What: The founder and some members of the core team host a call for any newcomers or community members to introduce themselves, ask questions, discuss concepts, etc.
+**Perfect for** anyone who is interested in SourceCred, especially newcomers.
 
-Why: To provide newcomers with the opportunity to get to know the project and its main team, or ask any questions they have about SourceCred.
+Purpose: To provide newcomers with the opportunity to get to know the project and its main team, or ask any questions they have about SourceCred.
 
-Where: Discord Main voice channel.
+When: Weekly, [**Tuesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the [SourceCred Discord](https://sourcecred.io/discord).
 
-When: Weekly, Tuesday at 11am Pacific Time. Check out the [SourceCred Calendar](https://sourcecred.io/calendar).
 
-# Jams
+## Weekly Contributor Call
 
-What: a designated time to talk about a specific subject and how it relates to SourceCred.
+What: A weekly call helping contributors be on the same page about larger goals, getting feedback on projects/initiatives, and unblocking people where needed.
 
-Audience: Anyone who finds that particular topic interesting or relevant to their work in SourceCred.
+**Perfect for** all people actively contributing to SourceCred, or simply anyone wanting to be tuned into the larger picture. If you are about to start contributing, you are welcome to listen in as a way to gain context, but please be mindful not to derail conversations with too many clarifying questions. If you find yourself lost at the Contributor Call, attend a Community Call instead which is the best place to ask questions to your heart’s content. 
 
-Why: We come together to explore a specific topic and how we can apply it to SourceCred. They are a fun and low-barrier way to get involved in a project.
+**Note:** Being a contributor does not make this meeting mandatory for you.
 
-Where: Discord Main voice channel.
+Purpose: This call gives all of the contributors the opportunity to see the bigger picture and align their actions and priorities with the overall goals of the project. It also gives the branch leads a chance to get feedback and assistance on larger goals or changes. It helps grow a sense of connection and shared goals across different portions of SourceCred.
 
-When: No set time or reoccurrence. Jams are scheduled as one-off events and timing is usually based off the availability of key participants. Check out the [SourceCred Calendar](https://sourcecred.io/calendar).
+When: Weekly, [**Thursday** at 11am Pacific Time](https://sourcecred.io/calendar) on the [SourceCred Discord](https://sourcecred.io/discord).
 
-# Weekly Contributor Call
 
-What: A weekly call that focuses on keeping contributors on the same page about larger goals, getting feedback on projects/initiatives and unblocking contributors where needed.
+## Jams
 
-Audience: This call is meant for people who are actively contributing to SourceCred and need/want to be tuned into the larger picture. If you are about to start contributing, it is definitely okay for you to come listen in as a way to gain context - just be mindful to not derail the conversation with basic context questions. If you find yourself lost at the Contributor Call, attend a Community Call instead and ask questions to your heart's content. Being a contributor does not make this meeting mandatory for you.
+What: A designated time to talk about a specific subject and how it relates to SourceCred.
 
-Why: This call gives all of the contributors the opportunity to see the bigger picture and align their actions/priorities with the overall goals of the project. It also gives the branch leads a chance to get feedback and assistance on larger goals/changes. These calls help grow a sense of connection and shared goals across different portions of SourceCred.
+**Perfect for** anyone who finds that particular topic interesting or relevant to their work in SourceCred.
 
-Where: Discord Main voice channel.
+Purpose: We come together to explore a specific topic, and how we can apply it to SourceCred or vice-versa. Jams are a fun, low-barrier way to get involved in the project.
 
-When: Weekly, Thursday at 11am PST.
+When: No set time or reoccurrence. Jams are scheduled as one-off events, and timing is usually based off the availability of key participants. Check out the [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Jams.
 
-# Branch-Specific Meetings
 
-What: Meetings for contributors working in a specific branch to coordinate, check in on progress, and align their goals and actions together.
+## Branch Specific Meetings
 
-Audience: The contributors who are working on initiatives within that specific branch, and the branch lead.
+What: Meetings for contributors working in a specific branch to coordinate, check in on progress, and align goals and action with each other and the branch lead.
 
-Why: These calls keep teams effective, aligned, and communicating. They help grow a sense of connection and shared goals within the branch, and give contributors a chance to receive help, propose new ideas, and communicate changes.
+**Primarily for** the contributors who are working on initiatives within that specific branch, and the branch lead.
+
+Purpose: Keeps teams effective, aligned, and communicating. Helps grow a sense of connection and shared goals within the branch. Gives contributors a chance to receive help, propose new ideas, and communicate changes.
 
 Where: Discord Main voice channel.
 
-When: At a regular day/time of the team's choosing. Find them on the [SourceCred Calendar](https://sourcecred.io/calendar).
+When: At a regular day/time of the team’s choosing. Find them on the [SourceCred Calendar](https://sourcecred.io/calendar).
 
-# Work Sessions
 
-What: Generally a shorter and faster-paced session scheduled for a specific team to come together and make progress on a specific goal or initiative. Having shorter sessions with an emphasis on getting a few singular goals completed can make these sessions more productive than regular meetings.
+## Work Sessions
 
-Audience: The contributors on a team that is actively working on a specific initiative and any other high-context contributors they need feedback from. Anyone who plans to start contributing to the specific initiative in question can attend to gain context.
+What: A generally shorter and faster paced session scheduled for a specific team to come together and make progress on a specific goal or initiative. Having shorter sessions with an emphasis on getting a few singular goals completed can make these sessions more productive than regular meetings.
 
-Why: Sometimes you just need some synchronous space with all the key players to really make progress on an initiative or project. By nature of being shorter, these are also less taxing and can help keep contributors on track.
+**Perfect for** the contributors on a team that is actively working on a specific initiative, and any other high-context contributors they need feedback from. Anyone who plans to start contributing to the specific initiative in question can attend to gain context.
 
-Where: Discord Main voice channel.
+Purpose: Creating a synchronous space with all the key players to really make progress on an initiative or project. By nature of being shorter, these are also less taxing and can help keep contributors on track.
 
-When: Scheduled as one-off events when asynchronous coordination won't cut it.
+When: Scheduled as one-off events when asynchronous coordination won’t cut it.
 
-# One on Ones
+
+## One-on-Ones (1:1)
 
 What: Time scheduled with another contributor, often someone who has more context in the project than yourself, for the purpose of gaining context, asking questions, expressing concerns, getting assistance, or sharing interesting ideas.
 
-Audience: Generally a newer contributor and a higher-context contributor, but certainly not limited to that dynamic.
+**Note:** one-on-ones take place over personal DM voice or video call, unlike our regular calls (which happen in the main Discord meeting room).
 
-Why: The reasons for a 1:1 are varied. You may have a friend in the community who is helping you dip your toes into SourceCred for the first time, or perhaps you work on a different project and would like to ask questions of a specific contributor about integrations with SourceCred, or maybe you've been in the community for a while and would like a guide/mentor you can touch bases with about your SourceCred experience from time to time.
+**Perfect for** a newer contributor and a higher-context contributor, but certainly not limited to that dynamic.
 
-Where: Personal DM voice or video call.
+Purpose: The reasons for a 1:1 are varied. You may have a friend in the community who is helping you dip your toes into SourceCred for the first time, or perhaps you work on a different project and would like to ask questions of a specific contributor about integrations with SourceCred, or maybe you’ve been in the community for a while and would like a guide/mentor you can touch bases with about your SourceCred experience from time to time.
 
 When: At the discretion of the participants.

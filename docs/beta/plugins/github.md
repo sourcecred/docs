@@ -195,12 +195,12 @@ the PR was merged.
 ## Status and Caveats
 
 The GitHub plugin is still in beta. It tends to assign reasonable Cred scores
-to contributors. It is worth noting however that all merged PRs currently 
+to contributors. It is worth noting though that all merged PRs currently 
 mint the same amount of Cred. Minting Cred only on merged PRs provides
 some level of review, and reduces the probability of spam attacks (low value 
 PRs submitted just to get Cred). However, not all PRs are equally valuable. 
 While we have not found this a problem in SourceCred, a tight knit and high trust
-community, in larger, lower trust communities, this could incentivize quantity 
+community, in larger, lower trust communities this could incentivize quantity 
 over quantity.
 
 We intend to address this by moving Cred minting further away from raw activity 
