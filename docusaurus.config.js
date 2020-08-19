@@ -68,6 +68,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          homePageId: 'beta/introduction',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://sourcecred.io/admin/#/?',

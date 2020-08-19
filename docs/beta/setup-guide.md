@@ -7,7 +7,7 @@ In this guide you'll find information about setting up your own instance of Sour
 
 [//]: # (What is the level of technical competence we're expecting from those who read this doc? If it's high, then we shouldn't waste too much time explaining basic tech concepts. The "before getting started" section below should explain the level of tech-knowledge you'll need and turn away those who won't be able to set up an instance on their own.)
 
-If you're looking for [general information](https://sourcecred.io/docs/beta/introduction) or want to [get involved](https://sourcecred.io/docs/beta/get-involved) with the community of folks building SourceCred, check out some of our other guides.
+If you're looking for [general information](https://sourcecred.io/docs/) or want to [get involved](https://sourcecred.io/docs/beta/get-involved) with the community of folks building SourceCred, check out some of our other guides.
 
 [//]: # (Does this list truly contain the top most important things you'll need to know before getting started with creating your own sourcecred instance?)
 
