@@ -55,6 +55,9 @@ See an example of SourceCred's Cred and Grain by checking out [our Cred Instance
 
 ### SourceCred's Vision
 
+[//]: # (This section still needs to be audited for the suggested content in the outline below, and then fleshed out some. Sending it into review anyway because the doc will benefit from multiple perspectives. -LB)
+
+
 * outcompeting capitalism
 
   * Creating a system to replace capitalism is important to dismantling the harmful systems we live within
