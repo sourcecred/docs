@@ -2,27 +2,23 @@
 title: Get Involved with SourceCred
 description: A guide for becoming a contributor in SourceCred’s internal community.
 ---
-If you are interested in joining the community of contributors who are working together to make SourceCred a reality, then this page will help you find your way. If you’re looking for information about using SourceCred for your own community or project, check out our [How To Set Up SourceCred](/docs/beta/setup-guide) guide instead.
+If you are interested in joining the community of contributors who are working together to make SourceCred a reality, then this page will help you find your way. If instead you’re looking for information about using SourceCred for your own community or project, check out our [How To Set Up SourceCred](/docs/beta/setup-guide) guide.
 
 This document follows the journey from being a newcomer to a full-fledged contributor in the SourceCred community, sharing relevant resources along the way to help you get there. No phase of getting involved in SourceCred is any better or worse than another; this is your experience, and we encourage you to engage with it at a level and pace that fits you.
 
+### General starting tips
 
-## General starting tips
+SourceCred is still young, and we don’t have a fully fleshed out onboarding process yet. That means you’ll do best if are willing to dive in, ask questions, explore resources, and otherwise utilize self-directed learning. This doesn’t mean we’re throwing you to the sharks in a “sink or swim” fashion. We are a highly engaged community, so your best chance at getting up to speed with what’s going on and how to help is to be active on our [Discord](https://sourcecred.io/discord) and get connected to other contributors. Come to calls, talk to contributors with more context, ask questions, and offer your help. We’ll welcome you with open arms!
 
-SourceCred is still young, and we don’t have a fully fleshed out onboarding process yet. That means you’ll do best if are willing to dive in, ask questions, explore resources, and otherwise utilize self-directed learning. This doesn’t mean we’re throwing you to the sharks in a “sink or swim” kind of fashion. We are a highly engaged community, so your best chance at getting up to speed with what’s going on and how to help is to be active and get connected in our communication channels. Come to calls, talk to contributors with more context, ask questions, and offer your help. We’ll welcome you with open arms!
+Note that just as everyone is different, everyone’s journey through SourceCred will be different. Make it the experience *you* want to have. Go at the pace that helps you realize your goals and builds trust in both directions. Below you'll find helpful suggestions or "quests" for each phase, but none of these are required or need to be done in a specific order. Happy exploring!
 
-Note that just as everyone is different, everyone’s journey through SourceCred will be different. Make it the experience _you_ want to have. Set out your goals before attempting to realize them, and build trust in all directions. 
-
-Lastly, this page offers helpful suggestions or “quests” for each phase. None of these are required or need to be done in a specific order, they’re provided to add an element of play to your journey. Happy exploring!
-
-
-## Phase 1: Getting Plugged In
+### Phase 1: Getting Plugged In
 
 Get connected through the platforms, tools, and social norms we use to communicate and coordinate with each other. In this phase, the focus is on getting you plugged into the different platforms, resources, and expectations of our community. This will give you a good foundation for the exploration you’ll do if you decide to contribute.
 
 If you decide that you don’t want to move beyond this phase, that’s okay! You'll be plugged in and can keep your finger on the pulse of this very fascinating project.
 
-### Best Newcomer Resources
+#### Best Newcomer Resources
 
 We provide [a list of resources for newcomers](/docs/beta/best-resources-for-new-contributors): documentation and tools it will be best to familiarize yourself with as you dip your toes into the community. Don’t feel like you need to read through everything before you’re allowed to start interacting with the community or asking questions. Though by the time you truly start trying to contribute, you should be familiar with these basic concepts and resources.
 
@@ -36,7 +32,7 @@ We provide [a list of resources for newcomers](/docs/beta/best-resources-for-new
 * **Attend a Community Call** so you can introduce yourself, get to know some of the other contributors, and ask questions about what still confuses or intrigues you about SourceCred. This call is very newcomer and basic-question friendly.
 * **Ask some questions, give some feedback, or share some ideas in the Discord channels**. The asynchronous community space that Discord offers can be very helpful and fun to engage with as you get to know this project.
 
-# Phase 2: Experimentation, Exploration, & Play
+### Phase 2: Experimentation, Exploration, & Play
 
 Whenever you feel like you have a basic sense of what SourceCred is and know you want to keep exploring it, that's when you could shift to Phase 2. You have a sense for the community, and other contributors have a sense of you. You probably already even have some cred! Now it's time to explore what it could look like to start contributing your skills to SourceCred.
 
@@ -53,7 +49,7 @@ If you find yourself happy in this phase of lighter or experimental contribution
 * **Listen in on a \[Contributor Call](our calls doc link)** to get some context on the bigger picture and current goals of SourceCred.
 * **Attend a meeting or work session** for an initiative you'd like to help out with. Gain context and evaluate if you'd like to start contributing. Just make sure not to derail the goals of the meeting.
 
-# Phase 3: True Contributor
+### Phase 3: True Contributor
 
 At this point, you've narrowed down your interests and are familiar with the parts of the project you'd like to be a part of. You've done a bit of contributing and have a feel for how ideas flow and things get done in our community. Maybe you've found some people you enjoy working with or some challenges that really get your brain ticking, and you want to keep that ball rolling. If so then you may want to consider joining a team that's working on a specific initiative, or taking on a more complex solo contribution. Phase 3 is where you really start to get invested and involved in your part of the project, and consequently, where you start to see the bigger and more rent-supporting cred scores/grain payouts.
 
@@ -68,7 +64,7 @@ If you decide you'd like to stick with phase 3 then you may be a frequent contri
 * **Suggest a new initiative** you see the project needs. Whether you end up leading the initiative or not; talk to the leaders in your slice of SourceCred if you have an idea to see what they think, whether it's needed, and how it could be achieved. Suggesting new initiatives is not required or a right of passage by any means, make sure you're suggesting thought-through ideas that clearly fill a need in the project. Not just for the sake of making suggestions.
 * **Take on and finish a solo-initiative**. Sometimes an initiative doesn't require a full team to be realized, if you enjoy working mostly on your own this could be a good route for you.
 
-# Phase 4: Core & Leadership
+### Phase 4: Core & Leadership
 
 If you want to move beyond being a frequent contributor and take on more responsibility, then you might try moving into Phase 4. At this point in your journey, you should; have a deep understanding of at least your branch of SourceCred, be making consistent and valuable contributions to whatever you're working on, have plenty of big-picture context, have the trust of Leads and Contributors, and an understanding of SourceCred's overall goals plus the milestones we're pursuing to achieve them.
 
