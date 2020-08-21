@@ -21,7 +21,7 @@ In the following sections:
 
 SourceCred welcomes and encourages participation in our community by people of 
 all backgrounds and identities. We are committed to promoting and sustaining a culture that values mutual respect, tolerance, and learning, and you can read more about culture
-in the [culture](culture/review_culture) documentation pages. We strive to work together 
+in the [culture](review_culture.md) documentation pages. We strive to work together 
 as a community to realize these values.
 
 We have created this diversity statement because we believe that a diverse community is stronger, more vibrant, and more productive and motivated. A diverse community where people treat one another with respect has more potential contributors, more sources for ideas, and fewer shared assumptions that might hinder the achievement of our goals.

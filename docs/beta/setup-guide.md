@@ -18,7 +18,7 @@ Before getting started, here are some things you’ll need to know:
 * Every SourceCred instance needs data about contributions. This information comes from the SourceCred plugins which "scrape" data from a platform to use in calculating cred scores. Currently, the available plugins include Discord, GitHub, and Discourse. For now, your community will need to be using at least one of these platforms in order to get meaningful Cred scores.
 * **Setting up a SourceCred instance is fairly technical.** You’ll need to be comfortable using the terminal, installing packages from NPM, and be familiar with the basics of Git and GitHub. 
 
-If you’re interested in SourceCred but lack the technical chops, you can still get involved on our [Discord](sourcecred.io/discord) or [Discourse forums](https://discourse.sourcecred.io/) to learn more, ask questions, and contribute to the project. 
+If you’re interested in SourceCred but lack the technical chops, you can still get involved on our [Discord](https://sourcecred.io/discord) or [Discourse forums](https://discourse.sourcecred.io/) to learn more, ask questions, and contribute to the project. 
 
 ### Getting started 
 
