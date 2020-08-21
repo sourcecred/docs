@@ -17,13 +17,7 @@ Note that Grain does not _have_ to be tied to any actual monetary concept, such 
 
 Grain is created during what we call “Harvests.” A Harvest is a two-step process in which the Cred is recomputed (so scores are as fresh as possible), and Grain is then distributed based on those Cred scores.
 
-#### 1. Cred Calculation
-In this cycle, the project recomputes the Cred Contribution Graph by gathering the data your plugins are tracking, and calculating new Cred scores. By default, this cycle runs every 6 hours.
-
-#### 2. Grain Distribution
-In this less-frequent cycle, the project distributes Grain based on participants’ newest Cred scores. By default, this cycle runs once a week.
-
-Your Cred score determines the percentage of Grain you receive out of the total amount allocated to the community for each Harvest, regardless of how frequently Cred Calculation happens within it. 
+By default, projects re-compute Cred every 6 hours, but only distribute Grain once a week: on Sunday morning, UTC time. Thus, the project has a full harvest only once per week.
 
 #### Grain Distribution Policies
 SourceCred currently has two policies for how a project distributes Grain:
