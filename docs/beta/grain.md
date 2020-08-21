@@ -28,7 +28,7 @@ Your Cred score determines the percentage of Grain you receive out of the total 
 #### Grain Distribution Policies
 SourceCred currently has two policies for how a project distributes Grain:
 
-- `IMMEDIATE` splits Grain evenly based on everyone’s Cred earned per the most recent Grain Distribution cycle. (default: last week)
+- `IMMEDIATE` splits Grain evenly based on how much Cred each participant earned last week. (This policy ignores all Cred from previous weeks, and is intended to give fast rewards to active participants.)
 - `BALANCED` splits Grain based on lifetime Cred. This will accommodate a retroactively-updated Cred shift by equalizing compensation as soon as possible, using as few Harvests as possible to achieve lifetime distribution balance. Note: This means that overpaid contributors might receive 0 Grain for some period of time, if it takes more than one full Harvest worth of Grain distribution to achieve balance.
 
 
