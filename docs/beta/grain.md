@@ -29,7 +29,7 @@ Your Cred score determines the percentage of Grain you receive out of the total 
 SourceCred currently has two policies for how a project distributes Grain:
 
 - `IMMEDIATE` splits Grain evenly based on how much Cred each participant earned last week. (This policy ignores all Cred from previous weeks, and is intended to give fast rewards to active participants.)
-- `BALANCED` splits Grain based on lifetime Cred. This will accommodate a retroactively-updated Cred shift by equalizing compensation as soon as possible, using as few Harvests as possible to achieve lifetime distribution balance. Note: This means that overpaid contributors might receive 0 Grain for some period of time, if it takes more than one full Harvest worth of Grain distribution to achieve balance.
+- `BALANCED` splits Grain based both on lifetime Cred and on lifetime Grain earnings. Balanced tries to ensure that everyone in the project receives a total Grain payment which is consistent with their total Cred score. For example, suppose that a contributor used to have a low Cred score, and as such received a small amount of Grain. However, the community recently changed its weights, or added a new plugin, such that the contributor now has a larger amount of Cred. The balanced policy sees that this contributor is underpaid, so it will pay them extra to "catch them up" to others in the project. Conversely, contributors might be "overpaid", and they'll receive less Grain until the payouts have been equalized.
 
 
 ### _“What if I contributed a lot before a small Grain distribution, and then less before a bigger Grain distribution?”_
