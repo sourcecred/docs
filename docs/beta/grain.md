@@ -15,7 +15,7 @@ Note that Grain does not _have_ to be tied to any actual monetary concept, such 
 
 ## How you earn Grain
 
-Grain is created during what we call “Harvests.” A Harvest is a two-fold process with periodic cycles, which can be configured independently:
+Grain is created during what we call “Harvests.” A Harvest is a two-step process in which the Cred is recomputed (so scores are as fresh as possible), and Grain is then distributed based on those Cred scores.
 
 #### 1. Cred Calculation
 In this cycle, the project recomputes the Cred Contribution Graph by gathering the data your plugins are tracking, and calculating new Cred scores. By default, this cycle runs every 6 hours.
