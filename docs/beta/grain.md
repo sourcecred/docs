@@ -30,9 +30,6 @@ SourceCred currently has two policies for how a project distributes Grain:
 
 Since Cred is retroactive, the SourceCred algorithm will make sure your percentage is based on _all_ of your contributions compared to all existing contributions, and make sure your percentage is based on the total amount of Grain that has been issued to the community. _Ever._ 
 
-### _“Can I buy Grain?”_
-
-Yes, you can also get Grain by becoming a sponsor. Buying Grain sponsors participants directly (by paying them for their Grain). Thus, anyone holding Grain has supported the project, either directly through contributions, or indirectly through financial sponsorship. When someone wants to sell their Grain for dollars (or some other currency), the money either comes from sponsors buying their Grain, or a pool their community has previously set up.
 
 ## How much is Grain worth?
 
