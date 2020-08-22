@@ -61,6 +61,6 @@ There's several important pieces that go into an Initiative.
 - Any **references** used.
 
 
-[cred]: cred.md
+[cred]: ../beta/cred.md
 [champion]: champion.md
 [boosting]: boosting.md

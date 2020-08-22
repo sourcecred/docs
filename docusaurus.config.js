@@ -7,20 +7,22 @@ module.exports = {
   organizationName: 'sourcecred', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
-    defaultDarkMode: true,
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'SourceCred',
       logo: {
         alt: 'SourceCred Logo',
         src: 'img/favicon.png',
       },
-      links: [
+      items: [
+        {to: 'docs', label: 'Beta Docs', position: 'left'},
         {
           href: 'https://github.com/sourcecred',
           label: 'GitHub',
           position: 'right',
         },
-
       ],
     },
     footer: {
@@ -37,8 +39,8 @@ module.exports = {
               href: "https://discourse.sourcecred.io"
             },
             {
-              label: 'Prototype',
-              to: 'https://sourcecred.io/cred/timeline/@sourcecred/',
+              label: 'Our Cred',
+              to: 'http://cred.sourcecred.io/#/',
             },
           ]
         },
@@ -67,6 +69,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          homePageId: 'beta/introduction',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://sourcecred.io/admin/#/?',
