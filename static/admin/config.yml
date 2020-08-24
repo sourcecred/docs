@@ -2,7 +2,7 @@ backend:
   name: github
   repo: sourcecred/docs
   branch: master
-  open_authoring: true # enables users without write access to author content from their forks
+  squash_merges: true
 publish_mode: editorial_workflow
 media_folder: "static/img/uploads"
 public_folder: "img/uploads"
