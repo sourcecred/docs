@@ -22,7 +22,7 @@ Before getting started, some things you’ll need to know:
 
 If you’re interested in SourceCred but lack the technical chops, you can still get involved on our [Discord](https://sourcecred.io/discord) or [Discourse forums](https://discourse.sourcecred.io/) to learn more, ask questions, and contribute to the project. 
 
-### Step 1: clone the Example Instance
+### Step 1: clone the example instance
 
 Start by cloning our [example instance](https://github.com/sourcecred/example-instance), which is a template repository on GitHub that’s been set up to be a good starting point for configuring SourceCred.
 
@@ -32,7 +32,7 @@ Start by cloning our [example instance](https://github.com/sourcecred/example-in
 
 Every SourceCred instance is a directory, tracked by Git, with some conventions around where files are stored. For example, `sourcecred.json` specifies which plugins are active, and `config/plugins` has a folder for every individual plugin, with that plugin’s own configuration. 
 
-### Step 2: Run yarn
+### Step 2: run yarn
 
 On your cloned repository, run [yarn](https://classic.yarnpkg.com/lang/en/) to install SourceCred along with its dependencies:
 
