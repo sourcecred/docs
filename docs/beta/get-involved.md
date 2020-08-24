@@ -31,7 +31,7 @@ This is a resource list of documentation and tools that will be best to familiar
 ### Great Phase 1 Quests:
 
 * **Look through the Best Newcomer Resources list** above, and explore any other \[Documentation](link to an "All Docs Index" webpage) that looks interesting to you.
-* **Join the relevant platforms.**
+* **Join the relevant platforms.** TODO:ADD LINKS TO EITHER PLATFORMS OR OUR DOCS EXPLAINING HOW TO JOIN PLATFORMS
 * **Read through the** **Discord "#start-here" channel**.
 * **Introduce yourself** in the Discord "#introductions" channel. Tell us a little about who you are, why you're here, what kinds of skills you'd like to be using, and the names/pronouns you would like to use in our community.
 * If someone you know introduced you to the community, **have a 1:1 "tour"** with them as your Guide.
