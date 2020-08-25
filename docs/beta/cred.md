@@ -1,6 +1,7 @@
 ---
 title: How Cred Works
-description: What is Cred, and what is it for?
+description: A description of what Cred is; how it functions, flows, and effects
+  projects or individuals.
 ---
 ## What is Cred?
 
