@@ -22,7 +22,7 @@ If you decide that you don’t want to move beyond this phase, that’s okay! Yo
 
 We provide [a list of resources for newcomers](/docs/beta/best-resources-for-new-contributors): documentation and tools it will be best to familiarize yourself with as you dip your toes into the community. Don’t feel like you need to read through everything before you’re allowed to start interacting with the community or asking questions. Though by the time you truly start trying to contribute, you should be familiar with these basic concepts and resources.
 
-#### Great Phase 1 Quests:
+#### Great Phase 1 Quests
 
 * **Look through the Best Newcomer Resources list** above, and explore any other \[Documentation](link to an "All Docs Index" webpage) that looks interesting to you.
 * **Join the relevant platforms.**
@@ -40,7 +40,7 @@ In this phase, we encourage you to use your new understanding of the project and
 
 If you find yourself happy in this phase of lighter or experimental contribution, you may be an on-again-off-again contributor who enjoys poking in their head to help from time to time. We welcome you and your seed-on-the-wind style!
 
-#### Great Phase 2 Quests:
+#### Great Phase 2 Quests
 
 * **Start attending \[Jams](our calls doc link)** focused on topics you're interested in. Be a fly on the wall and/or share your ideas and skills. Anyone can come to a jam if they're interested in the topic.
 * **Look through the Initiatives Index Spreadsheet** and identify some initiatives you could be interested in contributing to or at least learning more about.
@@ -57,7 +57,7 @@ This is your chance to work with others in the community and develop more solid 
 
 If you decide you'd like to stick with phase 3 then you may be a frequent contributor who enjoys giving assistance where it's needed and regularly being around to help out, but with no need to rock the boat or take on bigger leadership roles. We love that you love being around and sharing your thoughts and contributions with us.
 
-#### Great Phase 3 Quests:
+#### Great Phase 3 Quests
 
 * **Join a team** of fellow contributors who are working on a specific initiative that you feel you could provide value to. This means attending any work sessions for the team/initiative you're able to, and potentially attending \[Branch Meetings](link to our calls doc) if that feels relevant. At this point there should be enough mutual trust and understanding of skills/needs for joining a team to feel like a natural next step.
 * **Make bigger contributions** to an initiative and/or help see an initiative through to completion.
@@ -72,7 +72,7 @@ Moving into leadership can take many forms and is not for everyone. Here in Sour
 
 If you are a high-frequency contributor who regularly brings a lot of indisputable value to the project as a whole, has gained the trust of the community, and has comprehensive context in the project; then you may find yourself considered a "Core" contributor. Being a Core contributor does not require you to be a leader, but it is a good place from which to become a leader if that is your intention.
 
-#### Great Phase 4 Quests:
+#### Great Phase 4 Quests
 
 * **Champion an initiative.** Find an initiative (or create one) that you know you understand well and requires the help of a person or two. Be the one who really guides the initiative from beginning to end, keeps track of its progress or changes, and orients the people you're working with so they don't lose sight of the overall goal.
 * **Lead a small team.** Sometimes there are larger initiatives that require you to brake things down into smaller initiatives. Take ownership of a larger initiative and coordinate the smaller teams of contributors to work with you as they focus on different parts of the overall goal. The slightly larger team and diversity of focus will be a good stepping stone as you put your leadership chops to the test.
