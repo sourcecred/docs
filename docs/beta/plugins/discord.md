@@ -38,7 +38,7 @@ Users are connected to messages they author, to messages they react to, and to m
 
 - **Message**:
 
-A Discord message, e.g. ["Welcome to the SourceCred community!"](https://discordapp.com/channels/453243919774253079/715770410955964477/715776215528505385). A message node will be connected to its author (user node creating the message), emoji reactions to the message, and any references to the message. 
+A Discord message, e.g. ["Welcome to the SourceCred community!"](https://discordapp.com/channels/453243919774253079/715770410955964477/715776215528505385). A message node will be connected to its author (user node creating the message), emoji reactions to the message, and any users mentioned in the message with an "@".
 
 - **Reaction**:
 
