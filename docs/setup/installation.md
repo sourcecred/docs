@@ -6,7 +6,6 @@ The easiest way to install SourceCred is to fork the [example repo](https://gith
 
 If you want to build SourceCred from source (for instance to get bleeding edge features) or to develop on it, see the [Development Setup instructions](#development-setup).
 
-You can also run SourceCred from a [Docker image](#using-docker)  (useful for automated setups and canonical instances). 
 
 
 ## Installing from example instance
