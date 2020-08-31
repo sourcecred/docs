@@ -2,7 +2,9 @@
 title: 🌱 Introduction
 description: An introduction to the basic concepts of SourceCred.
 ---
-Welcome to your new favorite rabbit-hole. This doc will offer you a basic overview of the different parts that make up SourceCred and provide you with links to additional documentation so you can keep exploring your curiosity. We hope you enjoy the journey. 
+Welcome to your new favorite rabbit-hole. This doc will offer you a basic overview of the different parts that make up SourceCred and provide you with links to additional documentation so you can keep exploring your curiosity.
+
+We hope you enjoy the journey. 
 
 ### So what IS SourceCred?
 
@@ -16,7 +18,7 @@ SourceCred uses an algorithm to determine how much value a contribution or contr
 
 That Cred flows from the contribution to all the people and other contributions that supported it. In this way, you can imagine how a project could be represented as a "node graph" made up of contribution and people dots (aka "nodes") connected by lines (aka "edges") that flow Cred around to the nodes based on what supported what. The more edges one contribution has to other important contributions in the project, the more Cred is going to have an opportunity to flow to it along the edges. In this way, it's easy to tell by the Cred score which contributions (and contributors) are truly foundational and support future work in the project.
 
-So how does an algorithm determine how much someone's work is worth in the bigger picture of a project? Sounds a little dystopian, right? The algorithm uses what we call "Weights" which are a set of rules stating which types of contributions are worth what amounts of Cred. The Weights for Cred distribution are decided by each community individually, thereby giving a community the opportunity to decide what it values and which actions uphold those values as they work together to create something. Every community using SourceCred can decide for themselves what is valuable and deserving of Cred, and what is not. 
+So how does an algorithm determine how much someone's work is worth in the bigger picture of a project? Sounds a little dystopian, right? The algorithm uses what we call "Weights", which are a set of rules stating which types of contributions are worth what amounts of Cred. The Weights for Cred distribution are decided by each community individually, thereby giving a community the opportunity to decide what it values and which actions uphold those values as they work together to create something. Every community using SourceCred can decide for themselves what is valuable and deserving of Cred, and what is not. 
 
 Cred is "non-transferable" in that you cannot sell your Cred, or buy someone else's Cred. It is solely a representation of where value in the project has been created.
 
@@ -58,26 +60,26 @@ See an example of SourceCred's Cred and Grain by checking out [our Cred Instance
 [//]: # (This section still needs to be audited for the suggested content in the outline below, and then fleshed out some. Sending it into review anyway because the doc will benefit from multiple perspectives. -LB)
 
 
-* outcompeting capitalism
+* Outcompeting capitalism
 
   * Creating a system to replace capitalism is important to dismantling the harmful systems we live within
-* creating better structures for recognizing labor that's currently "invisible"
+* Creating better structures for recognizing labor that's currently "invisible"
 
-  * the nuance of value and a wider recognition of it (eg: emotional labor)
-  * better access to opportunity
-* more equitable and ethical payment systems
+  * The nuance of value and a wider recognition of it (eg: emotional labor)
+  * Better access to opportunity
+* More equitable and ethical payment systems
 
-  * decoupling hours worked from money paid
-  * the bias of payment and privilege of negotiation
-  * moving away from cost of replacement and towards rewarding of sustainable value created
-* better interpersonal and collaborative tools
+  * Decoupling hours worked from money paid
+  * The bias of payment and privilege of negotiation
+  * Moving away from cost of replacement and towards rewarding of sustainable value created
+* Better interpersonal and collaborative tools
 
-  * community playbook
-  * self-directed/remote work environments become more possible
-* growth plan and concrete strategy
+  * Community playbook
+  * Self-directed/remote work environments become more possible
+* Growth plan and concrete strategy
 
-  * supporting crypto and open source to create better-functioning economic ecosystems
-* shifting priorities in line with values on a micro and macro level
+  * Supporting crypto and open source to create better-functioning economic ecosystems
+* Shifting priorities in line with values on a micro and macro level
 
 ### How can I engage with SourceCred?
 
