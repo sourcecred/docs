@@ -1,5 +1,5 @@
 ---
-title: How Cred Works
+title: 🧮 How Cred Works
 description: A description of what Cred is; how it functions, flows, and effects
   projects or individuals.
 ---
