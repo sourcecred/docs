@@ -91,11 +91,17 @@ Below are the basic steps to create your bot, point it at your Discord server an
 5. **Invite Bot to Server**
 
   You can invite your bot to your server by constructing a URL with the following format :  
-  `https://discordapp.com/api/oauth2/authorize?client_id=${CLIENT_ID}&scope=bot&permissions=8`
+  `https://discordapp.com/api/oauth2/authorize?client_id=${CLIENT_ID}&scope=bot&permissions=66560`
+
+Permissions options:
+
+- `65536`: Read Messages and Message History (minimum)
+- `66560`: Read Channels, Messages and Message History [suggested]
+- `8`: Admin
 
   , where `CLIENT_ID` is the application ID you copied in Step 3. For example, if your CLIENT_ID = 1234, the URL would be:
   
-  `https://discordapp.com/api/oauth2/authorize?client_id=1234&scope=bot&permissions=8`
+  `https://discordapp.com/api/oauth2/authorize?client_id=1234&scope=bot&permissions=66560`
   
   Paste this URL into the browser you're logged into Discord with admin permissions. You will then be prompted to select your server and give the bot permissions to read messages and message history. 
   
