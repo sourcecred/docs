@@ -3,6 +3,7 @@ title: Discord
 description: Setting up the Discord plugin.
 ---
 
+
 The Discord plugin assigns Cred to contributors participating in Discord chats; for example, by posting and reacting to messages. 
 
 
@@ -19,9 +20,6 @@ For instructions on setting up the bot and configuring the plugin, see the [Conf
 ## Cred flow
 
 Cred is minted on Discord reactions. It then flows to connected nodes.
-
-TO DO: add example with diagram....The below diagram illustrates a typical pattern of Cred flow in Discord....
-
 
 
 The full set of node and edge types used by the Discord plugin are defined below.
@@ -123,8 +121,9 @@ Below are the basic steps to create your bot, point it at your Discord server an
   
   If you want to change the weight for a default reaction, just put the reaction's literal emoji in `config.json`. For example, if you wanted the 💜 emoji to have a weight that is 5 times a regular reaction, add the line `"💜": 5` to the `config.json`, as shown below. 
   
-  ```
-  {
+ 
+```json
+{
   "guildId": "742885338065666150",
   "reactionWeights": {
     "👍": 1,
@@ -133,7 +132,8 @@ Below are the basic steps to create your bot, point it at your Discord server an
   }
 }
 ```
-  If you want to set a custom weight for a custom emoji, you'll first need to get the custom emoji ID. You can get this by right clicking on the custom emoji and clicking 'Copy Link'. This will give you a URL to an image of the emoji. The numberic substring in the URL is the emoji ID. For instance, below is the URl for a custom sourcecred emoji called `:sourcecred_pink:`.
+
+If you want to set a custom weight for a custom emoji, you'll first need to get the custom emoji ID. You can get this by right clicking on the custom emoji and clicking 'Copy Link'. This will give you a URL to an image of the emoji. The numberic substring in the URL is the emoji ID. For instance, below is the URl for a custom sourcecred emoji called `:sourcecred_pink:`.
   
   `https://cdn.discordapp.com/emojis/745438325086879794.png?v=1`
   
