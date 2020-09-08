@@ -3,7 +3,7 @@ title: Discourse
 description: Setting up the Discourse plugin.
 ---
 
-The Discourse plugin assigns Cred to contributors participating on 
+The Discourse plugin assigns Cred to contributors participating on
 Discourse forums; for example, by posting, replying to posts, or liking posts.
 
 The plugin does this by fetching data using the Discourse API in anonymous mode.
@@ -14,12 +14,9 @@ source of truth for the Discourse plugin is always the live server hosting the
 Discourse instance. That means that if content is deleted on Discourse, it will
 also disappear from the Discourse plugin (after a cache refresh).
 
-
 ## Cred flow
 
-
 TO DO: add example with diagram....The below diagram illustrates a typical pattern of Cred flow in Discourse....
-
 
 The full set of node and edge types used by the Discourse plugin are defined below.
 
@@ -49,30 +46,28 @@ node will be connected to its author (user node creating the topic), all posts i
 
 - **Post**:
 
-A Discourse post, e.g. [https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben). Everything under a topic is a post, including the first post and all subsequent replies. A post node will be connected to its author (user node that created the post), any replies to that post, and references to that post. {SB: elaborate more on references here? Is it 
-
+A Discourse post, e.g. [https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben). Everything under a topic is a post, including the first post and all subsequent replies. A post node will be connected to its author (user node that created the post), any replies to that post, and references to that post. {SB: elaborate more on references here? Is it
 
 [https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7?u=s_ben)
 
 - **Like**:
 
-A Discourse like, e.g. {SB: how to link to like? Here's a URL I pulled from the describption field for a like node from the maker forum: https://forum.makerdao.com/t/discussion-liquidity-mining-impacts/2898/12 Looks the same as a post URL?}. 
+A Discourse like, e.g. {SB: how to link to like? Here's a URL I pulled from the describption field for a like node from the maker forum: https://forum.makerdao.com/t/discussion-liquidity-mining-impacts/2898/12 Looks the same as a post URL?}.
 
-When a user likes a post, a like node is created that is connected to the author of the like (user that liked) and the liked post. 
+When a user likes a post, a like node is created that is connected to the author of the like (user that liked) and the liked post.
 
 [INSERT EXAMPLE]
 
-
 ### Edges
 
-The Discourse plugin creates the following kinds of edges (connections between nodes) 
+The Discourse plugin creates the following kinds of edges (connections between nodes)
 in the contribution graph:
 
 - **Authors**:
 
-An "authors" edge connects an author (user or bot) to a topic or post they created. 
+An "authors" edge connects an author (user or bot) to a topic or post they created.
 
-- **References**: 
+- **References**:
 
 A references edge connects a topic or post to another referencable node (i.e. a node that corresponds to a specific url on Discourse ). {SB: taken from GitHub plugin, still correct? Just say referenceable nodes are topics/posts/users?}
 
@@ -82,17 +77,17 @@ References in Discourse can be either hyperlinks to referencable nodes, or quote
 
 - **Reply to**:
 
-A reply-to edge connects a post to the post it is replying to.  
+A reply-to edge connects a post to the post it is replying to.
 
-
-The Discourse plugin creates the following kinds of edges (connections between nodes) 
+The Discourse plugin creates the following kinds of edges (connections between nodes)
 in the contribution graph:
 
 - **Creates Like**:
 
 A "creates like" edge connects a like node to its author and liked post or topic. {SB: just guessing here, only adding because it's an edge type in an `weights.json` file I'm looking at for reference}
 
-------------------------------------------------------------
+---
+
 {SB: below is copied from GitHub plugin page. Attempted to translate imagined parental relations to Discourse, but could be wrong. Does Discourse have parent/child relationships?}
 
 - **Has Parent**:
@@ -100,10 +95,10 @@ A "creates like" edge connects a like node to its author and liked post or topic
 A has-parent edge connects a "child" node to its "parent" node. Here's a table
 summarizing these relationships:
 
-| Child | Parent |
-| --- | --- |
-| Post | Topic |
-| Reply | Post |
+| Child  | Parent |
+| ------ | ------ |
+| Post   | Topic  |
+| Reply  | Post   |
 | Like?? | Post?? |
 
 ## Status and Caveats
@@ -130,23 +125,22 @@ less suitable for lower trust levels for the time being.
 {SB: the below para wasn't in the original docs, but is just me speculating based
 on past convos. We may want to remove if we can't provide enough
 guideance for it to be useful}
-Another caveat is that when a Discourse forum is very new, and does not have 
+Another caveat is that when a Discourse forum is very new, and does not have
 much content, activity-minted Cred may be more suitable, at least in the beginning.
 This is because new forums are often "lower stakes" (unless you're paying significant
 sums of money according to scores right away, or have other strong incentives for gaming). In new forums, the community is likelier to be smaller,
 higher trust, and less susceptible to gaming. In addition, you may want to incentivize
-raw activity in order to build up enough content to attract more users. 
+raw activity in order to build up enough content to attract more users.
 
 Another thing to keep in mind is that only public posts are included for Cred
 calculation. Private categories and private messages, for example, receive no
 Cred. This both creates an incentive to have discussions in public as much as
 possible, and is necessary for security as private data could otherwise leak.
 
-
-{SB: below are the commands from the original docs on this (which I can't seem to find to link to..:/). Mainly 
+{SB: below are the commands from the original docs on this (which I can't seem to find to link to..:/). Mainly
 including just to raise the issue of where we want these instructions to live. Here? In setup guide? CLI docs? Do we want to point to configuration docs for turnign the dial between activity-minted and like-minted Cred?}
 
----------------------------------------------------------------------------
+---
 
 ### With the discourse command
 
@@ -176,13 +170,13 @@ In our example we'll be using the latest version `0.5.0`.
 ```js
 [
   {
-    "type": "sourcecred/project",
-    "version": "0.5.0"
+    type: "sourcecred/project",
+    version: "0.5.0",
   },
   {
     /*...*/
-  }
-]
+  },
+];
 ```
 
 Next, we specify we want to use Discourse by adding an `discourseServer`
@@ -191,16 +185,16 @@ object.
 ```js
 [
   {
-    "type": "sourcecred/project",
-    "version": "0.5.0"
+    type: "sourcecred/project",
+    version: "0.5.0",
   },
   {
-    "discourseServer": {
-      "serverUrl": "https://discourse.sourcecred.io"
+    discourseServer: {
+      serverUrl: "https://discourse.sourcecred.io",
     },
     /*...*/
-  }
-]
+  },
+];
 ```
 
 There's one argument here:
@@ -229,7 +223,3 @@ this may take several minutes._
 
 [trust level]: ../../concepts/trust_levels.md
 [v0.5.0 release]: https://github.com/sourcecred/sourcecred/issues/1679
-
-
-
-

@@ -1,5 +1,5 @@
-import React from 'react';
-import Head from '@docusaurus/Head';
+import React from "react";
+import Head from "@docusaurus/Head";
 
 const Discord = () => (
   <Head>
@@ -8,4 +8,3 @@ const Discord = () => (
 );
 
 export default Discord;
-

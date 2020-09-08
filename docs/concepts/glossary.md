@@ -8,10 +8,9 @@ easily defined with a search, the definitions here are specific to SourceCred.
 If you would like to suggest a change to a term or addition of a term,
 please [open an issue](https://github.com/sourcecred/docs/issues).
 
-
 ## SourceCred Glossary
 
-The "SourceCred Glossary" is ideal if you want to understand SourceCred 
+The "SourceCred Glossary" is ideal if you want to understand SourceCred
 from the perspective of using it in your project. For example, you
 might need to understand what terms SourceCred uses to define people
 or currency.
@@ -26,8 +25,8 @@ You can read more about champions [here](champion.md)
 
 #### References
 
- - [@Beanow definition on discourse](https://discourse.sourcecred.io/t/about-champions-and-heroes/291)
- - [SourceCred champion concept](champion.md)
+- [@Beanow definition on discourse](https://discourse.sourcecred.io/t/about-champions-and-heroes/291)
+- [SourceCred champion concept](champion.md)
 
 ### Cred
 
@@ -37,8 +36,8 @@ Cred is project-specific, and is computed based on the project's own [contributi
 
 #### References
 
- - [cred on discourse](https://discourse.sourcecred.io/t/a-gentle-introduction-to-cred/20)
- - [SourceCred cred docs](../beta/cred.md)
+- [cred on discourse](https://discourse.sourcecred.io/t/a-gentle-introduction-to-cred/20)
+- [SourceCred cred docs](../beta/cred.md)
 
 ### Grain
 
@@ -46,10 +45,9 @@ Grain refers to project-specific cryptoassets that represent contribution to or 
 
 #### References
 
- - [Grain on sourcecred discourse](https://discourse.sourcecred.io/t/grain-a-project-specific-cred-powered-token/147)
- - [sourcegrain by @decentralion](https://github.com/sourcegrain/mission)
- - [SourceCred grain docs](../beta/grain.md)
-
+- [Grain on sourcecred discourse](https://discourse.sourcecred.io/t/grain-a-project-specific-cred-powered-token/147)
+- [sourcegrain by @decentralion](https://github.com/sourcegrain/mission)
+- [SourceCred grain docs](../beta/grain.md)
 
 ## Contributor Glossary
 
@@ -59,7 +57,7 @@ issue trackers, or other discussion platforms are included here.
 
 ### Bikeshedding
 
-Bikeshedding means talking (or even arguing) about a small detail instead of a larger issue at hand. 
+Bikeshedding means talking (or even arguing) about a small detail instead of a larger issue at hand.
 If you imagine building a house and having a bike shed outside, it would be akin
 to anything over the color and fun name for the bike shed instead of working on
 actually finishing the house. At the end of the day, you won't have a place to live
@@ -67,8 +65,8 @@ because you were lost in details that didn't matter. Read more about bikesheddin
 
 #### References
 
- - [What is bikeshedding](https://css-tricks.com/what-is-bikeshedding/)
- - [SourceCred bikeshedding doc](../contributing/bikeshedding.md)
+- [What is bikeshedding](https://css-tricks.com/what-is-bikeshedding/)
+- [SourceCred bikeshedding doc](../contributing/bikeshedding.md)
 
 ### [deep then wide](../contributing/deep-then-wide.md)
 
@@ -79,4 +77,4 @@ first. Read more about this reasoning [here](../contributing/deep-then-wide.md).
 
 #### References
 
- - [deep then wide on discourse](https://discourse.sourcecred.io/t/deep-then-wide/102)
+- [deep then wide on discourse](https://discourse.sourcecred.io/t/deep-then-wide/102)

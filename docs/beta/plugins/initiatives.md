@@ -79,13 +79,13 @@ sure it's at version `0.5.0` or greater at the top of the file.
 ```js
 [
   {
-    "type": "sourcecred/project",
-    "version": "0.5.0"
+    type: "sourcecred/project",
+    version: "0.5.0",
   },
   {
     /*...*/
-  }
-]
+  },
+];
 ```
 
 Next, we specify we want to use Initiatives, by adding an `initiatives` object.
@@ -93,16 +93,16 @@ Next, we specify we want to use Initiatives, by adding an `initiatives` object.
 ```js
 [
   {
-    "type": "sourcecred/project",
-    "version": "0.5.0"
+    type: "sourcecred/project",
+    version: "0.5.0",
   },
   {
-    "initiatives": {
-      "remoteUrl": "https://github.com/sourcecred/cred/tree/master/initiatives"
+    initiatives: {
+      remoteUrl: "https://github.com/sourcecred/cred/tree/master/initiatives",
     },
     /*...*/
-  }
-]
+  },
+];
 ```
 
 Having this `initiatives` object in our project file implies that we _want to_

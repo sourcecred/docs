@@ -1,8 +1,7 @@
-import React from 'react';
-import './HeroLogo.css';
+import React from "react";
+import "./HeroLogo.css";
 
 export const HeroLogo = () => {
-  
   return (
     <svg width="350" height="350" className="hero-logo">
       <g transform="translate(0, 0)">
@@ -10,187 +9,367 @@ export const HeroLogo = () => {
           <circle fill="#282d48" r="173.24116139070412" />
           <path
             d="M9.971483987551706e-15,-162.8466917072619A162.8466917072619,162.8466917072619,0,0,0,-38.015805198332195,-158.34722465241524L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-50.32239521528173,-154.87640730529938A162.8466917072619,162.8466917072619,0,0,0,-85.08716268578495,-138.84962998179998L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-95.71888377014751,-131.7457410689127A162.8466917072619,162.8466917072619,0,0,0,-123.82959585243101,-105.76046610630836L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-131.74574106891268,-95.71888377014754A162.8466917072619,162.8466917072619,0,0,0,-150.45072540551476,-62.3187309318346L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-154.87640730529938,-50.32239521528176A162.8466917072619,162.8466917072619,0,0,0,-162.34468970406422,-12.776804173622935L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-162.8466917072619,-1.994296797510341e-14A162.8466917072619,162.8466917072619,0,0,0,-158.34722465241524,38.01580519833219L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-154.87640730529938,50.32239521528172A162.8466917072619,162.8466917072619,0,0,0,-138.84962998179998,85.08716268578492L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-131.7457410689127,95.71888377014751A162.8466917072619,162.8466917072619,0,0,0,-105.76046610630841,123.82959585243098L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-95.71888377014754,131.74574106891268A162.8466917072619,162.8466917072619,0,0,0,-62.31873093183467,150.45072540551473L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-50.322395215281766,154.87640730529938A162.8466917072619,162.8466917072619,0,0,0,-12.776804173623017,162.34468970406422L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M-2.991445196265511e-14,162.8466917072619A162.8466917072619,162.8466917072619,0,0,0,38.0158051983321,158.34722465241526L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M50.322395215281716,154.87640730529938A162.8466917072619,162.8466917072619,0,0,0,85.08716268578497,138.84962998179995L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M95.71888377014749,131.7457410689127A162.8466917072619,162.8466917072619,0,0,0,123.82959585243096,105.76046610630841L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M131.74574106891268,95.71888377014756A162.8466917072619,162.8466917072619,0,0,0,150.45072540551473,62.318730931834686L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M154.87640730529938,50.32239521528178A162.8466917072619,162.8466917072619,0,0,0,162.34468970406422,12.776804173623026L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M162.8466917072619,3.988593595020682e-14A162.8466917072619,162.8466917072619,0,0,0,158.34722465241526,-38.015805198332096L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M154.87640730529938,-50.32239521528171A162.8466917072619,162.8466917072619,0,0,0,138.84962998180004,-85.08716268578485L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M131.7457410689127,-95.71888377014749A162.8466917072619,162.8466917072619,0,0,0,105.76046610630843,-123.82959585243096L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M95.71888377014756,-131.74574106891265A162.8466917072619,162.8466917072619,0,0,0,62.31873093183469,-150.45072540551473L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M50.322395215281794,-154.87640730529938A162.8466917072619,162.8466917072619,0,0,0,12.776804173623036,-162.34468970406422L0,0Z"
-            fill="#87738c" data-layer="edge" className="logo-ray" />
+            fill="#87738c"
+            data-layer="edge"
+            className="logo-ray"
+          />
           <path
             d="M7.559568487763163e-15,-123.45712238053338A123.45712238053338,123.45712238053338,0,0,0,-28.82049285472665,-120.04599226168547L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-38.15034889221247,-117.41470072305452A123.45712238053338,123.45712238053338,0,0,0,-64.50616924778993,-105.26450111722126L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-72.56627582574453,-99.87891008247917A123.45712238053338,123.45712238053338,0,0,0,-93.87753235397066,-80.17898718249805L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-99.87891008247915,-72.56627582574455A123.45712238053338,123.45712238053338,0,0,0,-114.05950851011589,-47.24499534249947L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-117.41470072305451,-38.15034889221249A123.45712238053338,123.45712238053338,0,0,0,-123.07654527396582,-9.686334183138552L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-123.45712238053338,-1.5119136975526326e-14A123.45712238053338,123.45712238053338,0,0,0,-120.04599226168547,28.82049285472664L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-117.41470072305452,38.15034889221246A123.45712238053338,123.45712238053338,0,0,0,-105.26450111722126,64.50616924778991L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-99.87891008247917,72.56627582574453A123.45712238053338,123.45712238053338,0,0,0,-80.17898718249809,93.87753235397064L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-72.56627582574455,99.87891008247915A123.45712238053338,123.45712238053338,0,0,0,-47.24499534249953,114.05950851011586L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-38.1503488922125,117.41470072305451A123.45712238053338,123.45712238053338,0,0,0,-9.686334183138614,123.07654527396582L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M-2.2678705463289487e-14,123.45712238053338A123.45712238053338,123.45712238053338,0,0,0,28.82049285472658,120.04599226168548L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M38.150348892212456,117.41470072305452A123.45712238053338,123.45712238053338,0,0,0,64.50616924778996,105.26450111722124L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M72.56627582574451,99.87891008247918A123.45712238053338,123.45712238053338,0,0,0,93.87753235397062,80.17898718249809L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M99.87891008247915,72.56627582574457A123.45712238053338,123.45712238053338,0,0,0,114.05950851011586,47.24499534249953L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M117.41470072305451,38.150348892212506A123.45712238053338,123.45712238053338,0,0,0,123.07654527396582,9.686334183138621L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M123.45712238053338,3.023827395105265e-14A123.45712238053338,123.45712238053338,0,0,0,120.04599226168548,-28.820492854726574L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M117.41470072305452,-38.15034889221245A123.45712238053338,123.45712238053338,0,0,0,105.2645011172213,-64.50616924778986L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M99.87891008247918,-72.56627582574451A123.45712238053338,123.45712238053338,0,0,0,80.1789871824981,-93.87753235397062L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M72.56627582574457,-99.87891008247914A123.45712238053338,123.45712238053338,0,0,0,47.244995342499536,-114.05950851011586L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M38.15034889221251,-117.41470072305451A123.45712238053338,123.45712238053338,0,0,0,9.68633418313863,-123.07654527396582L0,0Z"
-            fill="#e7a59a" data-layer="mid" className="logo-ray" />
+            fill="#e7a59a"
+            data-layer="mid"
+            className="logo-ray"
+          />
           <path
             d="M5.14765298797462e-15,-84.06755305380484A84.06755305380484,84.06755305380484,0,0,0,-19.625180511121098,-81.74475987095568L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-25.9783025691432,-79.95299414080964A84.06755305380484,84.06755305380484,0,0,0,-43.92517580979491,-71.67937225264254L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-49.41366788134154,-68.01207909604562A84.06755305380484,84.06755305380484,0,0,0,-63.92546885551029,-54.59750825868774L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-68.01207909604562,-49.41366788134156A84.06755305380484,84.06755305380484,0,0,0,-77.66829161471702,-32.171259753164335L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-79.95299414080964,-25.978302569143214A84.06755305380484,84.06755305380484,0,0,0,-83.8084008438674,-6.595864192654168L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-84.06755305380484,-1.029530597594924e-14A84.06755305380484,84.06755305380484,0,0,0,-81.74475987095568,19.625180511121094L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-79.95299414080964,25.978302569143192A84.06755305380484,84.06755305380484,0,0,0,-71.67937225264254,43.9251758097949L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-68.01207909604562,49.41366788134154A84.06755305380484,84.06755305380484,0,0,0,-54.59750825868777,63.925468855510275L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-49.41366788134156,68.01207909604562A84.06755305380484,84.06755305380484,0,0,0,-32.17125975316437,77.66829161471699L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-25.978302569143217,79.95299414080964A84.06755305380484,84.06755305380484,0,0,0,-6.5958641926542105,83.8084008438674L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M-1.544295896392386e-14,84.06755305380484A84.06755305380484,84.06755305380484,0,0,0,19.62518051112105,81.74475987095569L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M25.97830256914319,79.95299414080964A84.06755305380484,84.06755305380484,0,0,0,43.92517580979493,71.67937225264252L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M49.41366788134153,68.01207909604564A84.06755305380484,84.06755305380484,0,0,0,63.92546885551026,54.59750825868777L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M68.01207909604562,49.41366788134157A84.06755305380484,84.06755305380484,0,0,0,77.66829161471699,32.17125975316437L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M79.95299414080964,25.97830256914322A84.06755305380484,84.06755305380484,0,0,0,83.8084008438674,6.595864192654215L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M84.06755305380484,2.059061195189848e-14A84.06755305380484,84.06755305380484,0,0,0,81.74475987095569,-19.625180511121044L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M79.95299414080964,-25.978302569143185A84.06755305380484,84.06755305380484,0,0,0,71.67937225264257,-43.925175809794865L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M68.01207909604564,-49.41366788134153A84.06755305380484,84.06755305380484,0,0,0,54.597508258687775,-63.92546885551026L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M49.41366788134157,-68.01207909604561A84.06755305380484,84.06755305380484,0,0,0,32.17125975316438,-77.66829161471699L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <path
             d="M25.97830256914323,-79.95299414080964A84.06755305380484,84.06755305380484,0,0,0,6.59586419265422,-83.8084008438674L0,0Z"
-            fill="#ffbc95" data-layer="base" className="logo-ray" />
+            fill="#ffbc95"
+            data-layer="base"
+            className="logo-ray"
+          />
           <circle fill="#111c27" r="69.29646455628165" />
         </g>
       </g>
     </svg>
-  )
-}
+  );
+};

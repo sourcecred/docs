@@ -3,6 +3,7 @@ title: 🧮 How Cred Works
 description: A description of what Cred is; how it functions, flows, and effects
   projects or individuals.
 ---
+
 ## What is Cred?
 
 As the name suggests, Cred is an important part of SourceCred. Cred is a metric used to describe the value which every contribution and participant has added to a specific project. Each participant has a "Cred score", which reflects how valuable all the contributions they have made to a project are. How high these scores are is determined by how important or useful their contributions have been to their community. Your Cred score determines the amount of [Grain](/docs/beta/grain) (a project-specific digital token which can be crypto or fictional currency) you'll earn.
@@ -48,7 +49,7 @@ For example, say a participant wrote an extremely insightful topic on the forum.
 
 Since Cred can be created (minted) from nothing by the reactions of community members, there must be a balance so that Cred maintains its worth. Just like water evaporates from ponds and creeks to create the rainclouds, Cred evaporates to replenish the source from which Cred is minted. For every node on the Contribution Graph, a consistent portion of its Cred evaporates away. The evaporation rate can be toggled within the weights to be high or low depending on the needs of your community.
 
-📝 **Note:** Evaporation does *not* mean you will lose Cred for being absent or inactive. Just as Cred is always gently evaporating across the entire ecosystem, Cred is also always flowing across the ecosystem even during times of individual inaction.
+📝 **Note:** Evaporation does _not_ mean you will lose Cred for being absent or inactive. Just as Cred is always gently evaporating across the entire ecosystem, Cred is also always flowing across the ecosystem even during times of individual inaction.
 
 ### Plug-ins
 

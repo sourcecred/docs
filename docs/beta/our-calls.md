@@ -3,10 +3,10 @@ title: ☎️ Our Calls
 description: See the various calls, meetings, work sessions, and jams for the
   SourceCred community.
 ---
+
 SourceCred is a community in which most contributors are remote and work asynchronously, allowing anyone to contribute no matter their location and availability. We hold regularly scheduled calls, open to everyone, to cultivate a culture of joyful collaboration and meaningful connection between members. These calls have different specific purposes (and expectations), and are held on the [SourceCred Discord server](https://sourcecred.io/discord) using the voice and video channels.
 
 You can see what types of calls are currently scheduled on our [public calendar](http://sourcecred.io/calendar).
-
 
 ## Weekly Community Call
 
@@ -18,19 +18,17 @@ Purpose: To provide newcomers with the opportunity to get to know the project an
 
 When: Weekly, [**Tuesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the [SourceCred Discord](https://sourcecred.io/discord).
 
-
 ## Weekly Contributor Call
 
 What: A weekly call helping contributors be on the same page about larger goals, getting feedback on projects/initiatives, and unblocking people where needed.
 
-**Perfect for** all people actively contributing to SourceCred, or simply anyone wanting to be tuned into the larger picture. If you are about to start contributing, you are welcome to listen in as a way to gain context, but please be mindful not to derail conversations with too many clarifying questions. If you find yourself lost at the Contributor Call, attend a Community Call instead which is the best place to ask questions to your heart’s content. 
+**Perfect for** all people actively contributing to SourceCred, or simply anyone wanting to be tuned into the larger picture. If you are about to start contributing, you are welcome to listen in as a way to gain context, but please be mindful not to derail conversations with too many clarifying questions. If you find yourself lost at the Contributor Call, attend a Community Call instead which is the best place to ask questions to your heart’s content.
 
 **Note:** Being a contributor does not make this meeting mandatory for you.
 
 Purpose: This call gives all of the contributors the opportunity to see the bigger picture and align their actions and priorities with the overall goals of the project. It also gives the branch leads a chance to get feedback and assistance on larger goals or changes. It helps grow a sense of connection and shared goals across different portions of SourceCred.
 
 When: Weekly, [**Thursday** at 11am Pacific Time](https://sourcecred.io/calendar) on the [SourceCred Discord](https://sourcecred.io/discord).
-
 
 ## Jams
 
@@ -41,7 +39,6 @@ What: A designated time to talk about a specific subject and how it relates to S
 Purpose: We come together to explore a specific topic, and how we can apply it to SourceCred or vice-versa. Jams are a fun, low-barrier way to get involved in the project.
 
 When: No set time or reoccurrence. Jams are scheduled as one-off events, and timing is usually based off the availability of key participants. Check out the [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Jams.
-
 
 ## Branch Specific Meetings
 
@@ -55,7 +52,6 @@ Where: Discord Main voice channel.
 
 When: At a regular day/time of the team’s choosing. Find them on the [SourceCred Calendar](https://sourcecred.io/calendar).
 
-
 ## Work Sessions
 
 What: A generally shorter and faster paced session scheduled for a specific team to come together and make progress on a specific goal or initiative. Having shorter sessions with an emphasis on getting a few singular goals completed can make these sessions more productive than regular meetings.
@@ -65,7 +61,6 @@ What: A generally shorter and faster paced session scheduled for a specific team
 Purpose: Creating a synchronous space with all the key players to really make progress on an initiative or project. By nature of being shorter, these are also less taxing and can help keep contributors on track.
 
 When: Scheduled as one-off events when asynchronous coordination won’t cut it.
-
 
 ## One-on-Ones (1:1)
 

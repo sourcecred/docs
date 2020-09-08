@@ -29,10 +29,12 @@ understood by at least two people.
 ## The Review Process
 
 ### Changes
+
 The review process orients around _changes_, which are the units of work being
 reviewed.
 
 A change can take many forms, for example:
+
 - Adding or changing official SourceCred documentation (in [sourcecred/docs](https://github.com/sourcecred/docs))
 - Adding to or changing the SourceCred codebase
 - Proposing a re-organization of the [SourceCred Discourse](https://discourse.sourcecred.io/)
@@ -67,6 +69,7 @@ considerate, and judicious in the way they exercise their powers.
 ### Lifecycle of a Review
 
 #### Proposal
+
 The first step is for a contributor to come up with and propose a _change_.
 Before starting work on the change, they may want to run it by the community.
 Often times community members will have great feedback on how to approach the
@@ -74,6 +77,7 @@ change, and whether it's valuable.
 
 Once the contributor wants to move forward with the change, they will formally
 propose it. They need to do two things at this stage:
+
 - Flesh out the change (e.g. writing the code), so that there is something to review
 - Explain the change (e.g. writing a pull request description), so that reviewers can easily understand it
 
@@ -100,6 +104,7 @@ individiuals have context or knowledge thet will make their reivew particularly
 valuable.
 
 On finishing their review, the reviewer can:
+
 - Ask questions to better understand the change
 - Suggest changes to it
 - Approve the change
@@ -120,6 +125,7 @@ whether a change is ready to merge, they should ask a maintainer.
 #### Changes that never merge
 
 Some changes don't ever merge. A few good reasons why this may happen include:
+
 - Reviewers may find that the change isn't actually needed, is basically
   unsound, or isn't aligned with the project's values or goals
 - Over the course of review, the contributor or reviewers may find a different
@@ -130,24 +136,24 @@ Some changes don't ever merge. A few good reasons why this may happen include:
 ### Be aware of culture
 
 It's easy to forget how common it is in open source communities to have diversity
-of geographic location, and different culture for communication. 
-As a new contributor to a community,  whether you take on a reviewer or a maintainer 
+of geographic location, and different culture for communication.
+As a new contributor to a community, whether you take on a reviewer or a maintainer
 role, your default expectation might be that others in the community will behave as you would. However, it's often the case that different cultures have different standards for
 communication. For example, in Western culture it's common to wrap criticism
-with a complement: 
+with a complement:
 
-> "You did a really good job on X, _but_ I wonder if we could talk about your decision for using this data structure?" 
+> "You did a really good job on X, _but_ I wonder if we could talk about your decision for using this data structure?"
 
 Other cultures might be more straight forward to directly give more blunt feedback:
 
 > "The algorithm could be improved by this amount by using this data structure."
- 
-If you are expecting differently, the critique can feel mean when it is not intended to. 
-Thus, while the community encourages open and respectful communication, 
+
+If you are expecting differently, the critique can feel mean when it is not intended to.
+Thus, while the community encourages open and respectful communication,
 it's good to keep in mind that this definition might vary depending on an individual's
 background and previous experience. Regardless, disrespect or communication that is
-hurtful is not ok. If you feel offended by an interaction, 
-it might be good to have an honest discussion with the other party involved and 
+hurtful is not ok. If you feel offended by an interaction,
+it might be good to have an honest discussion with the other party involved and
 talk about how the two of you can best communicate.
 
 ## Best Practices
@@ -225,7 +231,7 @@ a statement that delivers the same message, but further engages the contributor:
 
 > Thank you for your contribution! We've decided to go in another direction, and although we cannot use the changes here, would you be interested in working on [well-scoped task]?
 
-The more specific feedback or well scoped task that you are able to engage 
+The more specific feedback or well scoped task that you are able to engage
 the contributor with, the better. This kind of engagement sends the message
 that the contributor is valued and needed despite the particular review no
 longer being relevant. Instead of being turned off by the interaction, the contributor

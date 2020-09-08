@@ -1,27 +1,27 @@
 module.exports = {
-  title: 'SourceCred',
-  tagline: 'A tool for communities to measure and reward value creation.',
-  url: 'https://sourcecred.github.io/docs',
-  baseUrl: '/',
-  favicon: 'img/favicon.png',
-  organizationName: 'sourcecred', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  title: "SourceCred",
+  tagline: "A tool for communities to measure and reward value creation.",
+  url: "https://sourcecred.github.io/docs",
+  baseUrl: "/",
+  favicon: "img/favicon.png",
+  organizationName: "sourcecred", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: "dark",
     },
     navbar: {
-      title: 'SourceCred',
+      title: "SourceCred",
       logo: {
-        alt: 'SourceCred Logo',
-        src: 'img/favicon.png',
+        alt: "SourceCred Logo",
+        src: "img/favicon.png",
       },
       items: [
-        {to: 'docs', label: 'Beta Docs', position: 'left'},
+        { to: "docs", label: "Beta Docs", position: "left" },
         {
-          href: 'https://github.com/sourcecred',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/sourcecred",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
@@ -32,32 +32,32 @@ module.exports = {
           items: [
             {
               label: "Chat",
-              href: "https://sourcecred.io/discord"
+              href: "https://sourcecred.io/discord",
             },
             {
               label: "Forums",
-              href: "https://discourse.sourcecred.io"
+              href: "https://discourse.sourcecred.io",
             },
             {
-              label: 'Our Cred',
-              to: 'http://cred.sourcecred.io/#/',
+              label: "Our Cred",
+              to: "http://cred.sourcecred.io/#/",
             },
-          ]
+          ],
         },
         {
-          title: 'Social',
+          title: "Social",
           items: [
             {
-              label: 'Homepage',
-              href: "https://sourcecred.io"
+              label: "Homepage",
+              href: "https://sourcecred.io",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/sourcecred',
+              label: "GitHub",
+              href: "https://github.com/sourcecred",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/sourcecred',
+              label: "Twitter",
+              href: "https://twitter.com/sourcecred",
             },
           ],
         },
@@ -66,19 +66,18 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          homePageId: 'beta/introduction',
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://sourcecred.io/admin/#/?',
+          homePageId: "beta/introduction",
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://sourcecred.io/admin/#/?",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
   ],
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [require.resolve("docusaurus-lunr-search")],
 };

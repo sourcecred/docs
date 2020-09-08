@@ -5,11 +5,11 @@ This repository is the source-of-truth for SourceCred's documentation.
 The documentation website is based on [Docusaurus 2](https://v2.docusaurus.io/)
 and you can read the [documentation there](https://v2.docusaurus.io/docs/introduction) for how to use it! Generally:
 
- - [docusaurus.config.js](docusaurus.config.js) holds configuration and metadata values
- - [pages](pages) is for dynamic ad-hoc React pages
- - [docs](docs) are for documentation content and pages
- - Sidebar items can by added by adding an entry to [sidebars.js](sidebars.js)
- - The top navigation and footer is controlled by the `themeConfig` value in [docusaurus.config.js](docusaurus.config.js)
+- [docusaurus.config.js](docusaurus.config.js) holds configuration and metadata values
+- [pages](pages) is for dynamic ad-hoc React pages
+- [docs](docs) are for documentation content and pages
+- Sidebar items can by added by adding an entry to [sidebars.js](sidebars.js)
+- The top navigation and footer is controlled by the `themeConfig` value in [docusaurus.config.js](docusaurus.config.js)
 
 Once the structure of the site is developed, you shouldn't need to edit these fields too much!
 However if you want to add a new page (to [pages](pages) or [docs](docs)) please don't
@@ -59,7 +59,6 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-
 ### 2. Make Changes
 
 At this point you can edit pages in [pages](pages) or [docs](docs) and add new pages
@@ -77,6 +76,7 @@ The only difference is that you need to add a header snippet that looks like thi
 title: Page Title
 description: Write what this page is about here
 ---
+
 ```
 
 Let's say that we put this in a file called `docs/getting-started.md`. This
@@ -88,12 +88,18 @@ like this:
 module.exports = {
   sidebar: {
     "🌎 Community": [
-      'community/intro',
-      'community/glossary',
+      "community/intro",
+      "community/glossary",
       {
-        '🧠 Concepts': ['community/concepts/cred', 'community/concepts/grain', 'community/concepts/champion', 'community/concepts/deep-then-wide', 'community/concepts/bikeshedding'],
+        "🧠 Concepts": [
+          "community/concepts/cred",
+          "community/concepts/grain",
+          "community/concepts/champion",
+          "community/concepts/deep-then-wide",
+          "community/concepts/bikeshedding",
+        ],
       },
-      'community/CODE_OF_CONDUCT',
+      "community/CODE_OF_CONDUCT",
     ],
     "🌟 Culture": ["culture/review_culture"],
   },
@@ -105,16 +111,15 @@ The values such as `community/intro` represent the path of the markdown file you
 You can read more about writing documentation pages in the [Docusaurus docs](https://v2.docusaurus.io/docs/docs).
 
 [Guide To Markdown Features](https://v2.docusaurus.io/docs/markdown-features)
-- Learn about the various syntax you can use in the docs files
-- Learn how you can embed React Components *within* your markdown using [MDX](https://mdxjs.com)
 
+- Learn about the various syntax you can use in the docs files
+- Learn how you can embed React Components _within_ your markdown using [MDX](https://mdxjs.com)
 
 #### Making a New Page
 
 If you would like to create ad-hoc pages using React, you can do so by creating a js file in the [pages](pages) directory. This will work like any other React web-app!
 
 You can read more about creating pages in the [Docusaurus docs](https://v2.docusaurus.io/docs/creating-pages).
-
 
 #### Adding to Navigation
 
@@ -124,38 +129,36 @@ To add links to the top Navigation bar or Footer you can dit the [docusaurus.con
 module.exports = {
   themeConfig: {
     navbar: {
-      title: 'SourceCred',
+      title: "SourceCred",
       logo: {
-        alt: 'SourceCred Logo',
-        src: 'img/favicon.png',
+        alt: "SourceCred Logo",
+        src: "img/favicon.png",
       },
       links: [
-         {
-           to: 'docs/community/intro',
-           activeBasePath: 'docs',
-           label: '📖 Docs',
-           position: 'left',
-         },
-         {
-           href: 'https://github.com/sourcecred',
-           label: 'Github',
-           position: 'right',
-         },
+        {
+          to: "docs/community/intro",
+          activeBasePath: "docs",
+          label: "📖 Docs",
+          position: "left",
+        },
+        {
+          href: "https://github.com/sourcecred",
+          label: "Github",
+          position: "right",
+        },
         // ... other links
       ],
     },
-  }
-}
+  },
+};
 ```
 
 You can read more about configuring the navigation in the [Docusaurus docs](https://v2.docusaurus.io/docs/docusaurus.config.js#themeconfig).
-
 
 ### 4. Open a Pull Request
 
 Once you've made changes on your new branch, open a new pull request to have them
 reviewed! When they are merged to master they will go live on the site.
-
 
 #### A Note On Comments
 
@@ -164,4 +167,3 @@ You can add a comment to a page using the following syntax:
 ```
 [//]: # (THIS IS A COMMENT)
 ```
-

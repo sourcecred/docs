@@ -3,10 +3,10 @@ title: 🏠 Our Platforms
 description: Platforms our internal community uses (like Discord, Discourse, or
   GitHub), how they impact cred, and the basic social norms of using them.
 ---
+
 SourceCred operates on a few different platforms that serve the needs of our internal community: **Discord** for daily coordination and socializing, **Discourse** for proposals and larger community conversations, **Roam** for research and notes, and **GitHub** for code and project management. Join these to plug into the ongoing SourceCred conversation; it’s the most effective way to get up to speed on what’s happening in the project.
 
 Learn more about how we use these major platforms below, and how Cred flows within and between each.
-
 
 ## [Discord](https://sourcecred.io/discord)
 
@@ -14,7 +14,7 @@ Discord is the main hub of our community when it comes to daily conversations an
 
 #### Discord and Cred
 
-In Discord, Cred is minted through emoji reactions. Any time you are on the Discord chats and you see a comment which you find particularly useful, insightful, interesting, or valuable give it an emoji. Every emoji in Discord mints a small amount of Cred, so you can express yourself with any emoji image you like. If you feel strongly that something was really great, then put multiple emojis on it! 
+In Discord, Cred is minted through emoji reactions. Any time you are on the Discord chats and you see a comment which you find particularly useful, insightful, interesting, or valuable give it an emoji. Every emoji in Discord mints a small amount of Cred, so you can express yourself with any emoji image you like. If you feel strongly that something was really great, then put multiple emojis on it!
 
 The SourceCred logo is a special emoji which is worth **16** regular emojis when used on a Discord message. Use the SourceCred emoji for comments you felt were particularly valuable to the project as a whole. If your intention is not to mint Cred but simply to use fun emojis, you can always add your emojis as a reply in the channel instead of as a message reaction.
 
@@ -30,7 +30,6 @@ The **\#props** channel is a compliment to #didathing. Instead of posting about 
 
 [Join our Discord server](https://sourcecred.io/discord).
 
-
 ## [GitHub](https://github.com/sourcecred/)
 
 GitHub is where our software engineers and other devs organize their coding efforts. If you are code-savvy, come poke through our codebase, learn about our atomic coding philosophy, and see if there are any good first issues for you to get started on!
@@ -39,14 +38,13 @@ As you learn the norms of the repo and start to take on some of your first issue
 
 #### GitHub and Cred
 
-*Need input from Devs*
+_Need input from Devs_
 
 #### Atomic Coding Philosophy
 
-*Need input from Devs*
+_Need input from Devs_
 
 [Explore our public GitHub repository](https://github.com/sourcecred/)
-
 
 ## [Discourse](https://discourse.sourcecred.io/)
 
@@ -58,7 +56,6 @@ Our Discourse is currently a bit of a jungle that requires a determined heart to
 
 Cred is minted based on “likes” in Discourse. Any time you read a topic or a comment in Discourse and use the interface to give it a little heart (a.k.a. a “like”), a small amount of Cred is created and flowed to the author of that topic or comment, as well as anyone the author tagged in it. Show the love and like something whenever you find it valuable!
 
-
 ## [Roam Research](https://roamresearch.com/#/app/SourceCred)
 
 Roam is a note-keeping platform that allows editing of the same note by different people simultaneously, and is where we archive our meeting notes. It is not necessary to join Roam or create your own account, but you will frequently see links to Roam notes dropped into the chat as a meeting gets started.
@@ -67,7 +64,6 @@ Roam is a note-keeping platform that allows editing of the same note by differen
 
 SourceCred does not currently have a plugin or integration for Roam and no Cred is minted from Roam notes as of right now. Eventually we will be able to flow Cred based on factors we track, like meeting attendance, who hosted, who recorded, etc; and Cred will be distributed retroactively based on data from those past meeting notes.
 
-
 ##### Using the Shortcuts to Navigate
 
-TBD *(requires a clean up of the Roam shortcuts column)*
+TBD _(requires a clean up of the Roam shortcuts column)_

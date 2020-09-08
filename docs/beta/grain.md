@@ -2,9 +2,10 @@
 title: 🌾 How Grain Works
 image: img/uploads/grain-token-icon.png
 ---
-##  What is Grain?
 
-Grain is a community-specific digital currency which is issued on the basis of [Cred](/docs/beta/cred) scores. Grain represents how much a participant has supported that community, either through contributions or financial support. Grain can be used to pay participants, or for “Boosting” contributions or initiatives. 
+## What is Grain?
+
+Grain is a community-specific digital currency which is issued on the basis of [Cred](/docs/beta/cred) scores. Grain represents how much a participant has supported that community, either through contributions or financial support. Grain can be used to pay participants, or for “Boosting” contributions or initiatives.
 
 Boosting allows a participant to burn Grain in order to increase the Cred of a specific contribution. Boosting acts as a way of helping to set the project’s values and priorities, and gives the Booster an increased say in the direction of the project. When you use Grain for Boosting, you get a share of the Cred for whatever you are Boosting, which in turn will earn you future Grain.
 
@@ -19,23 +20,21 @@ Grain is created during what we call “Harvests.” A Harvest is a two-step pro
 By default, projects re-compute Cred every 6 hours, but only distribute Grain once a week: on Sunday morning, UTC time. Thus, the project has a full harvest only once per week.
 
 #### Grain Distribution Policies
+
 SourceCred currently has two policies for how a project distributes Grain:
 
 - `IMMEDIATE` splits Grain evenly based on how much Cred each participant earned last week. (This policy ignores all Cred from previous weeks, and is intended to give fast rewards to active participants.)
 - `BALANCED` splits Grain based both on lifetime Cred and on lifetime Grain earnings. Balanced tries to ensure that everyone in the project receives a total Grain payment which is consistent with their total Cred score. For example, suppose that a contributor used to have a low Cred score, and as such received a small amount of Grain. However, the community recently changed its weights, or added a new plugin, such that the contributor now has a larger amount of Cred. The balanced policy sees that this contributor is underpaid, so it will pay them extra to "catch them up" to others in the project. Conversely, contributors might be "overpaid", and they'll receive less Grain until the payouts have been equalized.
 
-
 ### _“What if I contributed a lot before a small Grain distribution, and then less before a bigger Grain distribution?”_
 
-Since Cred is retroactive, the SourceCred algorithm will make sure your percentage is based on _all_ of your contributions compared to all existing contributions, and make sure your percentage is based on the total amount of Grain that has been issued to the community. _Ever._ 
-
+Since Cred is retroactive, the SourceCred algorithm will make sure your percentage is based on _all_ of your contributions compared to all existing contributions, and make sure your percentage is based on the total amount of Grain that has been issued to the community. _Ever._
 
 ## How much is Grain worth?
 
-In the SourceCred community, Grain stays at a fixed price of $1 per Grain. However, each community can choose the price of their Grain, as well as a name for their specific kind of Grain. In other words, Grain is project-specific, and it’s not a universal token. Every project that uses SourceCred creates its own independent token and calls it whatever they choose. Grain in the SourceCred community is sometimes also called “SourceGrain,” to distinguish it from other projects’ Grain tokens.
+In the SourceCred community, Grain stays at a fixed price of \$1 per Grain. However, each community can choose the price of their Grain, as well as a name for their specific kind of Grain. In other words, Grain is project-specific, and it’s not a universal token. Every project that uses SourceCred creates its own independent token and calls it whatever they choose. Grain in the SourceCred community is sometimes also called “SourceGrain,” to distinguish it from other projects’ Grain tokens.
 
-As for pricing, each community can choose the price of their own Grain. They can choose a fixed price, or choose to make their Grain a floating financial asset and let the market decide the price; their Grain would then fluctuate in price based on supply and demand. 
-
+As for pricing, each community can choose the price of their own Grain. They can choose a fixed price, or choose to make their Grain a floating financial asset and let the market decide the price; their Grain would then fluctuate in price based on supply and demand.
 
 ## ⬆️ Boosting Contributions
 
@@ -51,7 +50,7 @@ A guide on how to use Grain for Boosting will be coming soon.
 
 ### Grain is transferrable and tradeable.
 
-You can send your Grain freely to others, or exchange it as part of an agreement. Within a project, Grain is fungible. If Grain has been put on a blockchain (e.g. as an ERC20 token), it can be swapped or traded via protocols like Uniswap or 0x, just like any other ERC20 token. 
+You can send your Grain freely to others, or exchange it as part of an agreement. Within a project, Grain is fungible. If Grain has been put on a blockchain (e.g. as an ERC20 token), it can be swapped or traded via protocols like Uniswap or 0x, just like any other ERC20 token.
 [//]: # (MAKE MORE CLEAR)
 
 ### Grain is opt-in
