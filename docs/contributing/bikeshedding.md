@@ -3,8 +3,7 @@ title: 🚲 Bikeshedding
 description: The concept of bikeshedding refers to focusing on details instead of the bigger picture.
 ---
 
-
-Bikeshedding means talking (or even arguing) about a small detail instead of a larger issue at hand. 
+Bikeshedding means talking (or even arguing) about a small detail instead of a larger issue at hand.
 If you imagine building a house and having a bike shed outside, it would be akin
 to angsting over the color and fun name for the bike shed instead of working on
 actually finishing the house. At the end of the day, you won't have a place to live
@@ -22,4 +21,4 @@ out that this should be avoided.
 
 ### References
 
- - [What is bikeshedding](https://css-tricks.com/what-is-bikeshedding/)
+- [What is bikeshedding](https://css-tricks.com/what-is-bikeshedding/)

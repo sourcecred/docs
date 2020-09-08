@@ -4,8 +4,9 @@ description: Depth over breadth
 ---
 
 SourceCred is still a young project. As we grow it, we have a choice of priorities:
- - do we want to go "wide" (adoption by lots of projects) or
- - go "deep" (intensive usage by a few projects)?
+
+- do we want to go "wide" (adoption by lots of projects) or
+- go "deep" (intensive usage by a few projects)?
 
 ### What does it mean to go wide?
 
@@ -29,7 +30,7 @@ those issues.
 
 ### Going Deep First
 
-We've decided to go deep before going wide. That means proving that 
+We've decided to go deep before going wide. That means proving that
 SourceCred can do a really great job at attributing cred with early-adopter
 communities before we try to scale for broader adoption.
 
@@ -45,5 +46,5 @@ of a larger audience.
 
 ### References
 
- - [deep then wide on discourse](https://discourse.sourcecred.io/t/deep-then-wide/102)
- - [The Rule of Three](https://blog.codinghorror.com/rule-of-three/)
+- [deep then wide on discourse](https://discourse.sourcecred.io/t/deep-then-wide/102)
+- [The Rule of Three](https://blog.codinghorror.com/rule-of-three/)

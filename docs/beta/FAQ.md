@@ -2,19 +2,20 @@
 title: ❓FAQ
 description: Your hottest questions about SourceCred, answered.
 ---
+
 ### Is SourceCred gameable? How do you prevent Sybil attacks?
 
-All systems are gameable and in the end, our goal is not to eliminate gaming but instead become resistant to it. SourceCred's transparency around contribution and reward combined with an emotionally mature community capable of social moderation, creates a system that can quickly identify attacks (intentional or unintentional) and communicate to or shut down the attacker. The retroactive nature of SourceCred's algorithm and long-term + short-term payout system means that from Sybils (one person using multiple accounts to farm Cred), to exploitation, to unintentional gaming or bugs; it's easy to see, correct weights, and respond socially with community moderation.  
+All systems are gameable and in the end, our goal is not to eliminate gaming but instead become resistant to it. SourceCred's transparency around contribution and reward combined with an emotionally mature community capable of social moderation, creates a system that can quickly identify attacks (intentional or unintentional) and communicate to or shut down the attacker. The retroactive nature of SourceCred's algorithm and long-term + short-term payout system means that from Sybils (one person using multiple accounts to farm Cred), to exploitation, to unintentional gaming or bugs; it's easy to see, correct weights, and respond socially with community moderation.
 
 There are many community-oriented measures that can be implemented to mitigate the risk of an attack. To learn about how the SourceCred community itself handles it, check out this [tweet thread](https://twitter.com/boredGenius/status/1275963160852221952).
 
 ### What platforms does SourceCred currently support?
 
-SourceCred has plugins that can gather data for Cred scores from: 
+SourceCred has plugins that can gather data for Cred scores from:
 
-* Discourse
-* GitHub
-* Discord
+- Discourse
+- GitHub
+- Discord
 
 We will be working on supporting additional platforms in the future. If you are interested in contributing to the development of more plugins, check out our [Getting Involved](/docs/beta/get-involved) page.
 
@@ -30,17 +31,17 @@ Existing plugins can also offer workarounds for communities. For example, the So
 
 #### Use it if:
 
-* ✅ Your community lives on one or more of the supported platforms
-* ✅ Your community has strong leadership, emotional maturity and conflict resolution skills
-* ✅ The [trust level](../concepts/trust_levels.md) of your community is high and/or the stakes are low
-* ✅ Your community is relatively small (i.e. not larger than [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number))
-* ✅ You're a fan of decentralized economies and changing the way we think about and distribute value
+- ✅ Your community lives on one or more of the supported platforms
+- ✅ Your community has strong leadership, emotional maturity and conflict resolution skills
+- ✅ The [trust level](../concepts/trust_levels.md) of your community is high and/or the stakes are low
+- ✅ Your community is relatively small (i.e. not larger than [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number))
+- ✅ You're a fan of decentralized economies and changing the way we think about and distribute value
 
 #### Don't use it if:
 
-* ⛔️ You are looking for a silver bullet for community engagement/participation
-* ⛔️ You don't want to put time/effort into educating yourself and your community on how SourceCred works
-* ⛔️ You're looking for a production-ready, ultra-robust system that won't make breaking changes
+- ⛔️ You are looking for a silver bullet for community engagement/participation
+- ⛔️ You don't want to put time/effort into educating yourself and your community on how SourceCred works
+- ⛔️ You're looking for a production-ready, ultra-robust system that won't make breaking changes
 
 ### How is SourceCred funded and how will it be sustainable long term?
 

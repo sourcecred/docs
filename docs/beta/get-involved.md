@@ -2,6 +2,7 @@
 title: 🤗 Get Involved with SourceCred
 description: A guide for becoming a contributor in SourceCred’s internal community.
 ---
+
 If you are interested in joining the community of contributors who are working together to make SourceCred a reality, then this page will help you find your way. If instead you’re looking for information about using SourceCred for your own community or project, check out our [How To Set Up SourceCred](/docs/beta/setup-guide) guide.
 
 This document follows the journey from being a newcomer to a full-fledged contributor in the SourceCred community, sharing relevant resources along the way to help you get there. No phase of getting involved in SourceCred is any better or worse than another; this is your experience, and we encourage you to engage with it at a level and pace that fits you.
@@ -10,7 +11,7 @@ This document follows the journey from being a newcomer to a full-fledged contri
 
 SourceCred is still young, and we don’t have a fully fleshed out onboarding process yet. That means you’ll do best if are willing to dive in, ask questions, explore resources, and otherwise utilize self-directed learning. This doesn’t mean we’re throwing you to the sharks in a “sink or swim” fashion. We are a highly engaged community, so your best chance at getting up to speed with what’s going on and how to help is to be active on our [Discord](https://sourcecred.io/discord) and get connected to other contributors. Come to calls, talk to contributors with more context, ask questions, and offer your help. We’ll welcome you with open arms!
 
-Note that just as everyone is different, everyone’s journey through SourceCred will be different. Make it the experience *you* want to have. Go at the pace that helps you realize your goals and builds trust in both directions. Below you'll find helpful suggestions or "quests" for each phase, but none of these are required or need to be done in a specific order. Happy exploring!
+Note that just as everyone is different, everyone’s journey through SourceCred will be different. Make it the experience _you_ want to have. Go at the pace that helps you realize your goals and builds trust in both directions. Below you'll find helpful suggestions or "quests" for each phase, but none of these are required or need to be done in a specific order. Happy exploring!
 
 ### Phase 1: Getting Plugged In
 
@@ -24,13 +25,13 @@ We provide [a list of resources for newcomers](/docs/beta/best-resources-for-new
 
 #### Great Phase 1 Quests
 
-* **Look through the Best Newcomer Resources list** above, and explore any other \[Documentation](link to an "All Docs Index" webpage) that looks interesting to you.
-* **Join the relevant platforms.**
-* **Read through the** **Discord "#start-here" channel**.
-* **Introduce yourself** in the Discord "#introductions" channel. Tell us a little about who you are, why you're here, what kinds of skills you'd like to be using, and the names/pronouns you prefer to use in our community.
-* If someone you know introduced you to the community, **have a 1:1 "tour"** with them as your Guide.
-* **Attend a Community Call** so you can introduce yourself, get to know some of the other contributors, and ask questions about what still confuses or intrigues you about SourceCred. This call is very newcomer and basic-question friendly.
-* **Ask some questions, give some feedback, or share some ideas in the Discord channels**. The asynchronous community space that Discord offers can be very helpful and fun to engage with as you get to know this project.
+- **Look through the Best Newcomer Resources list** above, and explore any other \[Documentation](link to an "All Docs Index" webpage) that looks interesting to you.
+- **Join the relevant platforms.**
+- **Read through the** **Discord "#start-here" channel**.
+- **Introduce yourself** in the Discord "#introductions" channel. Tell us a little about who you are, why you're here, what kinds of skills you'd like to be using, and the names/pronouns you prefer to use in our community.
+- If someone you know introduced you to the community, **have a 1:1 "tour"** with them as your Guide.
+- **Attend a Community Call** so you can introduce yourself, get to know some of the other contributors, and ask questions about what still confuses or intrigues you about SourceCred. This call is very newcomer and basic-question friendly.
+- **Ask some questions, give some feedback, or share some ideas in the Discord channels**. The asynchronous community space that Discord offers can be very helpful and fun to engage with as you get to know this project.
 
 ### Phase 2: Experimentation, Exploration, & Play
 
@@ -42,12 +43,12 @@ If you find yourself happy in this phase of lighter or experimental contribution
 
 #### Great Phase 2 Quests
 
-* **Start attending \[Jams](our calls doc link)** focused on topics you're interested in. Be a fly on the wall and/or share your ideas and skills. Anyone can come to a jam if they're interested in the topic.
-* **Look through the Initiatives Index Spreadsheet** and identify some initiatives you could be interested in contributing to or at least learning more about.
-* **Reach out to a contributor** already working on an initiative you'd like to help with or learn more about. Get the scoop on upcoming meetings or work sessions you could sit in on to gain context. Maybe ask a few basic questions about the initiative.
-* If no current initiatives look right, try instead having **a 1:1 with someone working in a branch of the project you're interested in.** Getting some more context on the branch could help you get involved.
-* **Listen in on a \[Contributor Call](our calls doc link)** to get some context on the bigger picture and current goals of SourceCred.
-* **Attend a meeting or work session** for an initiative you'd like to help out with. Gain context and evaluate if you'd like to start contributing. Just make sure not to derail the goals of the meeting.
+- **Start attending \[Jams](our calls doc link)** focused on topics you're interested in. Be a fly on the wall and/or share your ideas and skills. Anyone can come to a jam if they're interested in the topic.
+- **Look through the Initiatives Index Spreadsheet** and identify some initiatives you could be interested in contributing to or at least learning more about.
+- **Reach out to a contributor** already working on an initiative you'd like to help with or learn more about. Get the scoop on upcoming meetings or work sessions you could sit in on to gain context. Maybe ask a few basic questions about the initiative.
+- If no current initiatives look right, try instead having **a 1:1 with someone working in a branch of the project you're interested in.** Getting some more context on the branch could help you get involved.
+- **Listen in on a \[Contributor Call](our calls doc link)** to get some context on the bigger picture and current goals of SourceCred.
+- **Attend a meeting or work session** for an initiative you'd like to help out with. Gain context and evaluate if you'd like to start contributing. Just make sure not to derail the goals of the meeting.
 
 ### Phase 3: True Contributor
 
@@ -59,10 +60,10 @@ If you decide you'd like to stick with phase 3 then you may be a frequent contri
 
 #### Great Phase 3 Quests
 
-* **Join a team** of fellow contributors who are working on a specific initiative that you feel you could provide value to. This means attending any work sessions for the team/initiative you're able to, and potentially attending \[Branch Meetings](link to our calls doc) if that feels relevant. At this point there should be enough mutual trust and understanding of skills/needs for joining a team to feel like a natural next step.
-* **Make bigger contributions** to an initiative and/or help see an initiative through to completion.
-* **Suggest a new initiative** you see the project needs. Whether you end up leading the initiative or not; talk to the leaders in your slice of SourceCred if you have an idea to see what they think, whether it's needed, and how it could be achieved. Suggesting new initiatives is not required or a right of passage by any means, make sure you're suggesting thought-through ideas that clearly fill a need in the project. Not just for the sake of making suggestions.
-* **Take on and finish a solo-initiative**. Sometimes an initiative doesn't require a full team to be realized, if you enjoy working mostly on your own this could be a good route for you.
+- **Join a team** of fellow contributors who are working on a specific initiative that you feel you could provide value to. This means attending any work sessions for the team/initiative you're able to, and potentially attending \[Branch Meetings](link to our calls doc) if that feels relevant. At this point there should be enough mutual trust and understanding of skills/needs for joining a team to feel like a natural next step.
+- **Make bigger contributions** to an initiative and/or help see an initiative through to completion.
+- **Suggest a new initiative** you see the project needs. Whether you end up leading the initiative or not; talk to the leaders in your slice of SourceCred if you have an idea to see what they think, whether it's needed, and how it could be achieved. Suggesting new initiatives is not required or a right of passage by any means, make sure you're suggesting thought-through ideas that clearly fill a need in the project. Not just for the sake of making suggestions.
+- **Take on and finish a solo-initiative**. Sometimes an initiative doesn't require a full team to be realized, if you enjoy working mostly on your own this could be a good route for you.
 
 ### Phase 4: Core & Leadership
 
@@ -74,9 +75,9 @@ If you are a high-frequency contributor who regularly brings a lot of indisputab
 
 #### Great Phase 4 Quests
 
-* **Champion an initiative.** Find an initiative (or create one) that you know you understand well and requires the help of a person or two. Be the one who really guides the initiative from beginning to end, keeps track of its progress or changes, and orients the people you're working with so they don't lose sight of the overall goal.
-* **Lead a small team.** Sometimes there are larger initiatives that require you to brake things down into smaller initiatives. Take ownership of a larger initiative and coordinate the smaller teams of contributors to work with you as they focus on different parts of the overall goal. The slightly larger team and diversity of focus will be a good stepping stone as you put your leadership chops to the test.
-* **Lead a Division within a Branch.** If you've got great report and trust with both the contributors working in a branch and the lead running that branch, then you may make a good candidate for leading a division within a branch. This would require tracking, orienting, and supporting the teams and their champions who work within your division of influence. For example: becoming the leader of the Onboarding Division within the Community Cultivation Branch. You would guide and keep tabs on any effort related to Onboarding, and have regular check ins with your Branch Lead to make sure things are on track with the larger vision.
+- **Champion an initiative.** Find an initiative (or create one) that you know you understand well and requires the help of a person or two. Be the one who really guides the initiative from beginning to end, keeps track of its progress or changes, and orients the people you're working with so they don't lose sight of the overall goal.
+- **Lead a small team.** Sometimes there are larger initiatives that require you to brake things down into smaller initiatives. Take ownership of a larger initiative and coordinate the smaller teams of contributors to work with you as they focus on different parts of the overall goal. The slightly larger team and diversity of focus will be a good stepping stone as you put your leadership chops to the test.
+- **Lead a Division within a Branch.** If you've got great report and trust with both the contributors working in a branch and the lead running that branch, then you may make a good candidate for leading a division within a branch. This would require tracking, orienting, and supporting the teams and their champions who work within your division of influence. For example: becoming the leader of the Onboarding Division within the Community Cultivation Branch. You would guide and keep tabs on any effort related to Onboarding, and have regular check ins with your Branch Lead to make sure things are on track with the larger vision.
 
 This doc is based on our [Onboarding Philosophy](https://discourse.sourcecred.io/t/a-better-onboarding/767), which you can read to gain even more context on this guide.
 
