@@ -9,7 +9,11 @@ they/them
 
 Title: Founder
 
-I'm a genderqueer dancer, a joyful hacker, and a bad philosopher. I've long been fascinated by the intersection of economics, philosophy, and technology, and SourceCred is an attempt to synthesize those perspectives into a tool to build new, more equitable ways of working together. I also love snowboarding and partner dancing.
+I'm a genderqueer dancer, a joyful hacker, and a bad philosopher. I've long been
+fascinated by the intersection of economics, philosophy, and technology, and
+SourceCred is an attempt to synthesize those perspectives into a tool to build
+new, more equitable ways of working together. I also love snowboarding and
+partner dancing.
 
 Contact: decentralion, across platforms (GitHub, Discord, Twitter, etc)
 
@@ -19,10 +23,14 @@ Contact: decentralion, across platforms (GitHub, Discord, Twitter, etc)
 
 (they/them)
 
-SourceCred Branch/Job Description
-Community Cultivation Lead & Documentation Lead
+SourceCred Branch/Job Description Community Cultivation Lead & Documentation
+Lead
 
-I'm a genderqueer artist and communicator. I got to be around for the conception of SourceCred, and later became a part of the team using my soft skills around interpersonal relationships and community structure. Now, I champion the Community Cultivation branch and work with our community to develop a wholehearted space that can scale with its values.
+I'm a genderqueer artist and communicator. I got to be around for the conception
+of SourceCred, and later became a part of the team using my soft skills around
+interpersonal relationships and community structure. Now, I champion the
+Community Cultivation branch and work with our community to develop a
+wholehearted space that can scale with its values.
 
 ### Contact: LBS on Discord
 

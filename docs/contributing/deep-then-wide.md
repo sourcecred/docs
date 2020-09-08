@@ -3,7 +3,8 @@ title: ⚓️ Deep then Wide
 description: Depth over breadth
 ---
 
-SourceCred is still a young project. As we grow it, we have a choice of priorities:
+SourceCred is still a young project. As we grow it, we have a choice of
+priorities:
 
 - do we want to go "wide" (adoption by lots of projects) or
 - go "deep" (intensive usage by a few projects)?
@@ -22,17 +23,17 @@ would get plenty of buzz which could bring more contributors and opportunities.
 
 ### What does it mean to go deep?
 
-Going deep means that instead of focusing on finding many projects that will
-use SourceCred, we'll instead focus on making SourceCred work incredibly well
-for a few communities. In part, this means paying a lot of attention to the edge
+Going deep means that instead of focusing on finding many projects that will use
+SourceCred, we'll instead focus on making SourceCred work incredibly well for a
+few communities. In part, this means paying a lot of attention to the edge
 cases, and spots where SourceCred isn't working as intended, and trying to fix
 those issues.
 
 ### Going Deep First
 
-We've decided to go deep before going wide. That means proving that
-SourceCred can do a really great job at attributing cred with early-adopter
-communities before we try to scale for broader adoption.
+We've decided to go deep before going wide. That means proving that SourceCred
+can do a really great job at attributing cred with early-adopter communities
+before we try to scale for broader adoption.
 
 We think that getting SourceCred to "really work" will require a lot of
 experimentation and iteration. That's easier to do when there are only a few

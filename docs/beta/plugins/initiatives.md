@@ -17,9 +17,9 @@ as a result.
 
 One caveat is that an Initiative mixes objective data (who did what) with
 subjective data (how valuable was that). In SourceCred it's a feature that we
-can retroactively update those subjective weights. The objective data helps to have
-constructive discussions about "do we have our facts straight?", and helps to
-remember what made an Initiative valuable in a future discussion.
+can retroactively update those subjective weights. The objective data helps to
+have constructive discussions about "do we have our facts straight?", and helps
+to remember what made an Initiative valuable in a future discussion.
 
 Try to avoid shaping the objective data to fit your subjective needs, such as
 leaving out a contribution because you feel the weight should be lower than some
@@ -34,9 +34,10 @@ Graph, which adds another barrier to being recognized. Validating whether
 everything has been correctly attributed is also not easy in the current UI,
 adding an additional technical barrier.
 
-We're aware of this issue, and plan on improving this with more accessible tools.
-In the meantime, if you're using this plugin it's important to be aware of these
-barriers and support your community in having access to fair recognition.
+We're aware of this issue, and plan on improving this with more accessible
+tools. In the meantime, if you're using this plugin it's important to be aware
+of these barriers and support your community in having access to fair
+recognition.
 
 ## Installing
 
@@ -64,7 +65,8 @@ directories is currently not supported. So initiative files should be added here
 as `./initiatives/*.json`.
 
 It's important that this directory _exists_ when we're trying to load from it.
-So it may be worth adding a `.gitkeep` file to this directory as well, so this directory exists even when you don't have any Initiative files added yet.
+So it may be worth adding a `.gitkeep` file to this directory as well, so this
+directory exists even when you don't have any Initiative files added yet.
 
 ```bash
 touch initiatives/.gitkeep
@@ -161,5 +163,6 @@ TODO
 - Mapping out Initiatives and determining weights.
 
 [initiatives concept]: ../../concepts/initiatives.md
-[plugin source]: https://github.com/sourcecred/sourcecred/tree/master/src/plugins/initiatives
+[plugin source]:
+  https://github.com/sourcecred/sourcecred/tree/master/src/plugins/initiatives
 [v0.5.0 release]: https://github.com/sourcecred/sourcecred/issues/1679

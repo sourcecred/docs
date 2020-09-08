@@ -9,18 +9,18 @@ They group smaller contributions together as part of one Initiative, so it's
 easier for people to estimate how valuable they think the contributions are.
 
 Initiatives can also be used for contributions that aren't (yet) recorded on a
-supported platform. So they can also help to recognize and reward all kinds
-of contributions, even when they're not always creating tangible things. Such as
+supported platform. So they can also help to recognize and reward all kinds of
+contributions, even when they're not always creating tangible things. Such as
 moderating meetings and organizing events.
 
 ## When is it useful?
 
-SourceCred is a social algorithm. So communities will need
-a way to decide what's important and valuable to them. Doing this for thousands
-of separate contributions is really difficult and time consuming. For larger
-projects it quickly becomes impossible to keep track of. It's also fairly
-unnatural. How would you decide what a single forum topic contributed to your
-project, without looking at the context and bigger picture?
+SourceCred is a social algorithm. So communities will need a way to decide
+what's important and valuable to them. Doing this for thousands of separate
+contributions is really difficult and time consuming. For larger projects it
+quickly becomes impossible to keep track of. It's also fairly unnatural. How
+would you decide what a single forum topic contributed to your project, without
+looking at the context and bigger picture?
 
 With Initiatives, we can look at how much an Initiative seems to be worth, and
 let the algorithm do the heavy lifting to figure out how much [Cred] all these
