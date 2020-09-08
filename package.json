@@ -8,6 +8,9 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy"
   },
+  "prettier": {
+    "proseWrap": "always"
+  },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.61",
     "@docusaurus/preset-classic": "2.0.0-alpha.61",
