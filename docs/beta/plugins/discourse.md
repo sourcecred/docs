@@ -17,9 +17,6 @@ plugin (after a cache refresh).
 
 ## Cred flow
 
-TO DO: add example with diagram....The below diagram illustrates a typical
-pattern of Cred flow in Discourse....
-
 The full set of node and edge types used by the Discourse plugin are defined
 below.
 

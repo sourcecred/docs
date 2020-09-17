@@ -17,11 +17,6 @@ from the GitHub plugin (after a cache refresh).
 
 ## Cred flow
 
-TO DO
-
-[INSERT EXAMPLE WITH DIAGRAM] The below diagram illustrates Cred flowing in a
-common pattern of contributions (nodes).
-
 The full set of node and edge types used by the GitHub plugin are defined below.
 
 ### Nodes
