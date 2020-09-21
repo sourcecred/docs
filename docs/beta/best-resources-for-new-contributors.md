@@ -20,7 +20,7 @@ First, try getting familiar with these helpful docs:
 - \*\*Roles and Trust
 - \*\*Code of Conduct
 
-  (\*\*doesn't exist and isn't currently in-scope for beta)
+  (\*\*Coming soon!)
 
 ## Organizational Tools
 
@@ -40,7 +40,7 @@ consider going to their Branch Meeting.
 
 ### <ins>[Docs Index Spreadsheet](https://docs.google.com/spreadsheets/d/1IYNXNghAnMAGPof3f9bZZQeIGxlOHJQrUmu9qONY3KQ/edit#gid=0)</ins>
 
-The Docs Index is a spreadsheet where we organize the documentation we're
+The Docs Index is a spreadsheet where we organize the documentation we're currently
 writing and would like to write. If you are interested in writing, reviewing,
 editing or written communication, get connected to the Docs Team and see if you
 can help out.
@@ -53,15 +53,3 @@ contributor you are. This just helps folks get to know you and your role in the
 community better. Looking through the spreadsheet can give you a better idea of
 who someone is as well! Note that you can always change your answers later by
 editing the doc itself, but you should never edit someone else's answers.
-
-## Extra Content
-
-Throughout SourceCred's journey, some interesting content has been created! You
-may enjoy looking through some of these noteworthy creations:
-
-[//]: # "UNSURE WHAT THESE ARE, WHERE TO FIND THEM, OR WHAT THEIR RELEVANCE IS"
-
-- Evan's Explainer
-- Onboarding Philosophy
-- Champions vs Heros
-- _Looking for more suggestions of Discourse posts for beginners!_
