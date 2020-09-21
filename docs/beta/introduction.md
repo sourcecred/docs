@@ -3,9 +3,10 @@ title: 🌱 Introduction
 description: An introduction to the basic concepts of SourceCred.
 ---
 
-Welcome to your new favorite rabbit-hole. This doc will offer you a basic
-overview of the different parts that make up SourceCred and provide you with
-links to additional documentation so you can keep exploring your curiosity.
+Welcome to your new favorite rabbit hole. This doc will offer you a basic
+overview of the different concepts that make up SourceCred and provide you with
+links to additional documentation so you can keep exploring and feeding your
+curiosity.
 
 We hope you enjoy the journey.
 
@@ -15,8 +16,8 @@ SourceCred (in the most basic sense) is a technology that makes the labor of
 individuals more visible and rewardable as they work together in a project or
 community. The goal of SourceCred is to use this technology to make rewarding
 labor as nuanced as human contribution often is. We hope to be one piece in the
-puzzle of a healthier future where systems serve people as we create together,
-where financial maximization isn't the end-all be-all goal, and wealth actually
+puzzle of a healthier future where systems serve community members, where financial
+maximization isn't the end-all be-all goal, and where wealth actually
 flows to those who are creating the value in our world.
 
 ### SourceCred's Core Concepts
@@ -42,7 +43,7 @@ So how does an algorithm determine how much someone's work is worth in the
 bigger picture of a project? Sounds a little dystopian, right? The algorithm
 uses what we call "Weights", which are a set of rules stating which types of
 contributions are worth what amounts of Cred. The Weights for Cred distribution
-are decided by each community individually, thereby giving a community the
+are decided by each community individually, thereby giving every community the
 opportunity to decide what it values and which actions uphold those values as
 they work together to create something. Every community using SourceCred can
 decide for themselves what is valuable and deserving of Cred, and what is not.
