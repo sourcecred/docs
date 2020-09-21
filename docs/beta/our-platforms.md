@@ -69,23 +69,19 @@ you out in a private DM; afterward, you might post to **\#props** saying e.g.
 
 ## [GitHub](https://github.com/sourcecred/)
 
-GitHub is where our software engineers and other devs organize their coding
+GitHub is where our software engineers and other developers organize their coding
 efforts. If you are code-savvy, come poke through our codebase, learn about our
 atomic coding philosophy, and see if there are any good first issues for you to
 get started on!
 
 As you learn the norms of the repo and start to take on some of your first
 issues, our devs with high context are always keeping an eye on the
-**\#tech-support** channel on [Discord](#discord) and will be happy to answer
+**\#progamming** channel on [Discord](#discord) and will be happy to answer
 your questions.
-
-#### GitHub and Cred
-
-_Need input from Devs_
 
 #### Atomic Coding Philosophy
 
-_Need input from Devs_try this
+#### GitHub and Cred
 
 [Explore our public GitHub repository](https://github.com/sourcecred/)
 
