@@ -81,13 +81,13 @@ your questions.
 
 #### Atomic Coding Philosophy
 
-Sourcecred developers endeavor to create semantically atomic [commits](https://docs.github.com/en/github/getting-started-with-github/github-glossary#commit). Each commit should represent one logical change. This makes the review process easier and allows reviewers to better understand the logic behind a sequence of changes, and faster iteration on changes and reviews. We've found that higher velocity can be achieved by keeping commits and [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) small and ideally singular in scope. For more details, check out our [contributing guidelines](https://github.com/sourcecred/sourcecred/blob/master/CONTRIBUTING.md#contributing).
+Sourcecred developers endeavor to create semantically atomic [commits](https://docs.github.com/en/github/getting-started-with-github/github-glossary#commit). Each commit should represent one logical change, such as the refactoring of a block of code for a specific reason. This makes the review process easier and allows reviewers to better understand the logic behind a sequence of changes. This in turn allows for faster iteration on revisions and reviews. We've found that higher velocity can be achieved by keeping commits and [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) small and ideally singular in scope. This is in contrast to large, multifaceted pull requests that encompass changes for many different reasons. For more details, check out our [contributing guidelines](https://github.com/sourcecred/sourcecred/blob/master/CONTRIBUTING.md#contributing).
 
 #### GitHub and Cred
 
-We utilize Sourcecred to incentivize contributions that follow the atomic coding philosophy. Cred is primarily minted when pull requests are opened and merged. This motivates contributors to try to create semantically atomic pull requests when possible. Each pull request review also mints a small amount of cred for the reviewer.
+We utilize Sourcecred to incentivize contributions that follow the atomic coding philosophy. Cred is primarily minted when pull requests are opened and merged. This motivates contributors to create semantically atomic pull requests when possible. Each pull request review also mints a small amount of cred for the reviewer.
 
-[Explore our public GitHub repository](https://github.com/sourcecred/)
+[Explore our public GitHub repository](https://github.com/sourcecred/sourcecred)
 
 ## [Discourse](https://discourse.sourcecred.io/)
 
