@@ -6,15 +6,14 @@ description:
 ---
 
 SourceCred operates on a few different platforms that serve the needs of our
-internal community: 
+internal community:
 
-**Discord** - for daily coordination and socializing
-**Discourse** - for proposals and larger community conversations
-**Roam** - for research and notes
+**Discord** - for daily coordination and socializing **Discourse** - for
+proposals and larger community conversations **Roam** - for research and notes
 **GitHub** - for code and project management
 
-Join these to plug into the ongoing SourceCred conversation; it’s the most effective way to
-get up to speed on what’s happening in the project.
+Join these to plug into the ongoing SourceCred conversation; it’s the most
+effective way to get up to speed on what’s happening in the project.
 
 Learn more about how we use these major platforms below, and how Cred flows
 within and between each.
@@ -119,8 +118,8 @@ Roam is a note-keeping platform that allows editing of the same note by
 different people simultaneously, and is where we archive our meeting notes. It
 is not necessary to join Roam or create your own account, but you will
 frequently see links to Roam notes dropped into the chat as a meeting gets
-started. Roam has the ability to link docs together through topics linked within them.
-We use Roam for notes from our meetings, work sessions, and jams.
+started. Roam has the ability to link docs together through topics linked within
+them. We use Roam for notes from our meetings, work sessions, and jams.
 
 ##### Roam and Cred
 
