@@ -16,8 +16,8 @@ SourceCred (in the most basic sense) is a technology that makes the labor of
 individuals more visible and rewardable as they work together in a project or
 community. The goal of SourceCred is to use this technology to make rewarding
 labor as nuanced as human contribution often is. We hope to be one piece in the
-puzzle of a healthier future where systems serve community members, where financial
-maximization isn't the end-all be-all goal, and where wealth actually
+puzzle of a healthier future where systems serve community members, where
+financial maximization isn't the end-all be-all goal, and where wealth actually
 flows to those who are creating the value in our world.
 
 ### SourceCred's Core Concepts
