@@ -6,10 +6,14 @@ description:
 ---
 
 SourceCred operates on a few different platforms that serve the needs of our
-internal community: **Discord** for daily coordination and socializing,
-**Discourse** for proposals and larger community conversations, **Roam** for
-research and notes, and **GitHub** for code and project management. Join these
-to plug into the ongoing SourceCred conversation; it’s the most effective way to
+internal community: 
+
+**Discord** - for daily coordination and socializing
+**Discourse** - for proposals and larger community conversations
+**Roam** - for research and notes
+**GitHub** - for code and project management
+
+Join these to plug into the ongoing SourceCred conversation; it’s the most effective way to
 get up to speed on what’s happening in the project.
 
 Learn more about how we use these major platforms below, and how Cred flows
@@ -24,21 +28,21 @@ members in the project.
 
 #### Discord and Cred
 
-In Discord, Cred is minted through emoji reactions. Any time you are on the
-Discord chats and you see a comment which you find particularly useful,
-insightful, interesting, or valuable give it an emoji. Every emoji in Discord
-mints a small amount of Cred, so you can express yourself with any emoji image
+In Discord, Cred is Minted through emoji reactions. Any time you are on the
+Discord chats and you see a comment that you find particularly useful,
+insightful, interesting, or valuable, give it an emoji. Every emoji in Discord
+Mints a small amount of Cred, so you can express yourself with any emoji image
 you like. If you feel strongly that something was really great, then put
 multiple emojis on it!
 
-The SourceCred logo is a special emoji which is worth **16** regular emojis when
+The SourceCred logo is a special emoji that is worth **16** regular emojis when
 used on a Discord message. Use the SourceCred emoji for comments you felt were
 particularly valuable to the project as a whole. If your intention is not to
-mint Cred but simply to use fun emojis, you can always add your emojis as a
+Mint Cred but simply to use fun emojis, you can always add your emojis as a
 reply in the channel instead of as a message reaction.
 
-**Note:** only emojis in public channels will mint Cred. Direct messages and
-role-based access channels do not mint Cred regardless of emoji reaction use.
+**Note:** Only emojis in public channels will Mint Cred. Direct messages and
+role-based access channels do not Mint Cred regardless of emoji reaction use.
 
 #### Special Channels
 
@@ -49,9 +53,9 @@ not complete enough to see yet. Any time you complete an action that is valuable
 to the community but is not on Discourse or GitHub, you can post in
 **\#didathing** describing what you accomplished. Make sure to tag any other
 contributors involved, and link to any useful notes or artifacts of your work.
-This allows the community to give emoji reactions and thereby mint some up-front
+This allows the community to give emoji reactions and thereby Mint some up-front
 Cred for that contribution even if the algorithm couldn’t see it. Whenever you
-see someone post a contribution in **\#didathing** which you feel was valuable,
+see someone post a contribution in **\#didathing** that you feel was valuable,
 give it some emoji reactions! The flow and norms of **\#didathing** will become
 more clear the longer you spend time with us.
 
@@ -89,7 +93,7 @@ _Need input from Devs_
 
 ## [Discourse](https://discourse.sourcecred.io/)
 
-The Discourse forums are where we expand on ideas brought up in calls or on the
+The Discourse forums are where we expand on ideas brought up in calls, on the
 Discord chats, etc. Write full posts (aka “topics”) on the forums to provide
 more permanence and opportunity for feedback. Eventually, those ideas may become
 polished into features and/or documentation.
@@ -103,7 +107,7 @@ to individual posts.
 
 #### Discourse and Cred
 
-Cred is minted based on “likes” in Discourse. Any time you read a topic or a
+Cred is Minted based on “likes” in Discourse. Any time you read a topic or a
 comment in Discourse and use the interface to give it a little heart (a.k.a. a
 “like”), a small amount of Cred is created and flowed to the author of that
 topic or comment, as well as anyone the author tagged in it. Show the love and
@@ -115,16 +119,13 @@ Roam is a note-keeping platform that allows editing of the same note by
 different people simultaneously, and is where we archive our meeting notes. It
 is not necessary to join Roam or create your own account, but you will
 frequently see links to Roam notes dropped into the chat as a meeting gets
-started.
+started. Roam has the ability to link docs together through topics linked within them.
+We use Roam for notes from our meetings, work sessions, and jams.
 
 ##### Roam and Cred
 
 SourceCred does not currently have a plugin or integration for Roam and no Cred
-is minted from Roam notes as of right now. Eventually we will be able to flow
+is Minted from Roam notes as of right now. Eventually we will be able to flow
 Cred based on factors we track, like meeting attendance, who hosted, who
 recorded, etc; and Cred will be distributed retroactively based on data from
 those past meeting notes.
-
-##### Using the Shortcuts to Navigate
-
-TBD _(requires a clean up of the Roam shortcuts column)_
