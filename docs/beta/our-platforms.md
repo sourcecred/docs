@@ -1,8 +1,7 @@
 ---
 title: 🏠 Our Platforms
-description:
-  Platforms our internal community uses (like Discord, Discourse, or GitHub),
-  how they impact cred, and the basic social norms of using them.
+description: Platforms our internal community uses (like Discord, Discourse, or
+  GitHub), how they impact cred, and the basic social norms of using them.
 ---
 
 SourceCred operates on a few different platforms that serve the needs of our
@@ -86,7 +85,7 @@ _Need input from Devs_
 
 #### Atomic Coding Philosophy
 
-_Need input from Devs_
+_Need input from Devs_ this is a change
 
 [Explore our public GitHub repository](https://github.com/sourcecred/)
 
