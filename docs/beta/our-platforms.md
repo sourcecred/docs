@@ -85,7 +85,7 @@ _Need input from Devs_
 
 #### Atomic Coding Philosophy
 
-_Need input from Devs_test
+_Need input from Devs_try this
 
 [Explore our public GitHub repository](https://github.com/sourcecred/)
 
