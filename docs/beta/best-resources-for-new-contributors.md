@@ -40,10 +40,10 @@ consider going to their Branch Meeting.
 
 ### <ins>[Docs Index Spreadsheet](https://docs.google.com/spreadsheets/d/1IYNXNghAnMAGPof3f9bZZQeIGxlOHJQrUmu9qONY3KQ/edit#gid=0)</ins>
 
-The Docs Index is a spreadsheet where we organize the documentation we're currently
-writing and would like to write. If you are interested in writing, reviewing,
-editing or written communication, get connected to the Docs Team and see if you
-can help out.
+The Docs Index is a spreadsheet where we organize the documentation we're
+currently writing and would like to write. If you are interested in writing,
+reviewing, editing or written communication, get connected to the Docs Team and
+see if you can help out.
 
 ### <ins>[Contributor Directory](https://docs.google.com/spreadsheets/d/14cGVeH_s4eRSx0DKPZBlhel6QucAq5QzXoALr_EhBzM/edit#gid=1047682516)</ins>
 
