@@ -38,7 +38,7 @@ getting feedback on projects/initiatives, and unblocking people where needed.
 wanting to be tuned into the larger picture. If you are about to start
 contributing, you are welcome to listen in as a way to gain context, but please
 be mindful not to derail conversations with too many clarifying questions. If
-you find yourself lost at the Contributor Call, attend a Community Call instead
+you find yourself lost at the Contributor Call, attend a Community Call instead,
 which is the best place to ask questions to your heart’s content.
 
 **Note:** Being a contributor does not make this meeting mandatory for you.
@@ -89,7 +89,7 @@ When: At a regular day/time of the team’s choosing. Find them on the
 
 ## Work Sessions
 
-What: A generally shorter and faster paced session scheduled for a specific team
+What: A generally shorter and faster-paced session scheduled for a specific team
 to come together and make progress on a specific goal or initiative. Having
 shorter sessions with an emphasis on getting a few singular goals completed can
 make these sessions more productive than regular meetings.
@@ -112,7 +112,7 @@ context in the project than yourself, for the purpose of gaining context, asking
 questions, expressing concerns, getting assistance, or sharing interesting
 ideas.
 
-**Note:** one-on-ones take place over personal DM voice or video call, unlike
+**Note:** One-on-ones take place over personal DM voice or video call, unlike
 our regular calls (which happen in the main Discord meeting room).
 
 **Perfect for** a newer contributor and a higher-context contributor, but
