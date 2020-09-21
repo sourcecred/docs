@@ -31,8 +31,7 @@ projects are being worked on in SourceCred.
 ### <ins>[Initiatives Index Spreadsheet](https://docs.google.com/spreadsheets/d/1IYNXNghAnMAGPof3f9bZZQeIGxlOHJQrUmu9qONY3KQ/edit#gid=0)</ins>
 
 The Initiatives Index is an MVP tool for exploring the current projects/goals
-within SourceCred right now. Each "Branch" of the project has "Initiatives" (aka
-projects or goals). Looking through the list you can see whether an initiative
+within SourceCred right now. Each "Trunk" of the project has "Branches," which are smaller, more direct teams within a Trunk. Each Branch then has "Twigs" (over-arching projects/goals) and then "Leaves" (specific, smaller projects to complete Twig projects). Looking through the list you can see whether an initiative
 is in action or on the wishlist, who's working on it, and how high of a priority
 it is for us. Poke through and see if anything catches your eye or sparks an
 idea. If you find yourself really gravitating towards a particular branch,
