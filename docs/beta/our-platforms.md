@@ -76,7 +76,7 @@ get started on!
 
 As you learn the norms of the repo and start to take on some of your first
 issues, our devs with high context are always keeping an eye on the
-**\#progamming** channel on [Discord](#discord) and will be happy to answer
+**\#programming** channel on [Discord](#discord) and will be happy to answer
 your questions.
 
 #### Atomic Coding Philosophy
