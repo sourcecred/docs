@@ -147,6 +147,7 @@ dogfooding!).
 
 There are two ways you could really get your hands into SourceCred.
 
+
 ##### Use SourceCred in your community:
 
 Smaller communities with emotional maturity that have high technical
