@@ -2,6 +2,7 @@
 title: 🌱 Introduction
 description: An introduction to the basic concepts of SourceCred.
 ---
+
 Welcome to your new favorite rabbit hole. This doc will offer you a basic
 overview of the different concepts that make up SourceCred and provide you with
 links to additional documentation so you can keep exploring and feeding your
@@ -67,9 +68,9 @@ is meant to be transferable both inside and outside of the project.
 
 ##### Ways you might end up with Grain in a project that's using SourceCred:
 
-* You worked directly as a contributor, earning Cred -and therefore Grain- in
+- You worked directly as a contributor, earning Cred -and therefore Grain- in
   that project.
-* You bought Grain with another valuable currency (like ETH or Dollars) from a
+- You bought Grain with another valuable currency (like ETH or Dollars) from a
   contributor in that project.
 
 So how is Grain useful? The transferability of Grain makes it a powerful tool in
@@ -84,20 +85,20 @@ in many different ways based on the needs and parameters of the community.
 
 ##### Examples of how a project might use Grain:
 
-* Paying contributors with grants or funds it already has based on Cred/Grain.
-* Creating a project-specific currency that can be traded for other forms of
+- Paying contributors with grants or funds it already has based on Cred/Grain.
+- Creating a project-specific currency that can be traded for other forms of
   currency (ie: ETH or US Dollars).
-* Creating an internal currency that could be used solely for governance or to
+- Creating an internal currency that could be used solely for governance or to
   show support for features/ideas.
 
 ##### Examples of how an individual might use Grain:
 
-* Selling their grain back to the project in exchange for money from the
+- Selling their grain back to the project in exchange for money from the
   project's budget (essentially wages you can claim by selling your Grain).
-* "Boosting" specific initiatives, ideas, goals, etc in the project by "burning"
+- "Boosting" specific initiatives, ideas, goals, etc in the project by "burning"
   some of their Grain to make more Cred for that initiative. And creating a
   small flow of Cred from the initiative back to themselves as a bonus.
-* Selling their Grain to people or groups outside the project who would like to
+- Selling their Grain to people or groups outside the project who would like to
   use it for Boosting and incentivizing certain features/decisions.
 
 Follow the rabbit hole deeper by reading our
@@ -109,29 +110,34 @@ dogfooding!).
 
 ## SourceCred's Vision
 
-* Outcompeting capitalism
+- Outcompeting capitalism
 
-  * Creating a system to replace capitalism is important to dismantling the
+  - Creating a system to replace capitalism is important to dismantling the
     harmful systems we live within
-* Creating better structures for recognizing labor that's currently "invisible"
 
-  * The nuance of value and a wider recognition of it (eg: emotional labor)
-  * Better access to opportunity
-* More equitable and ethical payment systems
+- Creating better structures for recognizing labor that's currently "invisible"
 
-  * Decoupling hours worked from money paid
-  * The bias of payment and privilege of negotiation
-  * Moving away from cost of replacement and towards rewarding of sustainable
+  - The nuance of value and a wider recognition of it (eg: emotional labor)
+  - Better access to opportunity
+
+- More equitable and ethical payment systems
+
+  - Decoupling hours worked from money paid
+  - The bias of payment and privilege of negotiation
+  - Moving away from cost of replacement and towards rewarding of sustainable
     value created
-* Better interpersonal and collaborative tools
 
-  * Community playbook
-  * Self-directed/remote work environments become more possible
-* Growth plan and concrete strategy
+- Better interpersonal and collaborative tools
 
-  * Supporting crypto and open source to create better-functioning economic
+  - Community playbook
+  - Self-directed/remote work environments become more possible
+
+- Growth plan and concrete strategy
+
+  - Supporting crypto and open source to create better-functioning economic
     ecosystems
-* Shifting priorities in line with values on a micro and macro level
+
+- Shifting priorities in line with values on a micro and macro level
 
 ## How can I engage with SourceCred?
 
