@@ -88,15 +88,15 @@ edge flowing to it. A node with a lot of inbound edges (like an integral piece
 of code infrastructure) will end up with a higher Cred score than a node with
 very few edges (like a troll post with no likes). In this way, Cred accumulates
 at the nodes which are important to the success of the project, encouraging
-participants to create work that not only brings value to the community, but also
-stands the test of time.
+participants to create work that not only brings value to the community, but
+also stands the test of time.
 
 When a node has a very high Cred score, it will have a bigger pot of Cred to
 split between the other nodes connected to it - like a large pond that has more
-water to send along its rivers to other ponds. That means that if you are connected
-to a node with a high Cred score, you will be receiving a relatively higher
-amount of Cred from it. If you are connected to a node with a low Cred score,
-you will receive a relatively lower amount of Cred from it.
+water to send along its rivers to other ponds. That means that if you are
+connected to a node with a high Cred score, you will be receiving a relatively
+higher amount of Cred from it. If you are connected to a node with a low Cred
+score, you will receive a relatively lower amount of Cred from it.
 
 ### ☔ Cred Minting
 
@@ -116,8 +116,8 @@ other topics it references.
 
 Since Cred can be created (minted) from nothing by the reactions of community
 members, there must be a balance so that Cred maintains its worth. Just like
-water evaporates from ponds and creeks to create rainclouds, Cred evaporates
-to replenish the source from which Cred is minted. For every node on the
+water evaporates from ponds and creeks to create rainclouds, Cred evaporates to
+replenish the source from which Cred is minted. For every node on the
 Contribution Graph, a consistent portion of its Cred evaporates away. The
 evaporation rate can be toggled within the weights to be high or low depending
 on the needs of your community.
