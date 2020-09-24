@@ -2,7 +2,6 @@
 title: 🌱 Introduction
 description: An introduction to the basic concepts of SourceCred.
 ---
-
 Welcome to your new favorite rabbit hole. This doc will offer you a basic
 overview of the different concepts that make up SourceCred and provide you with
 links to additional documentation so you can keep exploring and feeding your
@@ -10,7 +9,7 @@ curiosity.
 
 We hope you enjoy the journey.
 
-### So what IS SourceCred?
+## So what IS SourceCred?
 
 SourceCred (in the most basic sense) is a technology that makes the labor of
 individuals more visible and rewardable as they work together in a project or
@@ -20,9 +19,9 @@ puzzle of a healthier future where systems serve community members, where
 financial maximization isn't the end-all be-all goal, and where wealth actually
 flows to those who are creating the value in our world.
 
-### SourceCred's Core Concepts
+## SourceCred's Core Concepts
 
-#### Cred
+### Cred
 
 SourceCred uses an algorithm to determine how much value a contribution or
 contributor added to a project overall. When a contribution is made to a
@@ -55,7 +54,7 @@ been created.
 If you want to dig deeper into the nuances of Cred, check out our
 [How Cred Works](https://sourcecred.io/docs/beta/cred) documentation.
 
-#### Grain
+### Grain
 
 On its own, Cred may be a nice signal of what is valuable and who is really
 doing the work to make your project successful, but it's hard to pay rent or buy
@@ -68,9 +67,9 @@ is meant to be transferable both inside and outside of the project.
 
 ##### Ways you might end up with Grain in a project that's using SourceCred:
 
-- You worked directly as a contributor, earning Cred -and therefore Grain- in
+* You worked directly as a contributor, earning Cred -and therefore Grain- in
   that project.
-- You bought Grain with another valuable currency (like ETH or Dollars) from a
+* You bought Grain with another valuable currency (like ETH or Dollars) from a
   contributor in that project.
 
 So how is Grain useful? The transferability of Grain makes it a powerful tool in
@@ -85,20 +84,20 @@ in many different ways based on the needs and parameters of the community.
 
 ##### Examples of how a project might use Grain:
 
-- Paying contributors with grants or funds it already has based on Cred/Grain.
-- Creating a project-specific currency that can be traded for other forms of
+* Paying contributors with grants or funds it already has based on Cred/Grain.
+* Creating a project-specific currency that can be traded for other forms of
   currency (ie: ETH or US Dollars).
-- Creating an internal currency that could be used solely for governance or to
+* Creating an internal currency that could be used solely for governance or to
   show support for features/ideas.
 
 ##### Examples of how an individual might use Grain:
 
-- Selling their grain back to the project in exchange for money from the
+* Selling their grain back to the project in exchange for money from the
   project's budget (essentially wages you can claim by selling your Grain).
-- "Boosting" specific initiatives, ideas, goals, etc in the project by "burning"
+* "Boosting" specific initiatives, ideas, goals, etc in the project by "burning"
   some of their Grain to make more Cred for that initiative. And creating a
   small flow of Cred from the initiative back to themselves as a bonus.
-- Selling their Grain to people or groups outside the project who would like to
+* Selling their Grain to people or groups outside the project who would like to
   use it for Boosting and incentivizing certain features/decisions.
 
 Follow the rabbit hole deeper by reading our
@@ -108,46 +107,37 @@ See an example of SourceCred's Cred and Grain by checking out
 [our Cred Instance](http://cred.sourcecred.io/#/explorer) (yup, we're
 dogfooding!).
 
-### SourceCred's Vision
+## SourceCred's Vision
 
-[//]:
-  #
-  "This section still needs to be audited for the suggested content in the outline below, and then fleshed out some. Sending it into review anyway because the doc will benefit from multiple perspectives. -LB"
+* Outcompeting capitalism
 
-- Outcompeting capitalism
-
-  - Creating a system to replace capitalism is important to dismantling the
+  * Creating a system to replace capitalism is important to dismantling the
     harmful systems we live within
+* Creating better structures for recognizing labor that's currently "invisible"
 
-- Creating better structures for recognizing labor that's currently "invisible"
+  * The nuance of value and a wider recognition of it (eg: emotional labor)
+  * Better access to opportunity
+* More equitable and ethical payment systems
 
-  - The nuance of value and a wider recognition of it (eg: emotional labor)
-  - Better access to opportunity
-
-- More equitable and ethical payment systems
-
-  - Decoupling hours worked from money paid
-  - The bias of payment and privilege of negotiation
-  - Moving away from cost of replacement and towards rewarding of sustainable
+  * Decoupling hours worked from money paid
+  * The bias of payment and privilege of negotiation
+  * Moving away from cost of replacement and towards rewarding of sustainable
     value created
+* Better interpersonal and collaborative tools
 
-- Better interpersonal and collaborative tools
+  * Community playbook
+  * Self-directed/remote work environments become more possible
+* Growth plan and concrete strategy
 
-  - Community playbook
-  - Self-directed/remote work environments become more possible
-
-- Growth plan and concrete strategy
-
-  - Supporting crypto and open source to create better-functioning economic
+  * Supporting crypto and open source to create better-functioning economic
     ecosystems
+* Shifting priorities in line with values on a micro and macro level
 
-- Shifting priorities in line with values on a micro and macro level
+## How can I engage with SourceCred?
 
-### How can I engage with SourceCred?
+There are two ways you can really get your hands into SourceCred.
 
-There are two ways you could really get your hands into SourceCred.
-
-##### Use SourceCred in your community:
+### Use SourceCred in your community:
 
 Smaller communities with emotional maturity that have high technical
 understanding of software development and economics are best suited for using
@@ -163,7 +153,7 @@ SourceCred is a good fit for you and your project/community. If we're not ready
 to support your kind of project yet, check back in later. We're improving all
 the time.
 
-##### Contribute to building SourceCred:
+### Contribute to building SourceCred:
 
 SourceCred is dogfooding itself, meaning that we use the technology we're
 creating to calculate our own Cred scores and distribute Grain to those who help
