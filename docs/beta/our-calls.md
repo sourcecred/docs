@@ -1,132 +1,89 @@
 ---
 title: ☎️ Our Calls
-description:
-  "See the various calls: the meetings, work sessions, and social events for the
-  SourceCred community."
+description: See the various calls, meetings, work sessions, and jams the
+  SourceCred community has on a regular basis.
 ---
-
 SourceCred is a community in which most contributors are remote and work
 asynchronously, allowing anyone to contribute no matter their location and
 availability. We hold regularly scheduled calls, open to everyone, to cultivate
-a culture of joyful collaboration and meaningful connection between members.
+a culture of collaboration and meaningful connection between members.
 These calls have different specific purposes (and expectations), and are held on
 the [SourceCred Discord server](https://sourcecred.io/discord) using the voice
 and video channels.
 
-You can see what types of calls are currently scheduled on our
-[public calendar](http://sourcecred.io/calendar).
+You can see what types of calls are currently scheduled on our[ public calendar](http://sourcecred.io/calendar).
 
 ## Weekly Community Call
 
-**What:** The founder and members of the core team host a call for any newcomers
-or community members to attend, introduce themselves, ask questions, etc.
+The Community Call is a great space for newcomers and experienced community members alike. We take time to check in with each other as people, and get to know the newer people. Come join us at one and share a bit about; who you are, why you're curious about SourceCred, and what you like to work on. It's also a great way to get to know the other participants and ask any questions you may have about who we are and what we do. 
 
-**Perfect for** anyone who is interested in SourceCred, especially newcomers.
+When: Weekly, [**Tuesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the [SourceCred Discord](https://sourcecred.io/discord).
 
-**Purpose:** To provide newcomers with the opportunity to get to know the
-project and its main team, or ask any questions they have about SourceCred.
+## "This Week in SourceCred" Call
 
-**When:** Weekly, please check the calendar as this meeting is occasionally
-cannibalized for other emergent contributor needs.
-[**Tuesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the
-[SourceCred Discord](https://sourcecred.io/discord).
+This is a weekly call aimed primarily at: active participants, participants who like to pick up work from time to time, and new participants who want to try contributing for the first time. This call gives updates about each major portion of the project as well as potential opportunities to help. It's perfect for participants who are actively contributing to SourceCred, as well as anyone who would like to be in-tune with the larger picture. 
 
-## Weekly Contributor Call (on hiatus)
+If you are about to start contributing, you are welcome to listen in on this call as a way to gain context. However, please be mindful not to derail conversations with too many clarifying questions. If you find yourself lost at the "This Week in SourceCred" call, attend a Community Call next. The Community Call is the best place to ask questions of any kind or level of knowledge.
 
-**What:** A weekly call helping contributors be on the same page about larger
-goals, getting feedback on projects/initiatives, and unblocking people where
-needed.
+Note: Being a participant does not make this meeting mandatory for you.
 
-**Perfect for** all people actively contributing to SourceCred, or simply anyone
-wanting to be tuned into the larger picture. If you are about to start
-contributing, you are welcome to listen in as a way to gain context, but please
-be mindful not to derail conversations with too many clarifying questions. If
-you find yourself lost at the Contributor Call, attend a Community Call instead,
-which is the best place to ask questions to your heart’s content.
+When: Weekly,[ **Thursday** at 11am Pacific Time](https://sourcecred.io/calendar) on the[ SourceCred Discord](https://sourcecred.io/discord).
 
-**Note:** Being a contributor does not make this meeting mandatory for you.
+## Jams
 
-**Purpose:** This call gives all of the contributors the opportunity to see the
-bigger picture and align their actions and priorities with the overall goals of
-the project. It also gives the branch leads a chance to get feedback and
-assistance on larger goals or changes. It helps grow a sense of connection and
-shared goals across different portions of SourceCred.
+What: A designated time to talk about a specific subject and how it relates to
+SourceCred.
 
-**When:** Weekly,
-[**Thursday** at 11am Pacific Time](https://sourcecred.io/calendar) on the
-[SourceCred Discord](https://sourcecred.io/discord).
+**Perfect for** anyone who finds that particular topic interesting or relevant
+to their work in SourceCred.
 
-## Weekly Book Club: Emergent Strategy
+Purpose: We come together to explore a specific topic, and how we can apply it
+to SourceCred or vice-versa. Jams are a fun, low-barrier way to get involved in
+the project.
 
-**What:** A social event! [note: we're almost done reading this book, stay
-tuned\ what's next!]
+When: No set time or reoccurrence. Jams are scheduled as one-off events, and
+timing is usually based off the availability of key participants. Check out the
+[SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Jams.
 
-**Perfect for** anyone who wants to authentically participate.
+## Branch Specific Meetings
 
-**Purpose:** To chill, read, and discuss. Typically a pretty vulnerable,
-intimate space full of personal sharing.
-
-**Where:** Discord Main voice channel.
-
-**When:** Currently Mondays 2:15-3:45 PST. Check the
-[SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
-
-## Soap Boxes
-
-**What:** A designated time to talk aloud about a specific subject and how it
-may or may not relate to SourceCred.
-
-**Perfect for** anyone who finds that particular topic interesting or relevant.
-
-**Purpose:** To let out steam, to align or to see where we may not align; to
-allow a social space to speak uninterrupted about general or controversial
-topics. Has MC and allows for uninterrupted, times shares.
-
-**Where:** Typically in the Watercooler channel.
-
-**When:** No set time or reoccurrence. Soap boxes are scheduled as one-off
-events, and timing is usually based off the availability of the MC. Check out
-the [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Soap
-boxes.
-
-## Working/Discussion Group Meetings
-
-**What:** Meetings for contributors working in a specific domain to coordinate,
-check in on progress, and align goals and action with each other.
+What: Meetings for contributors working in a specific branch to coordinate,
+check in on progress, and align goals and action with each other and the branch
+lead.
 
 **Primarily for** the contributors who are working on initiatives within that
-domain. Listeners or "flies on the wall" welcome.
+specific branch, and the branch lead.
 
-**Purpose:** Keeps teams effective, aligned, and communicating. Helps grow a
-sense of connection and shared goals within the branch. Gives contributors a
-chance to receive help, propose new ideas, communicate changes, and problem
-solve.
+Purpose: Keeps teams effective, aligned, and communicating. Helps grow a sense
+of connection and shared goals within the branch. Gives contributors a chance to
+receive help, propose new ideas, and communicate changes.
 
-**Where:** Discord Main voice channel.
+Where: Discord Main voice channel.
 
-**When:** At a regular day/time of the team’s choosing. Find them on the
+When: At a regular day/time of the team’s choosing. Find them on the
 [SourceCred Calendar](https://sourcecred.io/calendar).
 
-## Weekly Social Coding
+## Work Sessions
 
-**What:** Typically a long scheduled session for devs to co-work, problem-solve,
-or parallel work together on the product.
+What: A generally shorter and faster-paced session scheduled for a specific team
+to come together and make progress on a specific goal or initiative. Having
+shorter sessions with an emphasis on getting a few singular goals completed can
+make these sessions more productive than regular meetings.
 
-**Perfect for** the contributors who are developers and weekly participants in
-the Monday backlog grooming and sprints.
+**Perfect for** the contributors on a team that is actively working on a
+specific initiative, and any other high-context contributors they need feedback
+from. Anyone who plans to start contributing to the specific initiative in
+question can attend to gain context.
 
-**Purpose:** Creating a synchronous space to really make progress on an
-initiative or project. Long, open time slots allow for focus. We try not to
-schedule other events during social coding to prevent FOMO from the devs who are
-focussing on the sourcecode.
+Purpose: Creating a synchronous space with all the key players to really make
+progress on an initiative or project. By nature of being shorter, these are also
+less taxing and can help keep contributors on track.
 
-**Where:** Co-working or Quiet Co-working channels.
-
-**When:** Scheduled weekly; times change according to group dev availability.
+When: Scheduled as one-off events when asynchronous coordination won’t cut it.
 
 ## One-on-Ones (1:1)
 
-**What:** Time scheduled with another contributor, often someone who has more
+What: Time scheduled with another contributor, often someone who has more
 context in the project than yourself, for the purpose of gaining context, asking
 questions, expressing concerns, getting assistance, or sharing interesting
 ideas.
@@ -135,23 +92,13 @@ ideas.
 our regular calls (which happen in the main Discord meeting room).
 
 **Perfect for** a newer contributor and a higher-context contributor, but
-certainly not limited to that dynamic. Consider reaching out for a one-on-one
-with someone in the org if you haven't yet after 6 Community Calls! If you have
-already, that's awesome.
+certainly not limited to that dynamic.
 
-**Purpose:** 1:1s are an accepted and foundational contribution to the
-SourceCred community. It's one of the things that sets up apart in many ways
-too: that we turn inward and focus on one another and the individual as well as
-organizational relationships we build in addition to a relationship to the
-product (dogfooding).
+Purpose: The reasons for a 1:1 are varied. You may have a friend in the
+community who is helping you dip your toes into SourceCred for the first time,
+or perhaps you work on a different project and would like to ask questions of a
+specific contributor about integrations with SourceCred, or maybe you’ve been in
+the community for a while and would like a guide/mentor you can touch bases with
+about your SourceCred experience from time to time.
 
-The reasons for a 1:1 are varied. You may have a friend in the community who is
-helping you dip your toes into SourceCred for the first time, or perhaps you
-work on a different project and would like to ask questions of a specific
-contributor about integrations with SourceCred, or maybe you’ve been to a bunch
-of community calls and would like a guide/mentor you can touch bases with about
-your how to get involved.
-
-**Where:** Typically the Watercooler channel or a personal message.
-
-**When:** At the discretion of the participants.
+When: At the discretion of the participants.
