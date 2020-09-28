@@ -31,8 +31,8 @@ projects are being worked on in SourceCred.
 ### <ins>[SourceCred Org Chart](https://roamresearch.com/#/app/SourceCred/page/2_qy7Gity)</ins>
 
 The SourceCred Org Chart is an MVP tool for exploring the current projects/goals
-within SourceCred. Each "Trunk" of the project has "Branches," which
-are smaller, more direct teams within a Trunk. Each Branch then has "Twigs"
+within SourceCred. Each "Trunk" of the project has "Branches," which are
+smaller, more direct teams within a Trunk. Each Branch then has "Twigs"
 (over-arching projects/goals) and then "Leaves" (specific, smaller projects to
 complete Twig projects). Looking through the chart you can see whether an
 initiative is in action or on the wishlist, who's working on it, and how high of
