@@ -5,31 +5,34 @@ description: See the various calls, meetings, work sessions, and jams the
 ---
 SourceCred is a community in which most contributors are remote and work
 asynchronously, allowing anyone to contribute no matter their location and
-availability. We hold regularly scheduled calls, open to everyone, to cultivate
+availability. We hold regularly scheduled calls which are open to everyone, to cultivate
 a culture of collaboration and meaningful connection between members.
 These calls have different specific purposes (and expectations), and are held on
-the [SourceCred Discord server](https://sourcecred.io/discord) using the voice
-and video channels.
+the [SourceCred Discord server](https://sourcecred.io/discord) using the audio channels.
 
 You can see what types of calls are currently scheduled on our[ public calendar](http://sourcecred.io/calendar).
 
 ## Weekly Community Call
 
-The Community Call is a great space for newcomers and experienced community members alike. We take time to check in with each other as people, and get to know the newer people. Come join us at one and share a bit about; who you are, why you're curious about SourceCred, and what you like to work on. It's also a great way to get to know the other participants and ask any questions you may have about who we are and what we do. 
+The Community Call is a great space for newcomers and experienced community members alike. We take time to check in with each other as people, and get to know the newer folks. Come join us at one and share a bit about; who you are, why you're curious about SourceCred, and what you like to work on. It's also a great way to get to know the other participants and ask any questions you may have about who we are and what we do. 
 
 When: Weekly, [**Tuesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the [SourceCred Discord](https://sourcecred.io/discord).
 
 ## "This Week in SourceCred" Call
 
-This is a weekly call aimed primarily at: active participants, participants who like to pick up work from time to time, and new participants who want to try contributing for the first time. This call gives updates about each major portion of the project as well as potential opportunities to help. It's perfect for participants who are actively contributing to SourceCred, as well as anyone who would like to be in-tune with the larger picture. 
+This is a weekly call aimed primarily at: active participants, on and off or new participants looking to pick up some work and contribute, anyone who would like to listen in on the latest work being done in SourceCred. This call gives updates about each major portion of the project as well as potential opportunities to help. It's perfect for participants who are actively contributing to SourceCred, as well as anyone who would like to be in-tune with the larger picture. 
 
-If you are about to start contributing, you are welcome to listen in on this call as a way to gain context. However, please be mindful not to derail conversations with too many clarifying questions. If you find yourself lost at the "This Week in SourceCred" call, attend a Community Call next. The Community Call is the best place to ask questions of any kind or level of knowledge.
+If you are about to start contributing, you are welcome to listen in on this call as a way to gain context and offer your help. However, please be mindful not to derail conversations with too many clarifying questions. If you find yourself lost at the "This Week in SourceCred" call, attend a Community Call next. The Community Call is the best place to ask questions of any type or level of knowledge.
 
 Note: Being a participant does not make this meeting mandatory for you.
 
 When: Weekly,[ **Thursday** at 11am Pacific Time](https://sourcecred.io/calendar) on the[ SourceCred Discord](https://sourcecred.io/discord).
 
 ## Jams
+
+A Jam is an open and moderately unstructured call for interested participants to brainstorm about or dive into a specific topic. From crypto-economics to values, from legal and regulation to community-care; topics for Jams can be anything that relates to SourceCred in some way. Schedule a Jam whenever you see that there's a lot of desire to talk about something together, but no time in \*this\* meeting. 
+
+Jams can be scheduled by anyone who'd like to host one, and often get put on the calendar when it becomes obvious that everyone really wants to keep talking about a topic. 
 
 What: A designated time to talk about a specific subject and how it relates to
 SourceCred.
@@ -45,7 +48,7 @@ When: No set time or reoccurrence. Jams are scheduled as one-off events, and
 timing is usually based off the availability of key participants. Check out the
 [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Jams.
 
-## Branch Specific Meetings
+## Trunk, Branch, or Team-Specific Meetings
 
 What: Meetings for contributors working in a specific branch to coordinate,
 check in on progress, and align goals and action with each other and the branch
