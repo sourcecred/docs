@@ -18,20 +18,18 @@ of the project. When you use Grain for Boosting, you get a share of the Cred for
 whatever you are Boosting, which will in turn earn you future Grain.
 
 Projects can choose to issue their Grain as a cryptocurrency or token, sucha as
-by issuing Grain as an ERC-20 token on Ethereum. This allows Grain to be
-a conduit with which a project can pay or financially reward participants.
+by issuing Grain as an ERC-20 token on Ethereum. This allows Grain to be a
+conduit with which a project can pay or financially reward participants.
 
 Note that Grain does not _have_ to be tied to any actual monetary concept, such
 as cryptocurrency. A SourceCred project can name it “Points” and use it solely
 as a scoring system in addition to Cred values.
 
-
-
 #### Grain Distribution Policies
 
-Grain distribution is a two-step process in which the Cred is recomputed
-(so scores are as fresh as possible), and Grain is then distributed
-based on those Cred scores.
+Grain distribution is a two-step process in which the Cred is recomputed (so
+scores are as fresh as possible), and Grain is then distributed based on those
+Cred scores.
 
 SourceCred currently has two policies for how a project distributes Grain:
 
@@ -75,8 +73,9 @@ based on supply and demand.
 
 Grain can also be used to Boost contributions. This means you can burn your
 Grain to support a particular contribution. When a contribution is Boosted, its
-Cred increases because new Cred has just been [minted](https://sourcecred.io/docs/beta/cred#-cred-minting).
-It then also flows a fraction of its Cred to its Booster.
+Cred increases because new Cred has just been
+[minted](https://sourcecred.io/docs/beta/cred#-cred-minting). It then also flows
+a fraction of its Cred to its Booster.
 
 Boosting is a flexible mechanism. A Booster can use it to prioritize work and
 incentivize participants to focus on it. For example, if there is a bug that you
