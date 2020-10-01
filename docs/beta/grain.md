@@ -15,27 +15,23 @@ Boosting allows a participant to burn Grain in order to increase the Cred of a
 specific contribution. Boosting acts as a way of helping to set the project’s
 values and priorities, and gives the Booster an increased say in the direction
 of the project. When you use Grain for Boosting, you get a share of the Cred for
-whatever you are Boosting, which in turn will earn you future Grain.
+whatever you are Boosting, which will in turn earn you future Grain.
 
-Projects can choose to issue their Grain as a cryptocurrency or token, for
-example by issuing Grain as an ERC-20 token on Ethereum. This allows Grain to be
+Projects can choose to issue their Grain as a cryptocurrency or token, sucha as
+by issuing Grain as an ERC-20 token on Ethereum. This allows Grain to be
 a conduit with which a project can pay or financially reward participants.
 
 Note that Grain does not _have_ to be tied to any actual monetary concept, such
 as cryptocurrency. A SourceCred project can name it “Points” and use it solely
 as a scoring system in addition to Cred values.
 
-## How you earn Grain
 
-Grain is created during what we call “Harvests.” A Harvest is a two-step process
-in which the Cred is recomputed (so scores are as fresh as possible), and Grain
-is then distributed based on those Cred scores.
-
-By default, projects re-compute Cred every 6 hours, but only distribute Grain
-once a week: on Sunday morning, UTC time. Thus, the project has a full harvest
-only once per week.
 
 #### Grain Distribution Policies
+
+Grain distribution is a two-step process in which the Cred is recomputed
+(so scores are as fresh as possible), and Grain is then distributed
+based on those Cred scores.
 
 SourceCred currently has two policies for how a project distributes Grain:
 
@@ -80,13 +76,13 @@ based on supply and demand.
 Grain can also be used to Boost contributions. This means you can burn your
 Grain to support a particular contribution. When a contribution is Boosted, its
 Cred increases because new Cred has just been
-[Minted](/docs/beta/cred#-cred-minting). It then also flows a fraction of its
+[minted](https://sourcecred.io/docs/beta/cred#-cred-minting). It then also flows a fraction of its
 Cred to its Booster.
 
 Boosting is a flexible mechanism. A Booster can use it to prioritize work and
 incentivize participants to focus on it. For example, if there is a bug that you
 really want fixed, you can Boost it. Since it has a higher Cred score from the
-newly Minted Cred, participants will now be more interested in focusing on it,
+newly minted Cred, participants will now be more interested in focusing on it,
 as they will receive more Cred from their work.
 
 Boosters can also hunt for under-valued contributions and Boost them. They are
@@ -98,12 +94,12 @@ A guide on how to use Grain for Boosting will be coming soon.
 
 ## Other key properties of Grain
 
-### Grain is transferrable and tradeable.
+### Grain is transferrable and tradeable
 
 You can send your Grain freely to others, or exchange it as part of an
 agreement. Within a project, Grain is fungible. If Grain has been put on a
 blockchain (e.g. as an ERC20 token), it can be swapped or traded via protocols
-like Uniswap or 0x, just like any other ERC20 token. [//]: # (MAKE MORE CLEAR)
+like Uniswap or 0x, just like any other ERC20 token.
 
 ### Grain is opt-in
 
