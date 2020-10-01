@@ -6,7 +6,7 @@ image: img/uploads/grain-token-icon.png
 ## What is Grain?
 
 Grain is a community-specific digital currency which is issued on the basis of
-[Cred](/docs/beta/cred) scores. Grain represents how much a participant has
+[Cred scores](https://sourcecred.io/docs/beta/cred). Grain represents how much a participant has
 supported that community, either through contributions or financial support.
 Grain can be used to pay participants, or for “Boosting” contributions or
 initiatives.
@@ -79,14 +79,13 @@ based on supply and demand.
 
 Grain can also be used to Boost contributions. This means you can burn your
 Grain to support a particular contribution. When a contribution is Boosted, its
-Cred increases because new Cred has just been
-[Minted](/docs/beta/cred#-cred-minting). It then also flows a fraction of its
+Cred increases because new Cred has just been minted. It then also flows a fraction of its
 Cred to its Booster.
 
 Boosting is a flexible mechanism. A Booster can use it to prioritize work and
 incentivize participants to focus on it. For example, if there is a bug that you
 really want fixed, you can Boost it. Since it has a higher Cred score from the
-newly Minted Cred, participants will now be more interested in focusing on it,
+newly minted Cred, participants will now be more interested in focusing on it,
 as they will receive more Cred from their work.
 
 Boosters can also hunt for under-valued contributions and Boost them. They are
