@@ -102,17 +102,17 @@ score, you will receive a relatively lower amount of Cred from it.
 
 If a contribution is valuable, there are mechanisms for the community to signal
 their appreciation of it. These mechanisms vary between platforms, and each
-community can choose which of these mechanisms will mint Cred for their community,
-and how much, through their community weights. Each mechanism “mints” (aka creates)
-new Cred for that contribution node. This Cred minting is like new water falling
-into the contribution’s pond in the form of rain. That new water flows through
-the creeks to the other ponds downstream of it.
+community can choose which of these mechanisms will mint Cred for their
+community, and how much, through their community weights. Each mechanism “mints”
+(aka creates) new Cred for that contribution node. This Cred minting is like new
+water falling into the contribution’s pond in the form of rain. That new water
+flows through the creeks to the other ponds downstream of it.
 
-For example, say there is a community that values Discourse posts, so they decide
-that each Discourse post will recieve 10 Cred for every like it recieves. Then, 
-a participant in that community writes an extremely insightful topic on Discourse. 
-Every time another community member uses the "like" mechanism to show they
-really loved the topic, a little rain falls into the topic's pond. That new
+For example, say there is a community that values Discourse posts, so they
+decide that each Discourse post will recieve 10 Cred for every like it recieves.
+Then, a participant in that community writes an extremely insightful topic on
+Discourse. Every time another community member uses the "like" mechanism to show
+they really loved the topic, a little rain falls into the topic's pond. That new
 water then flows to downstream ponds such as the author of the forum topic, or
 other topics it references.
 
