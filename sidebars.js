@@ -17,7 +17,6 @@ module.exports = {
       "beta/our-platforms",
       "beta/our-calls",
       "beta/best-resources-for-new-contributors",
-      "concepts/trust_levels",
       "beta/FAQ",
     ],
   },
