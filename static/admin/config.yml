@@ -39,12 +39,12 @@ collections:
             to the post.",
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "beta plugins"
+  - name: "beta-plugins"
     label: "Beta Plugin Docs"
     folder: "docs/beta/plugins"
     create: true
     slug: "{{slug}}"
-    preview_path: "docs/{{slug}}"
+    preview_path: "docs/beta/plugins/{{slug}}"
     editor:
       preview: false
     fields:

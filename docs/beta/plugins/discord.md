@@ -113,6 +113,10 @@ that you want to add the bot to the application. On the Bot tab, you should now
 see your bot. You should also see a 'TOKEN' field under the 'USERNAME' field.
 Copy this token for later.
 
+Scroll down to the "Privileged Gateway Intents" section and enable the "server members intent" setting. This allows the bot to get a list of the members in your discord server.
+
+![](/img/uploads/discord-setup-1.png)
+
 5. **Invite Bot to Server**
 
 You can invite your bot to your server by constructing a URL with the following
