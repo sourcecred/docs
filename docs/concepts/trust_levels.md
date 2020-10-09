@@ -1,5 +1,6 @@
 ---
 title: 🎚 Trust Levels
+sidebar_label: "🎚 Concept: Trust Levels"
 description: levels of trust in communities using SourceCred
 ---
 
