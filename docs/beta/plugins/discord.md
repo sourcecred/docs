@@ -188,7 +188,7 @@ clicking 'Copy Link'. This will give you a URL to an image of the emoji. The
 numeric substring in the URL is the emoji ID. For instance, below is the URL
 for a custom SourceCred emoji called `:sourcecred_pink:`.
 
-`https://cdn.discordapp.com/emojis/745438325086879794.png?v=1` (![](https://cdn.discordapp.com/emojis/745438325086879794.png?v=1))
+`https://cdn.discordapp.com/emojis/745438325086879794.png?v=1`
 
 The emoji ID is `745438325086879794`. The reaction weight is then specified in
 `config.json` using the following format: `$EMOJI_NAME:$EMOJI_ID`. So if we want
