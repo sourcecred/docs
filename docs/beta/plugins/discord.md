@@ -97,7 +97,7 @@ and paste the server ID into the `guildId` field.
 
 Bots require an associated Discord application. In your browser, navigate to the
 [Discord Developer Portal](https://discord.com/developers/applications). Click
-the 'New Applicaiton' button. Discord will prompt you to enter the name of your
+the 'New Application' button. Discord will prompt you to enter the name of your
 application and a description of it. The name and description can be anything
 you want. The application is simply to give the bot the ability to communicate
 with Discord APIs.
@@ -185,10 +185,10 @@ a weight that is 5 times a regular reaction, add the line `"💜": 5` to the
 If you want to set a custom weight for a custom emoji, you'll first need to get
 the custom emoji ID. You can get this by right clicking on the custom emoji and
 clicking 'Copy Link'. This will give you a URL to an image of the emoji. The
-numberic substring in the URL is the emoji ID. For instance, below is the URl
-for a custom sourcecred emoji called `:sourcecred_pink:`.
+numeric substring in the URL is the emoji ID. For instance, below is the URL
+for a custom SourceCred emoji called `:sourcecred_pink:`.
 
-`https://cdn.discordapp.com/emojis/745438325086879794.png?v=1`
+`https://cdn.discordapp.com/emojis/745438325086879794.png?v=1` (![](https://cdn.discordapp.com/emojis/745438325086879794.png?v=1))
 
 The emoji ID is `745438325086879794`. The reaction weight is then specified in
 `config.json` using the following format: `$EMOJI_NAME:$EMOJI_ID`. So if we want
