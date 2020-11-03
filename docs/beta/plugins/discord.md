@@ -82,7 +82,7 @@ permissions.
 Below are the basic steps to create your bot, point it at your Discord server
 and optionally set custom emoji reaction weights.
 
-1. **Enable Developer Mode**
+### 1. Enable Developer Mode
 
 Under User Settings -> Appearance -> Advanced, turn on 'Developer Mode'. This
 will give you the ability to right click on items and copy their Discord IDs.
