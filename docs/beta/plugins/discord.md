@@ -87,7 +87,7 @@ and optionally set custom emoji reaction weights.
 Under User Settings -> Appearance -> Advanced, turn on 'Developer Mode'. This
 will give you the ability to right click on items and copy their Discord IDs.
 
-2. **Configure server ID**
+#### 2. Configure server ID 
 
 Right click on your server and click 'Copy ID'. Open the Discord plugin
 configuration file located at `config/plugins/sourcecred/discord/config.json`
