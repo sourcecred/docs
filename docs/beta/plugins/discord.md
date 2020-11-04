@@ -132,7 +132,7 @@ Permissions options:
 - `8`: Admin
 
 The `CLIENT_ID` is the application ID you copied in Step 3. For example, if your
-CLIENT_ID was 1234, the URL would be:
+CLIENT_ID were 1234, the URL would be:
 
 `https://discordapp.com/api/oauth2/authorize?client_id=1234&scope=bot&permissions=66560`
 
