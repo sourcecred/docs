@@ -87,7 +87,7 @@ and optionally set custom emoji reaction weights.
 Under User Settings -> Appearance -> Advanced, turn on 'Developer Mode'. This
 will give you the ability to right click on items and copy their Discord IDs.
 
-### 2. Configure server ID 
+### 2. Configure server ID
 
 Right click on your server and click 'Copy ID'. Open the Discord plugin
 configuration file located at `config/plugins/sourcecred/discord/config.json`
@@ -142,11 +142,14 @@ permissions to read messages and message history.
 
 6. **Set Environment Variable**
 
-You will need to create an environment variable named `$SOURCECRED_DISCORD_TOKEN` and set it to the bot token created in Step 4.
+You will need to create an environment variable named
+`$SOURCECRED_DISCORD_TOKEN` and set it to the bot token created in Step 4.
 
 ##### Running Locally
 
-If you’re running SourceCred locally, the environment variable can be set like any other. The one liner below will set the environment variable temporarily for the current terminal session:
+If you’re running SourceCred locally, the environment variable can be set like
+any other. The one liner below will set the environment variable temporarily for
+the current terminal session:
 
 `$ export SOURCECRED_DISCORD_TOKEN=BOT_TOKEN`
 
