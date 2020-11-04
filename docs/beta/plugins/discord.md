@@ -134,7 +134,7 @@ Permissions options:
 The `CLIENT_ID` is the application ID you copied in Step 3. For example, if your
 CLIENT_ID were 1234, the URL would be:
 
-<code>https://discordapp.com/api/oauth2/authorize?client_id=<mark>1234</mark>&amp;scope=bot&amp;permissions=<mark>66560</mark></code>
+`https://discordapp.com/api/oauth2/authorize?client_id=1234&amp;scope=bot&amp;permissions=66560`
 
 Paste this URL into the browser you're logged into Discord with admin
 permissions. You will then be prompted to select your server and give the bot
