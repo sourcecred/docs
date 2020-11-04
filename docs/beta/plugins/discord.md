@@ -87,13 +87,13 @@ and optionally set custom emoji reaction weights.
 Under User Settings -> Appearance -> Advanced, turn on 'Developer Mode'. This
 will give you the ability to right click on items and copy their Discord IDs.
 
-2. **Configure server ID**
+### 2. Configure server ID 
 
 Right click on your server and click 'Copy ID'. Open the Discord plugin
 configuration file located at `config/plugins/sourcecred/discord/config.json`
 and paste the server ID into the `guildId` field.
 
-3. **Create Discord Application**
+### 3. Create Discord Application
 
 Bots require an associated Discord application. In your browser, navigate to the
 [Discord Developer Portal](https://discord.com/developers/applications). Click
@@ -106,7 +106,7 @@ Once you have created your application, click on the 'General Information' tab.
 You should see a `CLIENT ID` under the application name. Copy this ID. You'll
 need it later.
 
-4. **Create Bot**
+### 4. Create Bot
 
 Click on the 'Bot' tab and click the 'Add bot' button. When prompted, confirm
 that you want to add the bot to the application. On the Bot tab, you should now
@@ -119,7 +119,7 @@ your discord server.
 
 ![](/img/uploads/discord-setup-1.png)
 
-5. **Invite Bot to Server**
+### 5. Invite Bot to Server
 
 You can invite your bot to your server by constructing a URL with the following
 format :  
@@ -132,7 +132,7 @@ Permissions options:
 - `8`: Admin
 
 The `CLIENT_ID` is the application ID you copied in Step 3. For example, if your
-CLIENT_ID = 1234, the URL would be:
+CLIENT_ID were 1234, the URL would be:
 
 `https://discordapp.com/api/oauth2/authorize?client_id=1234&scope=bot&permissions=66560`
 
@@ -142,22 +142,19 @@ permissions to read messages and message history.
 
 6. **Set Environment Variable**
 
-Create an environment variable named `$SOURCECRED_DISCORD_TOKEN` and set it to
-the bot token created in Step 3.
+You will need to create an environment variable named `$SOURCECRED_DISCORD_TOKEN` and set it to the bot token created in Step 4.
 
 ##### Running Locally
 
-If running SourceCred locally, the environment variable can be set like any
-other. The one liner below will set the environment variable temporarily for the
-current terminal session.
+If you’re running SourceCred locally, the environment variable can be set like any other. The one liner below will set the environment variable temporarily for the current terminal session:
 
 `$ export SOURCECRED_DISCORD_TOKEN=BOT_TOKEN`
 
 ##### Running on GitHub
 
 If you have configured SourceCred to run automatically on GitHub, you'll need to
-add the bot token to the GitHub Action that updates scores. Checkout
-[this guide](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository)
+add the bot token to the GitHub Action that updates scores. Check out
+[GitHub’s guide](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository)
 for how to add the token as a Secret that can be read by the Action.
 
 7.  **(Optional) Custom Weights**
