@@ -5,24 +5,17 @@ image: img/uploads/grain-token-icon.png
 
 ## What is Grain?
 
-Grain is a community-specific digital currency which is issued on the basis of
+Grain is a community-specific digital currency that is issued on the basis of
 [Cred scores](https://sourcecred.io/docs/beta/cred). Grain represents how much a
 participant has supported that community, either through contributions or
-financial support. Grain can be used to pay participants, or for “Boosting”
-contributions or initiatives.
+financial support.
 
-Boosting allows a participant to burn Grain in order to increase the Cred of a
-specific contribution. Boosting acts as a way of helping to set the project’s
-values and priorities, and gives the Booster an increased say in the direction
-of the project. When you use Grain for Boosting, you get a share of the Cred for
-whatever you are Boosting, which will in turn earn you future Grain.
-
-Projects can choose to issue their Grain as a cryptocurrency or token, sucha as
+Projects can choose to issue their Grain as a cryptocurrency or token, such as
 by issuing Grain as an ERC-20 token on Ethereum. This allows Grain to be a
 conduit with which a project can pay or financially reward participants.
 
 Note that Grain does not _have_ to be tied to any actual monetary concept, such
-as cryptocurrency. A SourceCred project can name it “Points” and use it solely
+as cryptocurrency. A project using SourceCred can name it “Points” and use it solely
 as a scoring system in addition to Cred values.
 
 #### Grain Distribution Policies
@@ -56,39 +49,17 @@ Grain that has been issued to the community. _Ever._
 
 ## How much is Grain worth?
 
-In the SourceCred community, Grain stays at a fixed price of \$1 per Grain.
+In the SourceCred community, Grain stays at a fixed price of $1 per Grain.
 However, each community can choose the price of their Grain, as well as a name
 for their specific kind of Grain. In other words, Grain is project-specific, and
 it’s not a universal token. Every project that uses SourceCred creates its own
-independent token and calls it whatever they choose. Grain in the SourceCred
-community is sometimes also called “SourceGrain,” to distinguish it from other
-projects’ Grain tokens.
+independent token and calls it whatever they choose.
 
 As for pricing, each community can choose the price of their own Grain. They can
 choose a fixed price, or choose to make their Grain a floating financial asset
 and let the market decide the price; their Grain would then fluctuate in price
-based on supply and demand.
-
-## ⬆️ Boosting Contributions
-
-Grain can also be used to Boost contributions. This means you can burn your
-Grain to support a particular contribution. When a contribution is Boosted, its
-Cred increases because new Cred has just been
-[minted](https://sourcecred.io/docs/beta/cred#-cred-minting). It then also flows
-a fraction of its Cred to its Booster.
-
-Boosting is a flexible mechanism. A Booster can use it to prioritize work and
-incentivize participants to focus on it. For example, if there is a bug that you
-really want fixed, you can Boost it. Since it has a higher Cred score from the
-newly minted Cred, participants will now be more interested in focusing on it,
-as they will receive more Cred from their work.
-
-Boosters can also hunt for under-valued contributions and Boost them. They are
-incentivized to do so, because if the contribution is later seen as important,
-they will receive a bunch of Cred as its Booster. In doing so, they help to
-ensure that everyone’s contributions are being fairly valued.
-
-A guide on how to use Grain for Boosting will be coming soon.
+based on supply and demand. They can also choose for Grain to have no monetary value, 
+but rather value within their community.
 
 ## Other key properties of Grain
 
