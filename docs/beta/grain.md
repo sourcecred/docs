@@ -15,8 +15,8 @@ by issuing Grain as an ERC-20 token on Ethereum. This allows Grain to be a
 conduit with which a project can pay or financially reward participants.
 
 Note that Grain does not _have_ to be tied to any actual monetary concept, such
-as cryptocurrency. A project using SourceCred can name it “Points” and use it solely
-as a scoring system in addition to Cred values.
+as cryptocurrency. A project using SourceCred can name it “Points” and use it
+solely as a scoring system in addition to Cred values.
 
 #### Grain Distribution Policies
 
@@ -49,7 +49,7 @@ Grain that has been issued to the community. _Ever._
 
 ## How much is Grain worth?
 
-In the SourceCred community, Grain stays at a fixed price of $1 per Grain.
+In the SourceCred community, Grain stays at a fixed price of \$1 per Grain.
 However, each community can choose the price of their Grain, as well as a name
 for their specific kind of Grain. In other words, Grain is project-specific, and
 it’s not a universal token. Every project that uses SourceCred creates its own
@@ -58,8 +58,8 @@ independent token and calls it whatever they choose.
 As for pricing, each community can choose the price of their own Grain. They can
 choose a fixed price, or choose to make their Grain a floating financial asset
 and let the market decide the price; their Grain would then fluctuate in price
-based on supply and demand. They can also choose for Grain to have no monetary value, 
-but rather value within their community.
+based on supply and demand. They can also choose for Grain to have no monetary
+value, but rather value within their community.
 
 ## Other key properties of Grain
 
