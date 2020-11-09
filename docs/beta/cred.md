@@ -19,10 +19,10 @@ rewarded with digital currency, or "[Grain]", based on their Cred.
 - **Cred is community-specific**
 
 Every community using SourceCred has its own independent "instance", along with
-its own Cred scores. Every community can control how Cred flows within its
-instance.
+its own Cred scores. You have "cred _in a project_", not just "cred overall".
+Every community can control how Cred flows within its instance.
 
-- **Cred is not transferrable**
+- **Cred is not transferable**
 
 A participant's Cred score is like their reputation. It's something that is
 associated with them, but it's not an asset that they own. Cred scores can't be
@@ -41,6 +41,8 @@ without needing to worry that all of it gets appreciated right away.
 Cred is computed by an algorithm. The algorithm is open-source, and all of the
 data and parameters are public. This means that Cred scores are transparent:
 it's always possible to inspect a Cred score and find out how it was computed.
+Cred is also designed to be inspectable: you can determine why a participant has
+the cred that they do, and what their most valued contributions were.
 
 ## Calculating Cred
 
@@ -53,7 +55,7 @@ rules (e.g. every merged pull request mints Cred, or every liked forum post
 mints Cred). Or the minting could happen through manual human review. Finally,
 Cred "flows" across the connections in the graph. The result is that every
 contribution earns Cred if it was connected to, or depended on by, other things
-that earned Cred. Participants earn Cred if they author or were referenced by
+that earned Cred. Participants earn Cred if they author or contribute to
 high-cred Contributions.
 
 ### The Contribution Graph
@@ -94,7 +96,7 @@ author, to the post it replies to, and to any posts or users that it references.
 
 [our forums]: https://discourse.sourcecred.io
 
-We're also working on adding a "Creditor" (or Cred-editor) which will make it
+We're also working on adding a "cred editor" (or "Creditor") which will make it
 easier to track intangible or offline contributions, like emotional support,
 organizing meetings, etc.
 
@@ -104,10 +106,11 @@ You can read [docs on the individual plugins][plugin-docs].
 
 ### How Cred Flows
 
-You can visualize Cred flowing through the graph as like it's water flowing
-through a system of ponds (nodes) and creeks (edges). The water level in each
-pond depends on how many creeks are flowing Cred in from adjacent nodes. The
-most important thing to know is that the system is always in equilibrium: the
+You can visualize Cred flowing through the graph like water flowing through a
+system of ponds (nodes) and creeks (edges). The water level in each pond depends
+on the creeks flowing Cred in from adjacent nodes: how many creeks there are,
+how large the adjacent ponds are, and how strong the currents are. The most
+important thing to know is that the system is always in dynamic equilibrium: the
 amount of Cred a particular node has is exactly equal to the amount of Cred that
 is flowing into it, and is also exactly equal to the amount of Cred flowing out.
 The Cred is always balanced.
@@ -136,15 +139,9 @@ can flow very readily across the graph. When alpha is low, the choice of which
 nodes mint Cred becomes less important, because the Cred can easily flow far
 away from the minting nodes.
 
-The nodes that receive "minted" Cred are kind of like springs: Cred starts
-flowing from them, and goes from there to hydrate the rest of the graph.
-However, as we just said above, the system is always in equilibrium, and the
-amount of Cred flowing out of a node is always equal to the Cred flowing into
-it. In that case, where does Cred for the "minted" must be in equilibrum,
-
 ### Choosing Weights
 
-A key goal for SourceCred is to let communities decide what they value. One of
+A key tenet for SourceCred is to let communities decide what they value. One of
 the tools for doing so is choosing "weights", which are important parameters to
 the algorithm. There are two major types of weights: node weights and edge
 weights.
@@ -168,9 +165,9 @@ Edge weights determine how Cred flows once it is in the graph. Suppose we have a
 Discourse post with exactly two edges out: one edge to the author of the post,
 and one edge to a person mentioned by the post. Who should receive more Cred:
 the author, or the person mentioned? If you think they should both get equal
-Cred, you could leave both edges with a default weight of 1x. However, if you
+Cred, you could leave both edges with a default weight of 1×. However, if you
 think that the author should get twice as much Cred, you could give the
-authorship edge a weight of 2x, or give the reference edge a weight of 0.5x.
+authorship edge a weight of 2×, or give the reference edge a weight of 0.5×.
 
 Each SourceCred plugin comes with default weights, which we've calibrated based
 on our own experiments. However, you're welcome to change them to suit your
@@ -192,25 +189,28 @@ flow a little bit less Cred, so as to keep balance.
 
 ### Will Cred scores get gamed?
 
-One of the biggest concerns about SourceCred is that Cred will get gamed. Yup,
-that's totally possible. No social system is perfect (see [this post for an
-interesting exploration of how office politics gets gamed][defmacro]).
+One of the biggest concerns about SourceCred is often that Cred will get gamed.
+Yup, that's totally possible. Gaming occurs in all social systems: see [this
+interesting exploration of how office politics gets gamed][defmacro].
 
 [defmacro]: https://defmacro.substack.com/p/how-to-get-promoted
 
 SourceCred's approach to gaming is to make the algorithm transparent and
 community-controlled. That means that if someone starts gaming it, it's easy for
 others in the community to identify that gaming is happening, and then make
-changes to correct it. Those changes can involve changing the weights, adding
-new heuristics to the algorithm. Since Cred is retroactive, once the instance
-has been updated, the attacker's ill-gotten Cred will retroactively disappear.
-One of the reasons that SourceCred's Grain distribution algorithm focuses on
-long-term Cred is precisely so that people who game SourceCred in the short term
-don't get unjust rewards.
+changes to correct it. Those changes can involve adjusting the weights, or
+adding new heuristics to the algorithm. Since Cred is retroactive, once the
+instance has been updated, the attacker's ill-gotten Cred will retroactively
+disappear. One of the reasons that SourceCred's Grain distribution algorithm
+focuses on long-term Cred is precisely so that people who game SourceCred in the
+short term don't get unjust rewards.
 
 ## Want More?
 
-For even more information about how Cred works, you can read
-[this blog post](https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/)["SourceCred: an introduction to calculating cred and grain"](https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/)
-by SourceCred participant Evan Miyazono from
-[Protocol Labs](https://research.protocol.ai/).
+For even more information about how Cred works, you can read ["SourceCred: an
+introduction to calculating cred and grain"][miyazono-blog], a blog post by
+SourceCred participant Evan Miyazono of [Protocol Labs][pl].
+
+[miyazono-blog]:
+  https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/
+[pl]: https://research.protocol.ai/

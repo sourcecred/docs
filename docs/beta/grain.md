@@ -18,7 +18,7 @@ Note that Grain does not _have_ to be tied to any actual monetary concept, such
 as cryptocurrency. A project using SourceCred can name it “Points” and use it
 solely as a scoring system in addition to Cred values.
 
-#### Grain Distribution Policies
+### Grain Distribution Policies
 
 Grain distribution is a two-step process in which the Cred is recomputed (so
 scores are as fresh as possible), and Grain is then distributed based on those
@@ -40,30 +40,35 @@ SourceCred currently has two policies for how a project distributes Grain:
   Conversely, contributors might be "overpaid", and they'll receive less Grain
   until the payouts have been equalized.
 
+A project can use a mixture of policies: e.g., "each week, distribute 10,000
+grain according to an immediate policy and 15,000 grain according to a balanced
+policy".
+
 ### _“What if I contributed a lot before a small Grain distribution, and then less before a bigger Grain distribution?”_
 
-Since Cred is retroactive, the SourceCred algorithm will make sure your
-percentage is based on _all_ of your contributions compared to all existing
-contributions, and make sure your percentage is based on the total amount of
-Grain that has been issued to the community. _Ever._
+Cred is computed retroactively, and incorporates all your contributions. The
+balanced policy also considers all grain that has been issued to the community.
+So, large grain distributions with an immediate policy will not give you much
+reward for old contributions, but large distributions with a balanced policy
+will.
 
 ## How much is Grain worth?
 
-In the SourceCred community, Grain stays at a fixed price of \$1 per Grain.
-However, each community can choose the price of their Grain, as well as a name
-for their specific kind of Grain. In other words, Grain is project-specific, and
-it’s not a universal token. Every project that uses SourceCred creates its own
-independent token and calls it whatever they choose.
+Each community can choose the price of their own Grain. They can choose a fixed
+price, or choose to make their Grain a floating financial asset and let the
+market decide the price; their Grain would then fluctuate in price based on
+supply and demand. They can also choose for Grain to have no monetary value, and
+instead only use it within their community: for example, for governance or
+prioritization.
 
-As for pricing, each community can choose the price of their own Grain. They can
-choose a fixed price, or choose to make their Grain a floating financial asset
-and let the market decide the price; their Grain would then fluctuate in price
-based on supply and demand. They can also choose for Grain to have no monetary
-value, but rather value within their community.
+Grain is project-specific, not universal. Every project that uses SourceCred
+creates its own independent Grain token and and calls it whatever they choose.
+
+In the SourceCred community, Grain stays at a fixed price of \$1 per Grain.
 
 ## Other key properties of Grain
 
-### Grain is transferrable and tradeable
+### Grain is transferable and tradeable
 
 You can send your Grain freely to others, or exchange it as part of an
 agreement. Within a project, Grain is fungible. If Grain has been put on a
