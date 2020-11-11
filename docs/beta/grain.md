@@ -27,8 +27,8 @@ Cred scores.
 SourceCred currently has two policies for how a project distributes Grain:
 
 - `IMMEDIATE` splits Grain evenly based on how much Cred each participant earned
-  in the last week. (This policy ignores all Cred from previous weeks, and is intended
-  to give fast rewards to active participants).
+  in the last week. (This policy ignores all Cred from previous weeks, and is
+  intended to give fast rewards to active participants).
 - `BALANCED` splits Grain based both on lifetime Cred and on lifetime Grain
   earnings. 'Balanced' tries to ensure that everyone in the project receives a
   total Grain payment which is consistent with their total Cred score. For
@@ -62,9 +62,10 @@ instead only use it within their community, such as for governance or
 prioritization.
 
 Grain is project-specific, not universal. Every project that uses SourceCred
-creates its own independent Grain token and calls it whatever their community chooses.
+creates its own independent Grain token and calls it whatever their community
+chooses.
 
-In the SourceCred community, Grain stays at a fixed price of $1 per Grain.
+In the SourceCred community, Grain stays at a fixed price of \$1 per Grain.
 
 ## Other key properties of Grain
 
