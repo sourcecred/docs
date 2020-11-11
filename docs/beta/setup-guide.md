@@ -1,8 +1,7 @@
 ---
 title: ⚙️ How to Set Up SourceCred
-description:
-  A guide for turning on a SourceCred instance to track Cred in your project or
-  community.
+description: A guide for turning on a SourceCred instance to track Cred in your
+  project or community.
 ---
 
 In this guide you'll find information about setting up your own instance of
@@ -39,14 +38,3 @@ questions, and contribute to the project.
 Everything you need to know about setting up a SourceCred instance can be found
 in the [template-instance](https://github.com/sourcecred/template-instance)
 repo, which is set up to be a good starting point for configuring SourceCred.
-
-Every SourceCred instance is a directory, tracked by Git, with some conventions
-around where files are stored. For example, `sourcecred.json` specifies which
-plugins are active, and `config/plugins` has a folder for every individual
-plugin, with that plugin’s own configuration.
-
-Once SourceCred is installed, you’ll want to configure the instance to suit your
-community. First, take a look at the installed plugins listed in
-`sourcecred.json`, and remove any plugins that you won’t be using. Then, for
-each plugin, update its plugin config.json file so that it will load your
-community’s data instead of the example data.
