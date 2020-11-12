@@ -146,21 +146,7 @@ If all goes well, you should see Initiatives mentioned in the progress output.
 
 You're now ready to add Initiative files to the directory!
 
-## User guide
 
-TODO
-
-- Explain JSON format.
-- Explain differences between contribution fields.
-- Using URLs vs entries.
-- Link back to concepts for details.
-
-## Advanced topics
-
-TODO
-
-- Using the incomplete/complete weights to reduce risk and incentivize.
-- Mapping out Initiatives and determining weights.
 
 [initiatives concept]: ../../concepts/initiatives.md
 [plugin source]:

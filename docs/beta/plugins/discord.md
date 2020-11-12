@@ -199,6 +199,4 @@ below line to `config.json`.
 
 [yarn]: https://classic.yarnpkg.com/
 
-## Status and Caveats
 
-COMING SOON
