@@ -201,3 +201,7 @@ heuristics for assigning Cred, e.g.:
 
 - Allowing custom labels that influence the Cred minted to PRs.
 - Modifying Cred minting based on metrics like the size of the PR.
+
+<br/>
+
+_Need more help? Post in SourceCred's Tech Support Discord channel._
