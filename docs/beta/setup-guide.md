@@ -11,14 +11,14 @@ SourceCred to generate Cred scores for your community and/or project.
 ### Before you start
 
 If you’re not quite ready to create your own instance, check out our
-[introduction](https://sourcecred.io/docs/) or
+[Introduction](https://sourcecred.io/docs/) or
 [Getting Involved](https://sourcecred.io/docs/beta/get-involved) guides.
 
 Before getting started, some things you’ll need to know:
 
 - SourceCred is organized around “instances.” When you create an instance of
   SourceCred for your community/project, it will collect data and generate
-  “[Cred scores](/docs/beta/cred)” for each individual contributor based on the
+  “[Cred scores](https://sourcecred.io/docs/beta/cred)” for each individual contributor based on the
   available data about the work you've all been doing.
 - Your SourceCred instance will use
   [Github Actions](https://github.com/features/actions) to calculate cred every
@@ -44,3 +44,5 @@ questions, and contribute to the project.
 Everything you need to know about setting up a SourceCred instance can be found
 in the [template-instance](https://github.com/sourcecred/template-instance)
 repo, which is set up to be a good starting point for configuring SourceCred.
+
+_Need more help? Post in SourceCred's Tech Support Discord channel._
