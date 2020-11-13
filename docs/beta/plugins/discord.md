@@ -4,10 +4,10 @@ description: Setting up the Discord plugin.
 ---
 
 The Discord plugin assigns Cred to contributors participating in Discord chats;
-for example, by posting and reacting to messages.
+for example, by posting and reacting to posts.
 
 The plugin does this using a special bot that scans a Discord server and
-captures all messages and emoji reactions. The data is temporarily cached, but
+captures all posts and emoji reactions. The data is temporarily cached, but
 the source of truth for the Discord plugin is always the live Discord server.
 That means that if content is deleted on Discord, it will also disappear from
 the Discord plugin (after a cache refresh).
@@ -35,10 +35,10 @@ possible to merge user nodes with other identity nodes into a single, canonical
 identity. For example, if a contributor had a Discord user account and a GitHub
 account, then the identity plugin can merge those identities together.
 
-Users are connected to messages they author, to messages they react to, and to
-messages that mention them.
+Users are connected to posts they author, to posts they react to, and to
+posts that mention them.
 
-- **Message**:
+- **Post**:
 
 A Discord message, e.g.
 ["Welcome to the SourceCred community!"](https://discordapp.com/channels/453243919774253079/715770410955964477/715776215528505385).
@@ -136,7 +136,7 @@ CLIENT_ID were 1234, the URL would be:
 
 `https://discordapp.com/api/oauth2/authorize?client_id=1234&scope=bot&permissions=66560`
 
-Paste this URL into the browser you're logged into Discord with admin
+Paste this URL into the browser you're logged into Discord with, with admin
 permissions. You will then be prompted to select your server and give the bot
 permissions to read messages and message history.
 
@@ -199,6 +199,6 @@ below line to `config.json`.
 
 [yarn]: https://classic.yarnpkg.com/
 
-## Status and Caveats
+<br/>
 
-COMING SOON
+_Need more help? Post in SourceCred's Tech Support Discord channel._
