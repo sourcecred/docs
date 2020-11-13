@@ -7,10 +7,10 @@ The Discord plugin assigns Cred to contributors participating in Discord chats;
 for example, by posting and reacting to posts.
 
 The plugin does this using a special bot that scans a Discord server and
-captures all posts and emoji reactions. The data is temporarily cached, but
-the source of truth for the Discord plugin is always the live Discord server.
-That means that if content is deleted on Discord, it will also disappear from
-the Discord plugin (after a cache refresh).
+captures all posts and emoji reactions. The data is temporarily cached, but the
+source of truth for the Discord plugin is always the live Discord server. That
+means that if content is deleted on Discord, it will also disappear from the
+Discord plugin (after a cache refresh).
 
 For instructions on setting up the bot and configuring the plugin, see the
 [Configuration](#configuration) section below.
@@ -35,8 +35,8 @@ possible to merge user nodes with other identity nodes into a single, canonical
 identity. For example, if a contributor had a Discord user account and a GitHub
 account, then the identity plugin can merge those identities together.
 
-Users are connected to posts they author, to posts they react to, and to
-posts that mention them.
+Users are connected to posts they author, to posts they react to, and to posts
+that mention them.
 
 - **Post**:
 
