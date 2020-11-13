@@ -61,7 +61,7 @@ and any references to the topic.
 - **Post**:
 
 A Discourse post, e.g.
-[*comment on:* About Champions and Heroes](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7).
+[_comment on:_ About Champions and Heroes](https://discourse.sourcecred.io/t/about-champions-and-heroes/291/7).
 Everything under a topic is a post, including the first post and all subsequent
 replies. A post node will be connected to its author (user node that created the
 post), any replies to that post, and references to that post. {SB: elaborate
@@ -69,9 +69,9 @@ more on references here? Is it
 
 - **Like**:
 
-A Discourse like on a post. When a user likes a post, a like node is created that is connected to the author
-of the like (user that liked) and the liked post.
-
+A Discourse like on a post. When a user likes a post, a like node is created
+that is connected to the author of the like (user that liked) and the liked
+post.
 
 ### Edges
 
@@ -86,10 +86,10 @@ created.
 - **References**:
 
 A references edge connects a topic or post to another referencable node (i.e. a
-node that corresponds to a specific url on Discourse ). 
+node that corresponds to a specific url on Discourse ).
 
 If the reference is pointing to a user, we call it a "mention", but from
-SourceCred's perspective it's the same kind of edge. 
+SourceCred's perspective it's the same kind of edge.
 
 References in Discourse can be either hyperlinks to referencable nodes, or
 quoted parts of other posts.
@@ -104,7 +104,7 @@ nodes) in the contribution graph:
 - **Creates Like**:
 
 A "creates like" edge connects a like node to its author and liked post or
-topic. 
+topic.
 
 - **Has Parent**:
 
@@ -120,7 +120,8 @@ summarizing these relationships:
 ## Status and Caveats
 
 The Discourse plugin is currently in Beta. It assigns Cred scores that are
-reasonable and robust for a [trust level 3](/docs/concepts/trust_levels) community.
+reasonable and robust for a [trust level 3](/docs/concepts/trust_levels)
+community.
 
 Currently, there are two general approaches to minting Cred you can take with
 the Discourse plugin: activity-minted and like-minted Cred (or a hybrid of the
@@ -138,20 +139,18 @@ and/or heavily promoted posts might receive more likes than makes sense for the
 relative value they've added. It's something which would be easy to game, making
 it less suitable for lower trust levels for the time being.
 
-When a Discourse forum is very new,
-and does not have much content, activity-minted Cred may be more suitable, at
-least in the beginning. This is because new forums are often "lower stakes"
-(unless you're paying significant sums of money according to scores right away,
-or have other strong incentives for gaming). In new forums, the community is
-likelier to be smaller, higher trust, and less susceptible to gaming. In
-addition, you may want to incentivize raw activity in order to build up enough
-content to attract more users.
+When a Discourse forum is very new, and does not have much content,
+activity-minted Cred may be more suitable, at least in the beginning. This is
+because new forums are often "lower stakes" (unless you're paying significant
+sums of money according to scores right away, or have other strong incentives
+for gaming). In new forums, the community is likelier to be smaller, higher
+trust, and less susceptible to gaming. In addition, you may want to incentivize
+raw activity in order to build up enough content to attract more users.
 
 Another thing to keep in mind is that only public posts are included for Cred
 calculation. Private categories and private messages, for example, receive no
 Cred. This both creates an incentive to have discussions in public as much as
 possible, and is necessary for security as private data could otherwise leak.
-
 
 ---
 
@@ -230,7 +229,8 @@ If all goes well, you should see Discourse mentioned in the progress output.
  DONE  discourse: 2m 2s
 ```
 
-_Note: this may take from several minutes up to an hour or more depending on the size of the forum_
+_Note: this may take from several minutes up to an hour or more depending on the
+size of the forum_
 
 [trust level]: ../../concepts/trust_levels.md
 [v0.5.0 release]: https://github.com/sourcecred/sourcecred/issues/1679

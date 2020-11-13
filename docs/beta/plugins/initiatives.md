@@ -146,8 +146,6 @@ If all goes well, you should see Initiatives mentioned in the progress output.
 
 You're now ready to add Initiative files to the directory!
 
-
-
 [initiatives concept]: ../../concepts/initiatives.md
 [plugin source]:
   https://github.com/sourcecred/sourcecred/tree/master/src/plugins/initiatives
