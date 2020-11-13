@@ -199,6 +199,8 @@ below line to `config.json`.
 
 [yarn]: https://classic.yarnpkg.com/
 
+
 <br/>
 
 _Need more help? Post in SourceCred's Tech Support Discord channel._
+
