@@ -41,8 +41,8 @@ support future work in the project.
 
 So how does an algorithm determine how much someone's work is worth in the
 bigger picture of a project? Sounds a little dystopian, right? The algorithm
-uses what we call "Weights", which are a set of rules stating which types of
-contributions are worth what amounts of Cred. The Weights for Cred distribution
+uses what we call "weights", which are a set of rules stating which types of
+contributions are worth what amounts of Cred. The weights for Cred distribution
 are decided by each community individually, thereby giving every community the
 opportunity to decide what it values and which actions uphold those values as
 they work together to create something. Every community using SourceCred can
@@ -61,7 +61,7 @@ On its own, Cred may be a nice signal of what is valuable and who is really
 doing the work to make your project successful, but it's hard to pay rent or buy
 dinner with a Cred score. That's where "Grain" comes in.
 
-Grain is a project-specific digital currency which is minted and distributed to
+Grain is a project-specific digital currency that is minted and distributed to
 contributors who have Cred in that project. Your Grain is tied to your Cred; as
 you earn Cred, you also earn Grain. Unlike Cred, Grain is a form of currency and
 is meant to be transferable both inside and outside of the project.
@@ -87,7 +87,7 @@ in many different ways based on the needs and parameters of the community.
 
 - Paying contributors with grants or funds it already has based on Cred/Grain.
 - Creating a project-specific currency that can be traded for other forms of
-  currency (ie: ETH or US Dollars).
+  currency (ie: ETH or USD).
 - Creating an internal currency that could be used solely for governance or to
   show support for features/ideas.
 
@@ -95,11 +95,8 @@ in many different ways based on the needs and parameters of the community.
 
 - Selling their grain back to the project in exchange for money from the
   project's budget (essentially wages you can claim by selling your Grain).
-- "Boosting" specific initiatives, ideas, goals, etc in the project by "burning"
-  some of their Grain to make more Cred for that initiative. And creating a
-  small flow of Cred from the initiative back to themselves as a bonus.
 - Selling their Grain to people or groups outside the project who would like to
-  use it for Boosting and incentivizing certain features/decisions.
+  use it for incentivizing certain features/decisions.
 
 Follow the rabbit hole deeper by reading our
 [How Grain Works](https://sourcecred.io/docs/beta/grain) documentation.
@@ -107,37 +104,6 @@ Follow the rabbit hole deeper by reading our
 See an example of SourceCred's Cred and Grain by checking out
 [our Cred Instance](http://cred.sourcecred.io/#/explorer) (yup, we're
 dogfooding!).
-
-## SourceCred's Vision
-
-- Outcompeting capitalism
-
-  - Creating a system to replace capitalism is important to dismantling the
-    harmful systems we live within
-
-- Creating better structures for recognizing labor that's currently "invisible"
-
-  - The nuance of value and a wider recognition of it (eg: emotional labor)
-  - Better access to opportunity
-
-- More equitable and ethical payment systems
-
-  - Decoupling hours worked from money paid
-  - The bias of payment and privilege of negotiation
-  - Moving away from cost of replacement and towards rewarding of sustainable
-    value created
-
-- Better interpersonal and collaborative tools
-
-  - Community playbook
-  - Self-directed/remote work environments become more possible
-
-- Growth plan and concrete strategy
-
-  - Supporting crypto and open source to create better-functioning economic
-    ecosystems
-
-- Shifting priorities in line with values on a micro and macro level
 
 ## How can I engage with SourceCred?
 
