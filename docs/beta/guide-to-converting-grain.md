@@ -5,21 +5,22 @@ description: A step-by-step process of converting Grain to DAI to any currency
 ---
 ## **FAQ**
 
-* * What are the tax implications of receiving grain?
+What are the tax implications of receiving grain?
 
-    * As soon as you have Grain, it is taxable and should be reported to IRS the proceeding tax season **(fact check this)**
-    * Grain over You need to report it as soon as your Grain is over $500, because... **(fact check this)**
-    * What are the implications of trading 1. Grain for DAI and 2. DAI to USD?
-  * Your tokens won't appreciate, as 1 Grain = 1 USD, so you should not be taxed for capital gains (fact check this)
-  * What are DAI?
+* As soon as you have Grain, it is taxable and should be reported to IRS the proceeding tax season **(fact check this)**
+* Grain over You need to report it as soon as your Grain is over $500, because... **(fact check this)**
+* What are the implications of trading 1. Grain for DAI and 2. DAI to USD?
+* Your tokens won't appreciate, as 1 Grain = 1 USD, so you should not be taxed for capital gains (fact check this)
 
-    * DAI is a stable coin within the Ethereum ecosystem. It is always very, very close to $1 per DAI.
-  * How long does it take to convert Grain to USD?
+What are DAI?
 
-    * Converting Grain to DAI takes up to 7 business days, although is often done sooner than that. Converting DAI to USD is instant, and the money will
-  * Can I convert Grain to a cryptocurrency rather than USD?
+  * DAI is a stable coin within the Ethereum ecosystem. It is always very, very close to $1 per DAI.
+* How long does it take to convert Grain to USD?
 
-    * Easily. Instead of converting DAI to USD and then transferring it to a linked bank account, you can buy cryptocurrencies at their market price with your DAI. This is, of course, variable, as market prices change for most cryptocurrencies.
+  * Converting Grain to DAI takes up to 7 business days, although is often done sooner than that. Converting DAI to USD is instant, and the money will
+* Can I convert Grain to a cryptocurrency rather than USD?
+
+  * Easily. Instead of converting DAI to USD and then transferring it to a linked bank account, you can buy cryptocurrencies at their market price with your DAI. This is, of course, variable, as market prices change for most cryptocurrencies.
 * ## **How it Works**
 
   * You open a Coinbase account.
