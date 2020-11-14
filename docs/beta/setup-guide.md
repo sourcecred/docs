@@ -18,8 +18,8 @@ Before getting started, some things you’ll need to know:
 
 - SourceCred is organized around “instances.” When you create an instance of
   SourceCred for your community/project, it will collect data and generate
-  “[Cred scores](https://sourcecred.io/docs/beta/cred)” for each individual contributor based on the
-  available data about the work you've all been doing.
+  “[Cred scores](https://sourcecred.io/docs/beta/cred)” for each individual
+  contributor based on the available data about the work you've all been doing.
 - Your SourceCred instance will use
   [Github Actions](https://github.com/features/actions) to calculate cred every
   day and generate the front-end that gets published through GitHub pages. You
