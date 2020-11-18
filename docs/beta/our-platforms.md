@@ -8,8 +8,9 @@ description:
 SourceCred operates on a few different platforms that serve the needs of our
 internal community:
 
-**Discord** - for daily coordination and socializing **Discourse** - for
-proposals and larger community conversations **Roam** - for research and notes
+**Discord** - for daily coordination and socializing <br/>
+**Discourse** - for proposals and larger community conversations <br/>
+**Roam** - for research and notes<br/>
 **GitHub** - for code and project management
 
 Join these to plug into the ongoing SourceCred conversation; it’s the most
@@ -27,21 +28,17 @@ members in the project.
 
 #### Discord and Cred
 
-In Discord, Cred is Minted through emoji reactions. Any time you are on the
+In Discord, Cred is minted through emoji reactions. Any time you are on the
 Discord chats and you see a comment that you find particularly useful,
 insightful, interesting, or valuable, give it an emoji. Every emoji in Discord
-Mints a small amount of Cred, so you can express yourself with any emoji image
+mints a small amount of Cred, so you can express yourself with any emoji image
 you like. If you feel strongly that something was really great, then put
-multiple emojis on it!
-
-The SourceCred logo is a special emoji that is worth **16** regular emojis when
-used on a Discord message. Use the SourceCred emoji for comments you felt were
-particularly valuable to the project as a whole. If your intention is not to
-Mint Cred but simply to use fun emojis, you can always add your emojis as a
+multiple emojis on it! If your intention is not to mint Cred but simply
+to use fun emojis, you can always add your emojis as a
 reply in the channel instead of as a message reaction.
 
-**Note:** Only emojis in public channels will Mint Cred. Direct messages and
-role-based access channels do not Mint Cred regardless of emoji reaction use.
+**Note:** Only emojis in public channels will mint Cred. Direct messages and
+role-based access channels do not mint Cred regardless of emoji reaction use.
 
 #### Special Channels
 
@@ -121,7 +118,7 @@ to individual posts.
 
 #### Discourse and Cred
 
-Cred is Minted based on “likes” in Discourse. Any time you read a topic or a
+Cred is minted based on “likes” in Discourse. Any time you read a topic or a
 comment in Discourse and use the interface to give it a little heart (a.k.a. a
 “like”), a small amount of Cred is created and flowed to the author of that
 topic or comment, as well as anyone the author tagged in it. Show the love and
@@ -139,7 +136,7 @@ them. We use Roam for notes from our meetings, work sessions, and jams.
 ##### Roam and Cred
 
 SourceCred does not currently have a plugin or integration for Roam and no Cred
-is Minted from Roam notes as of right now. Eventually we will be able to flow
+is minted from Roam notes as of right now. Eventually we will be able to flow
 Cred based on factors we track, like meeting attendance, who hosted, who
 recorded, etc; and Cred will be distributed retroactively based on data from
 those past meeting notes.
