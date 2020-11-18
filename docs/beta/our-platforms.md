@@ -8,10 +8,9 @@ description:
 SourceCred operates on a few different platforms that serve the needs of our
 internal community:
 
-**Discord** - for daily coordination and socializing <br/>
-**Discourse** - for proposals and larger community conversations <br/>
-**Roam** - for research and notes<br/>
-**GitHub** - for code and project management
+**Discord** - for daily coordination and socializing <br/> **Discourse** - for
+proposals and larger community conversations <br/> **Roam** - for research and
+notes<br/> **GitHub** - for code and project management
 
 Join these to plug into the ongoing SourceCred conversation; it’s the most
 effective way to get up to speed on what’s happening in the project.
@@ -33,9 +32,9 @@ Discord chats and you see a comment that you find particularly useful,
 insightful, interesting, or valuable, give it an emoji. Every emoji in Discord
 mints a small amount of Cred, so you can express yourself with any emoji image
 you like. If you feel strongly that something was really great, then put
-multiple emojis on it! If your intention is not to mint Cred but simply
-to use fun emojis, you can always add your emojis as a
-reply in the channel instead of as a message reaction.
+multiple emojis on it! If your intention is not to mint Cred but simply to use
+fun emojis, you can always add your emojis as a reply in the channel instead of
+as a message reaction.
 
 **Note:** Only emojis in public channels will mint Cred. Direct messages and
 role-based access channels do not mint Cred regardless of emoji reaction use.
