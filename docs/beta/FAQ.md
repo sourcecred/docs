@@ -16,7 +16,7 @@ SourceCred is based on social values that prioritize people and communities firs
 
 
 ## Cred
-For an introduction to what Cred is and how it works, please see our dedicated [How Cred Works](https://sourcecred.io/docs/beta/cred) document.
+For an introduction to what Cred is and how it works, see our dedicated [How Cred Works](https://sourcecred.io/docs/beta/cred) document.
 
 ### How do I earn Cred?
 When you contribute to a project in a community using SourceCred, your work is automatically tracked and measured for its value and impact to the community. That value is denoted as a Cred score, which is how much Cred you have at the moment.
@@ -38,7 +38,7 @@ No, you cannot manually edit anyone’s Cred score, including your own. If you f
 
 
 ## Grain
-For an introduction to what Grain is and how it works, please see our dedicated [How Grain Works](https://sourcecred.io/docs/beta/grain) document.
+For an introduction to what Grain is and how it works, see our dedicated [How Grain Works](https://sourcecred.io/docs/beta/grain) document.
 
 ### How do I earn Grain?
 Communities using SourceCred regularly distribute Grain based on participants‘ Cred scores. If you have Cred, then you‘re eligible to earn Grain. Depending on the project, you might need to explicitly opt-in to receive Grain; for example, in SourceCred itself, you must [fill out this form](https://forms.gle/u7NVaYsnbEVhx6PJ9). Note that some projects might have different names for their Grain, such as SEEDs or Honey or DAI.
