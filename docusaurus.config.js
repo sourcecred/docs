@@ -28,19 +28,19 @@ module.exports = {
     footer: {
       links: [
         {
-          title: "Community",
+          title: "Join our Community",
           items: [
             {
-              label: "Chat",
+              label: "Discord Chat",
               href: "https://sourcecred.io/discord",
             },
             {
-              label: "Forums",
+              label: "Discourse Forums",
               href: "https://discourse.sourcecred.io",
             },
             {
-              label: "Our Cred",
-              to: "http://cred.sourcecred.io/#/",
+              label: "Our Cred Explorer",
+              to: "http://cred.sourcecred.io/",
             },
           ],
         },
