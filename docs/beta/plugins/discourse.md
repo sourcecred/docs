@@ -154,7 +154,5 @@ possible, and is necessary for security as private data could otherwise leak.
 
 ---
 
-
-
 [trust level]: ../../concepts/trust_levels.md
 [v0.5.0 release]: https://github.com/sourcecred/sourcecred/issues/1679
