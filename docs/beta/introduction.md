@@ -1,5 +1,5 @@
 ---
-title: 🌱 Introduction
+title: 🌱  Introduction
 description: An introduction to the basic concepts of SourceCred.
 ---
 
@@ -17,16 +17,16 @@ individuals more visible and rewardable as they work together in a project or
 community. The goal of SourceCred is to use this technology to make rewarding
 labor as nuanced as human contribution often is. We hope to be one piece in the
 puzzle of a healthier future where systems serve community members, where
-financial maximization isn't the end-all be-all goal, and where wealth actually
+financial maximization isn’t the end-all be-all goal, and where wealth actually
 flows to those who are creating the value in our world.
 
-## SourceCred's Core Concepts
+## SourceCred’s Core Concepts
 
 ### Cred
 
 SourceCred uses an algorithm to determine how much value a contribution or
 contributor added to a project overall. When a contribution is made to a
-project, SourceCred's purpose is to "see" that contribution and assign it an
+project, SourceCred’s purpose is to "see" that contribution and assign it an
 amount of "Cred" based on how much value it brought to the project as a whole.
 
 That Cred flows from the contribution to all the people and other contributions
@@ -35,11 +35,11 @@ represented as a "node graph" made up of contribution and people dots (aka
 "nodes") connected by lines (aka "edges") that flow Cred around to the nodes
 based on what supported what. The more edges one contribution has to other
 important contributions in the project, the more Cred is going to have an
-opportunity to flow to it along the edges. In this way, it's easy to tell by the
+opportunity to flow to it along the edges. In this way, it’s easy to tell by the
 Cred score which contributions (and contributors) are truly foundational and
 support future work in the project.
 
-So how does an algorithm determine how much someone's work is worth in the
+So how does an algorithm determine how much someone’s work is worth in the
 bigger picture of a project? Sounds a little dystopian, right? The algorithm
 uses what we call "weights", which are a set of rules stating which types of
 contributions are worth what amounts of Cred. The weights for Cred distribution
@@ -49,7 +49,7 @@ they work together to create something. Every community using SourceCred can
 decide for themselves what is valuable and deserving of Cred, and what is not.
 
 Cred is "non-transferable" in that you cannot sell your Cred, or buy someone
-else's Cred. It is solely a representation of where value in the project has
+else’s Cred. It is solely a representation of where value in the project has
 been created.
 
 If you want to dig deeper into the nuances of Cred, check out our
@@ -58,15 +58,15 @@ If you want to dig deeper into the nuances of Cred, check out our
 ### Grain
 
 On its own, Cred may be a nice signal of what is valuable and who is really
-doing the work to make your project successful, but it's hard to pay rent or buy
-dinner with a Cred score. That's where "Grain" comes in.
+doing the work to make your project successful, but it’s hard to pay rent or buy
+dinner with a Cred score. That’s where "Grain" comes in.
 
 Grain is a project-specific digital currency that is minted and distributed to
 contributors who have Cred in that project. Your Grain is tied to your Cred; as
 you earn Cred, you also earn Grain. Unlike Cred, Grain is a form of currency and
 is meant to be transferable both inside and outside of the project.
 
-##### Ways you might end up with Grain in a project that's using SourceCred:
+##### Ways you might end up with Grain in a project that’s using SourceCred:
 
 - You worked directly as a contributor, earning Cred -and therefore Grain- in
   that project.
@@ -75,9 +75,9 @@ is meant to be transferable both inside and outside of the project.
 
 So how is Grain useful? The transferability of Grain makes it a powerful tool in
 a number of different ways depending on how your project and/or community is
-operating. Perhaps you have funding already, but don't know how to distribute
-it. Maybe you'd like to use it as a tool for governance. Or maybe you'd like a
-way to allow people outside the project to financially support what you're doing
+operating. Perhaps you have funding already, but don’t know how to distribute
+it. Maybe you’d like to use it as a tool for governance. Or maybe you’d like a
+way to allow people outside the project to financially support what you’re doing
 by buying the Grain.
 
 Part of what makes Grain (and SourceCred) so powerful is that it can be applied
@@ -94,20 +94,20 @@ in many different ways based on the needs and parameters of the community.
 ##### Examples of how an individual might use Grain:
 
 - Selling their grain back to the project in exchange for money from the
-  project's budget (essentially wages you can claim by selling your Grain).
+  project’s budget (essentially wages you can claim by selling your Grain).
 - Selling their Grain to people or groups outside the project who would like to
   use it for incentivizing certain features/decisions.
 
 Follow the rabbit hole deeper by reading our
 [How Grain Works](https://sourcecred.io/docs/beta/grain) documentation.
 
-See an example of SourceCred's Cred and Grain by checking out
-[our Cred Instance](http://cred.sourcecred.io/#/explorer) (yup, we're
+See an example of SourceCred’s Cred and Grain by checking out
+[our Cred Instance](http://cred.sourcecred.io/#/explorer) (yup, we’re
 dogfooding!).
 
-## How can I engage with SourceCred?
+## How can I participate in SourceCred?
 
-There are two ways you can really get your hands into SourceCred.
+There are two ways you can get involved in SourceCred:
 
 ### Use SourceCred in your community:
 
@@ -121,13 +121,13 @@ documentation.
 
 Setting up an instance of SourceCred, reviewing the Cred calculations it
 creates, and playing with weights can be a great way to start evaluating if
-SourceCred is a good fit for you and your project/community. If we're not ready
-to support your kind of project yet, check back in later. We're improving all
+SourceCred is a good fit for you and your project/community. If we’re not ready
+to support your kind of project yet, check back in later. We’re improving all
 the time.
 
 ### Contribute to building SourceCred:
 
-SourceCred is dogfooding itself, meaning that we use the technology we're
+SourceCred is dogfooding itself, meaning that we use the technology we’re
 creating to calculate our own Cred scores and distribute Grain to those who help
 build and support it. If you are interested in getting involved with the
 SourceCred community, read through our
@@ -135,9 +135,9 @@ SourceCred community, read through our
 doc and join the main conversation in our
 [Discord](https://sourcecred.io/discord).
 
-From there, you'll be able to learn more about our community and feel out where
+From there, you’ll be able to learn more about our community and feel out where
 you can best contribute. We encourage all types of skillful people to get
 involved; from software engineers, to artists, to economics enthusiasts, to
 those with emotional intelligence and "soft skills". No degrees required. So
-come join the conversation and see if there's a place for you to earn some Cred
+come join the conversation and see if there’s a place for you to earn some Cred
 in SourceCred!
