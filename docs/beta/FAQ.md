@@ -1,5 +1,5 @@
 ---
-title: ❓FAQ
+title: ❓ FAQ
 description: Your hottest questions about SourceCred, answered.
 ---
 
