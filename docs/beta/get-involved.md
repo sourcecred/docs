@@ -1,6 +1,7 @@
 ---
 title: 🤗 Get Involved with SourceCred
-description: A guide for becoming a contributor in SourceCred’s internal community.
+description:
+  A guide for becoming a contributor in SourceCred’s internal community.
 ---
 
 If you are interested in joining the community of contributors who are working
