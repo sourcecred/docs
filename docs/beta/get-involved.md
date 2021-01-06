@@ -209,7 +209,7 @@ if that is your intention.
   You would guide and keep tabs on any effort related to Onboarding, and have
   regular check ins with your Branch Lead to make sure things are on track with
   the larger vision.
-- **Schedule Jam Sessions.** The SourceCred community uses Jam Sessions to collaborate closely on specific topics and efforts. To foster easier scheduling of such events, a Calendly scheduling page is available. There is also a Discourse post with [more detailed instructions on scheduling Jams](https://discourse.sourcecred.io/t/schedule-your-own-sourcecred-jams/988).
+- **Schedule Jam Sessions.** The SourceCred community uses Jam Sessions to collaborate closely on specific topics and efforts. To foster easier scheduling of such events, a [Calendly scheduling page for Jams](https://calendly.com/sourcecred/jams) is available. There is also a Discourse post with [more detailed instructions on scheduling Jams](https://discourse.sourcecred.io/t/schedule-your-own-sourcecred-jams/988).
 
 This doc is based on our
 [Onboarding Philosophy](https://discourse.sourcecred.io/t/a-better-onboarding/767),
