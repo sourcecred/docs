@@ -1,7 +1,6 @@
 ---
 title: 🤗 Get Involved with SourceCred
-description:
-  A guide for becoming a contributor in SourceCred’s internal community.
+description: A guide for becoming a contributor in SourceCred’s internal community.
 ---
 
 If you are interested in joining the community of contributors who are working
@@ -16,7 +15,7 @@ way to help you get there. No phase of getting involved in SourceCred is any
 better or worse than another; this is your experience, and we encourage you to
 engage with it at a level and pace that fits you.
 
-### General starting tips
+### General Starting Tips
 
 SourceCred is still young, and we don’t have a fully fleshed out onboarding
 process yet. That means you’ll do best if are willing to dive in, ask questions,
