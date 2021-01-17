@@ -9,15 +9,16 @@ description:
 
 First, try getting familiar with these helpful docs:
 
-- What is SourceCred?
-- How Cred Works
-- How Grain Works
-- FAQ
-- Getting Involved
-- Our Platforms
-- Our Calls
+- [Introduction to SourceCred](https://sourcecred.io/docs/)
+- [How Cred Works](https://sourcecred.io/docs/beta/cred)
+- [How Grain Works](https://sourcecred.io/docs/beta/grain)
+- [FAQ](https://sourcecred.io/docs/beta/FAQ)
+- [Get Involved with SourceCred](https://sourcecred.io/docs/beta/get-involved)
+- [Our Platforms](https://sourcecred.io/docs/beta/our-platforms)
+- [Our Calls](https://sourcecred.io/docs/beta/our-calls)
+- [SourceCred Calendar](https://calendar.google.com/calendar/u/0/embed?src=ops@sourcecred.io)
+- [Trust Levels](https://sourcecred.io/docs/concepts/trust_levels)
 - \*\*Checking Your Cred/Grain
-- \*\*Roles and Trust
 - \*\*Code of Conduct
 
   (\*\*Coming soon!)
