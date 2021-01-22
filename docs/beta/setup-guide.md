@@ -34,6 +34,17 @@ Before getting started, some things you’ll need to know:
   comfortable using the terminal, installing packages from NPM, and be familiar
   with the basics of Git and GitHub.
 
+<figure>
+  <a href="https://sourcecred.io/img/visuals/architecture-diagram.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://sourcecred.io/img/visuals/architecture-diagram.jpg" alt="A diagram showing the composition of github, github actions, and github pages." class="img" />
+  </a>
+  <figcaption>
+    <small>
+        <em>An architecture diagram of a SourceCred Instance.</em>
+    </small>
+  </figcaption>
+</figure>
+
 If you’re interested in SourceCred but lack the technical chops, you can still
 get involved on our [Discord](https://sourcecred.io/discord) or
 [Discourse forums](https://discourse.sourcecred.io/) to learn more, ask
