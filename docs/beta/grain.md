@@ -6,35 +6,39 @@ image: img/uploads/grain-token-icon.png
 ## What is Grain?
 
 Grain is a community-specific digital currency that is issued on the basis of
-[Cred scores](https://sourcecred.io/docs/beta/cred).  If cred answers the question
-"*who provided value*?", Grain answers ***"how should we reward people given the value
-they provided?"***
+[Cred scores](https://sourcecred.io/docs/beta/cred). If cred answers the
+question "_who provided value_?", Grain answers **_"how should we reward people
+given the value they provided?"_**
 
 ### What is the value of Grain?
-Every community will use Grain differently.  In our community, Grain is currently
-redeemable for DAI, a cryptocurrency that is worth 1 US Dollar.  Communities without
-funds might treat this as a share of future income.  Another might treat it as weight
-behind a community member's vote.  The use cases we offer are a product of our limited
-imagination, and the space of design is endless, so don't let us limit your creativity.
 
-Note that Grain does not _have_ to be tied to any actual monetary reward. A project
-using SourceCred can name it “Points” and use it solely as a scoring system in addition
-to Cred values.
+Every community will use Grain differently. In our community, Grain is currently
+redeemable for DAI, a cryptocurrency that is worth 1 US Dollar. Communities
+without funds might treat this as a share of future income. Another might treat
+it as weight behind a community member's vote. The use cases we offer are a
+product of our limited imagination, and the space of design is endless, so don't
+let us limit your creativity.
 
-Communities do not have to distribute Grain at all, allowing them to wait for a use
-case to present itself in the future.
+Note that Grain does not _have_ to be tied to any actual monetary reward. A
+project using SourceCred can name it “Points” and use it solely as a scoring
+system in addition to Cred values.
+
+Communities do not have to distribute Grain at all, allowing them to wait for a
+use case to present itself in the future.
 
 Projects can choose to issue their Grain as a cryptocurrency or token, such as
 by issuing Grain as an ERC-20 token on Ethereum. This allows Grain to be a
 conduit with which a project can pay or financially reward participants.
 
 ### What can I do with Grain?
+
 Ultimately, Grain is foundational infrastructure for building economics and
-governance mechanisms.  The space of possibility is endless, but here's a few
+governance mechanisms. The space of possibility is endless, but here's a few
 ideas:
+
 - Pay contributors based on their cred scores.
-- Build apps that use Grain scores as certificates.  For instance, anyone who
-stakes some amount of Grain score gets edit permissions on Google Docs.
+- Build apps that use Grain scores as certificates. For instance, anyone who
+  stakes some amount of Grain score gets edit permissions on Google Docs.
 
 ### Grain Distribution Policies
 
@@ -57,14 +61,16 @@ SourceCred currently has two policies for how a project distributes Grain:
   so it will pay them extra to "catch them up" to others in the project.
   Conversely, contributors might be "overpaid" and they'll receive less Grain
   until the payouts have been equalized.
-- `RECENT` splits Grain based on recent Cred using an exponential decay to prioritize
-  more recent cred. The `recentWeeklyDecayRate` parameter determines to what degree you
-  want to focus on recent contributions.  If `recentWeeklyDecayRate` is set to 0.5
-  (i.e. 50% discount), as in the above example, the policy will count 100% of the
-  Cred generated in the last week, 50% of the Cred generated in the week before,
-  25% from the week before that, 12.5% from the week before that, and so on.
+- `RECENT` splits Grain based on recent Cred using an exponential decay to
+  prioritize more recent cred. The `recentWeeklyDecayRate` parameter determines
+  to what degree you want to focus on recent contributions. If
+  `recentWeeklyDecayRate` is set to 0.5 (i.e. 50% discount), as in the above
+  example, the policy will count 100% of the Cred generated in the last week,
+  50% of the Cred generated in the week before, 25% from the week before that,
+  12.5% from the week before that, and so on.
 
 ### Choosing a Distribution Policy
+
 A project can use a mixture of policies: e.g., "each week, distribute 10,000
 grain according to an immediate policy and 15,000 grain according to a balanced
 policy."
