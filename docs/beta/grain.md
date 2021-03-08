@@ -13,7 +13,7 @@ given the value they provided?"_**
 ### What is the value of Grain?
 
 Every community will use Grain differently. In our community, Grain is currently
-redeemable for DAI, a cryptocurrency that is worth 1 US Dollar. Communities
+redeemable for USDC, a stable coin that is worth 1 US Dollar. Communities
 without funds might treat this as a share of future income. Another might treat
 it as weight behind a community member's vote. The use cases we offer are a
 product of our limited imagination, and the space of design is endless, so don't
