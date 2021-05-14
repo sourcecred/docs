@@ -15,12 +15,10 @@ module.exports = {
               "beta/plugins/initiatives",
             ],
           },
-        ]
+        ],
       },
       {
-        "Use SourceCred in Your Community": [
-          "beta/setup-guide",
-        ]
+        "Use SourceCred in Your Community": ["beta/setup-guide"],
       },
       {
         "Join Our Community": [
@@ -30,10 +28,10 @@ module.exports = {
           "beta/our-calls",
           "beta/best-resources-for-new-contributors",
           "concepts/trust_levels",
-        ]
+        ],
       },
       "api/documentation",
-      "internal/home"
+      "internal/home",
     ],
   },
 };

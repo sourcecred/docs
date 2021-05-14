@@ -1,7 +1,6 @@
 ---
 title: 💻 Onboarding as a Software Dev
-description:
-  COMING SOON
+description: COMING SOON
 ---
 
 ## Coming Soon
