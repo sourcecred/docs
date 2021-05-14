@@ -13,7 +13,7 @@ collections:
     folder: "docs/beta"
     create: true
     slug: "{{slug}}"
-    preview_path: "docs/{{slug}}"
+    preview_path: "docs/beta/{{slug}}"
     editor:
       preview: false
     fields:
