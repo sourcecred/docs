@@ -35,8 +35,8 @@ module.exports = {
               href: "https://sourcecred.io/discord",
             },
             {
-              label: "Discourse Forums",
-              href: "https://discourse.sourcecred.io",
+              label: "Calendar",
+              href: "https://sourcecred.io/calendar",
             },
             {
               label: "Our Cred Explorer",
@@ -54,6 +54,10 @@ module.exports = {
             {
               label: "GitHub",
               href: "https://github.com/sourcecred",
+            },
+            {
+              label: "Discourse Forums",
+              href: "https://discourse.sourcecred.io",
             },
             {
               label: "Twitter",
