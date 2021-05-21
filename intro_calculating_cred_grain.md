@@ -115,7 +115,7 @@ and how they fit together, let’s cover how they’re generated.
 
 SourceCred uses APIs of collaboration platforms to gather information about
 contributions. Currently there are plugins for GitHub and Discourse
-([code](https://github.com/sourcecred/sourcecred/tree/master/src/plugins)), and
+([code](https://github.com/sourcecred/sourcecred/tree/main/src/plugins)), and
 we’re enthusiastic to have more plugins, so we can account for contributions in
 different venues. This includes Discord (in progress), and could extend to
 Twitter, Reddit, or citations on the [arXiv](https://arxiv.org/) or
@@ -465,7 +465,7 @@ Decentralizing the governance is definitely part of the plan, but the project
 isn’t quite ready for it yet.
 
 Additionally, it’s worth looking at github for
-[the current project status](https://github.com/sourcecred/sourcecred/blob/master/README.md).
+[the current project status](https://github.com/sourcecred/sourcecred/blob/main/README.md).
 
 † It's worth noting that a Markov process is guaranteed a stationary
 distribution only if the process is ergodic and irreducible. Other than stating

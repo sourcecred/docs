@@ -89,7 +89,7 @@ that higher velocity can be achieved by keeping commits and
 small and ideally singular in scope. This is in contrast to large, multifaceted
 pull requests that encompass changes for many different reasons. For more
 details, check out our
-[contributing guidelines](https://github.com/sourcecred/sourcecred/blob/master/CONTRIBUTING.md#contributing).
+[contributing guidelines](https://github.com/sourcecred/sourcecred/blob/main/CONTRIBUTING.md#contributing).
 
 #### GitHub and Cred
 

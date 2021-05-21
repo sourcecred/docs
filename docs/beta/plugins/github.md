@@ -71,7 +71,7 @@ issue, PR, or review).
 - **Commit**:
 
 A commit is a Git commit, as discovered via the GitHub API, e.g. [this commit].
-We currently enumerate every commit that is in the history of the `master`
+We currently enumerate every commit that is in the history of the `main`
 branch.
 
 Commits currently do not add much value in the Cred graph, because they are not
@@ -110,7 +110,7 @@ grain or showing up in the Cred rankings.
 Bots have the same connections as users.
 
 [bots.js]:
-  https://github.com/sourcecred/sourcecred/blob/master/src/plugins/github/bots.js
+  https://github.com/sourcecred/sourcecred/blob/main/src/plugins/github/bots.js
 
 ### Edges
 

@@ -30,5 +30,5 @@ default configurations, including all plugins.
 
 Next, you'll want to configure your instance by selecting which plugins to use
 and configuring them. See the
-[example-instance README](https://github.com/sourcecred/example-instance/blob/master/README.md)
+[example-instance README](https://github.com/sourcecred/example-instance/blob/main/README.md)
 for more details.

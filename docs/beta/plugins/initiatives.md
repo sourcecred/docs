@@ -100,7 +100,7 @@ Next, we specify we want to use Initiatives, by adding an `initiatives` object.
   },
   {
     initiatives: {
-      remoteUrl: "https://github.com/sourcecred/cred/tree/master/initiatives",
+      remoteUrl: "https://github.com/sourcecred/cred/tree/main/initiatives",
     },
     /*...*/
   },
@@ -117,7 +117,7 @@ lines should be removed from the project file.
 There's one argument here:
 
 - **`initiatives.remoteUrl`**: The URL where we can find the _canonical_
-  Initiatives in a browser. Note we're pointing to the `master` branch in the
+  Initiatives in a browser. Note we're pointing to the `main` branch in the
   example, as the _canonical_ is important.
 
 ### 3. Loading a project with Initiatives
@@ -148,5 +148,5 @@ You're now ready to add Initiative files to the directory!
 
 [initiatives concept]: ../../concepts/initiatives.md
 [plugin source]:
-  https://github.com/sourcecred/sourcecred/tree/master/src/plugins/initiatives
+  https://github.com/sourcecred/sourcecred/tree/main/src/plugins/initiatives
 [v0.5.0 release]: https://github.com/sourcecred/sourcecred/issues/1679

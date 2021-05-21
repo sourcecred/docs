@@ -177,7 +177,7 @@ You can read more about configuring the navigation in the
 ### 4. Open a Pull Request
 
 Once you've made changes on your new branch, open a new pull request to have
-them reviewed! When they are merged to master they will go live on the site.
+them reviewed! When they are merged to main they will go live on the site.
 
 #### A Note On Comments
 
