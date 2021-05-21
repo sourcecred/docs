@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: sourcecred/docs
-  branch: master
+  branch: main
   squash_merges: true
 media_folder: "static/img/uploads"
 public_folder: "img/uploads"
