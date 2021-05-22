@@ -89,7 +89,7 @@ scdev go
 6. from your local template-instance clone, run `scdev go`
 7. run `scdev serve` go to the url it outputs.
 
-<h2 align="center">Supported Plugins</h2>
+## Supported Plugins
 
 **GitHub**
 
