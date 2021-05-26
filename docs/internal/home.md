@@ -3,6 +3,7 @@ title: General-Audience Resources
 sidebar_label: Everyone
 description: A resource hub for active contributors.
 ---
+
 ## Standard Operating Procedures
 
 - [How to Edit the Docs on this website](https://roamresearch.com/#/app/SourceCred/page/gUykKZsQq)
