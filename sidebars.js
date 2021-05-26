@@ -31,7 +31,18 @@ module.exports = {
         ],
       },
       "api/documentation",
-      "internal/home",
+      {
+        "type": "link",
+        "href": "/docs/internal/home",
+        "label": "Internal Docs"
+      }
     ],
   },
+  internalSidebar: {
+    "Internal Docs": [
+      "internal/home",
+      "internal/cultivation",
+      "internal/dev"
+    ]
+  }
 };
