@@ -3,8 +3,11 @@ title: General-Audience Resources
 sidebar_label: Everyone
 description: A resource hub for active contributors.
 ---
+## Standard Operating Procedures
 
-Other resources:
+- [How to Edit the Docs on this website](https://roamresearch.com/#/app/SourceCred/page/gUykKZsQq)
+
+## Other resources:
 
 - [Estimate your taxes](https://observablehq.com/embed/@sourcecred/participant-grain-tax-withholdings-calculator?cell=title&cell=viewof+grainCalculator&cell=result)
 - [Grain Calculator - Earnings in a specific time range](https://observablehq.com/embed/@sourcecred/participant-grain-earnings-calculator?cell=title&cell=viewof+grainCalculator&cell=result)
