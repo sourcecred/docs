@@ -5,6 +5,7 @@ description: A resource hub for active contributors.
 ---
 
 Other resources:
+
 - [Estimate your taxes](https://observablehq.com/embed/@sourcecred/participant-grain-tax-withholdings-calculator?cell=title&cell=viewof+grainCalculator&cell=result)
 - [Grain Calculator - Earnings in a specific time range](https://observablehq.com/embed/@sourcecred/participant-grain-earnings-calculator?cell=title&cell=viewof+grainCalculator&cell=result)
 - [CredGraph Contribution Explorer - Explore our CredGraph node-by-node](https://observablehq.com/embed/@sourcecred/credgraph-contribution-explorer-beta?cell=title&cell=viewof+userPicker&cell=viewof+intervalPicker&cell=credTable&cell=total)
