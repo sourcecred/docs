@@ -10,5 +10,3 @@ description: A resource hub for active contributors.
 ## Standard Operating Procedures
 
 * [How to Edit the Docs on this website](https://roamresearch.com/#/app/SourceCred/page/gUykKZsQq)
-* [Crediquette Basics](https://www.notion.so/Using-Cred-and-Crediquette-at-SourceCred-7439d47d237946d6b6f90c2c09e3e88e)
-*
