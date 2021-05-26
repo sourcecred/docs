@@ -21,7 +21,7 @@ Discord, and the Community Call on Tuesdays, like anyone.
 
 1. Set up your development environment with the help of
    [this guide](https://github.com/sourcecred/sourcecred/tree/main/packages/sourcecred#development-setup)
-   and [this one](../../guides/dev-env-setup). Reach out on Discord for
+   and [this one](../../../guides/dev-env-setup). Reach out on Discord for
    additional help as needed!
 1. Join the **Dev Sprint Planning** meeting on Discord (see our
    [calendar](https://sourcecred.io/calendar) for the current schedule). We will
