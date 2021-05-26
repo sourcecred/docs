@@ -22,8 +22,8 @@ module.exports = {
       },
       {
         "Join Our Community": [
-          "onboarding/devs/getting-started",
           "beta/get-involved",
+          "onboarding/devs/getting-started",
           "beta/our-platforms",
           "beta/our-calls",
           "beta/best-resources-for-new-contributors",

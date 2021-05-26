@@ -6,8 +6,6 @@ description:
   development enviornment.
 ---
 
-# Setting up a Source Cred Development Enviornment
-
 ## Building SourceCred Locally
 
 **First, run the following commands to clone and build SourceCred:**
