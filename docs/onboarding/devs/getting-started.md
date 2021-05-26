@@ -18,8 +18,12 @@ Discord, and the Community Call on Tuesdays, like anyone.
    and [accompanying diagram](https://miro.com/app/board/o9J_lF3UvK4=/).
 
 ## Step 2: Jump in
-1. Set up your development environment with the help of [this guide](https://github.com/sourcecred/sourcecred/tree/main/packages/sourcecred#development-setup) and [this one](../../guides/dev-env-setup). Reach out on Discord for additional help as needed!
+
+1. Set up your development environment with the help of
+   [this guide](https://github.com/sourcecred/sourcecred/tree/main/packages/sourcecred#development-setup)
+   and [this one](../../guides/dev-env-setup). Reach out on Discord for
+   additional help as needed!
 1. Join the **Dev Sprint Planning** meeting on Discord (see our
    [calendar](https://sourcecred.io/calendar) for the current schedule). We will
-   help you find a good first task and/or someone to pair with. We also welcome you
-   to drop by our Social Coding sessions on the calender to co-work with us.
+   help you find a good first task and/or someone to pair with. We also welcome
+   you to drop by our Social Coding sessions on the calender to co-work with us.
