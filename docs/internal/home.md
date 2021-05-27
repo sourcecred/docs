@@ -3,20 +3,20 @@ title: General-Audience Resources
 sidebar_label: Everyone
 description: A resource hub for active contributors.
 ---
+## Opinion Pieces:
 
-## Social Norms
+* [Crediquette Basics](https://www.notion.so/Using-Cred-and-Crediquette-at-SourceCred-7439d47d237946d6b6f90c2c09e3e88e)
 
-- [Crediquette Basics](https://www.notion.so/Using-Cred-and-Crediquette-at-SourceCred-7439d47d237946d6b6f90c2c09e3e88e)
+## Standard Operating Procedures:
 
-## Standard Operating Procedures
+* [How to Edit the Docs on this website](https://roamresearch.com/#/app/SourceCred/page/gUykKZsQq)
 
-- [How to Edit the Docs on this website](https://roamresearch.com/#/app/SourceCred/page/gUykKZsQq)
+## Grain & Cred Interfaces:
 
-## Other resources:
-
-- [Estimate your taxes](https://observablehq.com/embed/@sourcecred/participant-grain-tax-withholdings-calculator?cell=title&cell=viewof+grainCalculator&cell=result)
-- [Grain Calculator - Earnings in a specific time range](https://observablehq.com/embed/@sourcecred/participant-grain-earnings-calculator?cell=title&cell=viewof+grainCalculator&cell=result)
-- [CredGraph Contribution Explorer - Explore our CredGraph node-by-node](https://observablehq.com/embed/@sourcecred/credgraph-contribution-explorer-beta?cell=title&cell=viewof+userPicker&cell=viewof+intervalPicker&cell=credTable&cell=total)
-- [CSV downloader for Cred and Grain](https://observablehq.com/@sourcecred/cred-and-grain-csv-downloader)
-- [View ledgers in a more-human-readable format](https://observablehq.com/@blueridger/sourcecred-ledger-viewer)
-- [Grain Config Simulator](https://observablehq.com/@sourcecred/grain-config-simulator)
+* [SourceCred Explorer - See this & last week's, this month & whole time's Cred & Grain](http://cred.sourcecred.io/#/explorer-home)
+* [View ledgers in a more-human-readable format](https://observablehq.com/@blueridger/sourcecred-ledger-viewer)
+* [Grain Calculator - Earnings in a specific time range](https://observablehq.com/embed/@sourcecred/participant-grain-earnings-calculator?cell=title&cell=viewof+grainCalculator&cell=result)
+* [CredGraph Contribution Explorer - Explore our CredGraph node-by-node](https://observablehq.com/embed/@sourcecred/credgraph-contribution-explorer-beta?cell=title&cell=viewof+userPicker&cell=viewof+intervalPicker&cell=credTable&cell=total)
+* [CSV downloader for Cred and Grain](https://observablehq.com/@sourcecred/cred-and-grain-csv-downloader)
+* [Estimate your taxes](https://observablehq.com/embed/@sourcecred/participant-grain-tax-withholdings-calculator?cell=title&cell=viewof+grainCalculator&cell=result)
+* [Grain Config Simulator](https://observablehq.com/@sourcecred/grain-config-simulator)
