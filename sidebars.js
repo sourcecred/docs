@@ -7,6 +7,11 @@ module.exports = {
           "beta/FAQ",
           "beta/cred",
           "beta/grain",
+        ],
+      },
+      {
+        "Use SourceCred in Your Community": [
+          "beta/setup-guide",
           {
             "🔌 Plugins": [
               "beta/plugins/github",
@@ -16,9 +21,6 @@ module.exports = {
             ],
           },
         ],
-      },
-      {
-        "Use SourceCred in Your Community": ["beta/setup-guide"],
       },
       {
         "Join Our Community": [
