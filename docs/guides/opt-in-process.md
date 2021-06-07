@@ -86,7 +86,6 @@ instances google opt-in forms:
 </p>
 </details>
 <br>
-  
 
 
 ## 2. Validate User Identity - Discourse - sourcecred | makerdao
@@ -105,7 +104,8 @@ instances google opt-in forms:
 3. When you locate the individual observe the role listed under their name, are
    they a Foundation employee?
    > Some positions internal to Maker (like an employee at the Maker Foundation)
-   > may have internal policies that prevent individuals from _"douple-dipping"._
+   > may have internal policies that prevent individuals from
+   > _"douple-dipping"._
 4. Opt-in elligible users.
 
 <br>  
