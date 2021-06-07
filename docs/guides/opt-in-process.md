@@ -102,10 +102,10 @@ instances google opt-in forms:
 - [makerdao](https://forum.makerdao.com/) - _forum_
 
 2. Enter the username in the search bar and start looking for a humxn footprint.
-3. When you locate the individual observe the role listed under thier name, are
+3. When you locate the individual observe the role listed under their name, are
    they a Foundation employee?
    > Some positions internal to Maker (like an employee at the Maker Foundation)
-   > may have internal policies that prevent individuals in _"douple-dipping"._
+   > may have internal policies that prevent individuals from _"douple-dipping"._
 4. Opt-in elligible users.
 
 <br>  
