@@ -87,7 +87,6 @@ instances google opt-in forms:
 </details>
 <br>
 
-
 ## 2. Validate User Identity - Discourse - sourcecred | makerdao
 
 > Validate that this is a real user on the forum and that they are elligible to
