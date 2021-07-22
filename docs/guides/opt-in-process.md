@@ -5,8 +5,6 @@ description:
   sourcecred / makerdao
 ---
 
-<br>
-
 ## 1. Opt-in Process
 
 After an individual has submitted an opt-in form the application will be
@@ -18,13 +16,10 @@ of the google form page.
 - [sourcecred](https://docs.google.com/forms/d/e/1FAIpQLScZorZJ8D-5v189GITddGKeaqaGja33qx0ywS50Wqzi6qJvww/viewform)
 - [makerdao](https://docs.google.com/forms/d/e/1FAIpQLScdAE-9l8P6EV2UGQwd7N27VpH0wnqS9w3iqzI-hkI22RWRnA/viewform)
 
-The following two dropdowns represent the information that is located on each
-instances google opt-in forms:
+The following represents the information that is located on the SourceCred and Maker 
+instances corresponding google opt-in forms:
 
-<details><summary>SourceCred opt-in form</summary>
-<p>
-
-## SourceCred opt-in
+## SourceCred opt-in form
 
 > Form for opting in to receive Cred and Grain from SourceCred
 
@@ -53,13 +48,7 @@ instances google opt-in forms:
 
 6. `Submit`
 
-</p>
-</details>
-
-<details><summary>SourceCred <> Maker Trial opt-in form</summary>
-<p>
-
-## SourceCred <> Maker Trial opt-in
+## SourceCred | Maker Trial opt-in form
 
 > Form for opting in to receive Cred and DAI from SourceCred for contributions
 > to the Maker forum
@@ -83,10 +72,6 @@ instances google opt-in forms:
 
 5. `Submit`
 
-</p>
-</details>
-<br>
-
 ## 2. Validate User Identity - Discourse - sourcecred | makerdao
 
 > Validate that this is a real user on the forum and that they are elligible to
@@ -106,8 +91,6 @@ instances google opt-in forms:
    > may have internal policies that prevent individuals from
    > _"douple-dipping"._
 4. Opt-in elligible users.
-
-<br>  
   
 ## 2. Validate User Identity - Discord - sourcecred
 > Obtain username from the SourceCred opt-in form to validate that this is in fact humxn as well as an **active** user on our server.
