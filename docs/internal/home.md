@@ -3,6 +3,10 @@ title: General-Audience Resources
 sidebar_label: Everyone
 description: A resource hub for active contributors.
 ---
+## Grain Forms
+
+- [Opt-in to Receive Grain](https://docs.google.com/forms/d/e/1FAIpQLScZorZJ8D-5v189GITddGKeaqaGja33qx0ywS50Wqzi6qJvww/viewform)
+- Redeem your Grain for USD [(Guide)](https://discourse.sourcecred.io/t/guide-to-converting-grain/905) [(Form)](https://docs.google.com/forms/d/e/1FAIpQLScE2orIAyY-N7Qc4P4XFgv-Es1UwH3gJ2U_40TVTYMEZ-gDBA/viewform)
 
 ## Opinion Pieces:
 
