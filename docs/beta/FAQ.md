@@ -5,7 +5,7 @@ description: Your hottest questions about SourceCred, answered.
 
 SourceCred is a values-driven project aimed at helping communities measure their
 participants’ contributions, both tangible and intangible, and reward engaged
-individuals fairly for the value they bring.
+individuals fairly for the value they bring.asdf
 
 ## Community & Values
 
