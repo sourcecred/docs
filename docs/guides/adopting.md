@@ -4,7 +4,7 @@ description: Info on setting up a SourceCred template instance
 ---
 
 ### SourceCred Overview
-SourceCred (in the most basic sense) is an algorithm that determines how much value a contribution or contributor added to a project overall. Cred flows from the contribution to all the people and other contributions that supported it.[^1]
+SourceCred (in the most basic sense) is an algorithm that determines how much value a contribution or contributor added to a project overall. Cred flows from the contribution to all the people and other contributions that supported it.[^1] For a more detailed description of how cred and grain are calculated, please visit [An introduction to calculating cred and grain](https://github.com/sourcecred/docs/blob/main/intro_calculating_cred_grain.md). 
 
 ### How to Set Up SourceCred[^2]
 - SourceCred is organized around “instances.” When you create an instance of SourceCred for your community/project, it will collect data and generate “Cred scores” for each individual contributor based on the available data about the work you've all been doing.  
@@ -18,6 +18,7 @@ If you would like to try to set up an instance, please refer to the [Template In
 
 ### References
 - [SourceCred Introduction Page](https://sourcecred.io/docs/)
+- [An introduction to calculating cred and grain](https://github.com/sourcecred/docs/blob/main/intro_calculating_cred_grain.md)
 - [How to Set up SourceCred](https://sourcecred.io/docs/beta/setup-guide)
 - [Template Instance Repo](https://github.com/sourcecred/template-instance)
 
