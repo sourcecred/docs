@@ -1,6 +1,8 @@
 ---
 title: 🌳 Resources
-description: A list of resources to learn more about SourceCred, including videos, podcast, platforms, and calendar
+description:
+  A list of resources to learn more about SourceCred, including videos, podcast,
+  platforms, and calendar
 ---
 
 ## Videos
