@@ -2,41 +2,50 @@
 title: ❓ FAQ
 description: Your hottest questions about SourceCred, answered.
 ---
-- ## Cred
-    - Can I manually edit Cred scores for Participants?
-    - If I keep giving likes/upvotes, will I run out of Cred?
-    - When and how is new Cred minted?
-    - When and how does Cred flow between people?
-        - the previous three questions can all have one answer perhaps
-        - link to How Cred Works + brief mention that you don't share your own Cred when you reward someone else
-    - How do I earn Cred?
-        - i.e. Where's the source of Cred, how does it flow, and what are the best/minimal starting parameters for bootstrapping a diverse open source community?
-    - Is Cred a reputation score, or something else?
-        - it's a reputation score for your __contributions__, but not you as a person.
-- ## Grain
-    - How do I earn Grain?
-    - Is Grain real money?
-        - How much is Grain worth?
-        - Is Grain always a fixed price?
-    - How does Grain get value?
-        - General FAQ: It's worth whatever your community decides it is worth; here's specific examples of SC, Maker, MetaGame, etc.
-    - How do I convert Grain into other currencies e.g. Dollars?
-- ## Community & Values
-    - What problem is SourceCred solving?
-    - Can SourceCred be used to empower marginalized people?
-    - What social values is SourceCred based on?
-- ## Project & Governance
-    - What is a Contribution Graph?
-    - How is this different from being Yet Another Tech Solution to a human problem?
-    - How is SourceCred governed?
-    - Does SourceCred require one governance system across all projects?
-- ## Technology & Algorithm
-    - How do I request a feature or plugin for a platform not already offered?
-    - What is the best way to start using SourceCred in my community?
-    - How gameable is SourceCred?
-    - Is my community's data safe with SourceCred?
-        - to also answer in this: what data does SourceCred store, exactly?
-    - How does SourceCred keep track of intangible work? (e.g. organizing meetings, emotional labour, etc)
-        - 1. not every individual thing needs to be tracked, but a rough assessment of overall activity is enough to make SourceCred a valuable tool to help bring visibility to previously-invisible contributions
-        - 2. The Creditor is for awarding/designating Cred to intangible work
 
+- ## Cred
+  - Can I manually edit Cred scores for Participants?
+  - If I keep giving likes/upvotes, will I run out of Cred?
+  - When and how is new Cred minted?
+  - When and how does Cred flow between people?
+    - the previous three questions can all have one answer perhaps
+    - link to How Cred Works + brief mention that you don't share your own Cred
+      when you reward someone else
+  - How do I earn Cred?
+    - i.e. Where's the source of Cred, how does it flow, and what are the
+      best/minimal starting parameters for bootstrapping a diverse open source
+      community?
+  - Is Cred a reputation score, or something else?
+    - it's a reputation score for your **contributions**, but not you as a
+      person.
+- ## Grain
+  - How do I earn Grain?
+  - Is Grain real money?
+    - How much is Grain worth?
+    - Is Grain always a fixed price?
+  - How does Grain get value?
+    - General FAQ: It's worth whatever your community decides it is worth;
+      here's specific examples of SC, Maker, MetaGame, etc.
+  - How do I convert Grain into other currencies e.g. Dollars?
+- ## Community & Values
+  - What problem is SourceCred solving?
+  - Can SourceCred be used to empower marginalized people?
+  - What social values is SourceCred based on?
+- ## Project & Governance
+  - What is a Contribution Graph?
+  - How is this different from being Yet Another Tech Solution to a human
+    problem?
+  - How is SourceCred governed?
+  - Does SourceCred require one governance system across all projects?
+- ## Technology & Algorithm
+  - How do I request a feature or plugin for a platform not already offered?
+  - What is the best way to start using SourceCred in my community?
+  - How gameable is SourceCred?
+  - Is my community's data safe with SourceCred?
+    - to also answer in this: what data does SourceCred store, exactly?
+  - How does SourceCred keep track of intangible work? (e.g. organizing
+    meetings, emotional labour, etc)
+    - 1. not every individual thing needs to be tracked, but a rough assessment
+         of overall activity is enough to make SourceCred a valuable tool to
+         help bring visibility to previously-invisible contributions
+    - 2. The Creditor is for awarding/designating Cred to intangible work
