@@ -23,7 +23,6 @@ those scores.
 That is certainly our goal! As a diverse team, we know that marginalized people
 face systemic challenges and obstacles in the broader job market, often based
 solely on identity. One radical aspect of SourceCred is that it rewards
-
 **contributions** instead of simply contributors, thereby reducing popularity
 contests between individuals.
 
@@ -32,7 +31,6 @@ first, and is designed to value self-care, job flexibility, personal health and
 well-being. We know this is no panacea—technology alone cannot solve human
 problems—which is why SourceCred empowers each community to reward members based
 on their own health, goals, values, and governance. Every community using
-
 SourceCred will have access to our technology and perspective that, by design,
 can improve the disparity between power and lack of power that often occurs
 around rewards for labor.
