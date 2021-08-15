@@ -71,8 +71,7 @@ issue, PR, or review).
 - **Commit**:
 
 A commit is a Git commit, as discovered via the GitHub API, e.g. [this commit].
-We currently enumerate every commit that is in the history of the `master`
-branch.
+We currently enumerate every commit that is in the history of the `main` branch.
 
 Commits currently do not add much value in the Cred graph, because they are not
 meaningfully connected to the contents of the commits. For example, it would be
@@ -110,7 +109,7 @@ grain or showing up in the Cred rankings.
 Bots have the same connections as users.
 
 [bots.js]:
-  https://github.com/sourcecred/sourcecred/blob/master/src/plugins/github/bots.js
+  https://github.com/sourcecred/sourcecred/blob/main/src/plugins/github/bots.js
 
 ### Edges
 
@@ -201,3 +200,7 @@ heuristics for assigning Cred, e.g.:
 
 - Allowing custom labels that influence the Cred minted to PRs.
 - Modifying Cred minting based on metrics like the size of the PR.
+
+<br/>
+
+_Need more help? Post in SourceCred's Tech Support Discord channel._

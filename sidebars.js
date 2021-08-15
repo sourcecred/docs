@@ -1,23 +1,46 @@
 module.exports = {
   sidebar: {
     "🌟 Beta Docs (WIP)": [
-      "beta/introduction",
-      "beta/cred",
-      "beta/grain",
       {
-        "🔌 Plugins": [
-          "beta/plugins/github",
-          "beta/plugins/discourse",
-          "beta/plugins/discord",
-          "beta/plugins/initiatives",
+        "Learn About SourceCred": [
+          "beta/introduction",
+          "beta/FAQ",
+          "beta/cred",
+          "beta/grain",
         ],
       },
-      "beta/setup-guide",
-      "beta/get-involved",
-      "beta/our-platforms",
-      "beta/our-calls",
-      "beta/best-resources-for-new-contributors",
-      "beta/FAQ",
+      {
+        "Use SourceCred in Your Community": [
+          "beta/setup-guide",
+          {
+            "🔌 Plugins": [
+              "beta/plugins/github",
+              "beta/plugins/discourse",
+              "beta/plugins/discord",
+              "beta/plugins/initiatives",
+            ],
+          },
+        ],
+      },
+      {
+        "Join Our Community": [
+          "beta/get-involved",
+          "onboarding/devs/getting-started",
+          "beta/our-platforms",
+          "beta/our-calls",
+          "beta/best-resources-for-new-contributors",
+          "concepts/trust_levels",
+        ],
+      },
+      "api/documentation",
+      {
+        type: "link",
+        href: "/docs/internal/home",
+        label: "Internal Docs",
+      },
     ],
+  },
+  internalSidebar: {
+    "Internal Docs": ["internal/home", "internal/cultivation", "internal/dev"],
   },
 };

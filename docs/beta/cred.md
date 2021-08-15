@@ -7,139 +7,210 @@ description:
 
 ## What is Cred?
 
-As the name suggests, Cred is an important part of SourceCred. Cred is a metric
-used to describe the value which every contribution and participant has added to
-a specific project. Each participant has a "Cred score", which reflects how
-valuable all the contributions they have made to a project are. How high these
-scores are is determined by how important or useful their contributions have
-been to their community. Your Cred score determines the amount of
-[Grain](/docs/beta/grain) (a project-specific digital token which can be crypto
-or fictional currency) you'll earn.
+As the name suggests, Cred is the core idea of SourceCred. Cred is a score which
+is earned by making contributions to a project. A participant's score reflects
+how valuable their contributions were to the project. Participants are then
+rewarded with digital currency, or "[Grain]", based on their Cred.
 
-### 🧮 Defining Contributions
+[grain]: /docs/beta/grain
 
-A contribution is any action done for the community and its goals. Each
-community determines which types of action have value to them, and therefore
-will earn Cred. Communities do this through configuring their weights, aka the
-algorithm's rules about how much Cred each type of contribution earns.
+### Properties of Cred
 
-For example; if a community primarily works in GitHub and wants to incentivize
-their participants to be making meaningful code contributions, they may decide
-that each PR which gets merged is worth a high amount of Cred. If Discourse
-forum posts aren't very necessary in the community yet, they may decide that
-forum topics will earn less Cred for being posted/liked. Actions that are not
-valuable or are actively disruptive to the community and its goals, such as
-playing video games or having a flame-war on the forums, would earn no Cred. As
-the community grows and its needs change, the weights can be modified to reflect
-its new state via the governance mechanisms of the specific community.
+- **Cred is community-specific**
 
-Contributions are tracked and measured by Plugins (SourceCred programs that
-intake data from a specific platform and output Cred scores for the
-contributions made there). Each Plugin is written for a specific platform so
-that it will work with SourceCred. Continue reading this doc for more Plugin
-info, and/or check out our list of
-[currently available Plugins](/docs/beta/plugins/github) for SourceCred.
+Every community using SourceCred has its own independent "instance", along with
+its own Cred scores. You have "cred _in a project_", not just "cred overall".
+Every community can control how Cred flows within its instance.
+
+- **Cred is not transferable**
+
+A participant's Cred score is like their reputation. It's something that is
+associated with them, but it's not an asset that they own. Cred scores can't be
+transferred, or bought or sold.
+
+- **Cred is retroactive**
+
+Cred scores can retroactively update to reflect new information. For example,
+someone might write a great forum post that goes initially overlooked. At first,
+it earns little Cred, but once it gets discovered, the Cred score will
+retroactively increase. This frees participants to focus on doing great work,
+without needing to worry that all of it gets appreciated right away.
+
+- **Cred is transparent**
+
+Cred is computed by an algorithm. The algorithm is open-source, and all of the
+data and parameters are public. This means that Cred scores are transparent:
+it's always possible to inspect a Cred score and find out how it was computed.
+Cred is also designed to be inspectable: you can determine why a participant has
+the cred that they do, and what their most valued contributions were.
+
+## Calculating Cred
+
+At a high level: we calculate Cred by first defining a "Contribution Graph",
+which is a network of contributions, participants, and connections between them.
+Every contribution is represented as a node in that graph. Then, the project
+chooses certain contributions to "mint" Cred, which means that those
+contributions are a source of new Cred. This could happen through automatic
+rules (e.g. every merged pull request mints Cred, or every liked forum post
+mints Cred). Or the minting could happen through manual human review. Finally,
+Cred "flows" across the connections in the graph. The result is that every
+contribution earns Cred if it was connected to, or depended on by, other things
+that earned Cred. Participants earn Cred if they author or contribute to
+high-cred Contributions.
+
+### The Contribution Graph
+
+The Contribution Graph is a data structure that tracks all of the contributions
+to a project. It's a [Graph], or a network of nodes and edges. In a Contribution
+Graph, every node represents either a contribution, a participant. Edges then
+represent connections between these objects. For example, suppose that this doc
+went through 10 different drafts before being published. Each draft would be
+represented by a node, and each draft would have an edge pointing to its author,
+and an edge pointing to the previous draft.
+
+[graph]: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
 
 <figure>
 <img src="https://sourcecred.io/img/visuals/sourcecred-graph-example.png" alt="A graph visualization showing nodes connected by lines" />
-<figcaption><small><em>(Simplified) Cred Contribution Graph example</em></small></figcaption>
+<figcaption>
+  <small>
+      <em>A stylized Contribution Graph. @-nodes represent participants.</em>
+  </small>
+</figcaption>
 </figure>
 
-### 📈 Nodes, Edges, & the Contribution Graph
+### Generating the Graph
 
-As soon as you make any kind of contribution to a project using SourceCred, you
-will become part of that project's "Contribution Graph". The Contribution Graph
-is a network of every contribution and participant, and how they're connected to
-each other. You, and every contribution you make will each be represented as a
-separate "node" in the graph (the green and blue dots in the example graph
-above). SourceCred, uses this Contribution Graph data to create a Cred score for
-each node via a modified
-[PageRank algorithm](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf).
+For SourceCred to work, it needs data on what contributions exist, and how they
+are connected. It gets this data primarily via plugins that export data from
+platforms where the community operates. Right now, we have plugins for [GitHub],
+[Discourse], and [Discord].
 
-These contribution and participant nodes are connected to each other by "edges"
-(the lines between node dots in the example image above). Cred flows between
-nodes along these edges. If two nodes are connected by an edge, you know they're
-flowing Cred from one node to the other in at least one direction. For example:
-if you were to create a new Discourse topic in your project's forum, a new node
-would be created in the Contribution Graph for the topic and a new edge would
-run between the topic and you as the creator. If that topic gets a lot of
-"likes" from the community, the node's Cred score would go up. As a result, some
-of that increased Cred from the topic-node would flow along that edge back to
-the you-node, increasing your own Cred score.
+[github]: https://github.com/
+[discourse]: http://discourse.org/
+[discord]: https://discord.com/
 
-## How Cred Flows
+As an example, consider a Discourse forum post (poke around [our forums] for
+some examples!). The post is itself a contribution, and it flows Cred to its
+author, to the post it replies to, and to any posts or users that it references.
 
-You can visualize Cred flowing through the graph as water flowing through an
-ecosystem of ponds (nodes) and creeks (edges). Cred does not accumulate in one
-place, but rather flows through each pond, constantly moving. It flows through
-creeks between participant ponds (Cred Flowing), falls as rain (Cred Minting),
-and evaporates from everyone’s ponds over time (Cred Evaporation).
+[our forums]: https://discourse.sourcecred.io
 
-### 💧 Cred Flowing
+We're also working on adding a "cred editor" (or "Creditor") which will make it
+easier to track intangible or offline contributions, like emotional support,
+organizing meetings, etc.
 
-Edges are directional like a creek or an arrow, showing which way the Cred is
-flowing. For instance: when you create a Discourse topic, it flows Cred along
-the edge from it as the topic to you as the author. That Cred was "outbound"
-from the topic-node, and flowing "inbound" to the you-node. There can be
-outbound and inbound edges between the same two nodes.
+You can read [docs on the individual plugins][plugin-docs].
 
-In this same way, every node receives Cred from every other node that has an
-edge flowing to it. A node with a lot of inbound edges (like an integral piece
-of code infrastructure) will end up with a higher Cred score than a node with
-very few edges (like a troll post with no likes). In this way, Cred accumulates
-at the nodes which are important to the success of the project, encouraging
-participants to create work that not only brings value to the community but also
-stands the test of time.
+[plugin-docs]: /docs/beta/plugins/github
 
-When a node has a very high Cred score, it will have a bigger pot of Cred to
-split between the other nodes connected to it. Like a large pond that has more
-water to send along its rivers to other ponds. Meaning that if you are connected
-to a node with a high Cred score you will be receiving a relatively higher
-amount of Cred from it. If you are connected to a node with a low Cred score,
-you will receive a relatively lower amount of Cred from it.
+### How Cred Flows
 
-### ☔ Cred Minting
+You can visualize Cred flowing through the graph like water flowing through a
+system of ponds (nodes) and creeks (edges). The water level in each pond depends
+on the creeks flowing Cred in from adjacent nodes: how many creeks there are,
+how large the adjacent ponds are, and how strong the currents are. The most
+important thing to know is that the system is always in dynamic equilibrium: the
+amount of Cred a particular node has is exactly equal to the amount of Cred that
+is flowing into it, and is also exactly equal to the amount of Cred flowing out.
+The Cred is always balanced.
 
-If a contribution is valuable, there are mechanisms for the community to signal
-their appreciation of it with likes or emojis (depending on the platform) which
-"mints" (aka creates) new Cred for that contribution node. This Cred minting is
-like new water falling into the contribution's pond in the form of rain. That
-new water flows through the creeks to the other ponds downstream of it.
+There's one special node in the graph worth mentioning. Unlike other nodes, it
+doesn't represent a definite contribution or participant. It is the "seed" node,
+and it is the source of minted Cred. In our hydrological metaphor, we could
+think of it as a "spring"; a spot where the minted Cred bubbles out of the
+ground so that it can flow into the rest of the graph. The seed node is
+connected to every node that was chosen to mint Cred, and it flows that Cred to
+those nodes so the Cred can start its journey through the graph.
 
-For example, say a participant wrote an extremely insightful topic on the forum.
-Every time another community member uses the "like" mechanism to show they
-really loved the topic, a little rain falls into the topic's pond. That new
-water then flows to downstream ponds such as the author of the forum topic, or
-other topics it references.
+However, as stated above, the Cred flow must always be in equilibrium, with a
+node's out-flows precisely equal to its in-flows. If Cred starts flowing from
+the seed node, how can that be? Where does the seed node's Cred come from?
 
-### 🔥 Cred Evaporation
+The answer is that a little bit of Cred is always seeping away from every other
+node in the graph and returning to the seed. It's like the ground that the Cred
+flows across is a bit porous, and some of it is always seeping down into an
+aquifer that feeds the seed node. Technically, we call this process "Cred
+radiation". The proportion of each node's Cred that radiates aways is called
+"alpha", and it is a number between 0 and 1. If alpha is high (closer to 1),
+then Cred will tend to stay close to the nodes minting Cred, because it cannot
+flow very far before returning to the spring. If alpha is low (close to 0), it
+can flow very readily across the graph. When alpha is low, the choice of which
+nodes mint Cred becomes less important, because the Cred can easily flow far
+away from the minting nodes.
 
-Since Cred can be created (minted) from nothing by the reactions of community
-members, there must be a balance so that Cred maintains its worth. Just like
-water evaporates from ponds and creeks to create the rainclouds, Cred evaporates
-to replenish the source from which Cred is minted. For every node on the
-Contribution Graph, a consistent portion of its Cred evaporates away. The
-evaporation rate can be toggled within the weights to be high or low depending
-on the needs of your community.
+### Choosing Weights
 
-📝 **Note:** Evaporation does _not_ mean you will lose Cred for being absent or
-inactive. Just as Cred is always gently evaporating across the entire ecosystem,
-Cred is also always flowing across the ecosystem even during times of individual
-inaction.
+A key tenet for SourceCred is to let communities decide what they value. One of
+the tools for doing so is choosing "weights", which are important parameters to
+the algorithm. There are two major types of weights: node weights and edge
+weights.
 
-### Plug-ins
+#### Node Weights
 
-In SourceCred, we mainly use "Plug-ins" to "scrape" the activity data from a
-particular platform (e.g.: Discord, Github, etc). For SourceCred to understand
-the data in a particular platform, our engineers first need to create a Plug-in
-for that platform specifically. For now, you can see which Plug-ins are
-available and learn more about each via our
-[Plug-in Docs](/docs/beta/plugins/github). We'll be working on more Plug-ins as
-time goes on and the needs of our ecosystem span more platforms.
+Node weights determine how much Cred is minted at a given node. For example, if
+you want every post in a forum to mint some Cred, you could set a positive node
+weight on forum posts. However, that would probably not be a good decision.
+Because it's very easy to make lots of forum posts, people might game the Cred
+scores by spamming lots of low-effort posts. Instead, you might set a positive
+weight on likes on the forum. Unlike a post, a like indicates that someone else
+found the post valuable, and acts as a lightweight review pass on whether the
+post was valuable. Further heuristics can modify the weights, e.g. ensuring that
+only verified or trusted users' likes will mint Cred, and that if a user likes
+their own post, it won't mint Cred.
 
-### Want More?
+#### Edge Weights
 
-For even more information about how Cred works, you can read
-[](https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/)["SourceCred: an introduction to calculating cred and grain"](https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/)
-by SourceCred participant Evan Miyazono from
-[Protocol Labs](https://research.protocol.ai/).
+Edge weights determine how Cred flows once it is in the graph. Suppose we have a
+Discourse post with exactly two edges out: one edge to the author of the post,
+and one edge to a person mentioned by the post. Who should receive more Cred:
+the author, or the person mentioned? If you think they should both get equal
+Cred, you could leave both edges with a default weight of 1×. However, if you
+think that the author should get twice as much Cred, you could give the
+authorship edge a weight of 2×, or give the reference edge a weight of 0.5×.
+
+Each SourceCred plugin comes with default weights, which we've calibrated based
+on our own experiments. However, you're welcome to change them to suit your
+needs!
+
+## Common Questions
+
+### If I react to something, do I lose Cred?
+
+One common misconception about Cred is that flowing Cred means losing Cred, i.e.
+that Cred gets "spent". For example, if you add a reaction to a message on
+Discord, then some of your Cred flows to that message. Intuitively, you might
+think that this means you're "losing" Cred. However, this isn't actually the
+case! Remember, as we said above, that the amount of Cred at a node is always
+equal to the amount of Cred flowing away. That means that all of your Cred is
+always flowing away from you. When you add a reaction to a message, you just
+change where that Cred is going to flow. Every other reaction you've made will
+flow a little bit less Cred, so as to keep balance.
+
+### Will Cred scores get gamed?
+
+One of the biggest concerns about SourceCred is often that Cred will get gamed.
+Yup, that's totally possible. Gaming occurs in all social systems: see [this
+interesting exploration of how office politics gets gamed][defmacro].
+
+[defmacro]: https://defmacro.substack.com/p/how-to-get-promoted
+
+SourceCred's approach to gaming is to make the algorithm transparent and
+community-controlled. That means that if someone starts gaming it, it's easy for
+others in the community to identify that gaming is happening, and then make
+changes to correct it. Those changes can involve adjusting the weights, or
+adding new heuristics to the algorithm. Since Cred is retroactive, once the
+instance has been updated, the attacker's ill-gotten Cred will retroactively
+disappear. One of the reasons that SourceCred's Grain distribution algorithm
+focuses on long-term Cred is precisely so that people who game SourceCred in the
+short term don't get unjust rewards.
+
+## Want More?
+
+For even more information about how Cred works, you can read ["SourceCred: an
+introduction to calculating cred and grain"][miyazono-blog], a blog post by
+SourceCred participant Evan Miyazono of [Protocol Labs][pl].
+
+[miyazono-blog]:
+  https://research.protocol.ai/blog/2020/sourcecred-an-introduction-to-calculating-cred-and-grain/
+[pl]: https://research.protocol.ai/

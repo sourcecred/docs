@@ -1,6 +1,8 @@
 ---
 title: 🌳 Resources
 description:
+  A list of resources to learn more about SourceCred, including videos, podcast,
+  platforms, and calendar
 ---
 
 ## Videos
@@ -14,3 +16,19 @@ description:
 ## Podcast
 
 - [SourceCred Podcast](https://sourcecred.podbean.com/)
+
+## Platforms
+
+- [sourcecred.io/](https://sourcecred.io/)
+- [SourceCred's Github](https://github.com/sourcecred)
+- [SourceCred's Discourse](https://discourse.sourcecred.io/)
+- [SourceCred's Discord Server](https://discord.com/invite/q9tDN7p)
+- [SourceCred's Roam Notes](https://roamresearch.com/#/app/SourceCred/page/yB49Vnh7Z)
+
+## Calendar
+
+- [SourceCred's Calendar](https://sourcecred.io/docs/concepts/initiatives)
+
+## Code of Conduct
+
+- [SourceCred's Code of Conduct](https://github.com/sourcecred/docs/blob/6c3290747c5d0a79deec2b380fdf27ed3c342618/docs/contributing/CODE_OF_CONDUCT.md)

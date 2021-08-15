@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: sourcecred/docs
-  branch: master
+  branch: main
   squash_merges: true
 publish_mode: editorial_workflow
 media_folder: "static/img/uploads"
@@ -14,11 +14,20 @@ collections:
     folder: "docs/beta"
     create: true
     slug: "{{slug}}"
-    preview_path: "docs/{{slug}}"
+    preview_path: "docs/beta/{{slug}}"
     editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Label",
+          name: "sidebar_label",
+          widget: "string",
+          required: false,
+          hint:
+            "The label that will be used in the menu, if this page exists in a
+            configured sidebar.",
+        }
       - {
           label: "Description",
           name: "description",
@@ -39,16 +48,142 @@ collections:
             to the post.",
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "beta plugins"
+  - name: "beta-plugins"
     label: "Beta Plugin Docs"
     folder: "docs/beta/plugins"
     create: true
     slug: "{{slug}}"
-    preview_path: "docs/{{slug}}"
+    preview_path: "docs/beta/plugins/{{slug}}"
     editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Label",
+          name: "sidebar_label",
+          widget: "string",
+          required: false,
+          hint:
+            "The label that will be used in the menu, if this page exists in a
+            configured sidebar.",
+        }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: false,
+          hint:
+            "The description of the post which will be used by search engines
+            and link previews. If not present, will default to the first line of
+            the post contents.",
+        }
+      - {
+          label: "Cover Image",
+          name: "image",
+          widget: "image",
+          required: false,
+          hint:
+            "Cover or thumbnail image that will be used when displaying the link
+            to the post.",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "api"
+    label: "API Docs"
+    folder: "docs/api"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "docs/api/{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Label",
+          name: "sidebar_label",
+          widget: "string",
+          required: false,
+          hint:
+            "The label that will be used in the menu, if this page exists in a
+            configured sidebar.",
+        }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: false,
+          hint:
+            "The description of the post which will be used by search engines
+            and link previews. If not present, will default to the first line of
+            the post contents.",
+        }
+      - {
+          label: "Cover Image",
+          name: "image",
+          widget: "image",
+          required: false,
+          hint:
+            "Cover or thumbnail image that will be used when displaying the link
+            to the post.",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "internal"
+    label: "Internal Docs"
+    folder: "docs/internal"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "docs/internal/{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Label",
+          name: "sidebar_label",
+          widget: "string",
+          required: false,
+          hint:
+            "The label that will be used in the menu, if this page exists in a
+            configured sidebar.",
+        }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: false,
+          hint:
+            "The description of the post which will be used by search engines
+            and link previews. If not present, will default to the first line of
+            the post contents.",
+        }
+      - {
+          label: "Cover Image",
+          name: "image",
+          widget: "image",
+          required: false,
+          hint:
+            "Cover or thumbnail image that will be used when displaying the link
+            to the post.",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "onboarding-devs"
+    label: "Dev Onboarding Docs"
+    folder: "docs/onboarding/devs"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "docs/onboarding/devs/{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Label",
+          name: "sidebar_label",
+          widget: "string",
+          required: false,
+          hint:
+            "The label that will be used in the menu, if this page exists in a
+            configured sidebar.",
+        }
       - {
           label: "Description",
           name: "description",
