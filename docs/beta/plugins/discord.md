@@ -140,7 +140,7 @@ Paste this URL into the browser you're logged into Discord with, with admin
 permissions. You will then be prompted to select your server and give the bot
 permissions to read messages and message history.
 
-6. **Set Environment Variable**
+### 6. Set Environment Variable
 
 You will need to create an environment variable named
 `$SOURCECRED_DISCORD_TOKEN` and set it to the bot token created in Step 4.
@@ -160,7 +160,7 @@ add the bot token to the GitHub Action that updates scores. Check out
 [GitHub’s guide](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository)
 for how to add the token as a Secret that can be read by the Action.
 
-7.  **(Optional) Custom Weights**
+### 7. (Optional) Custom Weights
 
 SourceCred can be configured to mint different amounts of Cred for different
 emojis . This is done by setting custom reaction weights in the Discord plugin
