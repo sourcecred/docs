@@ -1,11 +1,7 @@
 ---
 title: API Docs
-description: COMING SOON
+description: SourceCred API Documentation for our NPM package library.
 ---
+We plan to have more detailed documentation in the future, but for now, check out this Observable Notebook for tips on how to use our library in your 3rd-Party integrations.
 
-## Coming Soon
-
-In the meantime, you can import our NPM package under the name `sourcecred` and
-look at
-[our library export code](https://github.com/sourcecred/sourcecred/blob/main/packages/sourcecred/src/api/index.js)
-to understand the library object that that package contains.
+https://observablehq.com/@sourcecred/api-tutorial
