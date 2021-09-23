@@ -29,4 +29,4 @@ Discord, and the Community Call on Tuesdays, like anyone.
    help you find a good first task and/or someone to pair with. We also welcome
    you to drop by our Social Coding sessions on the calender to co-work with us.
 
-If you want to contribute but you're not looking to mingle at our team meetings right now, look at our [Good First Issues](https://github.com/sourcecred/sourcecred/labels/good%20first%20issue) and comment to let us know you're working on it. You're also welcome to sync with us on Discord in the #dev-team channel.
+If you want to contribute but you're not looking to mingle at our team meetings right now, look at our [Good First Issues](https://github.com/sourcecred/sourcecred/labels/good%20first%20issue) and comment to let us know you're working on one. You're also welcome to sync with us on Discord in the #dev-team channel.
