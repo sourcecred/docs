@@ -1,6 +1,7 @@
 ---
 title: 💻 Onboarding as a Software Dev
-description: COMING SOON
+description: Recommended steps for getting involved on our team as a coder /
+  software engineer.
 ---
 
 Onboarding for a Software Dev is a little more straightforward than for other
