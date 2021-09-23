@@ -14,7 +14,7 @@ Discord, and the Community Call on Tuesdays, like anyone.
 1. Read
    [our Github Contributing Guidelines](https://github.com/sourcecred/sourcecred/blob/main/packages/sourcecred/CONTRIBUTING.md)
 1. Watch
-   1. [this Data Flow walk through](https://drive.google.com/drive/u/2/folders/1mykBgyezrkLnN6kSMWrfq4etrwuunqe6) and [accompanying diagram](https://miro.com/app/board/o9J_luhteFo=/)
+   1. [this Data Flow walk through](https://drive.google.com/drive/u/2/folders/1mykBgyezrkLnN6kSMWrfq4etrwuunqe6) and [accompanying diagram](https://miro.com/app/board/o9J_luhteFo=/)a
    1. [this Code Architecture walk through](https://zoom.us/rec/share/Rv8t99k0bfPJbSwbBD7cX4wlcq-Ekf5-Ai9lvws4AxSDvD-khy546KahRYbpoZm8.6aP2NciutnkUTR-3?startTime=1620677252000)
    and [accompanying diagram](https://miro.com/app/board/o9J_lF3UvK4=/).
 
