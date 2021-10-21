@@ -12,4 +12,4 @@ at least one bundle plugin specified in the `sourcecred.json`
 
 ### Common Errors -  `No outflow from seed; add cred-minting nodes`
 
-This error is caused because there is no grain generating event. For the github plugin, this can be fixed by simply merging in a PR, as the initial grain generating event.
+This error is caused because there is no cred-generating event. For the github plugin, this can be fixed by simply merging in a PR, as the initial cred-generating event. For discord, a message with an emoji is needed.
