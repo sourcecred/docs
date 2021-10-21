@@ -8,7 +8,7 @@ setting up a new SourceCred Instance
 ### Common Errors - `Error: need at least one interval`
 
 This error means there are no nodes are present. Check that you have 
-at least one bundle plugin specified in the `sourcecred.json`
+at least one bundled plugin specified in the `sourcecred.json`
 
 ### Common Errors -  `No outflow from seed; add cred-minting nodes`
 
