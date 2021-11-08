@@ -1,6 +1,6 @@
 ---
 title: Instance Setup FAQ
-sidebar_label: Tech Support FAQ
+sidebar_label: ❓Tech Support FAQ
 ---
 
 Below are some questions you might have, or errors you might run into while
