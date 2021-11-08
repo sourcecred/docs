@@ -89,10 +89,10 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "instance"
     label: "Instance Maintainer Docs"
-    folder: "docs/instance"
+    folder: "docs/setup"
     create: true
     slug: "{{slug}}"
-    preview_path: "docs/instance/{{slug}}"
+    preview_path: "docs/setup/{{slug}}"
     editor:
       preview: false
     fields:
