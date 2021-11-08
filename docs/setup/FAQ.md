@@ -1,9 +1,10 @@
 ---
 title: Instance Setup FAQ
+sidebar_label: Tech Support FAQ
 ---
 
 Below are some questions you might have, or errors you might run into while
-setting up a new SourceCred Instance
+setting up a new SourceCred Instance. If you don't see your question answered below, jump into our [Tech Support channel on Discord](https://discord.com/channels/453243919774253079/718263631158050896/907349258221539348).
 
 ## Common Errors
 
