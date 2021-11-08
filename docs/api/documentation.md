@@ -2,11 +2,11 @@
 title: API Docs
 description: SourceCred API Documentation for our NPM package library.
 ---
+
 Work In Progress API documentation: https://api.sourcecred.io/
 
-Observable Notebook for tips on how to use our library in your
-3rd-Party integrations:
-https://observablehq.com/@sourcecred/api-tutorial
+Observable Notebook for tips on how to use our library in your 3rd-Party
+integrations: https://observablehq.com/@sourcecred/api-tutorial
 
 If you are interested in creating your own Plugin to funnel new kinds of data
 into the SourceCred calculation, this tutorial for creating an ExternalPlugin is
