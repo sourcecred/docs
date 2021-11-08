@@ -4,7 +4,9 @@ sidebar_label: Tech Support FAQ
 ---
 
 Below are some questions you might have, or errors you might run into while
-setting up a new SourceCred Instance. If you don't see your question answered below, jump into our [Tech Support channel on Discord](https://discord.com/channels/453243919774253079/718263631158050896/907349258221539348).
+setting up a new SourceCred Instance. If you don't see your question answered
+below, jump into our
+[Tech Support channel on Discord](https://discord.com/channels/453243919774253079/718263631158050896/907349258221539348).
 
 ## Common Errors
 
@@ -49,6 +51,14 @@ memory errors, you might want to consider a
 [self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners)
 
 ## Configuration Questions
+
 ### Skipping private channel.
 
-When you set up the Discord plugin, you created a bot token and invited it to your server. If you want SourceCred to include private channels, you simply need to give that bot permission to see those channels. The bot has a role automatically created just for it that you can give "view channel" permissions to in the channel settings on Discord, or you can give the bot "user" another role that has more permissions in your server settings on Discord. Note: your cred graph will include short message previews in the data, which may expose some of the message content of private channels.
+When you set up the Discord plugin, you created a bot token and invited it to
+your server. If you want SourceCred to include private channels, you simply need
+to give that bot permission to see those channels. The bot has a role
+automatically created just for it that you can give "view channel" permissions
+to in the channel settings on Discord, or you can give the bot "user" another
+role that has more permissions in your server settings on Discord. Note: your
+cred graph will include short message previews in the data, which may expose
+some of the message content of private channels.
