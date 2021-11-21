@@ -52,7 +52,7 @@ SourceCred currently has two policies for how a project distributes Grain:
   in the last week. (This policy ignores all Cred from previous weeks, and is
   intended to give fast rewards to active participants).
 - `BALANCED` splits Grain based both on lifetime Cred and on lifetime Grain
-  earnings. `Balanced` tries to ensure that everyone in the project receives a
+  earnings. `BALANCED` tries to ensure that everyone in the project receives a
   total Grain payment which is consistent with their total Cred score. For
   example, suppose that a contributor used to have a low Cred score, and as such
   received a small amount of Grain. However, the community recently changed its
@@ -74,6 +74,9 @@ SourceCred currently has two policies for how a project distributes Grain:
 A project can use a mixture of policies: e.g., "each week, distribute 10,000
 grain according to an immediate policy and 15,000 grain according to a balanced
 policy."
+
+For an example distribution configuration, check out our
+[template instance README](https://github.com/sourcecred/template-instance#distributing-grain).
 
 ### _“What if I contributed a lot before a small Grain distribution, and then less before a bigger Grain distribution?”_
 
