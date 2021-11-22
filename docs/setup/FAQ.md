@@ -21,9 +21,9 @@ This error is caused because there is no cred-generating event. For the github
 plugin, this can be fixed by simply merging in a PR, as the initial
 cred-generating event. For Discord, a message with an emoji is needed. It's also
 worth checking that the Discord bot you've configured is able to read any
-channels in your server. For Discourse, a post with a like is needed (note, the Discourse plugin only supports public servers/threads). You may
-need to wipe your cache by running `yarn clean` after adding a cred-generating
-event.
+channels in your server. For Discourse, a post with a like is needed (note, the
+Discourse plugin only supports public servers/threads). You may need to wipe
+your cache by running `yarn clean` after adding a cred-generating event.
 
 ### Error 137, Javascript heap out of memory
 
