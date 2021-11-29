@@ -12,6 +12,7 @@ module.exports = {
       {
         "Use SourceCred in Your Community": [
           "beta/setup-guide",
+          "external/template-instance",
           "setup/FAQ",
           {
             "🔌 Plugins": [

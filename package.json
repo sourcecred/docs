@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "yarn fetch-external && docusaurus build",
+    "fetch-external": "node scripts/fetch-external-md.js",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "prettify": "prettier --write '**/*.{js,md,yml}'"

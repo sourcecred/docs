@@ -1,5 +1,5 @@
 ---
-title: ⚙️ How to Set Up SourceCred
+title: 1️⃣ Before You Start
 description:
   A guide for turning on a SourceCred instance to track Cred in your project or
   community.
@@ -7,8 +7,6 @@ description:
 
 In this guide you'll find information about setting up your own instance of
 SourceCred to generate Cred scores for your community and/or project.
-
-### Before you start
 
 If you’re not quite ready to create your own instance, check out our
 [Introduction](https://sourcecred.io/docs/) or
@@ -46,14 +44,14 @@ Before getting started, some things you’ll need to know:
 </figure>
 
 If you’re interested in SourceCred but lack the technical chops, you can still
-get involved on our [Discord](https://sourcecred.io/discord) or
-[Discourse forums](https://discourse.sourcecred.io/) to learn more, ask
+get involved on our [Discord](https://sourcecred.io/discord) to learn more, ask
 questions, and contribute to the project.
 
 ### Instructions
 
 Everything you need to know about setting up a SourceCred instance can be found
-in the [template-instance](https://github.com/sourcecred/template-instance)
+in the next page:
+[How To Set Up SourceCred](https://sourcecred.io/docs/external/template-instance)
 repo, which is set up to be a good starting point for configuring SourceCred.
 
 _Need more help? Post in SourceCred's Tech Support Discord channel._
