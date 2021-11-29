@@ -66,6 +66,18 @@ the project.
 timing is usually based off the availability of key participants. Check out the
 [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Jams.
 
+## Town Halls
+
+**What:** 
+
+**Perfect for** community members.
+
+**Purpose:** 
+
+**Where:** Typically in the main meeting room channel.
+
+**When:** No set time or reoccurrence. Town Halls are scheduled as one-off events. Check out the [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Town Halls.
+
 ## Trunk, Branch, or Team-Specific Meetings
 
 **What:** Meetings for contributors working in a specific branch to coordinate,
@@ -101,6 +113,18 @@ progress on an initiative or project. By nature of being shorter, these are also
 less taxing and can help keep contributors on track.
 
 **When:** Scheduled as one-off events when asynchronous coordination won’t cut it.
+
+## Soap Boxes[](https://sourcecred.io/docs/beta/our-calls#soap-boxes "Direct link to heading")
+
+**What:** A designated time to talk aloud about a specific subject and how it may or may not relate to SourceCred.
+
+**Perfect for** anyone who finds that particular topic interesting or relevant.
+
+**Purpose:** To let out steam, to align or to see where we may not align; to allow a social space to speak uninterrupted about general or controversial topics. Has MC and allows for uninterrupted, times shares.
+
+**Where:** Typically in the Watercooler channel.
+
+**When:** No set time or reoccurrence. Soap boxes are scheduled as one-off events, and timing is usually based off the availability of the MC. Check out the [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Soap Boxes.
 
 ## One-on-Ones (1:1)
 
