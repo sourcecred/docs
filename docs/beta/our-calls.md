@@ -38,7 +38,7 @@ If you are about to start contributing, you are welcome to listen in on this cal
 
 ## Play Time
 
-**What:** Play Time is a space for Creddies to connect through movement and silliness. It is collaborative, spacious and accepting. We spend so much time sitting in front if a screen, so let's get into our bodies! Sometimes we'll pretend to be animals; sometimes we'll do deep breathing exercises -- it all depends on what you need. Come on in and nourish your body and heart. 
+**What:** Play Time is a space for community members to connect through movement and silliness. It is collaborative, spacious and accepting. We spend so much time sitting in front if a screen, so let's get into our bodies! Sometimes we'll pretend to be animals; sometimes we'll do deep breathing exercises -- it all depends on what you need. Come on in and nourish your body and heart. 
 
 **Perfect for** anyone who wants to authentically participate.
 
