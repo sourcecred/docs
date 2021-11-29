@@ -26,7 +26,7 @@ You can see what types of calls are currently scheduled on our[ public calendar]
 
 ## Weekly Update 
 
-**What:** Community members share updates about each major portion of the project as well as potential opportunities to help. This is a weekly call aimed primarily at contributors, people who want to contribute, and anyone who wants to learn about latest work being done in SourceCred. This call gives contributors the opportunity to see the bigger picture and align their actions and priorities with the overall goals of the project. It also gives contributors a chance to get feedback and assistance on larger goals or changes. It helps grow a sense of connection and shared goals across different portions of SourceCred.
+**What:** The Weekly Update is a space for community members to share updates about their work on the project as well as potential opportunities to help. This call gives contributors the opportunity to see the bigger picture and align their actions and priorities with the overall goals of the project. It also gives contributors a chance to get feedback and assistance on larger goals or changes. It helps grow a sense of connection and shared goals across different portions of SourceCred.
 
 **Perfect for** participants who are actively contributing to SourceCred, as well as anyone who would like to be in-tune with the larger picture. 
 
@@ -35,6 +35,14 @@ If you are about to start contributing, you are welcome to listen in on this cal
 **Note:** Being a participant does not make this meeting mandatory for you.
 
 **When:** Weekly,[ **F**riday at 11am Pacific Time](https://sourcecred.io/calendar) on the[ SourceCred Discord](https://sourcecred.io/discord).
+
+## Play Time
+
+**What:** Play Time is a space for Creddies to connect through movement and silliness. It is collaborative, spacious and accepting. We spend so much time sitting in front if a screen, so let's get into our bodies! Sometimes we'll pretend to be animals; sometimes we'll do deep breathing exercises -- it all depends on what you need. Come on in and nourish your body and heart. 
+
+**Perfect for** anyone who wants to authentically participate.
+
+**When:** Wednesdays & Fridays 10-11 PST on the [SourceCred Discord](https://sourcecred.io/discord). Check the [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
 ## Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") (on hiatus)
 
