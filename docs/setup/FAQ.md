@@ -64,3 +64,6 @@ to in the channel settings on Discord, or you can give the bot "user" another
 role that has more permissions in your server settings on Discord. Note: your
 cred graph will include short message previews in the data, which may expose
 some of the message content of private channels.
+
+### Grain distribution distributes 0g to 0 profiles even though I've configured grain.json
+By default it only allows 1 distribution per week, after the end of the week. So either you've already had a distribution this week saved to the ledger, or your discord is super new and the first week isn't over. If you want to run a simulation for testing without saving to the ledger, add the `-s` flag. If you want to run another distribution even if one already exists for the past week, use the `-f` flag.
