@@ -22,7 +22,7 @@ You can see what types of calls are currently scheduled on our[ public calendar]
 
 **Purpose:** To provide newcomers with the opportunity to get to know the project and its main team, or ask any questions they have about SourceCred.
 
-**When:** Weekly, [**Tuesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the [SourceCred Discord](https://sourcecred.io/discord). This meeting is occasionally cannibalized for other emergent contributor needs, so check the calendar to confirm. **Currently on hiatus.**
+**When: Currently on hiatus.** Weekly, [**Tuesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the [SourceCred Discord](https://sourcecred.io/discord). This meeting is occasionally cannibalized for other emergent contributor needs, so check the calendar to confirm. 
 
 ## Weekly Update 
 
@@ -35,6 +35,14 @@ If you are about to start contributing, you are welcome to listen in on this cal
 **Note:** Being a participant does not make this meeting mandatory for you.
 
 **When:** Weekly,[ **F**riday at 11am Pacific Time](https://sourcecred.io/calendar) on the[ SourceCred Discord](https://sourcecred.io/discord).
+
+## Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") (on hiatus)
+
+**What:** A social event! \[note: we're almost done reading this book, stay tuned what's next!] We gather to chill, read, and discuss. Typically a pretty vulnerable, intimate space full of personal sharing.
+
+**Perfect for** anyone who wants to authentically participate.
+
+**When:** **Currently on hiatus.** Usually Mondays 2:15-3:45 PST on the [SourceCred Discord](https://sourcecred.io/discord). Check the [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
 # Ad-Hoc Calls
 
