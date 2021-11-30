@@ -175,8 +175,9 @@ You can read more about configuring the navigation in the
 [Docusaurus docs](https://v2.docusaurus.io/docs/docusaurus.config.js#themeconfig).
 
 #### Adding an external markdown file from another repo
-If a document lives in another repo, such as a README document, you 
-can configure it to be automatically imported by adding a configuration in
+
+If a document lives in another repo, such as a README document, you can
+configure it to be automatically imported by adding a configuration in
 `scripts/external-config.js`
 
 This allows there to be a source of truth elsewhere while still consolidating
