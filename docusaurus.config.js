@@ -85,8 +85,13 @@ module.exports = {
             const docName = parts.pop();
             parts.push("entries");
             parts.push(docName);
+            const partsWithMergedBase = [
+              parts.slice(0, -2).join("-"),
+              ...parts.slice(-2),
+            ];
             return (
-              "https://sourcecred.io/admin/#/collections/" + parts.join("/")
+              "https://sourcecred.io/admin/#/collections/" +
+              partsWithMergedBase.join("/")
             );
           },
         },

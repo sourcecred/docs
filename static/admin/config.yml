@@ -9,8 +9,8 @@ public_folder: "img/uploads"
 site_url: https://sourcecred.io
 logo_url: https://sourcecred.io/img/favicon.png
 collections:
-  # NOTE! It is important that the name field is the same as the subpath of the folder
-  # For example, if the folder is docs/beta/plugins, the name should be beta/plugins
+  # NOTE! It is important that the name field is the subpath of the folder delimited with "-"
+  # For example, if the folder is docs/beta/plugins, the name should be beta-plugins
   # The makes the "Edit this page" buttons work properly.
   - name: "beta"
     label: "Beta Docs"
@@ -51,7 +51,7 @@ collections:
             to the post.",
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "beta/plugins"
+  - name: "beta-plugins"
     label: "Beta Plugin Docs"
     folder: "docs/beta/plugins"
     create: true
@@ -207,7 +207,7 @@ collections:
             to the post.",
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "onboarding/devs"
+  - name: "onboarding-devs"
     label: "Dev Onboarding Docs"
     folder: "docs/onboarding/devs"
     create: true
