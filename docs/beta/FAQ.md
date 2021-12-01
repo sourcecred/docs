@@ -20,7 +20,7 @@ those scores.
 ### Can SourceCred be used to empower marginalized people and/or communities?
 
 That is certainly our goal! As a diverse team, we know that marginalized people
-face systemic challenges and obstacles in the broader job market, often based
+face systemic challenges and obstacles in the broader job market, often based \
 solely on identity. One radical aspect of SourceCred is that it rewards
 **contributions** instead of simply contributors, thereby reducing popularity
 contests between individuals.
@@ -123,7 +123,11 @@ policies of the community creating Grain.
 SourceCred used to have centralized governance model, with our founder
 and "Temporary Benevolent Dictator" having final say on decision making.
 However, as SourceCred has matured, we have decentralized our
-governance. We started this decentralization process with "Core", a central group of key community members who make governance decisions via consensus processes. We are further decentralizing -- we are currently experimenting with Town Halls (gatherings of any and all interested community members) as a consensus decisionmaking process. 
+governance. We started this decentralization process with "Core", a central group of \
+key community members who make governance decisions via consensus processes. \
+We are further decentralizing -- we are currently experimenting with Town Halls \
+(gatherings of any and all interested community members) as a consensus \
+decisionmaking process. 
 
 ### How is this different from being Yet Another Tech Solution to a human problem?
 
@@ -145,7 +149,7 @@ modified [PageRank algorithm](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf
 ### Does SourceCred require one governance system across all projects that use it?
 
 No, SourceCred is a technology for communities with their own governance
-systems. We do advise however, that while SourceCred is still young, it is
+systems. We do advise, however, that at this time SourceCred is
 better suited for smaller communities with emotional maturity and a high level
 of existing trust.
 
@@ -170,10 +174,8 @@ meetings or providing emotional support.
 
 ### How do I request a feature or plugin for a platform not already offered?
 
-You can request features by
-[filing an issue on GitHub](https://github.com/sourcecred/sourcecred/issues).
-Also consider dropping by our weekly dev meeting on Mondays at 12pm PT; see
-[the SourceCred calendar](https://sourcecred.io/calendar).
+You can request features by[ filing an issue on GitHub](https://github.com/sourcecred/sourcecred/issues). Also consider dropping by our \
+weekly dev meeting on Mondays at 12pm PT; see[ the SourceCred calendar](https://sourcecred.io/calendar).
 
 ### How gameable is SourceCred?
 
@@ -181,15 +183,13 @@ SourceCred strives to be as robust to gaming as possible, but we recognize that
 all social systems are gameable to some extent. Rather than trying to make
 SourceCred impervious to gaming, we employ a multi-pronged approach with a focus
 on transparency and easy community management. The core algorithm, based on
-PageRank, has some built-in protections against
-[Sibyl attacks](https://en.wikipedia.org/wiki/Sybil_attack); the plugins have a
+PageRank, has some built-in protections against[ Sibyl attacks](https://en.wikipedia.org/wiki/Sybil_attack); the plugins have a
 number of adjustable weights and heuristics, allowing each community to moderate
 behaviors as needed. Additionally, since Cred retroactively updates, there is a
 natural deterrent against gaming. SourceCred has mostly been used in high-trust
 communities, where the natural social cohesion has kept gaming to a minimum. As
-SourceCred deploys to projects with lower
-[trust levels](https://sourcecred.io/docs/concepts/trust_levels), we‘ll keep
-investing in gaming robustness.
+SourceCred deploys to projects with lower[ trust levels](https://sourcecred.io/docs/concepts/trust_levels), we‘ll keep investing in gaming \
+robustness.
 
 ### Is my community’s data safe with SourceCred?
 
