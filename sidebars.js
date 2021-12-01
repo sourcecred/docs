@@ -28,6 +28,7 @@ module.exports = {
         "Join Our Community": [
           "beta/get-involved",
           "onboarding/devs/getting-started",
+          "beta/our-values",
           "beta/our-platforms",
           "beta/our-calls",
           "beta/best-resources-for-new-contributors",
