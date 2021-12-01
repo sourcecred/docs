@@ -44,6 +44,22 @@ If you are about to start contributing, you are welcome to listen in on this cal
 
 **When:** Wednesdays & Fridays 10-11 PST on the [SourceCred Discord](https://sourcecred.io/discord). Check the [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
+## Men's Group
+
+**What:** This is a space for the SourceCred Men's Group, aka Masculinities Working Group, to share and reflect to and with the community on their experiences. We get into it. The purpose is to support and discover ourselves, each other, and what it means to be constructively masculine today and in the future.
+
+**Perfect for** folks who have lived some or all of their adult life as a man or with the societal expectations thereof. If you're unsure if you fit or are curious to join, we encourage you to reach out to anyone with the "Men's Group" role for a 1-on-1 (20 min) conversation to go over current practices.
+
+**When:** Wednesdays 12-1:30PM PST on the [SourceCred Discord](https://sourcecred.io/discord). Check the [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
+
+## QAF (Queer As Fuck)
+
+**What:** This is a space for queer folks in our community to hang out and share our experiences with one another.
+
+**Perfect for** trans, non-binary, two-spirit, autigender, gay, bi, pan, lesbian, asexual, and queer folks -- as well as everyone else in the soup.
+
+**When:** Thursdays 3-4:30PM PST on the [SourceCred Discord](https://sourcecred.io/discord). Check the [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
+
 ## Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") (on hiatus)
 
 **What:** A social event! \[note: we're almost done reading this book, stay tuned what's next!] We gather to chill, read, and discuss. Typically a pretty vulnerable, intimate space full of personal sharing.
@@ -51,6 +67,8 @@ If you are about to start contributing, you are welcome to listen in on this cal
 **Perfect for** anyone who wants to authentically participate.
 
 **When:** **Currently on hiatus.** Usually Mondays 2:15-3:45 PST on the [SourceCred Discord](https://sourcecred.io/discord). Check the [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
+
+
 
 # Ad-Hoc Calls
 
