@@ -26,7 +26,6 @@ A future group/circle oriented on building out, gaining consensus, literacy, of 
 📝 [Community Call Resource](https://roamresearch.com/#/app/SourceCred/page/F2TN61FYN)
 
 **Community Bots**
-📝 [Meeting Bot Guide](https://docs.google.com/document/d/1CXRz9RpiLNIa9BEtTqjlsd_Zt26KzJ9-olvRwqIctW0/edit?usp=sharing)
 📝 [Meeting Bot Guide 2.0](https://docs.google.com/document/d/1CXRz9RpiLNIa9BEtTqjlsd_Zt26KzJ9-olvRwqIctW0/edit?usp=sharing) - LBS
 
 **Vibes Checker**
