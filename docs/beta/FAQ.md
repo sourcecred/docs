@@ -2,7 +2,6 @@
 title: ❓ FAQ
 description: Your hottest questions about SourceCred, answered.
 ---
-
 SourceCred is a values-driven project aimed at helping communities measure their
 participants’ contributions, both tangible and intangible, and reward engaged
 individuals fairly for the value they bring.
@@ -107,7 +106,7 @@ DAI.
 ### How does Grain get its value?
 
 The value of Grain depends on the community or project issuing Grain. In
-SourceCred itself, every Grain is worth about \$1, thanks to backing from our
+SourceCred itself, every Grain is worth about $1, thanks to backing from our
 sponsors such as Protocol Labs. Whether Grain is valuable in any other community
 depends on how that community is using Grain.
 
@@ -122,13 +121,7 @@ policies of the community creating Grain.
 
 SourceCred used to have centralized governance model, with our founder and
 "Temporary Benevolent Dictator" having final say on decision making. However, as
-SourceCred has matured, we have decentralized our governance. We started this
-decentralization process with "Core", a central group of \
-key community members who make governance decisions via consensus processes. \
-We are further decentralizing -- we are currently experimenting with Town Halls
-\
-(gatherings of any and all interested community members) as a consensus \
-decisionmaking process.
+SourceCred has matured, we are continually decentralizing our governance. We started this decentralization process with "Core", a central group of key community members who make governance decisions via consensus processes. We are currently experimenting with Town Halls (gatherings of any and all interested community members) as a consensus decisionmaking process.
 
 ### How is this different from being Yet Another Tech Solution to a human problem?
 
@@ -160,8 +153,7 @@ trust.
 
 If you have some technical skills and are using currently supported platforms
 (GitHub, Discourse, and Discord), take a look at our documentation on
-[How To Set Up SourceCred](https://sourcecred.io/docs/beta/setup-guide). Note
-that for Discord, you‘ll need the permissions to add a bot to the server.
+[How To Set Up SourceCred](https://sourcecred.io/docs/beta/setup-guide). Note that for Discord, you‘ll need the permissions to add a bot to the server.
 
 ### How does SourceCred keep track of intangible work? (e.g. organizing meetings, emotional labor, etc.)
 
@@ -175,10 +167,7 @@ meetings or providing emotional support.
 
 ### How do I request a feature or plugin for a platform not already offered?
 
-You can request features
-by[ filing an issue on GitHub](https://github.com/sourcecred/sourcecred/issues).
-Also consider dropping by our \
-weekly dev meeting on Mondays at 12pm PT; see[ the SourceCred calendar](https://sourcecred.io/calendar).
+You can request features by[ filing an issue on GitHub](https://github.com/sourcecred/sourcecred/issues). Also consider dropping by our weekly dev meeting on Mondays at 12pm PT; see[ the SourceCred calendar](https://sourcecred.io/calendar).
 
 ### How gameable is SourceCred?
 
@@ -186,16 +175,12 @@ SourceCred strives to be as robust to gaming as possible, but we recognize that
 all social systems are gameable to some extent. Rather than trying to make
 SourceCred impervious to gaming, we employ a multi-pronged approach with a focus
 on transparency and easy community management. The core algorithm, based on
-PageRank, has some built-in protections
-against[ Sibyl attacks](https://en.wikipedia.org/wiki/Sybil_attack); the plugins
+PageRank, has some built-in protections against[ Sibyl attacks](https://en.wikipedia.org/wiki/Sybil_attack); the plugins
 have a number of adjustable weights and heuristics, allowing each community to
 moderate behaviors as needed. Additionally, since Cred retroactively updates,
 there is a natural deterrent against gaming. SourceCred has mostly been used in
 high-trust communities, where the natural social cohesion has kept gaming to a
-minimum. As SourceCred deploys to projects with
-lower[ trust levels](https://sourcecred.io/docs/concepts/trust_levels), we‘ll
-keep investing in gaming \
-robustness.
+minimum. As SourceCred deploys to projects with lower[ trust levels](https://sourcecred.io/docs/concepts/trust_levels), we‘ll keep investing in gaming robustness.
 
 ### Is my community’s data safe with SourceCred?
 
