@@ -9,7 +9,8 @@ from JSON files following the [Initiatives concept]. Its source can be found
 
 ## Status and Caveats
 
-This plugin is currently in Beta, and tech support for it is limited since it has not been actively developed in over a year.
+This plugin is currently in Beta, and tech support for it is limited since it
+has not been actively developed in over a year.
 
 One caveat is that an Initiative mixes objective data (who did what) with
 subjective data (how valuable was that). In SourceCred it's a feature that we
