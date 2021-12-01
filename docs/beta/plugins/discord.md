@@ -176,6 +176,7 @@ The Discord Plugin has the richest configuration features of any of our plugins.
     },
     "includeNsfwChannels": false,
     "propsChannels": [
+      "980234890234890234",
       "455678923985232390"
     ],
     "reactionWeightConfig": {
