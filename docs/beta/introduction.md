@@ -1,6 +1,7 @@
 ---
 title: 🌱  Introduction
 description: An introduction to the basic concepts of SourceCred.
+slug: /
 ---
 
 Welcome to your new favorite rabbit hole. This doc will offer you a basic
