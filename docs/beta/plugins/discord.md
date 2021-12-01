@@ -160,7 +160,7 @@ add the bot token to the GitHub Action that updates scores. Check out
 [GitHub’s guide](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository)
 for how to add the token as a Secret that can be read by the Action.
 
-# 7. (Optional) Additional Configuration
+## 7. (Optional) Additional Configuration
 
 The Discord Plugin has the richest configuration features of any of our plugins. An example of a more complex `config/plugins/sourcecred/discord/config.json` file might look like:
 ```json
@@ -253,6 +253,8 @@ The emoji ID is `745438325086879794`. The reaction weight is then specified in
 to have `:sourcecred_pink:` be 20 times a regular reaction, we would add the
 below line to `config.json`.
 
+`applyAveraging` - `false` by default, meaning that the emoji scores on a message are all added together, so more people reacting means more Cred. `true` would mean that the emojis will be summed for each user, and then averaged across users, so more people reacting does not mean more Cred.
+
 `"sourcecred_pink:745438325086879794": 20`
 
 ### channelWeightConfig
@@ -263,10 +265,13 @@ Since IDs are not human-interpretable and can be hard to manage, we support addi
 Channel Categories are also supported. Simply add the category ID the same as you would add a channel ID. The category weight will be used if there is not a weight explicitly set for a channel within the category.
 
 ### roleWeightConfig
-This can be used similarly to `reactionWeightConfig` to change the multipliers for reactions given by users with a given role. Reactions given by someone with a role that has a weight of 2 will be worth twice as much as reactions given by someone with a role that has a weight of 1. `//` comments are also supported here.
+This can be used similarly to `reactionWeightConfig` to change the multipliers for reactions given by users with a given role. Reactions given by someone with a role that has a weight of 2 will be worth twice as much as reactions given by someone with a role that has a weight of 1. `//` comments are also supported here. If a user has multiply weighted roles, the highest weight will be used.
 
 ### propsChannels
+There are 3 edge types that connect a message to a user: `authors`, `mentions`, and `props`. By default, a message will use `authors` and `mentions`. If you add channel IDs to propsChannels, messages in those channels will use `authors` for the author and `props` for people mentioned. With a high edge weight set for `props` edges, the people mentioned in messages in that channel will receive much more cred than the authors. Additionally, props channels allow reactions by the author of a message to be counted (they are usually ignored). This is a great way to implement a #props or #praise channel, where people can post praise for others.
 
+### includeNsfwChannels
+In Discord, channels can be marked as NSFW (not safe for work) in the channel's settings. If you really want to include NSWF channels in the graph, you can set includeNsfwChannels to true. We discourage this, because message previews are included in the CredGraph, so you may be exposing explicit content publicly. 
 
 [yarn]: https://classic.yarnpkg.com/
 
