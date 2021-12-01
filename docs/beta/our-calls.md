@@ -56,12 +56,9 @@ If you are about to start contributing, you are welcome to listen in on this cal
 
 ## Jams
 
-A Jam is an open and moderately unstructured call for interested participants to brainstorm about or dive into a specific topic. From crypto-economics to values, from legal and regulation to community-care; topics for Jams can be anything that relates to SourceCred in some way. Schedule a Jam whenever you see that there's a lot of desire to talk about something together, but no time in \*this\* meeting. 
+**What:** A Jam is an open and moderately unstructured call for interested participants to brainstorm about or dive into a specific topic. From crypto-economics to values, from legal and regulation to community-care; topics for Jams can be anything that relates to SourceCred in some way. Schedule a Jam whenever you see that there's a lot of desire to talk about something together, but no time in \*this\* meeting. 
 
 Jams can be scheduled by anyone who'd like to host one, and often get put on the calendar when it becomes obvious that everyone really wants to keep talking about a topic. 
-
-**What:** A designated time to talk about a specific subject and how it relates to
-SourceCred.
 
 **Perfect for** anyone who finds that particular topic interesting or relevant
 to their work in SourceCred.
@@ -76,13 +73,11 @@ timing is usually based off the availability of key participants. Check out the
 
 ## Town Halls
 
-**What:** 
+**What:** Town Halls are governance meetings -- community members come together, talk about issues, and write and ratify policy together.
 
 **Perfect for** community members.
 
-**Purpose:** 
-
-**Where:** Typically in the main meeting room channel.
+**Purpose:** To discuss and make decisions on governance topics as a community.
 
 **When:** No set time or reoccurrence. Town Halls are scheduled as one-off events. Check out the [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Town Halls.
 
@@ -98,8 +93,6 @@ specific branch, and the branch lead.
 **Purpose:** Keeps teams effective, aligned, and communicating. Helps grow a sense
 of connection and shared goals within the branch. Gives contributors a chance to
 receive help, propose new ideas, and communicate changes.
-
-**Where:** Discord Main voice channel.
 
 **When:** At a regular day/time of the team’s choosing. Find them on the
 [SourceCred Calendar](https://sourcecred.io/calendar).
@@ -120,7 +113,8 @@ question can attend to gain context.
 progress on an initiative or project. By nature of being shorter, these are also
 less taxing and can help keep contributors on track.
 
-**When:** Scheduled as one-off events when asynchronous coordination won’t cut it.
+**When:** Scheduled as one-off events when asynchronous coordination won’t cut it. Find them on the
+[SourceCred Calendar](https://sourcecred.io/calendar).
 
 ## Soap Boxes[](https://sourcecred.io/docs/beta/our-calls#soap-boxes "Direct link to heading")
 
@@ -129,8 +123,6 @@ less taxing and can help keep contributors on track.
 **Perfect for** anyone who finds that particular topic interesting or relevant.
 
 **Purpose:** To let out steam, to align or to see where we may not align; to allow a social space to speak uninterrupted about general or controversial topics. Has MC and allows for uninterrupted, times shares.
-
-**Where:** Typically in the Watercooler channel.
 
 **When:** No set time or reoccurrence. Soap boxes are scheduled as one-off events, and timing is usually based off the availability of the MC. Check out the [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Soap Boxes.
 
