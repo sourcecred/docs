@@ -160,7 +160,7 @@ add the bot token to the GitHub Action that updates scores. Check out
 [GitHub’s guide](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository)
 for how to add the token as a Secret that can be read by the Action.
 
-## 7. (Optional) Additional Configuration
+## Additional Configuration
 
 The Discord Plugin has the richest configuration features of any of our plugins. An example of a more complex `config/plugins/sourcecred/discord/config.json` file might look like:
 ```json
