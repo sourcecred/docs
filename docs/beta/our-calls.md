@@ -1,10 +1,8 @@
 ---
 title: ☎️ Our Calls
-description:
-  See the various calls, meetings, work sessions, and jams the SourceCred
-  community has on a regular basis.
+description: See the various calls, meetings, work sessions, and jams the
+  SourceCred community has on a regular basis.
 ---
-
 SourceCred is a community in which most contributors are remote and work
 asynchronously, allowing anyone to contribute no matter their location and
 availability. We hold regularly scheduled calls which are open to everyone, to
@@ -16,9 +14,9 @@ channels.
 You can see what types of calls are currently scheduled on
 our[ public calendar](http://sourcecred.io/calendar).
 
-# Weekly Calls
+## Weekly Calls
 
-## Community Call \[on hiatus]
+### Community Call \[on hiatus]
 
 **What:** The Community Call is a great space for newcomers and experienced
 community members alike. We take time to check in with each other as people, and
@@ -38,7 +36,7 @@ project and its main team, or ask any questions they have about SourceCred.
 occasionally cannibalized for other emergent contributor needs, so check the
 calendar to confirm.
 
-## Weekly Update
+### Weekly Update
 
 **What:** The Weekly Update is a space for community members to share updates
 about their work on the project as well as potential opportunities to help. This
@@ -60,11 +58,10 @@ knowledge.
 
 **Note:** Being a participant does not make this meeting mandatory for you.
 
-**When:**
-Weekly,[ **F**riday at 11am Pacific Time](https://sourcecred.io/calendar) on
+**When:** Weekly,[ **F**riday at 11am Pacific Time](https://sourcecred.io/calendar) on
 the[ SourceCred Discord](https://sourcecred.io/discord).
 
-## Play Time
+### Play Time
 
 **What:** Play Time is a space for community members to connect through movement
 and silliness. It is collaborative, spacious and accepting. We spend so much
@@ -79,7 +76,7 @@ nourish your body and heart.
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
-## Men's Group
+### Men's Group
 
 **What:** This is a space for the SourceCred Men's Group, aka Masculinities
 Working Group, to share and reflect to and with the community on their
@@ -96,7 +93,7 @@ role for a 1-on-1 (20 min) conversation to go over current practices.
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
-## QAF (Queer As Fuck)
+### QAF (Queer As Fuck)
 
 **What:** This is a space for queer folks in our community to hang out and share
 our experiences with one another.
@@ -108,7 +105,7 @@ lesbian, asexual, and queer folks -- as well as everyone else in the soup.
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
-## Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") \[on hiatus]
+### Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") \[on hiatus]
 
 **What:** A social event! \[note: we're almost done reading this book, stay
 tuned what's next!] We gather to chill, read, and discuss. Typically a pretty
@@ -120,9 +117,9 @@ vulnerable, intimate space full of personal sharing.
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
-# Ad-Hoc Calls
+## Ad-Hoc Calls
 
-## Jams
+### Jams
 
 **What:** A Jam is an open and moderately unstructured call for interested
 participants to brainstorm about or dive into a specific topic. From
@@ -146,7 +143,7 @@ in the project.
 timing is usually based off the availability of key participants. Check out the
 [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Jams.
 
-## Town Halls
+### Town Halls
 
 **What:** Town Halls are governance meetings -- community members come together,
 talk about issues, and write and ratify policy together.
@@ -159,7 +156,7 @@ talk about issues, and write and ratify policy together.
 events. Check out the [SourceCred Calendar](https://sourcecred.io/calendar) to
 see upcoming Town Halls.
 
-## Trunk, Branch, or Team-Specific Meetings
+### Trunk, Branch, or Team-Specific Meetings
 
 **What:** Meetings for contributors working in a specific branch to coordinate,
 check in on progress, and align goals and action with each other and the branch
@@ -175,7 +172,7 @@ chance to receive help, propose new ideas, and communicate changes.
 **When:** At a regular day/time of the team’s choosing. Find them on the
 [SourceCred Calendar](https://sourcecred.io/calendar).
 
-## Work Sessions
+### Work Sessions
 
 **What:** A generally shorter and faster-paced session scheduled for a specific
 team to come together and make progress on a specific goal or initiative. Having
@@ -194,7 +191,7 @@ also less taxing and can help keep contributors on track.
 **When:** Scheduled as one-off events when asynchronous coordination won’t cut
 it. Find them on the [SourceCred Calendar](https://sourcecred.io/calendar).
 
-## Soap Boxes[](https://sourcecred.io/docs/beta/our-calls#soap-boxes "Direct link to heading")
+### Soap Boxes[](https://sourcecred.io/docs/beta/our-calls#soap-boxes "Direct link to heading")
 
 **What:** A designated time to talk aloud about a specific subject and how it
 may or may not relate to SourceCred.
@@ -210,7 +207,7 @@ events, and timing is usually based off the availability of the MC. Check out
 the [SourceCred Calendar](https://sourcecred.io/calendar) to see upcoming Soap
 Boxes.
 
-## One-on-Ones (1:1)
+### One-on-Ones (1:1)
 
 **What:** Time scheduled with another contributor, often someone who has more
 context in the project than yourself, for the purpose of gaining context, asking
