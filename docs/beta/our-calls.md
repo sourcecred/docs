@@ -14,7 +14,7 @@ You can see what types of calls are currently scheduled on our[ public calendar]
 
 # Weekly Calls
 
-## Community Call (on hiatus)
+## Community Call \[on hiatus]
 
 **What:** The Community Call is a great space for newcomers and experienced community members alike. We take time to check in with each other as people, and get to know the newer folks. Come join us and share a bit about who you are, why you're curious about SourceCred, and what you like to work on. It's also a great way to get to know the other participants and ask any questions you may have about who we are and what we do. 
 
@@ -60,7 +60,7 @@ If you are about to start contributing, you are welcome to listen in on this cal
 
 **When:** Thursdays 3-4:30PM PST on the [SourceCred Discord](https://sourcecred.io/discord). Check the [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
-## Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") (on hiatus)
+## Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") \[on hiatus]
 
 **What:** A social event! \[note: we're almost done reading this book, stay tuned what's next!] We gather to chill, read, and discuss. Typically a pretty vulnerable, intimate space full of personal sharing.
 
