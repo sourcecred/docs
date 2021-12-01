@@ -2,7 +2,6 @@
 title: ❓ FAQ
 description: Your hottest questions about SourceCred, answered.
 ---
-
 SourceCred is a values-driven project aimed at helping communities measure their
 participants’ contributions, both tangible and intangible, and reward engaged
 individuals fairly for the value they bring.
@@ -108,7 +107,7 @@ DAI.
 ### How does Grain get its value?
 
 The value of Grain depends on the community or project issuing Grain. In
-SourceCred itself, every Grain is worth about \$1, thanks to backing from our
+SourceCred itself, every Grain is worth about $1, thanks to backing from our
 sponsors such as Protocol Labs. Whether Grain is valuable in any other community
 depends on how that community is using Grain.
 
@@ -121,11 +120,10 @@ policies of the community creating Grain.
 
 ### How is SourceCred governed?
 
-At the moment, SourceCred has a centralized governance model, with our founder
+SourceCred used to have centralized governance model, with our founder
 and "Temporary Benevolent Dictator" having final say on decision making.
-However, as SourceCred matures, we will be switching to decentralized
-governance. We‘re currently building the tools that will enable decentralizing
-the project.
+However, as SourceCred has matured, we have decentralized our
+governance. We started this decentralization process with "Core", a central group of key community members who make governance decisions via consensus processes. We are further decentralizing -- we are currently experimenting with Town Halls (gatherings of any and all interested community members) as a consensus decisionmaking process. 
 
 ### How is this different from being Yet Another Tech Solution to a human problem?
 
