@@ -218,7 +218,7 @@ Wow! Let's break it down.
 ### guildId
 This is the server ID that you set in the above instructions. This is the minimum configuration needed. You can include multiple servers by creating multiple configurations within the highest level array. You can see this in the above, as we have a config for `"guildId": "678348980639498428",` and for `"guildId": "225902581209348902",`.
 
-# reactionWeightConfig
+### reactionWeightConfig
 
 SourceCred can be configured to mint different amounts of Cred for different
 emojis . This is done by setting custom reaction weights in the Discord plugin
@@ -227,13 +227,16 @@ configuration file: `config/plugins/sourcecred/discord/config.json`
 If you want to change the weight for a default reaction, just put the reaction's
 literal emoji in `config.json`. For example, if you wanted the 💜 emoji to have
 a weight that is 5 times a regular reaction, add the line `"💜": 5` to the
-`config.json`, as shown below.
+config, as shown below.
 
 ```json
   "reactionWeightConfig": {
-    "👍": 1,
-    "💜": 5,
-    "sourcecred:678399364418502669": 10
+    "default": 0,
+    "weights": {
+      "👍": 1,
+      "💜": 5,
+      "sourcecred:678399364418502669": 10
+    }
   }
 ```
 
@@ -251,6 +254,19 @@ to have `:sourcecred_pink:` be 20 times a regular reaction, we would add the
 below line to `config.json`.
 
 `"sourcecred_pink:745438325086879794": 20`
+
+### channelWeightConfig
+This can be used similarly to `reactionWeightConfig` to change the multipliers for each channel. Reactions in a channel with a weight of 2 will be worth twice as much as in a channel with a weight of 1.
+
+Since IDs are not human-interpretable and can be hard to manage, we support adding comments inside the channel ID key by using the delimiter `//`. You can see this above as `"958390223495238354//general channel": 3`
+
+Channel Categories are also supported. Simply add the category ID the same as you would add a channel ID. The category weight will be used if there is not a weight explicitly set for a channel within the category.
+
+### roleWeightConfig
+This can be used similarly to `reactionWeightConfig` to change the multipliers for reactions given by users with a given role. Reactions given by someone with a role that has a weight of 2 will be worth twice as much as reactions given by someone with a role that has a weight of 1. `//` comments are also supported here.
+
+### propsChannels
+
 
 [yarn]: https://classic.yarnpkg.com/
 
