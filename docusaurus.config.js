@@ -81,11 +81,13 @@ module.exports = {
             permalink,
             locale,
           }) => {
-            const parts = docPath.replace(".md", "").split("/")
-            const docName = parts.pop()
-            parts.push("entries")
-            parts.push(docName)
-            return "https://sourcecred.io/admin/#/collections/" + parts.join("/");
+            const parts = docPath.replace(".md", "").split("/");
+            const docName = parts.pop();
+            parts.push("entries");
+            parts.push(docName);
+            return (
+              "https://sourcecred.io/admin/#/collections/" + parts.join("/")
+            );
           },
         },
         theme: {
