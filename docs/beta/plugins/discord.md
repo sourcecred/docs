@@ -160,7 +160,65 @@ add the bot token to the GitHub Action that updates scores. Check out
 [GitHub’s guide](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository)
 for how to add the token as a Secret that can be read by the Action.
 
-### 7. (Optional) Custom Weights
+# 7. (Optional) Additional Configuration
+
+The Discord Plugin has the richest configuration features of any of our plugins. An example of a more complex `config/plugins/sourcecred/discord/config.json` file might look like:
+```json
+[
+  {
+    "guildId": "678348980639498428",
+    "channelWeightConfig": {
+      "defaultWeight": 1,
+      "weights": {
+        "455678923985223390": 2,
+        "958390223495238354//general channel": 3
+      }
+    },
+    "includeNsfwChannels": false,
+    "propsChannels": [
+      "455678923985232390"
+    ],
+    "reactionWeightConfig": {
+      "applyAveraging": false,
+      "defaultWeight": 1,
+      "weights": {
+        "sourcecred:678399364418502669": 10,
+        "👍": 2
+      }
+    },
+    "roleWeightConfig": {
+      "defaultWeight": 1,
+      "weights": {
+        "982349058213903445": 4
+      }
+    }
+  },
+  {
+    "guildId": "225902581209348902",
+    "channelWeightConfig": {
+      "defaultWeight": 1,
+      "weights": {}
+    },
+    "includeNsfwChannels": false,
+    "propsChannels": [],
+    "reactionWeightConfig": {
+      "applyAveraging": false,
+      "defaultWeight": 1,
+      "weights": {}
+    },
+    "roleWeightConfig": {
+      "defaultWeight": 1,
+      "weights": {}
+    }
+  }
+]
+```
+Wow! Let's break it down.
+
+### guildId
+This is the server ID that you set in the above instructions. This is the minimum configuration needed. You can include multiple servers by creating multiple configurations within the highest level array. You can see this in the above, as we have a config for `"guildId": "678348980639498428",` and for `"guildId": "225902581209348902",`.
+
+# reactionWeightConfig
 
 SourceCred can be configured to mint different amounts of Cred for different
 emojis . This is done by setting custom reaction weights in the Discord plugin
@@ -172,14 +230,11 @@ a weight that is 5 times a regular reaction, add the line `"💜": 5` to the
 `config.json`, as shown below.
 
 ```json
-{
-  "guildId": "742885338065666150",
-  "reactionWeights": {
+  "reactionWeightConfig": {
     "👍": 1,
     "💜": 5,
     "sourcecred:678399364418502669": 10
   }
-}
 ```
 
 If you want to set a custom weight for a custom emoji, you'll first need to get
@@ -199,6 +254,7 @@ below line to `config.json`.
 
 [yarn]: https://classic.yarnpkg.com/
 
+<br/>
 <br/>
 
 _Need more help? Post in SourceCred's Tech Support Discord channel._
