@@ -76,7 +76,7 @@ grain according to an immediate policy and 15,000 grain according to a balanced
 policy."
 
 For an example distribution configuration, check out our
-[template instance README](https://github.com/sourcecred/template-instance#distributing-grain).
+[template instance README](https://github.com/sourcecred/template-instance#step-8-distribute-rewards).
 
 ### _“What if I contributed a lot before a small Grain distribution, and then less before a bigger Grain distribution?”_
 
