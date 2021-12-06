@@ -52,6 +52,9 @@ of how to set this in a Github Action file. If you are still seeing out of
 memory errors, you might want to consider a
 [self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners)
 
+### ENAMETOOLONG: name too long
+This is an environment incompatibility, likely with your OS / OS version. Windows and Linux Mint 20.2 are likely incompatible. Ubuntu 20.04 and Mac OS's are known to work. We are working on a long-term fix.
+
 ## Configuration Questions
 
 ### Skipping private channel.
