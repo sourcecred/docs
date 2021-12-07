@@ -13,17 +13,20 @@ below, jump into our
 ### Error: need at least one interval
 
 This error means there are no nodes are present. Check that you have at least
-one bundled plugin specified in the `sourcecred.json`. If you do already, then
-refer to the below `No outflow from seed; add cred-minting nodes` solution for
-this error as well.
+one bundled plugin specified in the `sourcecred.json`. If you do already, then refer to the below `No outflow from seed; add cred-minting nodes` solution for this error as well.
 
 ### No outflow from seed; add cred-minting nodes
 
-This error is caused because there is no cred-generating event. For the github
-plugin, this can be fixed by simply merging in a PR, as the initial
-cred-generating event. For Discord, a message with an emoji is needed. It's also
+This error is caused because there is no cred-generating event.
+
+For the github plugin, this can be fixed by simply merging in a PR, as the initial
+cred-generating event.
+
+For Discord, a message with an emoji is needed. The message and the emoji need to be from different users. (Or alternative setup hack if you just want to verify setup on a server that only you are in: add the channel id to the `propsChannels` array in the config, which has a side effect of allowing cred to be minted when someone reacts to their own message.) It's also
 worth checking that the Discord bot you've configured is able to read any
-channels in your server. For Discourse, a post with a like is needed (note, the
+channels in your server.
+
+For Discourse, a post with a like is needed (note, the
 Discourse plugin only supports public servers/threads). You may need to wipe
 your cache by running `yarn clean` after adding a cred-generating event.
 
