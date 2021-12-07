@@ -24,6 +24,7 @@ module.exports = {
           },
         ],
       },
+      "beta/help-us-help-you",
       {
         "Join Our Community": [
           "beta/get-involved",
