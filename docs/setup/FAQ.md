@@ -13,7 +13,7 @@ below, jump into our
 ### Error: need at least one interval
 
 This error means there are no nodes are present. Check that you have at least
-one bundled plugin specified in the `sourcecred.json`
+one bundled plugin specified in the `sourcecred.json`. If you do already, then refer to the below `No outflow from seed; add cred-minting nodes` solution for this error as well.
 
 ### No outflow from seed; add cred-minting nodes
 
