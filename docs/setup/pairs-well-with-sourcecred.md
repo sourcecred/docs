@@ -3,7 +3,8 @@ title: 🍐 Pairs well with SourceCred
 description: Technology that pairs well with a SourceCred instance
 ---
 
-Here is a list of 1st- and 3rd-party accessory tools that you may find useful when using SourceCred.
+Here is a list of 1st- and 3rd-party accessory tools that you may find useful
+when using SourceCred.
 
 # 🤖 B O T S
 
