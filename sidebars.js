@@ -15,6 +15,7 @@ module.exports = {
           "beta/setup-guide",
           "external/template-instance",
           "setup/FAQ",
+          "setup/pairs-well-with-sourcecred",
           {
             "🔌 Plugins": [
               "beta/plugins/github",
