@@ -7,6 +7,7 @@ module.exports = {
           "beta/FAQ",
           "beta/cred",
           "beta/grain",
+          "beta/who-uses-us",
         ],
       },
       {
