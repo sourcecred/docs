@@ -108,8 +108,8 @@ grain or showing up in the Cred rankings.
 
 Bots have the same connections as users.
 
-[bots.js]:
-  https://github.com/sourcecred/sourcecred/blob/main/src/plugins/github/bots.js
+[bots.js]: https://github.com/sourcecred/sourcecred/blob/main/packages/sourcecred/src/plugins/github/bots.js
+
 
 ### Edges
 
