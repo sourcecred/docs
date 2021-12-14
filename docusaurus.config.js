@@ -11,8 +11,8 @@ module.exports = {
       id: "winter_break_2021",
       content:
         'We will be taking radical rest from Dec 15 - Jan 17, and you might not hear back from us much. For info on how this affects Grain, etc, <a target="_blank" rel="noopener noreferrer" href="https://discourse.sourcecred.io/t/finalized-proposal-dec-jan-break-and-airdrop-2021/1306">click here</a>.',
-      backgroundColor: "#ff66ed",
-      textColor: "#091E42",
+      backgroundColor: "#ff7098",
+      textColor: "#28020d",
       isCloseable: false,
     },
     colorMode: {
