@@ -46,7 +46,7 @@ Grain distribution is a two-step process in which the Cred is recomputed (so
 scores are as fresh as possible), and Grain is then distributed based on those
 Cred scores.
 
-SourceCred currently has two policies for how a project distributes Grain:
+SourceCred currently has three policies for how a project distributes Grain:
 
 - `IMMEDIATE` splits Grain evenly based on how much Cred each participant earned
   in the last week. (This policy ignores all Cred from previous weeks, and is
