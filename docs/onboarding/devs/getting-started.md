@@ -1,8 +1,7 @@
 ---
 title: 💻 Onboarding as a Software Dev
-description:
-  Recommended steps for getting involved on our team as a coder / software
-  engineer.
+description: Recommended steps for getting involved on our team as a coder /
+  software engineer.
 ---
 
 Onboarding for a Software Dev is a little more straightforward than for other
@@ -19,7 +18,7 @@ in Discord, and the Community Call on Tuesdays, like anyone.
 
    1. [this Data Flow walk through](https://drive.google.com/drive/u/2/folders/1mykBgyezrkLnN6kSMWrfq4etrwuunqe6)
       and [accompanying diagram](https://miro.com/app/board/o9J_luhteFo=/)
-   2. [this Code Architecture walk through](https://zoom.us/rec/share/Rv8t99k0bfPJbSwbBD7cX4wlcq-Ekf5-Ai9lvws4AxSDvD-khy546KahRYbpoZm8.6aP2NciutnkUTR-3?startTime=1620677252000)
+   2. [this Code Architecture walk through](https://drive.google.com/drive/u/2/folders/16aApUtwqCmi4EX8Z6fkCJXJZCzh5wRTU)
       and [accompanying diagram](https://miro.com/app/board/o9J_lF3UvK4=/)
 
 ## Step 2: Jump in
@@ -81,7 +80,7 @@ Monday May 24, 2021
 > _Code Walkthrough with Thena_
 
 🎥
-[Recording](https://zoom.us/rec/share/IQIDZReKygES5hsvgxZ2yt_o7P2BN2YN6fuTUHyUUEq2yqOFyaTrWdyhe-b-VuUO.MsMdCobHy-cm3_l4?startTime=1621886940000)
+[Recording](https://drive.google.com/drive/u/2/folders/16aApUtwqCmi4EX8Z6fkCJXJZCzh5wRTU)
 
 ## External Plugin Tutorial
 
