@@ -33,3 +33,42 @@ be added.
 [🕸 Website](https://community.stacks.org/advocates)
 
 [💾 SourceCred Instance Repository](https://github.com/hozzjss/advocates-sc)
+
+### Giveth 
+
+[🕸 Website](https://giveth.io/)
+
+[💾 SourceCred Instance Repository](https://github.com/Giveth/sourcecred-instance)
+
+### Token Engineering Commons
+
+[🕸 Website](https://tecommons.org/)
+
+[💾 SourceCred Instance Repository](https://github.com/CommonsBuild/tec-sourcecred)
+
+### ShineDAO
+
+[🕸 Website](https://shinedao.finance/)
+
+[💾 SourceCred Instance Repository](https://github.com/ShineDAO/template-instance)
+
+### GEOWEB
+
+[🕸 Website](https://www.geoweb.network/post/weekly-update-56)
+
+[💾 SourceCred Instance Repository](https://github.com/Geo-Web-Project/sourcecred-instance)
+
+### Shenanigan
+
+[🕸 Website](https://she.energy/docs/)
+
+[💾 SourceCred Instance Repository](https://github.com/ShenaniganDApp/scoreboard)
+
+### Aragon
+
+[🕸 Website](https://aracred.github.io/website/)
+
+[📜Lineage](https://aracred.github.io/website/docs/lineage)
+
+[💾 AraCred Instance Repository](https://github.com/aracred) 
+
