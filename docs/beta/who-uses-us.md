@@ -34,7 +34,7 @@ be added.
 
 [💾 SourceCred Instance Repository](https://github.com/hozzjss/advocates-sc)
 
-### Giveth 
+### Giveth
 
 [🕸 Website](https://giveth.io/)
 
@@ -70,5 +70,4 @@ be added.
 
 [📜Lineage](https://aracred.github.io/website/docs/lineage)
 
-[💾 AraCred Instance Repository](https://github.com/aracred) 
-
+[💾 AraCred Instance Repository](https://github.com/aracred)
