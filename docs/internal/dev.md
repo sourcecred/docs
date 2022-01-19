@@ -5,6 +5,7 @@ description: A resource hub for active devs.
 ---
 
 ## Dev Governance
+
 - [Product Circle Bylaws](./product-circle-bylaws)
 
 ## Standard Operating Procedures
