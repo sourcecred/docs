@@ -4,6 +4,9 @@ sidebar_label: Dev
 description: A resource hub for active devs.
 ---
 
+## Dev Governance
+- [Product Circle Bylaws](./product-circle-bylaws)
+
 ## Standard Operating Procedures
 
 - [Merging Dependabot Pull Requests](https://roamresearch.com/#/app/SourceCred/page/GwKyfBn7V)
