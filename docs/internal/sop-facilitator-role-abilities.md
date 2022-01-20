@@ -4,11 +4,14 @@ description: "Here's how to do some facilitator-y things in our Discord server. 
 ---
 This document is currently in progress. Ezra, aka @helpy-boy, is writing it to make it easier to onboard new facilitators and to outline a potential "facilitator" role on discord.
 
+All facilitators should know how to write and (within a time limit) edit a meeting note.
+Trusted facilitators <<idk what that means yet, fully>> should be able to edit a meeting note within a larger time limit, and be able to mute people on calls. 
+
 ## Meeting Notes
 We use a bot to record who is present in a call. 
 
 ### Activating the bot
-In order to activate the bot, go to the #bot-commands channel and type the following:
+In order to activate the bot, first enter the discord room in which you intend to have the call. Then, go to the #bot-commands channel and enter the following:
 ```
 !meeting --outputchannel meeting-notes --duration insert_duration_in_minutes_here
 **name_of_event_goes_here**
