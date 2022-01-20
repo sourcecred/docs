@@ -1,3 +1,6 @@
+---
+title: Product Circle Bylaws
+---
 # Product Circle Bylaws
 
 - Product Circle uses a consent-based decision-making process
