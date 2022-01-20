@@ -33,4 +33,4 @@ If you are on a call and someone is unmuted and making distracting or disrupting
 If the meeting is not urgent, the sound is not awful, or it generally doesn't feel super annoying, **ask them to mute themself first**, either by saying so aloud or tagging them in the #meeting-chat with a request. 
 
 ### Server mute 
-If they do not respond to a request to mute or the sound is an urgent issue, **you can server mute them.** To 
+If they do not respond to a request to mute or the sound is an urgent issue, **you can server mute them.** (To do so, you must have discord permissions.) In the call pop-up showing people on the call, right-click on the user's video/icon. Select "server mute" in red. **Let the person know you have muted them, and ask them to tell you when they want to be unmuted.** Server mutes prevent the user from unmuting themself until you (or someone with discord permissions) un-clicks "server mute".  When you un-click "server mute", the user will (a) be unmuted again and (b) be able to mute and unmute at will.   
