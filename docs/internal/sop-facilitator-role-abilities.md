@@ -2,7 +2,7 @@
 title: "[SOP] Facilitator Role Abilities"
 description: "Here's how to do some facilitator-y things in our Discord server. "
 ---
-This document is currently in progress. Ezra, aka helpy-boy, is writing it to make it easier to onboard new facilitators and to outline a potential "facilitator" role on discord.
+This document is currently in progress. Ezra, aka @helpy-boy, is writing it to make it easier to onboard new facilitators and to outline a potential "facilitator" role on discord.
 
 ## Meeting Notes
 We use a bot to record who is present in a call. 
