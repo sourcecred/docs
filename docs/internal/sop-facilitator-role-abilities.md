@@ -2,7 +2,7 @@
 title: "[SOP] Facilitator Role Abilities"
 description: "Here's how to do some facilitator-y things in our Discord server. "
 ---
-This document is currently in progress. Ezra, aka @helpy-boy, is writing it to make it easier to onboard new facilitators and to outline a potential "facilitator" role on discord.
+This document is currently in progress. Ezra, aka @helpy-boy, is writing it to make it easier to onboard new facilitators and to outline a potential "facilitator" role on discord -- feel free to chat with me if you have thoughts/want to collab!
 
 All facilitators should know how to write and (within a time limit) edit a meeting note.
 Trusted facilitators <<idk what that means yet, fully>> should be able to edit a meeting note within a larger time limit, and be able to mute people on calls. 
