@@ -1,6 +1,7 @@
 ---
 title: "[SOP] Merge/Activate your own identity"
-description: Standard Operating Procedures for Merging/ Activating your own Identity
+description:
+  Standard Operating Procedures for Merging/ Activating your own Identity
 ---
 
 - **Prerequisites**
