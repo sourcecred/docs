@@ -23,6 +23,7 @@ description: A resource hub for active contributors.
 
 ## Grain & Cred Interfaces:
 
+- [CredEquate Simulator](https://observablehq.com/@sourcecred-ops/credequate-simulator)
 - [SourceCred Explorer - See this & last week's, this month & whole time's Cred & Grain](http://cred.sourcecred.io/#/explorer-home)
 - [View ledgers in a more-human-readable format](https://observablehq.com/@blueridger/sourcecred-ledger-viewer)
 - [Grain Calculator - Earnings in a specific time range](https://observablehq.com/embed/@sourcecred/participant-grain-earnings-calculator?cell=title&cell=viewof+grainCalculator&cell=result)
