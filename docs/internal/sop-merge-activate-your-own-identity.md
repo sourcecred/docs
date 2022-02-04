@@ -1,7 +1,6 @@
 ---
 title: "[SOP] Merge/Activate your own identity"
-description:
-  Standard Operating Procedures for Merging/ Activating your own Identity
+description: Standard Operating Procedures for Merging/ Activating your own Identity
 ---
 
 - **Prerequisites**
@@ -35,7 +34,7 @@ cd cred
 ```plain text
 git checkout main && git pull
 git checkout -b any-name-you-want
-yarn && yarn serve
+yarn && yarn sourcecred serve
 ```
 
 - Open http://localhost:6006/#/admin in another browser tab. We will call this
