@@ -1,10 +1,8 @@
 ---
 title: ☎️ Our Calls
-description:
-  See the various calls, meetings, work sessions, and jams the SourceCred
-  community has on a regular basis.
+description: See the various calls, meetings, work sessions, and jams the
+  SourceCred community has on a regular basis.
 ---
-
 SourceCred is a community in which most contributors are remote and work
 asynchronously, allowing anyone to contribute no matter their location and
 availability. We hold regularly scheduled calls which are open to everyone, to
@@ -14,11 +12,11 @@ the [SourceCred Discord server](https://sourcecred.io/discord) using the audio
 channels.
 
 You can see what types of calls are currently scheduled on
-our[ public calendar](http://sourcecred.io/calendar).
+[our public calendar](https://sourcecred.io/calendar).
 
 ## Weekly Calls
 
-### Community Call \[on hiatus]
+### Community Call
 
 **What:** The Community Call is a great space for newcomers and experienced
 community members alike. We take time to check in with each other as people, and
@@ -33,7 +31,7 @@ about who we are and what we do.
 project and its main team, or ask any questions they have about SourceCred.
 
 **When: Currently on hiatus.** Weekly,
-[**Tuesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the
+[Wednesday at 11am Pacific Time](https://sourcecred.io/calendar) on the
 [SourceCred Discord](https://sourcecred.io/discord). This meeting is
 occasionally cannibalized for other emergent contributor needs, so check the
 calendar to confirm.
@@ -60,8 +58,7 @@ knowledge.
 
 **Note:** Being a participant does not make this meeting mandatory for you.
 
-**When:**
-Weekly,[ **F**riday at 11am Pacific Time](https://sourcecred.io/calendar) on
+**When:** Weekly,[ **F**riday at 11am Pacific Time](https://sourcecred.io/calendar) on
 the[ SourceCred Discord](https://sourcecred.io/discord).
 
 ### Play Time
@@ -75,7 +72,7 @@ nourish your body and heart.
 
 **Perfect for** anyone who wants to authentically participate.
 
-**When:** Wednesdays & Fridays 10-11 PST on the
+**When:** Wednesdays & Fridays 10-11am PST on the
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
@@ -92,8 +89,7 @@ with the societal expectations thereof. If you're unsure if you fit or are
 curious to join, we encourage you to reach out to anyone with the "Men's Group"
 role for a 1-on-1 (20 min) conversation to go over current practices.
 
-**When:** Wednesdays 12-1:30PM PST on the
-[SourceCred Discord](https://sourcecred.io/discord). Check the
+**When:** Wednesdays 12-1:30PM PST on personal Zoom link. Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
 ### QAF (Queer As Fuck)
@@ -108,7 +104,7 @@ lesbian, asexual, and queer folks -- as well as everyone else in the soup.
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
-### Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") \[on hiatus]
+### Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") \[returning soon!]
 
 **What:** A social event! \[note: we're almost done reading this book, stay
 tuned what's next!] We gather to chill, read, and discuss. Typically a pretty
@@ -116,7 +112,8 @@ vulnerable, intimate space full of personal sharing.
 
 **Perfect for** anyone who wants to authentically participate.
 
-**When:** **Currently on hiatus.** Usually Mondays 2:15-3:45 PST on the
+**When:** Returning from hiatus! Playing with a new time...\
+**Returns Wednesday 2-3:30pm beginning on the 16th of February**
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
@@ -149,9 +146,9 @@ timing is usually based off the availability of key participants. Check out the
 ### Town Halls
 
 **What:** Town Halls are governance meetings -- community members come together,
-talk about issues, and write and ratify policy together.
+talk about issues, write and ratify policy together.
 
-**Perfect for** community members.
+**Perfect for** active community members.
 
 **Purpose:** To discuss and make decisions on governance topics as a community.
 
