@@ -52,12 +52,9 @@ Artifact(s): link_to_other_pertinent_info_here
 ## B. Editing the meeting note
 ### Soon after the meeting note was created
 Once the bot is running, the person who started the bot can edit the meeting note until 30 minutes after the duration's end. They can do this by by editing the command-message they posted in #bot-commands just like they would do with any other message they’ve written on Discord. 
-1. Go to the message and click the pencil icon that appears, circled here in green:
->>>>
-The message should then look like this:
->>>>>
-Edit and then hit “enter” on your keyboard to save the edits.
->>>>>>
+1. Hover your cursor over to the message and click the pencil icon that appears. 
+2. Edit and then hit “enter” on your keyboard to save the edits.
+
 ### Long after the meeting note was created
 After 30 minutes have passed after the end of the meeting duration, only someone with server permissions can edit the meeting note. There are two commands for this, which one uses in the bot-commands channel: !edit and !append. 
 Edit fully changes the content of the meeting note. Whatever was written there will be erased and replaced by whatever one writes in the command. For example:
