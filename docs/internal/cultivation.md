@@ -19,6 +19,9 @@ mediation/management.
 [Meeting Bot Guide 2.0](https://docs.google.com/document/d/1CXRz9RpiLNIa9BEtTqjlsd_Zt26KzJ9-olvRwqIctW0/edit?usp=sharing) -
 LBS
 
+**Facilitation Tech SOP**
+[How to do many tasks associated with facilitation](https://sourcecred.io/docs/internal/sop-facilitation-tech/)
+
 **Vibes Checker** 🎥
 [Vibes Checker](https://zoom.us/rec/share/DvRexpOs497qTJSxf2ssh7yA_Qvmx4iYXQs7RVRHYUsTtWMqTX3EzMmJrwYVhPbz.wbbG4Q_Xs-3Xkp_W?startTime=1620249571000)
 
