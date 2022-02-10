@@ -97,6 +97,7 @@ Note-taker: @discord_handle_of_notetaker(s)
 ```
 
 Append, on the other hand, just adds things to the end of the existing meeting note. For example: 
+
 ```
 !edit link_to_meeting_note_posted_in_meeting-note_channel_by_meeting-attendance_bot
 Notes: link_to_notes
@@ -122,44 +123,39 @@ We use the Craig-bot to record audio of meetings. This makes it easier to write 
 
 
 
-## Inviting Craig
+## A. Inviting Craig
 
 To invite Craig into a meeting, 
 
 1. Join the meeting room the call will be in
 2. Confirm that all participants consent to being recorded
 3. In #bot-commands, enter the following:
-
-\`\``
-
+```
 :craig:join
-
-\`\``
+```
 
 4. Craig should enter the room, send you a direct message with a couple links, and say “Now Recording”. 
 5. When Craig says, “Now recording”, tell them the date & time, what meeting they are in, and any other relevant information. 
 
 
 
-## Disinviting Craig
+## B. Disinviting Craig
 
 To have Craig leave a meeting, 
 
 1. Stay in the meeting room 
 2. In #bot-commands, enter the following:
 
-\`\``
-
+```
 :craig:leave
-
-\`\``
+```
 
 3. Take note of the link Craig sent you via direct message. If someone in particular is in charge of downloading the audio and uploading it, send that link to them. If not…
 
 
 
-## Downloading the audio file
+## C. Downloading the audio file
 
 1. Go to the link Craig sent to your direct messages. (Make sure to click the link to the recording, NOT the link to delete the recording.)
-2. Choose the audio format you want. You can either <<more info later>>
-3. Go to the SourceCred Google Drive. Upload the audio file to the relevant folder.
+2. Choose the audio format you want. You can either download it as an unmixed audio file (such as .aup) or mixed (such as AAC-4). For more info, read the Craig bot SOPs.
+3. Go to the SourceCred Google Drive. Upload the audio file to the relevant folder. (This requires permissions to upload.)
