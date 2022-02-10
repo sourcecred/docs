@@ -38,7 +38,7 @@ In order to activate the meeting-attendance bot,
 **name_of_event_goes_here**
 ```
 
-One can add other important information, such as who is facilitating or taking notes; where the notes can be found; and other important artifacts. (In order for facilitators and notetakers to get proper cred for the meeting, you must tag them in the bot command.) This looks like:
+One can add other important information, such as who is facilitating or taking notes; where the notes can be found; and other important artifacts. (In order for facilitators and notetakers to get proper cred for the meeting, **you must tag them** in the bot command.) This looks like:
 ```
 !meeting --outputchannel meeting-notes --duration insert_duration_in_minutes_here
 **name_of_event_goes_here**
@@ -56,51 +56,52 @@ Once the bot is running, the person who started the bot can edit the meeting not
 2. Edit and then hit “enter” on your keyboard to save the edits.
 
 ### Long after the meeting note was created
-After 30 minutes have passed after the end of the meeting duration, only someone with server permissions can edit the meeting note. There are two commands for this, which one uses in the bot-commands channel: !edit and !append. 
-Edit fully changes the content of the meeting note. Whatever was written there will be erased and replaced by whatever one writes in the command. For example:
+After 30 minutes have passed after the end of the meeting duration, **only someone with server permissions** can edit the meeting note. There are two commands for this, which one uses in the bot-commands channel: **!edit** and **!append**. 
+**Edit** fully changes the content of the meeting note. Whatever was written there will be erased and replaced by whatever one writes in the command. For example:
 ```
 !edit link_to_meeting_note_posted_in_meeting-note_channel_by_meeting-attendance_bot
 **name_of_event_goes_here**
 Facilitator: @discord_handle_of_facilitator(s)
 Note-taker: @discord_handle_of_notetaker(s)
 ```
-Append, on the other hand, just adds things to the end of the existing meeting note. For example: 
+**Append**, on the other hand, just adds things to the end of the existing meeting note. For example: 
 ```
 !edit link_to_meeting_note_posted_in_meeting-note_channel_by_meeting-attendance_bot
 Notes: link_to_notes
 ```
+
 # IV. Muting Users on Calls
 If you are on a call and someone is unmuted and making distracting or disrupting noise, there are options.
 ## A. Ask them to mute
 If the meeting is not urgent, the sound is not awful, or it generally doesn't feel super annoying, ask them to mute themself first, either by saying so aloud or tagging them in the #meeting-chat with a request for them to mute.
 ## B. Server mute
-If they do not respond to a request to mute or the sound is an urgent issue, facilitators with server permissions to do so can server mute them. In the call pop-up showing people on the call, right-click on the user's video/icon. Select "server mute" in red. Let the person know you have muted them, and ask them to tell you when they want to be unmuted. Server mutes prevent the user from unmuting themself until you (or someone else with discord permissions) un-clicks "server mute". When you un-click "server mute", the user will (a) be unmuted again and (b) be able to mute and unmute at will.
+If they do not respond to a request to mute or the sound is an urgent issue, facilitators with server permissions to do so **can server mute them**. In the call pop-up showing people on the call, right-click on the user's video/icon. Select "server mute" in red. **Let the person know you have muted them, and ask them to tell you when they want to be unmuted.** Server mutes prevent the user from unmuting themself until you (or someone else with discord permissions) un-clicks "server mute". When you un-click "server mute", the user will (a) be unmuted again and (b) be able to mute and unmute at will.
 
 
 # V. Using Craig
-We use the Craig-bot to record audio of meetings. This makes it easier to write notes after the fact and review what went on in a meeting. Discord users with the Craig-bot permissions can invite and disinvite Craig. We typically wait until after emotional check-ins to invite Craig, since many people don’t want those recorded. Do not record unless everyone consents. 
+We use the Craig-bot to record audio of meetings. This makes it easier to write notes after the fact and review what went on in a meeting. Discord users with the Craig-bot permissions can invite and disinvite Craig. We typically wait until after emotional check-ins to invite Craig, since many people don’t want those recorded. **Do not record unless everyone consents.**
 
 ## A. Inviting Craig
 To invite Craig into a meeting, 
-Join the meeting room the call will be in
-Confirm that all participants consent to being recorded
-In #bot-commands, enter the following:
+1. Join the meeting room the call will be in
+2. Confirm that all participants consent to being recorded
+3. In #bot-commands, enter the following:
 ```
 :craig:join
 ```
 Craig should enter the room, send you a direct message with a couple links, and say “Now Recording”. 
-When Craig says, “Now recording”, tell them the date & time, what meeting they are in, and any other relevant information. 
+4. When Craig says, “Now recording”, tell them the date & time, what meeting they are in, and any other relevant information. 
 
 ## B. Disinviting Craig
 To have Craig leave a meeting, 
-Stay in the meeting room 
-In #bot-commands, enter the following:
+1. Stay in the meeting room 
+2. In #bot-commands, enter the following:
 ```
 :craig:leave
 ```
-Take note of the link Craig sent you via direct message. If someone in particular is in charge of downloading the audio and uploading it, send that link to them. If not…
+3. **Take note of the link Craig sent you via direct message.** If someone in particular is in charge of downloading the audio and uploading it, send that link to them. If not…
 
 ## C. Downloading the audio file
-Go to the link Craig sent to your direct messages. (Make sure to click the link to the recording, NOT the link to delete the recording.)
-Choose the audio format you want. You can either <<more info later>>
-Go to the SourceCred Google Drive. Upload the audio file to the relevant folder. (This requires permissions.)
+1. Go to the link Craig sent to your direct messages. (Make sure to click the link to the recording, NOT the link to delete the recording.)
+2. Choose the audio format you want. For more information, check the Craig SOP.
+3. Go to the SourceCred Google Drive. Upload the audio file to the relevant folder. (This requires permissions.)
