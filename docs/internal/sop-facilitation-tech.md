@@ -2,7 +2,6 @@
 title: "[SOP] Facilitation Tech"
 sidebar_label: "[SOP] Facilitation Tech"
 ---
-
 # \[SOP] Facilitation Tech
 
 This document exists to teach facilitators how to do technical tasks associated
@@ -10,30 +9,30 @@ with facilitation. It also tentatively proposes potential "facilitator" roles on
 discord. It was written by Ezra (helpy-boy) and was last edited by Ezra on Feb
 10, 2022.
 
-# I. Definitions
+## I. Definitions
 
 A **facilitator** is someone who helps meetings flow. Facilitation can involve
 wearing many hats and acting out many different roles. Some delineation of roles
 include:
 
-- _Vibe-checker_: Someone who attends to the general mood of a meeting. How are
+* *Vibe-checker*: Someone who attends to the general mood of a meeting. How are
   people feeling? Do people seem distracted or upset? It’s a vibe-checker’s duty
   to read the general mood (including asking how people are feeling) and call
   for breaks and shifts in focus.
-- _Time-keeper_: Someone who attends to the time. No one likes staying in
+* *Time-keeper*: Someone who attends to the time. No one likes staying in
   meetings longer than they have to. Are meeting attendees focusing on one topic
   for a long time when there are more items to cover and time is ticking down?
   It’s up to the time-keeper to let people know how much time is left in a
   meeting and recommend topic-shifting.
-- _Stack-keeper_: Someone who keeps track of who is in line (“stack”) to speak
+* *Stack-keeper*: Someone who keeps track of who is in line (“stack”) to speak
   next. This person knows the hand-signals and tracks who threw up which hand
   signal to speak when. The stack-keeper often also tracks the agenda, if one
   was made.
-- _Chat-tracker_: Someone who pays attention to the chat so those who aren’t
+* *Chat-tracker*: Someone who pays attention to the chat so those who aren’t
   using audio can contribute to the meeting.
-- _Notetaker_: Someone who takes notes. These can be written in so many
+* *Notetaker*: Someone who takes notes. These can be written in so many
   different ways, ranging from barebones topic umbrellas to full transcripts.
-- _Craig-wrangler_: Someone who invites and disinvites Craig, our audio
+* *Craig-wrangler*: Someone who invites and disinvites Craig, our audio
   recording bot.
 
 A **trusted facilitator** is a facilitator who has been given additional Discord
@@ -46,16 +45,16 @@ facilitators includes Thena, Ezra, Yaz, and Ryeder.
 
 All **facilitators** (and all meeting participants) should be able to:
 
-- Write and (within a time limit) edit meeting notes
-- Ask people to mute themselves
-- Invite & disinvite Craig, our audio-recording bot
-- Create polls (TO BE ADDED)
-- Create RoamNotes (TO BE ADDED)
+* Write and (within a time limit) edit meeting notes
+* Ask people to mute themselves
+* Invite & disinvite Craig, our audio-recording bot
+* Create polls (TO BE ADDED)
+* Create RoamNotes (TO BE ADDED)
 
 Additionally, **trusted facilitators** should be able to:
 
-- Edit a meeting note within a larger time limit
-- Mute people on calls
+* Edit a meeting note within a larger time limit
+* Mute people on calls
 
 ## III. Meeting Notes
 
