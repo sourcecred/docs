@@ -16,5 +16,7 @@ include how to execute on-chain payments using the Gnosis Safe.
 
 ### How to execute On-chain payments using Gnosis Safe
 
-To be added...
-In the meantime, you can get started by buying a [Ledger Hardware Wallet](https://www.ledger.com/) and setting it up. You can [expense it](https://discord.com/channels/453243919774253079/808495102971346964) if you do end up becoming a treasurer.
+To be added... In the meantime, you can get started by buying a
+[Ledger Hardware Wallet](https://www.ledger.com/) and setting it up. You can
+[expense it](https://discord.com/channels/453243919774253079/808495102971346964)
+if you do end up becoming a treasurer.
