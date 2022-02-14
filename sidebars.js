@@ -47,6 +47,11 @@ module.exports = {
     ],
   },
   internalSidebar: {
-    "Internal Docs": ["internal/home", "internal/cultivation", "internal/dev", "internal/treasury"],
+    "Internal Docs": [
+      "internal/home",
+      "internal/cultivation",
+      "internal/dev",
+      "internal/treasury",
+    ],
   },
 };
