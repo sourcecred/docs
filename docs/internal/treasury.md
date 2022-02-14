@@ -7,8 +7,9 @@ description: A resource hub for treasurers and onboarding treasurers.
 ### How to do Accounting
 
 Teaches the step-by-step flow of how to do treasury work, including how to do
-spreadsheet accounting and SourceCred instance ledger accounting. Focuses on the Grain Redemption process. Does **not**
-include how to execute on-chain payments using the Gnosis Safe.
+spreadsheet accounting and SourceCred instance ledger accounting. Focuses on the
+Grain Redemption process. Does **not** include how to execute on-chain payments
+using the Gnosis Safe.
 
 - [Recording](https://drive.google.com/drive/folders/1nlGXQv0FUeUL29eQIOwAkzkmwicbVfYQ?usp=sharing)
 - [Supporting Miro Board](https://miro.com/app/board/uXjVORVP48I=/)
