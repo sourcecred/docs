@@ -69,11 +69,10 @@ served using any static contents hosting service.
 
 ### 2. Make Changes
 
-At this point you can edit pages in [pages](src/pages) or [docs](docs) and add new
-pages as you see fit. See below for how to
-update the table of contents or navigation, and
-[open an issue](https://github.com/sourcecred/docs/issues) if you need some
-help!
+At this point you can edit pages in [pages](src/pages) or [docs](docs) and add
+new pages as you see fit. See below for how to update the table of contents or
+navigation, and [open an issue](https://github.com/sourcecred/docs/issues) if
+you need some help!
 
 #### Making a New Documentation Page
 
