@@ -2,12 +2,17 @@
 title: ⚖️ Code of Conduct
 description: The Code of Conduct for SourceCred
 ---
+(Updated February 16th, 2022)
 
-As a community, we want to encourage diversity, and set a standard for
-respectful and appropriate conduct across all communication channels. For this
-purpose, we have created this code of conduct, which serves as a guide for
-interaction with the SourceCred community. It is adopted from
-[several well known](#license) Code of Conducts of open source projects.
+As a community, we want to set a standard for respectful and appropriate conduct
+across all communication channels. For this purpose, we have created this code 
+of conduct, which serves as a guide for interaction with the SourceCred community. 
+
+Our Standards of Behavior were ratified at a SourceCred Town Hall on October 15th,
+2021. Our [Values](https://sourcecred.io/docs/beta/our-values) were ratified at a 
+Town Hall on October 29th, 2021. This document was compiled from those documents, 
+as well as [several well known](#license) Code of Conducts of open source projects.
+
 
 ## People
 
@@ -16,147 +21,150 @@ In the following sections:
 - **we/our**: refers to the members of the SourceCred community, who exist on
   equal footing.
 - **SourceCred**: refers to the general project or community.
-- **Values Maintainer**: refers to @decentralion
+- **Moderation Team**: The collection of SourceCred community members who have
+been chosen (process to be determined) to moderate conflicts and Code of Conduct
+violations. 
 
-## Diversity Statement
 
-SourceCred welcomes and encourages participation in our community by people of
-all backgrounds and identities. We are committed to promoting and sustaining a
-culture that values mutual respect, tolerance, and learning, and you can read
-more about culture in the [culture](review_culture.md) documentation pages. We
-strive to work together as a community to realize these values.
-
-We have created this diversity statement because we believe that a diverse
-community is stronger, more vibrant, and more productive and motivated. A
-diverse community where people treat one another with respect has more potential
-contributors, more sources for ideas, and fewer shared assumptions that might
-hinder the achievement of our goals.
-
-Thus, we welcome all people to participate in SourceCred regardless of their
-identity or background.
+## Values Statement
+SourceCred values…
+- **Liberation**: Liberation is at the center.  
+- **Care**: We take care of ourselves and each other.
+- **Sovereignty**: We own our labor and value our free will.
+- **Trust**: We move at the speed of trust.
+- **Emergence**: We value the dynamic over the status quo.
+- **Decentralization**: We share power.
+We aim to act in alignment with our values, and this code of conduct has arisen
+out of these values. For a more in-depth description of our values, check our 
+[values page](https://sourcecred.io/docs/beta/our-values).
 
 ## Introduction & Scope
 
-This code of conduct should be honored by everyone who participates in the
-SourceCred community. It should be honored in any SourceCred activities
-including but not limited to online interactions (e.g. public and private
-mailing lists, issue trackers, discussion forums, wikis, and code repositories),
-meetups or conferences, and adhered to by anyone claiming affiliation with the
-SourceCred community. This code of conduct is especially relevant for any group
-or individual that is representing the SourceCred community in an event (i.e.,
-as speaker, volunteer, or other staff), and should govern standards of behaviors
-for the individual's participation in said event.
+This code of conduct **should be honored by everyone who participates** in the
+SourceCred community. It should be honored **in any SourceCred activities** 
+including but not limited to online interactions (e.g. public and private mailing
+lists, issue trackers, discussion forums, wikis, and code repositories), meetups 
+or conferences, and adhered to by anyone claiming affiliation with the SourceCred
+community. This code of conduct is **especially relevant for any group or individual
+that is representing the SourceCred community** in an event (i.e., as speaker, 
+volunteer, or other staff), and should govern standards of behaviors for the
+individual's participation in said event.
 
-This code of conduct is not exhaustive or complete, but rather serves to distill
-our understanding of a collaborative, inclusive community, and to provide
-avenues for seeking support if this code is breached. We should try to follow
-this code in spirit as much as in letter, to create a friendly and productive
-environment that enriches the SourceCred community.
+This code of conduct is not exhaustive or complete, but rather serves to distill our
+understanding of a collaborative community, and to provide avenues for seeking support
+if this code is breached. **We should try to follow this code in spirit as much as in
+letter** to create a friendly and productive environment that enriches the SourceCred
+community.
 
-Unless explicitly specified for a particular project or initiative, this code of
-conduct serves as a global standard for all SourceCred affiliated projects,
-activities, and events. If an individual is found to violate this Code of
-Conduct via a [confidential report](#confidentiality), at their discretion the
-Values Maintainer may consult with other members from the community, for example
-through a committee, and take any action they deem appropriate. Example actions
-might include warning the person in question, removing them from a specific
-activity, or banning them from further participation in activities (in person or
-online). The last option is unlikely, but possible in extreme circumstances.
+Unless explicitly specified for a particular project or initiative, **this code of conduct
+serves as a global standard for all SourceCred affiliated projects, activities, and events.**
+If an individual is found to violate this Code of Conduct via a confidential report, at
+their discretion the Moderation & Conflict Team may consult with other members from the
+community and take any action they deem appropriate. Example actions might include
+warning the person in question, removing them from a specific activity, or banning
+them from further participation in activities (in person or online). 
+
 
 ## Standards for Behavior
 
-All communication should be appropriate for a professional audience including
-people of many different backgrounds. Please be yourself, but be respectful of
-others, and always be kind and courteous. There is never a need to be mean,
-rude, or disrespectful. Specifically, the SourceCred community strives to:
+### I. Guidelines
 
-- **Be empathetic**: Realize that every post, event, project, or program is
-  created by human beings that are likely trying their best, and aren't perfect.
-  Try your best to understand perspectives that differ from your own, and to ask
-  for clarification when you don't understand how someone feels.
-- **Be respectful**: Every person deserves to be treated with kindness and
-  respect. If we assume good intentions, we can work together to resolve
-  conflict. We may all experience some frustration from time to time, but we do
-  not allow frustration to turn into a personal attack. A community where people
-  feel uncomfortable or threatened is not a productive one.
-- **Be welcoming**: When an interaction or community is new, it can be
-  intimidating. We aspire to be welcoming, friendly, and patient to both new and
-  current members, and remember that everyone is constantly growing and learning
-  at all points in their lives.
-- **Be compassionate**: If you feel the compulsion to act in a disrespectful or
-  otherwise inappropriate manner, you should practice self-compassion, and both
-  step away from the current interaction, and seek others for support. It can be
-  helpful to talk to someone about what is troubling you, and discuss how you
-  can approach a situation with respect, and without conflict.
-- **Be collaborative**: The success and spirit of SourceCred depends on the
-  participation of many people. Effective and friendly collaboration enables
-  everyone to better achieve their goals.
-- **Be aware**: We are careful and respectful in our communication, and we take
-  responsibility for our own speech. Be aware of how what you say or do might
-  impact others. Be kind to others. Do not insult or put down other members of
-  the community.
+A. **Kindness, Empathy, and Honesty**: We strive to see the best in people, 
+especially when we disagree. Honesty is a high form of respect. We don’t
+make assumptions about someone’s intentions when we can be curious and 
+ask them instead. We honor people’s emotions as they come up, because 
+they’re a part of being human. We understand that humans make mistakes
+and find value in collective and interpersonal growth.
 
-## Unacceptable Behavior
+B. **Calling in harmful behavior**: We strive to be a welcoming, safer 
+environment for everyone. This means we have a commitment to calling-in
+harmful language or behavior when we see it and we have a commitment to
+learn how to be better to each other.
+  - **If you notice harmful language or behavior**, please use your judgment on 
+whether you think you should:
+    1. Talk to the person privately in a 1:1 chat
+    2. Ask for support from moderation, or
+    3. Call it out publicly
+**What will result in less harm** for those who may be affected, **and high 
+likelihood of learning**? _If you feel harmed and frozen on what to do_, please
+reach out for support from the Moderation Team.
+  - **Dogpiling**: If there’s a moment of conflict or harm - practice discernment
+in whether or not you get involved. Many people hopping on a moment of tension
+can sometimes make things worse. Are you getting involved to express an opinion
+or showcase your knowledge / stance? Or because there’s genuine, collective 
+need for allyship?
+  - Harmful behavior mentioned here does NOT include the behavior listed below 
+in section II, which will result in an immediate ban.
 
-We, the members of the SourceCred community, are committed to making
-participation in this community a harassment-free experience.
+C. **Response to call-ins or feedback**:  We have a commitment to learning about
+our blindspots and noticing our own defensiveness or discomfort when blindspots
+are called out. We do our absolute best to listen and reflect. We don’t jump to
+conclusions about the character of the person calling out our blindspots, and
+strive to instead turn towards the call-in with curiosity.
 
-We will not accept harassment or other exclusionary behaviors, such as:
+D. **Consent**: When interacting with someone whom you don’t have a prior connection
+with, practice consent in all aspects. For example, get verbal consent before
+sharing about a heavy topic. Make time to learn another person’s preferences and
+communication styles.
 
-- The use of sexualized language or imagery
-- Excessive profanity (please avoid curse words; people differ greatly in their
-  sensitivity to swearing)
-- Posting sexually explicit or violent material
-- Violent or intimidating threats or language directed against another person or
-  group
-- Inappropriate physical contact and/or unwelcome sexual attention or sexual
-  comments
-- Sexist, racist, or otherwise discriminatory jokes and language
-- Trolling or insulting and derogatory comments
-- Unwarranted exclusionary comments, such as based on experience level,
-  disability or appearance
-- Continuing behavior that makes someone uncomfortable after being asked to
-  stop.
-- Disclosure of personal information of another person without explicit
-  permission
-- Other unethical or unprofessional conduct
-- Sustained disruption of talks, events, or communications, such as heckling of
-  a speaker
-- Advocating for, or encouraging, any of the above behaviors
+
+### II. Behaviors that will result in an immediate ban from the SourceCred community, with no warning:
+
+A. Any **non-consensual sexual advances**, attention, or harassment in server or in
+personal messages to current server members
+
+B. The use of **slurs or other hateful language** directed at oppressed groups 
+
+C. **Doxxing**, i.e. publishing private contact or identifying information, like
+physical or email address, phone number, etc., without the person’s explicit
+permission
+
+
+### III. Behaviors that will result in Moderation warnings, and then a Community Ban for repeat offenses:
+A. Posting any **sexual or religious content** outside of appropriate Content-Notice
+Channels
+
+B. **Gaming**: Intentional or unintentional repeat behavior to earn Cred in ways
+that does not represent actual contribution to the sourceCred community. 
+
+C. **Trolling**, i.e. continuously provoking angry or negative reactions from server
+members. Note that calling out harmful behavior / language or giving constructive
+criticism is not trolling. 
+
+**A note for Grain earners**: Bans and Kicks from SourceCred result in a ban from receiving Cred.
+
 
 ## Reporting Guidelines
 
-For possibly unintentional breaches of the code of conduct, you may want to
-respond to the person and point out this code of conduct (either in public or in
-private, whatever is most appropriate). If you believe someone is violating the
-code of conduct and have decided to submit a report, please report this in a
-timely manner. Code of conduct violations reduce the value of the community for
-everyone. The SourceCred community takes reports of misconduct very seriously
-and are committed to preserving and maintaining the welcoming nature of our
-community. All complaints will be reviewed and investigated and will result in a
-response that is deemed necessary and appropriate to the circumstances.
+For possibly unintentional breaches of the code of conduct, you may want to respond
+to the person and point out this code of conduct (either in public or in private,
+whatever is most appropriate). If you believe someone is violating the code of
+conduct and have decided to submit a report, please report this in a timely manner.
+Code of conduct violations reduce the value of the community for everyone. The
+SourceCred community takes reports of misconduct very seriously and are committed
+to preserving and maintaining the welcoming nature of our community. All complaints
+will be reviewed and investigated and will result in a response that is deemed
+necessary and appropriate to the circumstances.
 
 ### Confidentiality
 
 All reports will be kept confidential, with the exception of cases where the
-Values Maintainer determines the report should be shared with law enforcement.
-In those cases, the report will be shared with the proper legal authorities.
-
-In some cases the Values Maintainer may feel like it's better to publicly
-respond to the issue as well. If that’s the case, the identities of all involved
-parties and reporters will remain confidential unless the reporter gave
-permission to use their identity for this purpose.
+Moderation Team decides it's better to publicly respond to the issue as well.
+If that’s the case, the identities of all involved parties and reporters will
+remain confidential unless the reporter gave permission to use their identity
+for this purpose.
 
 ### How to Submit a Report
 
-If you feel your safety is in jeopardy or the situation is an emergency, contact
-local law enforcement before making a report to SourceCred. (In the U.S., dial
-911.)
+If you feel your safety is in jeopardy or the situation is an emergency, 
+consider contacting local law enforcement before making a report to SourceCred.
+(In the U.S., the number is 911.)
 
-The Values Maintainer on behalf of the SourceCred community is committed to
+The Moderation Team on behalf of the SourceCred community is committed to
 promptly addressing any reported issues. If you have experienced or witnessed
-behavior that violates the SourceCred Code of Conduct, please send an email to
-concerns@sourcecred.io.
+behavior that violates the SourceCred Code of Conduct, please send an email
+to concerns@sourcecred.io.
+
 
 ## License
 
