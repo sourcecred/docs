@@ -3,9 +3,9 @@ title: 🛠 Maintaining Your Instance
 ---
 
 Now that you've set up a SourceCred instance in your community, there will be
-some maintenance required, with different strategies to choose from. This
-page will orient you to the types of maintenance and some technologies
-and systems you can put in place to help.
+some maintenance required, with different strategies to choose from. This page
+will orient you to the types of maintenance and some technologies and systems
+you can put in place to help.
 
 ## Merging Identities
 
@@ -81,4 +81,5 @@ few ways to do so:
 To be continued...
 
 ## Configuration Updates
+
 To be continued...
