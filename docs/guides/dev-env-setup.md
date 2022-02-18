@@ -6,6 +6,18 @@ description:
   development enviornment.
 ---
 
+## Technology Stack Overview
+
+SourceCred is written on JavaScript powered by [Flow](https://flow.org/)
+and is built using [Yarn](https://yarnpkg.com/).
+The Flow syntax is transpiled to JavaScript by [Babel](https://babeljs.io/)
+and bundled by [Webpack](https://webpack.js.org/concepts/) and 
+(e.g. for Flow-to-JavaScript transpiling).
+
+SourceCred Server is implemented as [NodeJS](https://nodejs.org/en/about/) application using [Express](https://expressjs.com/) as a web framework. Front-end employs [React](https://reactjs.org/).
+
+Quality is assured by [Jest](https://jestjs.io/) unit tests.
+
 ## Building SourceCred Locally
 
 **First, run the following commands to clone and build SourceCred:**
@@ -16,6 +28,12 @@ cd sourcecred
 yarn
 yarn build
 ```
+
+## Visual Studio Code
+Using of the appropriate IDE might speeds up development process and make it enjoyable.
+One possible choice is [VS Code](https://code.visualstudio.com/) with 
+[Flow extension](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode) installed.
+
 
 ## SourceCred Instance Setup and Usage
 
@@ -70,7 +88,7 @@ Here's an example of how to do so in a bash shell:
 ```sh
 # While in the SourceCred directory reopsitory
 SC_REPOSITORY_DIR=`pwd`
-alias scdev='node "$SC_REPOSITORY_DIR"/bin/sourcecred.js'
+alias scdev='node "$SC_REPOSITORY_DIR"/packages/sourcecred/bin/sourcecred.js'
 
 # Then go back to the Template Instance directory, for example:
 cd $MY_SC_INSTANCE
