@@ -3,8 +3,8 @@ title: 🛠 Maintaining Your Instance
 ---
 
 Now that you've set up a SourceCred instance in your community, there will be
-some maintenance required, with different ways of doing it to choose from. This
-page will orient you to the types of maintenance involved and some technologies
+some maintenance required, with different strategies to choose from. This
+page will orient you to the types of maintenance and some technologies
 and systems you can put in place to help.
 
 ## Merging Identities
@@ -44,7 +44,10 @@ it into your main branch.**
 This technology allows users to merge their own Discord, Discourse, and Github
 identities. This adds security and reduces admin overhead significantly, but
 requires some technical setup. See the READMEs for more info:
-https://github.com/1Hive/pollen-bot https://github.com/1Hive/pollen-cred-fetcher
+
+https://github.com/1Hive/pollen-bot
+
+https://github.com/1Hive/pollen-cred-fetcher
 
 ### Self-Service Identity using Ceramic
 
@@ -52,7 +55,9 @@ This is a hackathon project that has similar benefits to the 1Hive bot, but is
 more secure and more web3-architected. A working proof of concept was made but
 it has not been productionized. Please let us know if you get this set up for
 production so others can benefit!
+
 [Hackathon Proof-of-Concept](https://github.com/All-in-on-IDX)
+
 [Design doc for productionizing](https://github.com/sourcecred/sourcecred/issues/2853)
 
 ## Distributing Grain/Tokens
@@ -66,11 +71,14 @@ this sort of distribution "Grain".
 To receive Grain, a user's account in SourceCred will need to be Activated. A
 few ways to do so:
 
-1. Using the checkbox on the Admin Portal (see above)
+1. Using the checkbox on the Admin Portal (see above Admin Portal workflow)
 2. Using
    [this lightweight discord bot](https://github.com/blueridger/sc-address-bot)
    for self-serve activation
 
 ### Executing Distributions
 
+To be continued...
+
+## Configuration Updates
 To be continued...
