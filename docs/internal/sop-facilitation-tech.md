@@ -192,6 +192,12 @@ To have Craig leave a meeting,
 
 1. Go to the link Craig sent to your direct messages. (Make sure to click the
    link to the recording, NOT the link to delete the recording.)
+
+![](https://cdn.discordapp.com/attachments/631171710800101396/945410273915863082/unknown.png)
+
 2. Choose the audio format you want. For more information, check the Craig SOP.
-3. Go to the SourceCred Google Drive. Upload the audio file to the relevant
+
+![](https://cdn.discordapp.com/attachments/631171710800101396/945413201821044807/unknown.png)
+
+3. Go to the [SourceCred Google Drive](https://drive.google.com/drive/u/1/folders/1KULEsmxHpYfR3mJcUJBoCsotCDsMNrHa). Upload the audio file to the relevant
    folder. (This requires permissions.)
