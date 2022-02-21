@@ -20,6 +20,7 @@ description: A resource hub for active contributors.
 ## Standard Operating Procedures:
 
 - [How to Edit the Docs on this website](https://roamresearch.com/#/app/SourceCred/page/gUykKZsQq)
+- [[SOP] Facilitation Tech](https://sourcecred.io/docs/internal/sop-facilitation-tech/)
 
 ## Grain & Cred Interfaces:
 
