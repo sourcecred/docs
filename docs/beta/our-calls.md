@@ -1,7 +1,8 @@
 ---
 title: ☎️ Our Calls
-description: See the various calls, meetings, work sessions, and jams the
-  SourceCred community has on a regular basis.
+description:
+  See the various calls, meetings, work sessions, and jams the SourceCred
+  community has on a regular basis.
 ---
 
 SourceCred is a community in which most contributors are remote and work
@@ -59,7 +60,8 @@ knowledge.
 
 **Note:** Being a participant does not make this meeting mandatory for you.
 
-**When:** Weekly,[ **Friday** at 11am Pacific Time](https://sourcecred.io/calendar) on
+**When:**
+Weekly,[ **Friday** at 11am Pacific Time](https://sourcecred.io/calendar) on
 the[ SourceCred Discord](https://sourcecred.io/discord).
 
 ### Play Time
