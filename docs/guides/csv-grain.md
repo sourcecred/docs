@@ -10,7 +10,10 @@ using Disperse.app or Gnosis Safe CSV app.
 To use this feature, use the below example configs to configure your instance,
 and then look for the CSV files in the `./output/grainintegration` folder.
 
-# Example configs
+## Example configs
+
+WARNING: setting `"accountingEnabled": false` will wipe all existing Grain
+balances.
 
 currencyDetails.json for USDC payouts
 
@@ -59,6 +62,3 @@ grain.json for use with Gnosis Safe CSV app
   "accountingEnabled": false
 }
 ```
-
-NOTE: setting `"accountingEnabled": false` will wipe all existing Grain
-balances.
