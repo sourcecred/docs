@@ -1,8 +1,7 @@
 ---
 title: ☎️ Our Calls
-description:
-  See the various calls, meetings, work sessions, and jams the SourceCred
-  community has on a regular basis.
+description: See the various calls, meetings, work sessions, and jams the
+  SourceCred community has on a regular basis.
 ---
 
 SourceCred is a community in which most contributors are remote and work
@@ -32,13 +31,13 @@ about who we are and what we do.
 **Purpose:** To provide newcomers with the opportunity to get to know the
 project and its main team, or ask any questions they have about SourceCred.
 
-**When: Currently on hiatus.** Weekly,
-[**Tuesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the
+**When:** Weekly,
+[**Wednesday** at 11am Pacific Time](https://sourcecred.io/calendar) on the
 [SourceCred Discord](https://sourcecred.io/discord). This meeting is
 occasionally cannibalized for other emergent contributor needs, so check the
 calendar to confirm.
 
-### Weekly Update
+### Weekly Update [on pause]
 
 **What:** The Weekly Update is a space for community members to share updates
 about their work on the project as well as potential opportunities to help. This
@@ -60,8 +59,7 @@ knowledge.
 
 **Note:** Being a participant does not make this meeting mandatory for you.
 
-**When:**
-Weekly,[ **F**riday at 11am Pacific Time](https://sourcecred.io/calendar) on
+**When:** Weekly,[ **Friday** at 11am Pacific Time](https://sourcecred.io/calendar) on
 the[ SourceCred Discord](https://sourcecred.io/discord).
 
 ### Play Time
@@ -75,7 +73,7 @@ nourish your body and heart.
 
 **Perfect for** anyone who wants to authentically participate.
 
-**When:** Wednesdays & Fridays 10-11 PST on the
+**When:** Wednesdays at 10-11 PST on the
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
@@ -96,7 +94,7 @@ role for a 1-on-1 (20 min) conversation to go over current practices.
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
-### QAF (Queer As Fuck)
+### QAF (Queer As Fuck) [Bi-Weekly]
 
 **What:** This is a space for queer folks in our community to hang out and share
 our experiences with one another.
@@ -104,11 +102,11 @@ our experiences with one another.
 **Perfect for** trans, non-binary, two-spirit, autigender, gay, bi, pan,
 lesbian, asexual, and queer folks -- as well as everyone else in the soup.
 
-**When:** Thursdays 3-4:30PM PST on the
+**When:** Thursdays [bi-weekly] 3-4:30PM PST on the
 [SourceCred Discord](https://sourcecred.io/discord). Check the
 [SourceCred Calendar](https://sourcecred.io/calendar) for any changes.
 
-### Book Club: Emergent Strategy[](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") \[on hiatus]
+### Book Club: [Emergent Strategy](https://sourcecred.io/docs/beta/our-calls#weekly-book-club-emergent-strategy "Direct link to heading") \[on hiatus]
 
 **What:** A social event! \[note: we're almost done reading this book, stay
 tuned what's next!] We gather to chill, read, and discuss. Typically a pretty
