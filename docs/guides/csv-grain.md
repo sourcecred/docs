@@ -2,13 +2,18 @@
 title: CSV Grain Integration
 description: Distributing tokens on-chain with SourceCred.
 ---
-Instead of doing Grain balance accounting in SourceCred, you can instead make Grain distributions output CSV files to directly send payouts to participants using Disperse.app or Gnosis Safe CSV app.
 
-To use this feature, use the below example configs to configure your instance, and then look for the CSV files in the `./output/grainintegration` folder.
+Instead of doing Grain balance accounting in SourceCred, you can instead make
+Grain distributions output CSV files to directly send payouts to participants
+using Disperse.app or Gnosis Safe CSV app.
+
+To use this feature, use the below example configs to configure your instance,
+and then look for the CSV files in the `./output/grainintegration` folder.
 
 # Example configs
 
 currencyDetails.json for USDC payouts
+
 ```
 {
   "currencyName": "USDC",
@@ -22,6 +27,7 @@ currencyDetails.json for USDC payouts
 ```
 
 grain.json for use with disperse.app
+
 ```
 {
   "allocationPolicies": [
@@ -38,6 +44,7 @@ grain.json for use with disperse.app
 ```
 
 grain.json for use with Gnosis Safe CSV app
+
 ```
 {
   "allocationPolicies": [
@@ -53,4 +60,5 @@ grain.json for use with Gnosis Safe CSV app
 }
 ```
 
-NOTE: setting `"accountingEnabled": false` will wipe all existing Grain balances.
+NOTE: setting `"accountingEnabled": false` will wipe all existing Grain
+balances.
