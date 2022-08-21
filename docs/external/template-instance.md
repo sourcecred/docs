@@ -246,8 +246,8 @@ multiple weeks of missing distributions, but can usually just be kept at 1.
 
 ```json
 {
- "maxSimultaneousDistributions": 1,
- "allocationPolicies": [
+  "maxSimultaneousDistributions": 1,
+  "allocationPolicies": [
     {
       "budget": "250",
       "numIntervalsLookback": 1,
