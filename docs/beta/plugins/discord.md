@@ -103,7 +103,7 @@ you want. The application is simply to give the bot the ability to communicate
 with Discord APIs.
 
 Once you have created your application, click on the 'General Information' tab.
-You should see a `CLIENT ID` under the application name. Copy this ID. You'll
+You should see a `APPLICATION ID` under the application name. Copy this ID. You'll
 need it later.
 
 ### 4. Create Bot
