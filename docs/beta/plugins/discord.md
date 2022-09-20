@@ -103,7 +103,7 @@ you want. The application is simply to give the bot the ability to communicate
 with Discord APIs.
 
 Once you have created your application, click on the 'General Information' tab.
-You should see a `CLIENT ID` under the application name. Copy this ID. You'll
+You should see a `APPLICATION ID` under the application name. Copy this ID. You'll
 need it later.
 
 ### 4. Create Bot
@@ -123,7 +123,7 @@ your discord server.
 
 You can invite your bot to your server by constructing a URL with the following
 format :  
- `https://discordapp.com/api/oauth2/authorize?client_id=${CLIENT_ID}&scope=bot&permissions=66560`
+ `https://discordapp.com/api/oauth2/authorize?client_id=${APPLICATION_ID}&scope=bot&permissions=66560`
 
 Permissions options:
 
@@ -131,8 +131,8 @@ Permissions options:
 - `66560`: Read Channels, Messages and Message History [suggested]
 - `8`: Admin
 
-The `CLIENT_ID` is the application ID you copied in Step 3. For example, if your
-CLIENT_ID were 1234, the URL would be:
+The `APPLICATION_ID` is the application ID you copied in Step 3. For example, if your
+APPLICATION_ID were 1234, the URL would be:
 
 `https://discordapp.com/api/oauth2/authorize?client_id=1234&scope=bot&permissions=66560`
 
