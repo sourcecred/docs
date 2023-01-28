@@ -33,7 +33,7 @@ yarn build
 
 ## Visual Studio Code
 
-Using of the appropriate IDE might speeds up development process and make it
+Using the appropriate IDE might speed up the development process and make it
 enjoyable. One possible choice is [VS Code](https://code.visualstudio.com/) with
 [Flow extension](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
 installed.
@@ -49,7 +49,7 @@ cd template-instance
 
 Using this instance as a starting point, you can update the config to include
 the plugins you want, pointing at the data you care about. We recommend setting
-up your instance locally first and make sure its working before pushing your
+up your instance locally first and make sure it's working before pushing your
 changes to master and using the Github Action.
 
 1. Get [Yarn] and then run `yarn` to install SourceCred and dependencies.
@@ -89,7 +89,7 @@ SourceCred.
 Here's an example of how to do so in a bash shell:
 
 ```sh
-# While in the SourceCred directory reopsitory
+# While in the SourceCred directory repository
 SC_REPOSITORY_DIR=`pwd`
 alias scdev='node "$SC_REPOSITORY_DIR"/packages/sourcecred/bin/sourcecred.js'
 
