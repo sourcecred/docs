@@ -68,7 +68,7 @@ the[ SourceCred Discord](https://sourcecred.io/discord).
 
 **What:** Play Time is a space for community members to connect through movement
 and silliness. It is collaborative, spacious and accepting. We spend so much
-time sitting in front if a screen, so let's get into our bodies! Sometimes we'll
+time sitting in front of a screen, so let's get into our bodies! Sometimes we'll
 pretend to be animals; sometimes we'll have a morning rave; sometimes we'll do
 deep breathing exercises. It all depends on what you need. Come on in and
 nourish your body and heart.
