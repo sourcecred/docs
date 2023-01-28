@@ -8,7 +8,7 @@ description:
 ## 1. Opt-in Process
 
 After an individual has submitted an opt-in form the application will be
-accessible from the admin portal under the `Reponses` tab located near the top
+accessible from the admin portal under the `Responses` tab located near the top
 of the google form page.
 
 ### Forms
@@ -74,8 +74,8 @@ Maker instances corresponding google opt-in forms:
 
 ## 2. Validate User Identity - Discourse - sourcecred | makerdao
 
-> Validate that this is a real user on the forum and that they are elligible to
-> recive sourcecred payouts
+> Validate that this is a real user on the forum and that they are eligible to
+> receive sourcecred payouts
 
 1. Obtain the Discourse handle for the individual opting-in and head to the
    appropriate forum to see if they are active / appear to be a person and not a
@@ -90,7 +90,7 @@ Maker instances corresponding google opt-in forms:
    > Some positions internal to Maker (like an employee at the Maker Foundation)
    > may have internal policies that prevent individuals from
    > _"douple-dipping"._
-4. Opt-in elligible users.
+4. Opt-in eligible users.
 
 ## 2. Validate User Identity - Discord - sourcecred
 
