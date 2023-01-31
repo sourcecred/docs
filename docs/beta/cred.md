@@ -131,7 +131,7 @@ The answer is that a little bit of Cred is always seeping away from every other
 node in the graph and returning to the seed. It's like the ground that the Cred
 flows across is a bit porous, and some of it is always seeping down into an
 aquifer that feeds the seed node. Technically, we call this process "Cred
-radiation". The proportion of each node's Cred that radiates aways is called
+radiation". The proportion of each node's Cred that radiates away is called
 "alpha", and it is a number between 0 and 1. If alpha is high (closer to 1),
 then Cred will tend to stay close to the nodes minting Cred, because it cannot
 flow very far before returning to the spring. If alpha is low (close to 0), it
