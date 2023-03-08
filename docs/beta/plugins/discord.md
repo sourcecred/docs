@@ -260,12 +260,12 @@ The emoji ID is `745438325086879794`. The reaction weight is then specified in
 to have `:sourcecred_pink:` be 20 times a regular reaction, we would add the
 below line to `config.json`.
 
+`"sourcecred_pink:745438325086879794": 20`
+
 `applyAveraging` - `false` by default, meaning that the emoji scores on a
 message are all added together, so more people reacting means more Cred. `true`
 would mean that the emojis will be summed for each user, and then averaged
 across users, so more people reacting does not mean more Cred.
-
-`"sourcecred_pink:745438325086879794": 20`
 
 ### channelWeightConfig
 
